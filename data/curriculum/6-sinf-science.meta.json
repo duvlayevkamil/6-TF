@@ -67,6 +67,22 @@
       "mashq daftaridagi amaliy ish (tajriba/model) — nazorat qilinadigan tajriba, jihozlar, xavfsizlik",
       "boshqotirma (tez tekshirish), bilimlar xaritasi (vizual xulosa), takrorlash va mustahkamlash (bob yakuniy baholash)"
     ],
-    "baholash_eshatmasi": "Har bobda 4 xil ish turi bor: amaliy ish → boshqotirma → takrorlash → mustahkamlash. Platformada BSB slotlarini shu ketma-ketlikka bog'lash mumkin."
+    "baholash_eshatmasi": "Har bobda 4 xil ish turi bor: amaliy ish → boshqotirma → takrorlash → mustahkamlash. Platformada BSB slotlarini shu ketma-ketlikka bog'lash mumkin.",
+    "arxitektura": {
+      "namuna": "Repozitoriyadagi 7-sinf.html (Fizika 7 — Interaktiv platforma, Duvlayev K.A.)",
+      "tamoyil": "Bitta HTML fayl: ichida <script id='topics-data' type='application/json'> data ormoli + bitta JS + bo'limlar bo'yicha <style>. Backend yo'q.",
+      "saqlash": "localStorage: progress (results/examResults), daftarcha (mavzuga mos kalit), laboratoriya holati, savol banki",
+      "sahifa_tuzilishi": "sidebar (progress, mavzular ro'yxati, dashboard, print markazi) + main (crumb, sarlavha, mezon-chip, tabs, content, slides)",
+      "tabs": [
+        "📖 Nazariya",
+        "🔧 Simulyator",
+        "🎡 O'yin",
+        "📝 Test",
+        "✍️ Amaliy topshiriq"
+      ],
+      "print": "bosib chiqarish markazi: bitta dars yoki butun bob, sahifaga 2 yoki 4 slayd",
+      "6_sinf_uchun": "Ma'lumot ormoli: data/curriculum/6-sinf-science.topics.json (npm run topics) — maydon nomlari 7-sinf.html bilan bir xil, ustiga 'kitob' va 'urinish' qo'shilgan"
+    },
+    "mazmun_javobgarligi": "theory/formulas/quiz/task javoblari — o'qituvchi yozadi. Generator faqat kitobda chop etilgan nomlar, savollar, ko'nikmalar va betlarni soladi; darslik matni ko'chirilmaydi."
   }
 }

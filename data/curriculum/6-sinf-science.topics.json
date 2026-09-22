@@ -1,0 +1,1511 @@
+{
+ "meta": {
+  "sxema": "7-sinf.html topics-data bilan bir xil + kitob/urinish maydonlari",
+  "fan": "Tabiiy fan (Science)",
+  "sinf": 6,
+  "mavzular": 26,
+  "boblar": 12,
+  "holat": "theory/formulas/quiz maydonlari bo'sh — ularni o'qituvchi yozadi; kitob matni huquq sababli kiritilmaydi",
+  "bob_amaliy_ishlari": {
+   "2": [
+    {
+     "kod": "2.3",
+     "nomi": "Jismoniy mashqlar yurak qisqarishlari chastotasi hamda nafas chastotasiga qanday ta’sir etadi?",
+     "bet": 16
+    },
+    {
+     "kod": "2.4",
+     "nomi": "Umurtqali hayvonlarning yurak qisqarishlari chastotasi hamda nafas chastotasi",
+     "bet": 19
+    }
+   ],
+   "9": [
+    {
+     "kod": "9.3",
+     "nomi": "Qaysi turdagi elektr zanjirdan foydalanish kerak?",
+     "bet": 100
+    }
+   ],
+   "10": [
+    {
+     "kod": "10.3",
+     "nomi": "Cho‘kindi jinslarda toshqotgan qoldiqlar modelini tayyorlash",
+     "bet": 113
+    }
+   ]
+  },
+  "izoh": "bob_amaliy_ishlari — mavzu kodiga to'g'ri kelmay qolgan amaliy ishlar; ular bob sahifasida (mavzulardan keyin) ko'rsatiladi"
+ },
+ "topics": [
+  {
+   "d": 1,
+   "c": 1,
+   "t": "Ratsional ovqatlanish",
+   "theory": "",
+   "formulas": [],
+   "quiz": [],
+   "task": {
+    "q": "Oilamning ovqat ratsioni",
+    "a": "",
+    "why": "Mashq daftari, 1-bet"
+   },
+   "act": {
+    "type": "amaliy-ish",
+    "mode": "1.1"
+   },
+   "slideQuiz": [],
+   "gameQuiz": [],
+   "kitob": {
+    "bobNomi": "Ovqat hazm qilish sistemasi",
+    "bet": 4,
+    "oralig": "4–13",
+    "kod": "1.1",
+    "amaliyIsh": {
+     "kod": "1.1",
+     "nomi": "Oilamning ovqat ratsioni",
+     "bet": 1
+    },
+    "boshqotirma": 5,
+    "bilimlarXaritasi": 6,
+    "takrorlash": 7,
+    "mustahkamlash": 10
+   },
+   "urinish": {
+    "savollar": [
+     "Muvozanatlashgan ratsion nima?"
+    ],
+    "qism_mavzular": [],
+    "konikmalar": [
+     "jadval va ustunli diagrammadan foydalanib tadqiqot natijalarini izohlash;",
+     "turli ma’lumot manbalaridan olingan dalillardan foydalanib savollarga javob berish;",
+     "kuzatishlar asosida obyektlarni tasniflash;",
+     "modelda o‘rganilayotgan obyektning asosiy xususiyatlari aks etishini anglash;",
+     "ilmiy tushunchani tasvirlashda modeldan foydalanish."
+    ],
+    "tatbiq": []
+   }
+  },
+  {
+   "d": 1,
+   "c": 2,
+   "t": "Ovqat hazm qilish sistemasi",
+   "theory": "",
+   "formulas": [],
+   "quiz": [],
+   "task": {
+    "q": "Ovqat hazm qilish sistemasi modelini tayyorlash",
+    "a": "",
+    "why": "Mashq daftari, 3-bet"
+   },
+   "act": {
+    "type": "amaliy-ish",
+    "mode": "1.2"
+   },
+   "slideQuiz": [],
+   "gameQuiz": [],
+   "kitob": {
+    "bobNomi": "Ovqat hazm qilish sistemasi",
+    "bet": 4,
+    "oralig": "4–13",
+    "kod": "1.2",
+    "amaliyIsh": {
+     "kod": "1.2",
+     "nomi": "Ovqat hazm qilish sistemasi modelini tayyorlash",
+     "bet": 3
+    },
+    "boshqotirma": 5,
+    "bilimlarXaritasi": 6,
+    "takrorlash": 7,
+    "mustahkamlash": 10
+   },
+   "urinish": {
+    "savollar": [
+     "Ovqat qanday hazm bo‘ladi?",
+     "Hayvonlarning ovqat hazm qilish sistemasi o‘xshash tuzilganmi?"
+    ],
+    "qism_mavzular": [],
+    "konikmalar": [
+     "jadval va ustunli diagrammadan foydalanib tadqiqot natijalarini izohlash;",
+     "turli ma’lumot manbalaridan olingan dalillardan foydalanib savollarga javob berish;",
+     "kuzatishlar asosida obyektlarni tasniflash;",
+     "modelda o‘rganilayotgan obyektning asosiy xususiyatlari aks etishini anglash;",
+     "ilmiy tushunchani tasvirlashda modeldan foydalanish."
+    ],
+    "tatbiq": []
+   }
+  },
+  {
+   "d": 2,
+   "c": 1,
+   "t": "Nafas sistemasi",
+   "theory": "",
+   "formulas": [],
+   "quiz": [],
+   "task": {
+    "q": "Nafas olish va nafas chiqarish",
+    "a": "",
+    "why": "Mashq daftari, 12-bet"
+   },
+   "act": {
+    "type": "amaliy-ish",
+    "mode": "2.1"
+   },
+   "slideQuiz": [],
+   "gameQuiz": [],
+   "kitob": {
+    "bobNomi": "Nafas va qon aylanish sistemalari",
+    "bet": 14,
+    "oralig": "14–31",
+    "kod": "2.1",
+    "amaliyIsh": {
+     "kod": "2.1",
+     "nomi": "Nafas olish va nafas chiqarish",
+     "bet": 12
+    },
+    "boshqotirma": 20,
+    "bilimlarXaritasi": 21,
+    "takrorlash": 22,
+    "mustahkamlash": 26
+   },
+   "urinish": {
+    "savollar": [
+     "Nafas sistemasi qanday funksiyani bajaradi?",
+     "Biz qanday nafas olamiz va chiqaramiz?",
+     "Umurtqali hayvonlarning nafas sistemasi qanday tuzilgan?"
+    ],
+    "qism_mavzular": [],
+    "konikmalar": [
+     "ilmiy hodisani tasvirlash va izohlashda modeldan foydalanish;",
+     "ilmiy hodisani tushunishda modelning ahamiyatini bayon etish;",
+     "tadqiqotni yaxshilash yuzasidan taklif berish va uni izohlash;",
+     "o‘lchash natijalarini taqdim etish uchun jadval tuzish;",
+     "ishonchli natijalar olish uchun o‘lchashlarni takrorlash zarurligi yuzasidan qaror qabul qilish;",
+     "tadqiqot natijalaridagi qonuniyatni bayon etish hamda kutilmagan natijalarni aniqlash;",
+     "turli ma’lumot manbalaridan olingan dalillardan foydalanib savollarga javob berish;",
+     "nuqtali diagrammadan foydalanib tadqiqot natijalarini izohlash."
+    ],
+    "tatbiq": [
+     "ilmiy bilimlar vaqt o‘tishi bilan o‘zgarishini ko‘rsatish uchun to‘plangan dalillardan foydalanish;",
+     "bahs-munozarada o‘z nuqtayi nazarini ilmiy dalillardan foydalanib asoslash."
+    ]
+   }
+  },
+  {
+   "d": 2,
+   "c": 2,
+   "t": "Qon aylanish sistemasi",
+   "theory": "",
+   "formulas": [],
+   "quiz": [],
+   "task": {
+    "q": "Nafas sistemasi modelini tayyorlash",
+    "a": "",
+    "why": "Mashq daftari, 14-bet"
+   },
+   "act": {
+    "type": "amaliy-ish",
+    "mode": "2.2"
+   },
+   "slideQuiz": [],
+   "gameQuiz": [],
+   "kitob": {
+    "bobNomi": "Nafas va qon aylanish sistemalari",
+    "bet": 14,
+    "oralig": "14–31",
+    "kod": "2.2",
+    "amaliyIsh": {
+     "kod": "2.2",
+     "nomi": "Nafas sistemasi modelini tayyorlash",
+     "bet": 14
+    },
+    "boshqotirma": 20,
+    "bilimlarXaritasi": 21,
+    "takrorlash": 22,
+    "mustahkamlash": 26
+   },
+   "urinish": {
+    "savollar": [
+     "Qon aylanish sistemasi qanday funksiyani bajaradi?",
+     "Tanamiz bo‘ylab qon qanday harakatlanadi?",
+     "Umurtqali hayvonlarning qon aylanish sistemasi qanday tuzilgan?"
+    ],
+    "qism_mavzular": [],
+    "konikmalar": [
+     "ilmiy hodisani tasvirlash va izohlashda modeldan foydalanish;",
+     "ilmiy hodisani tushunishda modelning ahamiyatini bayon etish;",
+     "tadqiqotni yaxshilash yuzasidan taklif berish va uni izohlash;",
+     "o‘lchash natijalarini taqdim etish uchun jadval tuzish;",
+     "ishonchli natijalar olish uchun o‘lchashlarni takrorlash zarurligi yuzasidan qaror qabul qilish;",
+     "tadqiqot natijalaridagi qonuniyatni bayon etish hamda kutilmagan natijalarni aniqlash;",
+     "turli ma’lumot manbalaridan olingan dalillardan foydalanib savollarga javob berish;",
+     "nuqtali diagrammadan foydalanib tadqiqot natijalarini izohlash."
+    ],
+    "tatbiq": [
+     "ilmiy bilimlar vaqt o‘tishi bilan o‘zgarishini ko‘rsatish uchun to‘plangan dalillardan foydalanish;",
+     "bahs-munozarada o‘z nuqtayi nazarini ilmiy dalillardan foydalanib asoslash."
+    ]
+   }
+  },
+  {
+   "d": 3,
+   "c": 1,
+   "t": "Yuqumli kasalliklar",
+   "theory": "",
+   "formulas": [],
+   "quiz": [],
+   "task": {
+    "q": "Kasalliklarning kelib chiqish sababi nimada?",
+    "a": "",
+    "why": "Mashq daftari, 29-bet"
+   },
+   "act": {
+    "type": "amaliy-ish",
+    "mode": "3.1"
+   },
+   "slideQuiz": [],
+   "gameQuiz": [],
+   "kitob": {
+    "bobNomi": "Kasalliklar",
+    "bet": 32,
+    "oralig": "32–46",
+    "kod": "3.1",
+    "amaliyIsh": {
+     "kod": "3.1",
+     "nomi": "Kasalliklarning kelib chiqish sababi nimada?",
+     "bet": 29
+    },
+    "boshqotirma": 35,
+    "bilimlarXaritasi": 36,
+    "takrorlash": 37,
+    "mustahkamlash": 40
+   },
+   "urinish": {
+    "savollar": [
+     "Kasalliklarning kelib chiqish sababi nimada?",
+     "Kasalliklar qanday tarqaladi?"
+    ],
+    "qism_mavzular": [],
+    "konikmalar": [
+     "ilmiy tushunchani tasvirlash va izohlashda modeldan foydalanish;",
+     "ilmiy tushunchani anglashda modelning ahamiyatini bayon etish;",
+     "nazorat qilinadigan tajriba rejasini tuzish va uch xil o‘zgaruvchini aniqlash;",
+     "tadqiqot uchun kerakli jihozlarni tanlash va ulardan to‘g‘ri foydalanish;",
+     "turli tadqiqot metodlarining o‘ziga xos xususiyatlarini anglash;",
+     "amaliy ishni bajarish davomida yuzaga kelishi mumkin bo‘lgan xavflarni hamda ularni kamaytirish yo‘llarini bayon etish;",
+     "egallangan bilimlarni qo‘llab tadqiqot natijalarini bashorat qilish;",
+     "kuzatish natijalarini taqdim etish uchun jadval tuzish;",
+     "tadqiqot natijalariga asoslanib ilmiy xulosa chiqarish;",
+     "tadqiqot natijalariga asoslanib bashoratning aniqligini bayon etish;",
+     "nuqtali diagrammadan foydalanib tadqiqot natijalarini izohlash;",
+     "turli ma’lumot manbalaridan olingan dalillardan foydalanib savollarga javob berish."
+    ],
+    "tatbiq": [
+     "ilmiy bilimlar vaqt o‘tishi bilan o‘zgarishini ko‘rsatish uchun to‘plangan dalillardan foydalanish;",
+     "tabiiy fanlarning muayyan sohasida faoliyat yurituvchi kasb egalarini aniqlash va ularning faoliyatini tavsiflash;",
+     "bahs-munozarada o‘z nuqtayi nazarini ilmiy dalillardan foydalanib asoslash."
+    ]
+   }
+  },
+  {
+   "d": 3,
+   "c": 2,
+   "t": "Kasallik tarqalishining oldini olish",
+   "theory": "",
+   "formulas": [],
+   "quiz": [],
+   "task": {
+    "q": "Purkagich yordamida “aksirish”",
+    "a": "",
+    "why": "Mashq daftari, 31-bet"
+   },
+   "act": {
+    "type": "amaliy-ish",
+    "mode": "3.2"
+   },
+   "slideQuiz": [],
+   "gameQuiz": [],
+   "kitob": {
+    "bobNomi": "Kasalliklar",
+    "bet": 32,
+    "oralig": "32–46",
+    "kod": "3.2",
+    "amaliyIsh": {
+     "kod": "3.2",
+     "nomi": "Purkagich yordamida “aksirish”",
+     "bet": 31
+    },
+    "boshqotirma": 35,
+    "bilimlarXaritasi": 36,
+    "takrorlash": 37,
+    "mustahkamlash": 40
+   },
+   "urinish": {
+    "savollar": [
+     "Kasallik tarqalishining oldini qanday olish mumkin?",
+     "Hasharotlar chaqishidan qanday himoyalanish zarur?"
+    ],
+    "qism_mavzular": [],
+    "konikmalar": [
+     "ilmiy tushunchani tasvirlash va izohlashda modeldan foydalanish;",
+     "ilmiy tushunchani anglashda modelning ahamiyatini bayon etish;",
+     "nazorat qilinadigan tajriba rejasini tuzish va uch xil o‘zgaruvchini aniqlash;",
+     "tadqiqot uchun kerakli jihozlarni tanlash va ulardan to‘g‘ri foydalanish;",
+     "turli tadqiqot metodlarining o‘ziga xos xususiyatlarini anglash;",
+     "amaliy ishni bajarish davomida yuzaga kelishi mumkin bo‘lgan xavflarni hamda ularni kamaytirish yo‘llarini bayon etish;",
+     "egallangan bilimlarni qo‘llab tadqiqot natijalarini bashorat qilish;",
+     "kuzatish natijalarini taqdim etish uchun jadval tuzish;",
+     "tadqiqot natijalariga asoslanib ilmiy xulosa chiqarish;",
+     "tadqiqot natijalariga asoslanib bashoratning aniqligini bayon etish;",
+     "nuqtali diagrammadan foydalanib tadqiqot natijalarini izohlash;",
+     "turli ma’lumot manbalaridan olingan dalillardan foydalanib savollarga javob berish."
+    ],
+    "tatbiq": [
+     "ilmiy bilimlar vaqt o‘tishi bilan o‘zgarishini ko‘rsatish uchun to‘plangan dalillardan foydalanish;",
+     "tabiiy fanlarning muayyan sohasida faoliyat yurituvchi kasb egalarini aniqlash va ularning faoliyatini tavsiflash;",
+     "bahs-munozarada o‘z nuqtayi nazarini ilmiy dalillardan foydalanib asoslash."
+    ]
+   }
+  },
+  {
+   "d": 3,
+   "c": 3,
+   "t": "Odam organizmining himoya mexanizmlari",
+   "theory": "",
+   "formulas": [],
+   "quiz": [],
+   "task": {
+    "q": "Organizmni himoya qiluvchi to‘siq",
+    "a": "",
+    "why": "Mashq daftari, 33-bet"
+   },
+   "act": {
+    "type": "amaliy-ish",
+    "mode": "3.3"
+   },
+   "slideQuiz": [],
+   "gameQuiz": [],
+   "kitob": {
+    "bobNomi": "Kasalliklar",
+    "bet": 32,
+    "oralig": "32–46",
+    "kod": "3.3",
+    "amaliyIsh": {
+     "kod": "3.3",
+     "nomi": "Organizmni himoya qiluvchi to‘siq",
+     "bet": 33
+    },
+    "boshqotirma": 35,
+    "bilimlarXaritasi": 36,
+    "takrorlash": 37,
+    "mustahkamlash": 40
+   },
+   "urinish": {
+    "savollar": [
+     "Odam organizmi kasalliklarga qarshi qanday kurashadi?"
+    ],
+    "qism_mavzular": [],
+    "konikmalar": [
+     "ilmiy tushunchani tasvirlash va izohlashda modeldan foydalanish;",
+     "ilmiy tushunchani anglashda modelning ahamiyatini bayon etish;",
+     "nazorat qilinadigan tajriba rejasini tuzish va uch xil o‘zgaruvchini aniqlash;",
+     "tadqiqot uchun kerakli jihozlarni tanlash va ulardan to‘g‘ri foydalanish;",
+     "turli tadqiqot metodlarining o‘ziga xos xususiyatlarini anglash;",
+     "amaliy ishni bajarish davomida yuzaga kelishi mumkin bo‘lgan xavflarni hamda ularni kamaytirish yo‘llarini bayon etish;",
+     "egallangan bilimlarni qo‘llab tadqiqot natijalarini bashorat qilish;",
+     "kuzatish natijalarini taqdim etish uchun jadval tuzish;",
+     "tadqiqot natijalariga asoslanib ilmiy xulosa chiqarish;",
+     "tadqiqot natijalariga asoslanib bashoratning aniqligini bayon etish;",
+     "nuqtali diagrammadan foydalanib tadqiqot natijalarini izohlash;",
+     "turli ma’lumot manbalaridan olingan dalillardan foydalanib savollarga javob berish."
+    ],
+    "tatbiq": [
+     "ilmiy bilimlar vaqt o‘tishi bilan o‘zgarishini ko‘rsatish uchun to‘plangan dalillardan foydalanish;",
+     "tabiiy fanlarning muayyan sohasida faoliyat yurituvchi kasb egalarini aniqlash va ularning faoliyatini tavsiflash;",
+     "bahs-munozarada o‘z nuqtayi nazarini ilmiy dalillardan foydalanib asoslash."
+    ]
+   }
+  },
+  {
+   "d": 4,
+   "c": 1,
+   "t": "Oziq zanjirlari va oziq to‘ri",
+   "theory": "",
+   "formulas": [],
+   "quiz": [],
+   "task": {
+    "q": "Oziq zanjiri tuzish",
+    "a": "",
+    "why": "Mashq daftari, 41-bet"
+   },
+   "act": {
+    "type": "amaliy-ish",
+    "mode": "4.1"
+   },
+   "slideQuiz": [],
+   "gameQuiz": [],
+   "kitob": {
+    "bobNomi": "Oziq zanjiri va oziq to‘ri",
+    "bet": 47,
+    "oralig": "47–59",
+    "kod": "4.1",
+    "amaliyIsh": {
+     "kod": "4.1",
+     "nomi": "Oziq zanjiri tuzish",
+     "bet": 41
+    },
+    "boshqotirma": 45,
+    "bilimlarXaritasi": 46,
+    "takrorlash": 47,
+    "mustahkamlash": 49
+   },
+   "urinish": {
+    "savollar": [
+     "Oziq zanjirlari va oziq to‘rlari qanday tuzilgan?"
+    ],
+    "qism_mavzular": [],
+    "konikmalar": [
+     "turli manbalardan olingan ma’lumotlarga asoslanib tirik organizmlarni tasniflash;",
+     "ilmiy hodisani tushunishda modelning ahamiyatini bayon etish;",
+     "ilmiy hodisani tasvirlash va izohlashda modeldan foydalanish."
+    ],
+    "tatbiq": [
+     "tabiiy fanlar yutuqlaridan kundalik hayotda foydalanilishini bayon etish;",
+     "fan va texnologiya yutuqlaridan foydalanishning atrof-muhitga ijobiy va salbiy ta’sirini muhokama qilish."
+    ]
+   }
+  },
+  {
+   "d": 4,
+   "c": 2,
+   "t": "Energiya va zaharli moddalar oqimi",
+   "theory": "",
+   "formulas": [],
+   "quiz": [],
+   "task": {
+    "q": "Zaharli moddalar oziq zanjiri bo‘ylab qanday uzatiladi?",
+    "a": "",
+    "why": "Mashq daftari, 43-bet"
+   },
+   "act": {
+    "type": "amaliy-ish",
+    "mode": "4.2"
+   },
+   "slideQuiz": [],
+   "gameQuiz": [],
+   "kitob": {
+    "bobNomi": "Oziq zanjiri va oziq to‘ri",
+    "bet": 47,
+    "oralig": "47–59",
+    "kod": "4.2",
+    "amaliyIsh": {
+     "kod": "4.2",
+     "nomi": "Zaharli moddalar oziq zanjiri bo‘ylab qanday uzatiladi?",
+     "bet": 43
+    },
+    "boshqotirma": 45,
+    "bilimlarXaritasi": 46,
+    "takrorlash": 47,
+    "mustahkamlash": 49
+   },
+   "urinish": {
+    "savollar": [
+     "Oziq zanjirlari va oziq to‘rlari bo‘ylab energiya qanday uzatiladi?",
+     "Zaharli moddalar oziq zanjiri va oziq to‘rlari bо‘уlаb uzatilishi mumkinmi?"
+    ],
+    "qism_mavzular": [],
+    "konikmalar": [
+     "turli manbalardan olingan ma’lumotlarga asoslanib tirik organizmlarni tasniflash;",
+     "ilmiy hodisani tushunishda modelning ahamiyatini bayon etish;",
+     "ilmiy hodisani tasvirlash va izohlashda modeldan foydalanish."
+    ],
+    "tatbiq": [
+     "tabiiy fanlar yutuqlaridan kundalik hayotda foydalanilishini bayon etish;",
+     "fan va texnologiya yutuqlaridan foydalanishning atrof-muhitga ijobiy va salbiy ta’sirini muhokama qilish."
+    ]
+   }
+  },
+  {
+   "d": 5,
+   "c": 1,
+   "t": "Moddalarning xossalari",
+   "theory": "",
+   "formulas": [],
+   "quiz": [],
+   "task": {
+    "q": "To‘g‘ri tanlov",
+    "a": "",
+    "why": "Mashq daftari, 51-bet"
+   },
+   "act": {
+    "type": "amaliy-ish",
+    "mode": "5.1"
+   },
+   "slideQuiz": [],
+   "gameQuiz": [],
+   "kitob": {
+    "bobNomi": "Moddaning xossalari",
+    "bet": 60,
+    "oralig": "60–70",
+    "kod": "5.1",
+    "amaliyIsh": {
+     "kod": "5.1",
+     "nomi": "To‘g‘ri tanlov",
+     "bet": 51
+    },
+    "boshqotirma": 56,
+    "bilimlarXaritasi": 57,
+    "takrorlash": 58,
+    "mustahkamlash": 61
+   },
+   "urinish": {
+    "savollar": [
+     "Gazlar ham massaga egami?",
+     "Bir xil haroratda turli moddalarning agregat holati o‘zgaradimi?",
+     "Issiqlik o‘tkazuvchanlik va elektr o‘tkazuvchanlik nima?"
+    ],
+    "qism_mavzular": [],
+    "konikmalar": [
+     "tadqiqot uchun kerakli jihozlarni tanlash va ulardan to‘g‘ri foydalanish;",
+     "ilmiy savol qo‘yish va unga javob topishga yordam beradigan eng yaxshi tadqiqot metodini tanlash;",
+     "egallangan bilimlarni qo‘llab tadqiqot natijalarini bashorat qilish;",
+     "amaliy ishni bajarish davomida xavfsizlik qoidalariga rioya qilish;",
+     "tadqiqotni yaxshilash yuzasidan taklif berish va uni izohlash;",
+     "turli tadqiqot metodlarining o‘ziga xos xususiyatlarini anglash;",
+     "nazorat qilinadigan tajriba rejasini tuzish va uch xil o‘zgaruvchini aniqlash;",
+     "amaliy ishni bajarish davomida yuzaga kelishi mumkin bo‘lgan xavflarni hamda ularni kamaytirish yo‘llarini bayon etish;",
+     "tadqiqot natijalariga asoslanib bashoratning aniqligini bayon etish;",
+     "o‘lchash ishlarini to‘g‘ri va aniq bajarish;",
+     "kuzatish natijalarini taqdim etish uchun jadval tuzish;",
+     "tadqiqot natijalariga asoslanib ilmiy xulosa chiqarish."
+    ],
+    "tatbiq": [
+     "bahs-munozarada o‘z nuqtayi nazarini ilmiy dalillardan foydalanib asoslash;",
+     "tabiiy fanlar yutuqlaridan kundalik hayotda foydalanilishini bayon etish."
+    ]
+   }
+  },
+  {
+   "d": 5,
+   "c": 2,
+   "t": "Qaynash va bug‘lanish",
+   "theory": "",
+   "formulas": [],
+   "quiz": [],
+   "task": {
+    "q": "Qaynatish va bug‘latish",
+    "a": "",
+    "why": "Mashq daftari, 54-bet"
+   },
+   "act": {
+    "type": "amaliy-ish",
+    "mode": "5.2"
+   },
+   "slideQuiz": [],
+   "gameQuiz": [],
+   "kitob": {
+    "bobNomi": "Moddaning xossalari",
+    "bet": 60,
+    "oralig": "60–70",
+    "kod": "5.2",
+    "amaliyIsh": {
+     "kod": "5.2",
+     "nomi": "Qaynatish va bug‘latish",
+     "bet": 54
+    },
+    "boshqotirma": 56,
+    "bilimlarXaritasi": 57,
+    "takrorlash": 58,
+    "mustahkamlash": 61
+   },
+   "urinish": {
+    "savollar": [
+     "Qaynash va bug‘lanish bir-biridan qanday farq qiladi?"
+    ],
+    "qism_mavzular": [],
+    "konikmalar": [
+     "tadqiqot uchun kerakli jihozlarni tanlash va ulardan to‘g‘ri foydalanish;",
+     "ilmiy savol qo‘yish va unga javob topishga yordam beradigan eng yaxshi tadqiqot metodini tanlash;",
+     "egallangan bilimlarni qo‘llab tadqiqot natijalarini bashorat qilish;",
+     "amaliy ishni bajarish davomida xavfsizlik qoidalariga rioya qilish;",
+     "tadqiqotni yaxshilash yuzasidan taklif berish va uni izohlash;",
+     "turli tadqiqot metodlarining o‘ziga xos xususiyatlarini anglash;",
+     "nazorat qilinadigan tajriba rejasini tuzish va uch xil o‘zgaruvchini aniqlash;",
+     "amaliy ishni bajarish davomida yuzaga kelishi mumkin bo‘lgan xavflarni hamda ularni kamaytirish yo‘llarini bayon etish;",
+     "tadqiqot natijalariga asoslanib bashoratning aniqligini bayon etish;",
+     "o‘lchash ishlarini to‘g‘ri va aniq bajarish;",
+     "kuzatish natijalarini taqdim etish uchun jadval tuzish;",
+     "tadqiqot natijalariga asoslanib ilmiy xulosa chiqarish."
+    ],
+    "tatbiq": [
+     "bahs-munozarada o‘z nuqtayi nazarini ilmiy dalillardan foydalanib asoslash;",
+     "tabiiy fanlar yutuqlaridan kundalik hayotda foydalanilishini bayon etish."
+    ]
+   }
+  },
+  {
+   "d": 6,
+   "c": 1,
+   "t": "Fizik o‘zgarishlar",
+   "theory": "",
+   "formulas": [],
+   "quiz": [],
+   "task": {
+    "q": "Qaytar fizik o‘zgarishlar",
+    "a": "",
+    "why": "Mashq daftari, 63-bet"
+   },
+   "act": {
+    "type": "amaliy-ish",
+    "mode": "6.1"
+   },
+   "slideQuiz": [],
+   "gameQuiz": [],
+   "kitob": {
+    "bobNomi": "Fizik va kimyoviy o‘zgarishlar",
+    "bet": 71,
+    "oralig": "71–86",
+    "kod": "6.1",
+    "amaliyIsh": {
+     "kod": "6.1",
+     "nomi": "Qaytar fizik o‘zgarishlar",
+     "bet": 63
+    },
+    "boshqotirma": 71,
+    "bilimlarXaritasi": 72,
+    "takrorlash": 73,
+    "mustahkamlash": 75
+   },
+   "urinish": {
+    "savollar": [
+     "Barcha fizik o‘zgarishlar qaytar jarayonmi?"
+    ],
+    "qism_mavzular": [
+     "Qaytar va qaytmas o‘zgarishlar"
+    ],
+    "konikmalar": [
+     "o‘rganilayotgan obyektlarda kuzatiladigan farqlarga asoslanib kalit-aniqlagich tuzish;",
+     "ilmiy savol qo‘yish va unga javob topishga yordam beradigan eng yaxshi tadqiqot metodini tanlash;",
+     "turli tadqiqot metodlarining o‘ziga xos xususiyatlarini anglash;",
+     "nazorat qilinadigan tajriba rejasini tuzish va uch xil o‘zgaruvchini aniqlash;",
+     "tadqiqot uchun kerakli jihozlarni tanlash va ulardan to‘g‘ri foydalanish;",
+     "o‘lchash ishlarini to‘g‘ri va aniq bajarish;",
+     "ishonchli natijalar olish uchun kuzatishlarni takrorlash zarurligi yuzasidan qaror qabul qilish;",
+     "egallangan bilimlarni qo‘llab tadqiqot natijalarini bashorat qilish;",
+     "amaliy ishni bajarish davomida yuzaga kelishi mumkin bo‘lgan xavflarni hamda ularni kamaytirish yo‘llarini bayon etish;",
+     "kuzatish va o‘lchash natijalarini taqdim etish uchun jadval tuzish;",
+     "kuzatish natijalarini rasm orqali ifodalash;",
+     "chiziqli grafikdan foydalanib tadqiqot natijalarini izohlash;",
+     "tadqiqot natijalaridagi qonuniyatni bayon etish hamda kutilmagan natijalarni aniqlash;",
+     "tadqiqot natijalariga asoslanibilmiy xulosa chiqarish;",
+     "tadqiqot natijalariga asoslanib bashoratning aniqligini bayon etish;",
+     "tadqiqotni yaxshilash yuzasidan taklif berish va uni izohlash;",
+     "amaliy ishni bajarish davomida xavfsizlik qoidalariga rioya qilish."
+    ],
+    "tatbiq": [
+     "fan va texnologiya yutuqlaridan foydalanishning atrof-muhitga ijobiy ta’sirini muhokama qilish."
+    ]
+   }
+  },
+  {
+   "d": 6,
+   "c": 2,
+   "t": "Moddalarning erish jarayoni",
+   "theory": "",
+   "formulas": [],
+   "quiz": [],
+   "task": {
+    "q": "Moddalarning erish jarayoni",
+    "a": "",
+    "why": "Mashq daftari, 65-bet"
+   },
+   "act": {
+    "type": "amaliy-ish",
+    "mode": "6.2"
+   },
+   "slideQuiz": [],
+   "gameQuiz": [],
+   "kitob": {
+    "bobNomi": "Fizik va kimyoviy o‘zgarishlar",
+    "bet": 71,
+    "oralig": "71–86",
+    "kod": "6.2",
+    "amaliyIsh": {
+     "kod": "6.2",
+     "nomi": "Moddalarning erish jarayoni",
+     "bet": 65
+    },
+    "boshqotirma": 71,
+    "bilimlarXaritasi": 72,
+    "takrorlash": 73,
+    "mustahkamlash": 75
+   },
+   "urinish": {
+    "savollar": [
+     "Erish nima?"
+    ],
+    "qism_mavzular": [
+     "Qattiq moddalarning eruvchanligiga haroratning ta’siri"
+    ],
+    "konikmalar": [
+     "o‘rganilayotgan obyektlarda kuzatiladigan farqlarga asoslanib kalit-aniqlagich tuzish;",
+     "ilmiy savol qo‘yish va unga javob topishga yordam beradigan eng yaxshi tadqiqot metodini tanlash;",
+     "turli tadqiqot metodlarining o‘ziga xos xususiyatlarini anglash;",
+     "nazorat qilinadigan tajriba rejasini tuzish va uch xil o‘zgaruvchini aniqlash;",
+     "tadqiqot uchun kerakli jihozlarni tanlash va ulardan to‘g‘ri foydalanish;",
+     "o‘lchash ishlarini to‘g‘ri va aniq bajarish;",
+     "ishonchli natijalar olish uchun kuzatishlarni takrorlash zarurligi yuzasidan qaror qabul qilish;",
+     "egallangan bilimlarni qo‘llab tadqiqot natijalarini bashorat qilish;",
+     "amaliy ishni bajarish davomida yuzaga kelishi mumkin bo‘lgan xavflarni hamda ularni kamaytirish yo‘llarini bayon etish;",
+     "kuzatish va o‘lchash natijalarini taqdim etish uchun jadval tuzish;",
+     "kuzatish natijalarini rasm orqali ifodalash;",
+     "chiziqli grafikdan foydalanib tadqiqot natijalarini izohlash;",
+     "tadqiqot natijalaridagi qonuniyatni bayon etish hamda kutilmagan natijalarni aniqlash;",
+     "tadqiqot natijalariga asoslanibilmiy xulosa chiqarish;",
+     "tadqiqot natijalariga asoslanib bashoratning aniqligini bayon etish;",
+     "tadqiqotni yaxshilash yuzasidan taklif berish va uni izohlash;",
+     "amaliy ishni bajarish davomida xavfsizlik qoidalariga rioya qilish."
+    ],
+    "tatbiq": [
+     "fan va texnologiya yutuqlaridan foydalanishning atrof-muhitga ijobiy ta’sirini muhokama qilish."
+    ]
+   }
+  },
+  {
+   "d": 6,
+   "c": 3,
+   "t": "Kimyoviy reaksiyalar",
+   "theory": "",
+   "formulas": [],
+   "quiz": [],
+   "task": {
+    "q": "Kimyoviy reaksiya belgilari",
+    "a": "",
+    "why": "Mashq daftari, 68-bet"
+   },
+   "act": {
+    "type": "amaliy-ish",
+    "mode": "6.3"
+   },
+   "slideQuiz": [],
+   "gameQuiz": [],
+   "kitob": {
+    "bobNomi": "Fizik va kimyoviy o‘zgarishlar",
+    "bet": 71,
+    "oralig": "71–86",
+    "kod": "6.3",
+    "amaliyIsh": {
+     "kod": "6.3",
+     "nomi": "Kimyoviy reaksiya belgilari",
+     "bet": 68
+    },
+    "boshqotirma": 71,
+    "bilimlarXaritasi": 72,
+    "takrorlash": 73,
+    "mustahkamlash": 75
+   },
+   "urinish": {
+    "savollar": [
+     "Kimyoviy reaksiyalarda qanday o‘zgarishlar sodir bo‘ladi?",
+     "Kimyoviy reaksiya sodir bo‘lganini qanday bilish mumkin?"
+    ],
+    "qism_mavzular": [],
+    "konikmalar": [
+     "o‘rganilayotgan obyektlarda kuzatiladigan farqlarga asoslanib kalit-aniqlagich tuzish;",
+     "ilmiy savol qo‘yish va unga javob topishga yordam beradigan eng yaxshi tadqiqot metodini tanlash;",
+     "turli tadqiqot metodlarining o‘ziga xos xususiyatlarini anglash;",
+     "nazorat qilinadigan tajriba rejasini tuzish va uch xil o‘zgaruvchini aniqlash;",
+     "tadqiqot uchun kerakli jihozlarni tanlash va ulardan to‘g‘ri foydalanish;",
+     "o‘lchash ishlarini to‘g‘ri va aniq bajarish;",
+     "ishonchli natijalar olish uchun kuzatishlarni takrorlash zarurligi yuzasidan qaror qabul qilish;",
+     "egallangan bilimlarni qo‘llab tadqiqot natijalarini bashorat qilish;",
+     "amaliy ishni bajarish davomida yuzaga kelishi mumkin bo‘lgan xavflarni hamda ularni kamaytirish yo‘llarini bayon etish;",
+     "kuzatish va o‘lchash natijalarini taqdim etish uchun jadval tuzish;",
+     "kuzatish natijalarini rasm orqali ifodalash;",
+     "chiziqli grafikdan foydalanib tadqiqot natijalarini izohlash;",
+     "tadqiqot natijalaridagi qonuniyatni bayon etish hamda kutilmagan natijalarni aniqlash;",
+     "tadqiqot natijalariga asoslanibilmiy xulosa chiqarish;",
+     "tadqiqot natijalariga asoslanib bashoratning aniqligini bayon etish;",
+     "tadqiqotni yaxshilash yuzasidan taklif berish va uni izohlash;",
+     "amaliy ishni bajarish davomida xavfsizlik qoidalariga rioya qilish."
+    ],
+    "tatbiq": [
+     "fan va texnologiya yutuqlaridan foydalanishning atrof-muhitga ijobiy ta’sirini muhokama qilish."
+    ]
+   }
+  },
+  {
+   "d": 7,
+   "c": 1,
+   "t": "Massa, og‘irlik va gravitatsiya kuchi",
+   "theory": "",
+   "formulas": [],
+   "quiz": [],
+   "task": {
+    "q": "Gravitatsiyaning ta’siri",
+    "a": "",
+    "why": "Mashq daftari, 77-bet"
+   },
+   "act": {
+    "type": "amaliy-ish",
+    "mode": "7.1"
+   },
+   "slideQuiz": [],
+   "gameQuiz": [],
+   "kitob": {
+    "bobNomi": "Kuchlarning ta’siri",
+    "bet": 87,
+    "oralig": "87–97",
+    "kod": "7.1",
+    "amaliyIsh": {
+     "kod": "7.1",
+     "nomi": "Gravitatsiyaning ta’siri",
+     "bet": 77
+    },
+    "boshqotirma": 82,
+    "bilimlarXaritasi": 83,
+    "takrorlash": 84,
+    "mustahkamlash": 86
+   },
+   "urinish": {
+    "savollar": [
+     "Massa va og‘irlik orasidagi farq nimada?",
+     "Gravitatsiya kuchi o‘zgarganda og‘irlik va massa o‘zgaradimi?"
+    ],
+    "qism_mavzular": [],
+    "konikmalar": [
+     "egallangan bilimlarni qo‘llab tadqiqot natijalarini bashorat qilish;",
+     "o‘rganilayotgan obyektlarni kuzatish va tajriba natijalariga asoslanib tasniflash;",
+     "o‘lchash ishlarini to‘g‘ri va aniq bajarish;",
+     "ishonchli natijalar olish uchun o‘lchashlarni takrorlash zarurligi yuzasidan qaror qabul qilish;",
+     "tadqiqot natijalariga asoslanib bashoratning aniqligini bayon etish;",
+     "ustunli diagrammadan foydalanib tadqiqot natijalarini izohlash;",
+     "tadqiqot natijalaridagi qonuniyatni bayon etish hamda kutilmagan natijalarni aniqlash;",
+     "ilmiy tushunchani anglashda modelning ahamiyatini bayon etish;",
+     "nazorat qilinadigan tajriba rejasini tuzish va uch xil o‘zgaruvchini aniqlash;",
+     "tadqiqot uchun kerakli jihozlarni tanlash va ulardan to‘g‘ri foydalanish.",
+     "tadqiqotni yaxshilash yuzasidan taklif berish va uni izohlash;",
+     "o‘rganilayotgan obyektlarda kuzatiladigan farqlarga asoslanib kalit-aniqlagich tuzish."
+    ],
+    "tatbiq": [
+     "tabiiy fanlar yutuqlaridan kundalik hayotda foydalanilishini bayon etish."
+    ]
+   }
+  },
+  {
+   "d": 7,
+   "c": 2,
+   "t": "Harakatlanayotgan jismlarga ta’sir qiluvchi kuchlar",
+   "theory": "",
+   "formulas": [],
+   "quiz": [],
+   "task": {
+    "q": "Turli shaklga ega bo‘lgan suzuvchi jismlar",
+    "a": "",
+    "why": "Mashq daftari, 79-bet"
+   },
+   "act": {
+    "type": "amaliy-ish",
+    "mode": "7.2"
+   },
+   "slideQuiz": [],
+   "gameQuiz": [],
+   "kitob": {
+    "bobNomi": "Kuchlarning ta’siri",
+    "bet": 87,
+    "oralig": "87–97",
+    "kod": "7.2",
+    "amaliyIsh": {
+     "kod": "7.2",
+     "nomi": "Turli shaklga ega bo‘lgan suzuvchi jismlar",
+     "bet": 79
+    },
+    "boshqotirma": 82,
+    "bilimlarXaritasi": 83,
+    "takrorlash": 84,
+    "mustahkamlash": 86
+   },
+   "urinish": {
+    "savollar": [
+     "Jismlarga kuchlar qanday ta’sir qiladi?",
+     "Jism massasi va shakli uning suzishi yoki cho‘kishiga qanday ta’sir qiladi?"
+    ],
+    "qism_mavzular": [],
+    "konikmalar": [
+     "egallangan bilimlarni qo‘llab tadqiqot natijalarini bashorat qilish;",
+     "o‘rganilayotgan obyektlarni kuzatish va tajriba natijalariga asoslanib tasniflash;",
+     "o‘lchash ishlarini to‘g‘ri va aniq bajarish;",
+     "ishonchli natijalar olish uchun o‘lchashlarni takrorlash zarurligi yuzasidan qaror qabul qilish;",
+     "tadqiqot natijalariga asoslanib bashoratning aniqligini bayon etish;",
+     "ustunli diagrammadan foydalanib tadqiqot natijalarini izohlash;",
+     "tadqiqot natijalaridagi qonuniyatni bayon etish hamda kutilmagan natijalarni aniqlash;",
+     "ilmiy tushunchani anglashda modelning ahamiyatini bayon etish;",
+     "nazorat qilinadigan tajriba rejasini tuzish va uch xil o‘zgaruvchini aniqlash;",
+     "tadqiqot uchun kerakli jihozlarni tanlash va ulardan to‘g‘ri foydalanish.",
+     "tadqiqotni yaxshilash yuzasidan taklif berish va uni izohlash;",
+     "o‘rganilayotgan obyektlarda kuzatiladigan farqlarga asoslanib kalit-aniqlagich tuzish."
+    ],
+    "tatbiq": [
+     "tabiiy fanlar yutuqlaridan kundalik hayotda foydalanilishini bayon etish."
+    ]
+   }
+  },
+  {
+   "d": 8,
+   "c": 1,
+   "t": "Yorug‘likning qaytishi",
+   "theory": "",
+   "formulas": [],
+   "quiz": [],
+   "task": {
+    "q": "Yorug‘likning qaytishi",
+    "a": "",
+    "why": "Mashq daftari, 88-bet"
+   },
+   "act": {
+    "type": "amaliy-ish",
+    "mode": "8.1"
+   },
+   "slideQuiz": [],
+   "gameQuiz": [],
+   "kitob": {
+    "bobNomi": "Yorug‘likning tarqalishi",
+    "bet": 98,
+    "oralig": "98–108",
+    "kod": "8.1",
+    "amaliyIsh": {
+     "kod": "8.1",
+     "nomi": "Yorug‘likning qaytishi",
+     "bet": 88
+    },
+    "boshqotirma": 91,
+    "bilimlarXaritasi": 92,
+    "takrorlash": 93,
+    "mustahkamlash": 95
+   },
+   "urinish": {
+    "savollar": [
+     "Yorug‘lik yassi ko‘zgudan qanday qaytadi?"
+    ],
+    "qism_mavzular": [],
+    "konikmalar": [
+     "o‘rganilayotgan obyektlarni kuzatish natijalariga asoslanib tasniflash;",
+     "tadqiqot natijalaridagi qonuniyatni bayon etish hamda kutilmagan natijalarni aniqlash;",
+     "tadqiqotni yaxshilash yuzasidan taklif berish va uni izohlash;",
+     "ishonchli natijalar olish uchun o‘lchashlarni takrorlash zarurligi yuzasidan qaror qabul qilish;",
+     "ilmiy hodisani tasvirlash va izohlashda modeldan foydalanish;",
+     "ilmiy savol qo‘yish va unga javob topishga yordam beradigan eng yaxshi tadqiqot metodini tanlash;",
+     "turli tadqiqot metodlarining o‘ziga xos xususiyatlarini anglash;",
+     "nazorat qilinadigan tajriba rejasini tuzish va uch xil o‘zgaruvchini aniqlash."
+    ],
+    "tatbiq": [
+     "tabiiy fanlar yutuqlaridan kundalik hayotda foydalanilishini bayon etish;",
+     "tabiiy fanlarning muayyan sohasida faoliyat yurituvchi kasb egalarini aniqlash va ularning faoliyatini tavsiflash;",
+     "fan va texnologiya yutuqlaridan foydalanishning atrof-muhitga ijobiy va salbiy ta’sirini muhokama qilish."
+    ]
+   }
+  },
+  {
+   "d": 8,
+   "c": 2,
+   "t": "Yorug‘likning sinishi",
+   "theory": "",
+   "formulas": [],
+   "quiz": [],
+   "task": {
+    "q": "Yorug‘likning sinishiga doir qiziqarli tajriba",
+    "a": "",
+    "why": "Mashq daftari, 90-bet"
+   },
+   "act": {
+    "type": "amaliy-ish",
+    "mode": "8.2"
+   },
+   "slideQuiz": [],
+   "gameQuiz": [],
+   "kitob": {
+    "bobNomi": "Yorug‘likning tarqalishi",
+    "bet": 98,
+    "oralig": "98–108",
+    "kod": "8.2",
+    "amaliyIsh": {
+     "kod": "8.2",
+     "nomi": "Yorug‘likning sinishiga doir qiziqarli tajriba",
+     "bet": 90
+    },
+    "boshqotirma": 91,
+    "bilimlarXaritasi": 92,
+    "takrorlash": 93,
+    "mustahkamlash": 95
+   },
+   "urinish": {
+    "savollar": [
+     "Yorug‘lik bir muhitdan ikkinchi muhitga o‘tganda nima sodir bo‘ladi?"
+    ],
+    "qism_mavzular": [],
+    "konikmalar": [
+     "o‘rganilayotgan obyektlarni kuzatish natijalariga asoslanib tasniflash;",
+     "tadqiqot natijalaridagi qonuniyatni bayon etish hamda kutilmagan natijalarni aniqlash;",
+     "tadqiqotni yaxshilash yuzasidan taklif berish va uni izohlash;",
+     "ishonchli natijalar olish uchun o‘lchashlarni takrorlash zarurligi yuzasidan qaror qabul qilish;",
+     "ilmiy hodisani tasvirlash va izohlashda modeldan foydalanish;",
+     "ilmiy savol qo‘yish va unga javob topishga yordam beradigan eng yaxshi tadqiqot metodini tanlash;",
+     "turli tadqiqot metodlarining o‘ziga xos xususiyatlarini anglash;",
+     "nazorat qilinadigan tajriba rejasini tuzish va uch xil o‘zgaruvchini aniqlash."
+    ],
+    "tatbiq": [
+     "tabiiy fanlar yutuqlaridan kundalik hayotda foydalanilishini bayon etish;",
+     "tabiiy fanlarning muayyan sohasida faoliyat yurituvchi kasb egalarini aniqlash va ularning faoliyatini tavsiflash;",
+     "fan va texnologiya yutuqlaridan foydalanishning atrof-muhitga ijobiy va salbiy ta’sirini muhokama qilish."
+    ]
+   }
+  },
+  {
+   "d": 9,
+   "c": 1,
+   "t": "Elektr zanjir sxemalari",
+   "theory": "",
+   "formulas": [],
+   "quiz": [],
+   "task": {
+    "q": "Elektr zanjir sxemalari",
+    "a": "",
+    "why": "Mashq daftari, 97-bet"
+   },
+   "act": {
+    "type": "amaliy-ish",
+    "mode": "9.1"
+   },
+   "slideQuiz": [],
+   "gameQuiz": [],
+   "kitob": {
+    "bobNomi": "Elektr zanjirlar",
+    "bet": 109,
+    "oralig": "109–119",
+    "kod": "9.1",
+    "amaliyIsh": {
+     "kod": "9.1",
+     "nomi": "Elektr zanjir sxemalari",
+     "bet": 97
+    },
+    "boshqotirma": 102,
+    "bilimlarXaritasi": 103,
+    "takrorlash": 104,
+    "mustahkamlash": 107
+   },
+   "urinish": {
+    "savollar": [
+     "Elektr zanjir sxemasi deganda nimani tushunamiz?"
+    ],
+    "qism_mavzular": [],
+    "konikmalar": [
+     "tadqiqot uchun kerakli jihozlarni tanlash va ulardan to‘g‘ri foydalanish;",
+     "amaliy ishni bajarish davomida xavfsizlik qoidalariga rioya qilish;",
+     "ilmiy tushunchani anglashda modelning ahamiyatini bayon etish;",
+     "ilmiy tushunchani tasvirlash va izohlashda modeldan foydalanish;",
+     "egallangan bilimlarni qo‘llab tadqiqot natijalarini bashorat qilish;",
+     "tadqiqot natijalariga asoslanib bashoratning aniqligini bayon etish;",
+     "tadqiqot natijalaridagi qonuniyatni bayon etish hamda kutilmagan natijalarni aniqlash."
+    ],
+    "tatbiq": [
+     "bahs-munozarada o‘z nuqtayi nazarini ilmiy dalillardan foydalanib asoslash;",
+     "fan va texnologiya yutuqlaridan foydalanishning atrof-muhitga ijobiy ta’sirini muhokama qilish."
+    ]
+   }
+  },
+  {
+   "d": 9,
+   "c": 2,
+   "t": "Elektr zanjir turlari",
+   "theory": "",
+   "formulas": [],
+   "quiz": [],
+   "task": {
+    "q": "Chiroqni yoqing",
+    "a": "",
+    "why": "Mashq daftari, 98-bet"
+   },
+   "act": {
+    "type": "amaliy-ish",
+    "mode": "9.2"
+   },
+   "slideQuiz": [],
+   "gameQuiz": [],
+   "kitob": {
+    "bobNomi": "Elektr zanjirlar",
+    "bet": 109,
+    "oralig": "109–119",
+    "kod": "9.2",
+    "amaliyIsh": {
+     "kod": "9.2",
+     "nomi": "Chiroqni yoqing",
+     "bet": 98
+    },
+    "boshqotirma": 102,
+    "bilimlarXaritasi": 103,
+    "takrorlash": 104,
+    "mustahkamlash": 107
+   },
+   "urinish": {
+    "savollar": [
+     "Qaysi elektr zanjirdagi chiroqlar yorqinroq yonadi?"
+    ],
+    "qism_mavzular": [
+     "Elementlari ketma-ket ulangan elektr zanjir",
+     "Elementlari parallel ulangan elektr zanjir"
+    ],
+    "konikmalar": [
+     "tadqiqot uchun kerakli jihozlarni tanlash va ulardan to‘g‘ri foydalanish;",
+     "amaliy ishni bajarish davomida xavfsizlik qoidalariga rioya qilish;",
+     "ilmiy tushunchani anglashda modelning ahamiyatini bayon etish;",
+     "ilmiy tushunchani tasvirlash va izohlashda modeldan foydalanish;",
+     "egallangan bilimlarni qo‘llab tadqiqot natijalarini bashorat qilish;",
+     "tadqiqot natijalariga asoslanib bashoratning aniqligini bayon etish;",
+     "tadqiqot natijalaridagi qonuniyatni bayon etish hamda kutilmagan natijalarni aniqlash."
+    ],
+    "tatbiq": [
+     "bahs-munozarada o‘z nuqtayi nazarini ilmiy dalillardan foydalanib asoslash;",
+     "fan va texnologiya yutuqlaridan foydalanishning atrof-muhitga ijobiy ta’sirini muhokama qilish."
+    ]
+   }
+  },
+  {
+   "d": 10,
+   "c": 1,
+   "t": "Tog‘ jinslarining turlari",
+   "theory": "",
+   "formulas": [],
+   "quiz": [],
+   "task": {
+    "q": "Tog‘ jinslarining turlarini aniqlash",
+    "a": "",
+    "why": "Mashq daftari, 110-bet"
+   },
+   "act": {
+    "type": "amaliy-ish",
+    "mode": "10.1"
+   },
+   "slideQuiz": [],
+   "gameQuiz": [],
+   "kitob": {
+    "bobNomi": "Tog‘ jinslari",
+    "bet": 120,
+    "oralig": "120–131",
+    "kod": "10.1",
+    "amaliyIsh": {
+     "kod": "10.1",
+     "nomi": "Tog‘ jinslarining turlarini aniqlash",
+     "bet": 110
+    },
+    "boshqotirma": 114,
+    "bilimlarXaritasi": 115,
+    "takrorlash": 116,
+    "mustahkamlash": 118
+   },
+   "urinish": {
+    "savollar": [],
+    "qism_mavzular": [
+     "Magmatik tog‘ jinslari",
+     "Cho‘kindi tog‘ jinslari",
+     "Metamorfik tog‘ jinslari"
+    ],
+    "konikmalar": [
+     "jismlarni kuzatish natijalariga asoslanib tasniflash;",
+     "kuzatish natijalarini taqdim etish uchun jadval tuzish;",
+     "aniqlashtirish va tasniflash metodidan qanday foydalanishni anglash;",
+     "o‘rganilayotgan obyektlarda kuzatiladigan farqlarga asoslanib kalit-aniqlagich tuzish;",
+     "ilmiy hodisani tasvirlash va izohlashda modeldan foydalanish;",
+     "tadqiqot natijalariga asoslanib ilmiy xulosa chiqarish."
+    ],
+    "tatbiq": [
+     "tabiiy fanlarning muayyan sohasida faoliyat yurituvchi kasb egalarini aniqlash va ularning faoliyatini tavsiflash;",
+     "ilmiy bilimlar vaqt o‘tishi bilan o‘zgarishini ko‘rsatish uchun to‘plangan dalillardan foydalanish;",
+     "fan va texnologiya yutuqlaridan foydalanishning atrof-muhitga salbiy ta’sirini muhokama qilish;",
+     "bahs-munozarada o‘z nuqtayi nazarini ilmiy dalillardan foydalanib asoslash."
+    ]
+   }
+  },
+  {
+   "d": 10,
+   "c": 2,
+   "t": "Tog‘ jinslarining o‘zgarishi",
+   "theory": "",
+   "formulas": [],
+   "quiz": [],
+   "task": {
+    "q": "Tog‘ jinslarining o‘zgarishi",
+    "a": "",
+    "why": "Mashq daftari, 111-bet"
+   },
+   "act": {
+    "type": "amaliy-ish",
+    "mode": "10.2"
+   },
+   "slideQuiz": [],
+   "gameQuiz": [],
+   "kitob": {
+    "bobNomi": "Tog‘ jinslari",
+    "bet": 120,
+    "oralig": "120–131",
+    "kod": "10.2",
+    "amaliyIsh": {
+     "kod": "10.2",
+     "nomi": "Tog‘ jinslarining o‘zgarishi",
+     "bet": 111
+    },
+    "boshqotirma": 114,
+    "bilimlarXaritasi": 115,
+    "takrorlash": 116,
+    "mustahkamlash": 118
+   },
+   "urinish": {
+    "savollar": [],
+    "qism_mavzular": [
+     "Tog‘ jinslarining o‘zgarishi",
+     "Toshqotgan qoldiqlar"
+    ],
+    "konikmalar": [
+     "jismlarni kuzatish natijalariga asoslanib tasniflash;",
+     "kuzatish natijalarini taqdim etish uchun jadval tuzish;",
+     "aniqlashtirish va tasniflash metodidan qanday foydalanishni anglash;",
+     "o‘rganilayotgan obyektlarda kuzatiladigan farqlarga asoslanib kalit-aniqlagich tuzish;",
+     "ilmiy hodisani tasvirlash va izohlashda modeldan foydalanish;",
+     "tadqiqot natijalariga asoslanib ilmiy xulosa chiqarish."
+    ],
+    "tatbiq": [
+     "tabiiy fanlarning muayyan sohasida faoliyat yurituvchi kasb egalarini aniqlash va ularning faoliyatini tavsiflash;",
+     "ilmiy bilimlar vaqt o‘tishi bilan o‘zgarishini ko‘rsatish uchun to‘plangan dalillardan foydalanish;",
+     "fan va texnologiya yutuqlaridan foydalanishning atrof-muhitga salbiy ta’sirini muhokama qilish;",
+     "bahs-munozarada o‘z nuqtayi nazarini ilmiy dalillardan foydalanib asoslash."
+    ]
+   }
+  },
+  {
+   "d": 11,
+   "c": 1,
+   "t": "Tuproq turlari",
+   "theory": "",
+   "formulas": [],
+   "quiz": [],
+   "task": {
+    "q": "Qaysi tuproq o‘zida ko‘proq namlikni saqlab tura oladi?",
+    "a": "",
+    "why": "Mashq daftari, 120-bet"
+   },
+   "act": {
+    "type": "amaliy-ish",
+    "mode": "11.1"
+   },
+   "slideQuiz": [],
+   "gameQuiz": [],
+   "kitob": {
+    "bobNomi": "Tuproq",
+    "bet": 132,
+    "oralig": "132–142",
+    "kod": "11.1",
+    "amaliyIsh": {
+     "kod": "11.1",
+     "nomi": "Qaysi tuproq o‘zida ko‘proq namlikni saqlab tura oladi?",
+     "bet": 120
+    },
+    "boshqotirma": 124,
+    "bilimlarXaritasi": 125,
+    "takrorlash": 126,
+    "mustahkamlash": 128
+   },
+   "urinish": {
+    "savollar": [
+     "Tuproqning qanday turlari bor?"
+    ],
+    "qism_mavzular": [],
+    "konikmalar": [
+     "amaliy ishni bajarish davomida xavfsizlik qoidalariga rioya qilish;",
+     "kuzatish natijalarini taqdim etish uchun jadval tuzish;",
+     "kuzatish natijalarini rasm orqali ifodalash;",
+     "jismlarni kuzatish natijalariga asoslanib tasniflash;",
+     "o‘lchash ishlarini to‘g‘ri va aniq bajarish;",
+     "o‘rganilayotgan obyektlarda kuzatiladigan farqlarga asoslanib kalit-aniqlagich tuzish;",
+     "amaliy ishni bajarish davomida yuzaga kelishi mumkin bo‘lgan xavflarni hamda ularni kamaytirish yo‘llarini bayon etish;",
+     "ilmiy hodisani tasvirlash va izohlashda modeldan foydalanish;",
+     "tadqiqot uchun kerakli jihozlarni tanlash va ulardan to‘g‘ri foydalanish;",
+     "ilmiy hodisani tushunishda modelning ahamiyatini bayon etish;",
+     "turli tadqiqot metodlarining o‘ziga xos xususiyatlarini anglash;",
+     "tadqiqot natijalariga asoslanib ilmiy xulosa chiqarish;",
+     "tadqiqotni yaxshilash yuzasidan taklif berish va uni izohlash."
+    ],
+    "tatbiq": [
+     "tabiiy fanlarning muayyan sohasida faoliyat yurituvchi kasb egalarini aniqlash va ularning faoliyatini tavsiflash;",
+     "tabiiy fanlar yutuqlaridan kundalik hayotda foydalanilishini bayon etish."
+    ]
+   }
+  },
+  {
+   "d": 11,
+   "c": 2,
+   "t": "Tuproq tarkibi va o‘simliklarning o‘sishi",
+   "theory": "",
+   "formulas": [],
+   "quiz": [],
+   "task": {
+    "q": "O‘simlik yaxshi o‘sishi uchun qanday tuproq zarur?",
+    "a": "",
+    "why": "Mashq daftari, 122-bet"
+   },
+   "act": {
+    "type": "amaliy-ish",
+    "mode": "11.2"
+   },
+   "slideQuiz": [],
+   "gameQuiz": [],
+   "kitob": {
+    "bobNomi": "Tuproq",
+    "bet": 132,
+    "oralig": "132–142",
+    "kod": "11.2",
+    "amaliyIsh": {
+     "kod": "11.2",
+     "nomi": "O‘simlik yaxshi o‘sishi uchun qanday tuproq zarur?",
+     "bet": 122
+    },
+    "boshqotirma": 124,
+    "bilimlarXaritasi": 125,
+    "takrorlash": 126,
+    "mustahkamlash": 128
+   },
+   "urinish": {
+    "savollar": [
+     "Tuproq tarkibi o‘simlik o‘sishiga qanday ta’sir qiladi?"
+    ],
+    "qism_mavzular": [],
+    "konikmalar": [
+     "amaliy ishni bajarish davomida xavfsizlik qoidalariga rioya qilish;",
+     "kuzatish natijalarini taqdim etish uchun jadval tuzish;",
+     "kuzatish natijalarini rasm orqali ifodalash;",
+     "jismlarni kuzatish natijalariga asoslanib tasniflash;",
+     "o‘lchash ishlarini to‘g‘ri va aniq bajarish;",
+     "o‘rganilayotgan obyektlarda kuzatiladigan farqlarga asoslanib kalit-aniqlagich tuzish;",
+     "amaliy ishni bajarish davomida yuzaga kelishi mumkin bo‘lgan xavflarni hamda ularni kamaytirish yo‘llarini bayon etish;",
+     "ilmiy hodisani tasvirlash va izohlashda modeldan foydalanish;",
+     "tadqiqot uchun kerakli jihozlarni tanlash va ulardan to‘g‘ri foydalanish;",
+     "ilmiy hodisani tushunishda modelning ahamiyatini bayon etish;",
+     "turli tadqiqot metodlarining o‘ziga xos xususiyatlarini anglash;",
+     "tadqiqot natijalariga asoslanib ilmiy xulosa chiqarish;",
+     "tadqiqotni yaxshilash yuzasidan taklif berish va uni izohlash."
+    ],
+    "tatbiq": [
+     "tabiiy fanlarning muayyan sohasida faoliyat yurituvchi kasb egalarini aniqlash va ularning faoliyatini tavsiflash;",
+     "tabiiy fanlar yutuqlaridan kundalik hayotda foydalanilishini bayon etish."
+    ]
+   }
+  },
+  {
+   "d": 12,
+   "c": 1,
+   "t": "Quyosh sistemasi",
+   "theory": "",
+   "formulas": [],
+   "quiz": [],
+   "task": {
+    "q": "Quyosh, sayyoralar va Oy",
+    "a": "",
+    "why": "Mashq daftari, 130-bet"
+   },
+   "act": {
+    "type": "amaliy-ish",
+    "mode": "12.1"
+   },
+   "slideQuiz": [],
+   "gameQuiz": [],
+   "kitob": {
+    "bobNomi": "Quyosh sistemasi",
+    "bet": 143,
+    "oralig": "143–",
+    "kod": "12.1",
+    "amaliyIsh": {
+     "kod": "12.1",
+     "nomi": "Quyosh, sayyoralar va Oy",
+     "bet": 130
+    },
+    "boshqotirma": 132,
+    "bilimlarXaritasi": 133,
+    "takrorlash": 134,
+    "mustahkamlash": 137
+   },
+   "urinish": {
+    "savollar": [
+     "Oy qanday harakatlanadi?"
+    ],
+    "qism_mavzular": [
+     "Sayyoralarning Quyoshga nisbatan joylashishi va harakati"
+    ],
+    "konikmalar": [
+     "ilmiy hodisani tasvirlash va izohlashda modeldan foydalanish;",
+     "ilmiy hodisani tushunishda modelning ahamiyatini bayon etish;",
+     "turli ma’lumot manbalaridan olingan dalillardan foydalanib savollarga javob berish;",
+     "jadvaldan foydalanib tadqiqot natijalarini izohlash;",
+     "tadqiqot natijalaridagi qonuniyatni bayon etish hamda kutilmagan natijalarni aniqlash;",
+     "turli tadqiqot metodlarining o‘ziga xos xususiyatlarini anglash;",
+     "kuzatish natijalarini rasm orqali ifodalash;",
+     "egallangan bilimlarni qo‘llab tadqiqot natijalarini bashorat qilish;",
+     "ilmiy savol qo‘yish va unga javob topishga yordam beradigan eng yaxshi tadqiqot metodini tanlash."
+    ],
+    "tatbiq": [
+     "ilmiy bilimlar vaqt o‘tishi bilan o‘zgarishini ko‘rsatish uchun to‘plangan dalillardan foydalanish."
+    ]
+   }
+  },
+  {
+   "d": 12,
+   "c": 2,
+   "t": "Oyning fazalari",
+   "theory": "",
+   "formulas": [],
+   "quiz": [],
+   "task": {
+    "q": "Oy fazalarini modellashtirish",
+    "a": "",
+    "why": "Mashq daftari, 131-bet"
+   },
+   "act": {
+    "type": "amaliy-ish",
+    "mode": "12.2"
+   },
+   "slideQuiz": [],
+   "gameQuiz": [],
+   "kitob": {
+    "bobNomi": "Quyosh sistemasi",
+    "bet": 143,
+    "oralig": "143–",
+    "kod": "12.2",
+    "amaliyIsh": {
+     "kod": "12.2",
+     "nomi": "Oy fazalarini modellashtirish",
+     "bet": 131
+    },
+    "boshqotirma": 132,
+    "bilimlarXaritasi": 133,
+    "takrorlash": 134,
+    "mustahkamlash": 137
+   },
+   "urinish": {
+    "savollar": [
+     "Oyning qanday fazalari bor?"
+    ],
+    "qism_mavzular": [],
+    "konikmalar": [
+     "ilmiy hodisani tasvirlash va izohlashda modeldan foydalanish;",
+     "ilmiy hodisani tushunishda modelning ahamiyatini bayon etish;",
+     "turli ma’lumot manbalaridan olingan dalillardan foydalanib savollarga javob berish;",
+     "jadvaldan foydalanib tadqiqot natijalarini izohlash;",
+     "tadqiqot natijalaridagi qonuniyatni bayon etish hamda kutilmagan natijalarni aniqlash;",
+     "turli tadqiqot metodlarining o‘ziga xos xususiyatlarini anglash;",
+     "kuzatish natijalarini rasm orqali ifodalash;",
+     "egallangan bilimlarni qo‘llab tadqiqot natijalarini bashorat qilish;",
+     "ilmiy savol qo‘yish va unga javob topishga yordam beradigan eng yaxshi tadqiqot metodini tanlash."
+    ],
+    "tatbiq": [
+     "ilmiy bilimlar vaqt o‘tishi bilan o‘zgarishini ko‘rsatish uchun to‘plangan dalillardan foydalanish."
+    ]
+   }
+  }
+ ]
+}

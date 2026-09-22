@@ -127,24 +127,52 @@ ishlari darslik ichida), shuning uchun uning rolini B qatorining mashq daftari b
 | Metodik qo'llanma (amaliy mashg'ulotlar) | ommalashtirish.uz/backend/api/v2/backend/media/appeals/Metodik_qollanma_JrrsFFX.pdf | ✅ o'qilgan |
 | Android ilova «TABIIY FANLAR 6-SINF SCIENCE» | play.google.com/store/apps/details?id=com.Respublikatalimmarkazi.Tabiiyfan6 | ⚠️ raqobatchi tahlili uchun |
 
-## 4. Platforma uchun modul xaritasi (yangilangan)
+## 4. Platforma arxitekturasi — sizning `7-sinf.html` namangiz asosida
 
-1. **Mavzu kartasi** — 26 ta mavzu (NATURE SCIENCE), har biri: kod + nom, darslik
-   bet oralig'i, kitobdagi o'rganish savollari, qism mavzular, bobning
-   tadqiqotchilik ko'nikmalari, tatbiq bandi, mashq daftari havolasi.
-2. **Amaliy ishlar reji** — 30 ta amaliy ish (nom + bet), xavfsizlik qoidalari,
-   jihozlar ro'yxati, baholash rubrikasi.
-3. **Baholash zinapoyasi** — har bobda boshqotirma → takrorlash → mustahkamlash
-   uchun alohida rejim; BSB/CHSB slotlariga bog'langan.
-4. **Mashq banki** — o'qituvchi to'ldiradigan topshiriqlar (kitob matni
-   ko'chirilmaydi), turkumlar: kuzatish, tajriba, model, jadval/diagramma,
-   kalit-aniqlagich, muhokama.
+Repozitoriyada allaqachon **Fizika 7 — Interaktiv platforma** (`7-sinf.html`, ~2,06 MB,
+muallif: Duvlayev K.A.) bor. 6-sinf platformasi shu arxitekturani takrorlaydi —
+yangi texnologiya ixtiro qilinmaydi:
+
+| Qatlam | 7-sinf.html'da | 6-sinf uchun |
+|--------|----------------|--------------|
+| Tashish | Bitta HTML fayl, internet shart emas | Xuddi shu (`6-sinf.html`) |
+| Ma'lumot | `<script id="topics-data" type="application/json">` ormoli (68 mavzu) | `data/curriculum/6-sinf-science.topics.json` → orrolga ko'chiriladi (`npm run topics`) |
+| Sahifa | `#sidebar` (progress, mavzular ro'yxati, dashboard, print markazi) + `#main` (crumb, sarlavha, mezon-chip, tabs, slides) | Xuddi shu; mavzular 12 bob bo'yicha guruhlanadi |
+| Tabs | 📖 Nazariya · 🔧 Simulyator · 🎡 O'yin · 📝 Test · ✍️ Amaliy topshiriq | Saqlanadi; «Amaliy topshiriq» = mashq daftari amaliy ishi (bet raqami bilan) |
+| Saqlash | `localStorage`: `fizika7_progress_v1`, daftarcha, laboratoriya holati, savol banki | `tabiiy6_progress_v1` + shu kalitlar sxemasi |
+| Bosib chiqarish | Print markazi: dars yoki bob, sahifaga 2/4 slayd | Xuddi shu (bob oxiridagi takrorlash varaqasi uchun foydali) |
+| Baholash | `mezon-chip`, test natijalari, `examResults` | Kitobning ko'nikmalar ro'yxati (112 band) mezon sifatida ishlatiladi |
+
+Mavzu kartasi maydonlari (`7-sinf.html` bilan bir xil nomlar):
+
+```
+{ d, c, t, theory, formulas[], quiz[], task{q,a,why}, act{type,mode},
+  slideQuiz[], gameQuiz[],
+  kitob: { bobNomi, bet, oralig, kod, amaliyIsh{nomi,bet}, boshqotirma,
+           bilimlarXaritasi, takrorlash, mustahkamlash },
+  urinish: { savollar[], qism_mavzular[], konikmalar[], tatbiq[] } }
+```
+
+`theory`, `formulas`, `quiz`, `task.a` — **bo'sh qoldiriladi**: ularni o'qituvchi
+yozadi (mualliflik huquqi). `kitob` va `urinish` maydonlari kitobga havola beradi.
+
+### Modul xaritasi (yangilangan)
+
+1. **Mavzu kartasi** — 26 ta mavzu: kod + nom, darslik bet oralig'i, kitobdagi
+   o'rganish savollari, qism mavzular, bob ko'nikmalari, tatbiq bandi.
+2. **Amaliy ishlar** — 30 ta (nom + mashq daftari beti). Diqqat: 26 tasi mavzu
+   kodiga to'g'ri keladi, **4 tasi bob darajasida qoladi** (2.3, 2.4, 9.3, 10.3) —
+   ular `meta.bob_amaliy_ishlari` da va bob sahifasida ko'rsatiladi.
+3. **Baholash zinapoyasi** — amaliy ish → boshqotirma → takrorlash → mustahkamlash
+   (har bobda, bet raqamlari bilan) → BSB/CHSB slotlariga bog'lanadi.
+4. **Test/mashq banki** — o'qituvchi kiritadigan savollar (localStorage banki),
+   turkumlar: kuzatish, tajriba, model, jadval/diagramma, kalit-aniqlagich, muhokama.
 5. **Kun taqvimi** — 102 soat / 4 chorak, BSB-1..5 va CHSB-1..3 sanalari.
-6. **Sinf jurnali + analitika** — ko'nikma (2-ustun) bo'yicha progress:
-   112 ta ko'nikma bandi mezon sifatida.
+6. **Ko'nikma analitikasi** — 112 ta tadqiqotchilik ko'nikmasi bo'yicha progress.
 7. **Ustozlik resursi** — metodik qo'llanma va tayyor dars ishlanmalariga havola.
 
 ## 5. Muammolar / cheklovlar
+
 
 - **Mualliflik huquqi:** darslik va mashq daftari matnini ko'chirish mumkin emas.
   Ruxsat etilgan: bob/mavzu nomlari, bet raqamlari, kitobning qisqa yo'naltiruvchi
