@@ -6,6 +6,9 @@
   "description": "6-sinf Tabiiy fan (Science) uchun o'qituvchi platformasi",
   "scripts": {
     "extract": "node tools/pdf-extract.mjs",
+    "extract:toc": "node tools/extract-toc.mjs --write",
+    "mundarija": "node tools/mundarija-columns.mjs \"sources/Darslik.pdf\"",
+    "verify": "node tools/verify-curriculum.mjs",
     "selftest": "node tools/selftest.mjs"
   },
   "dependencies": {
