@@ -1,0 +1,239 @@
+{
+  "meta": {
+    "fan": "Tabiiy fanlar (Science)",
+    "sinf": 6,
+    "kitob": "Tabiiy fanlar. 6-sinf uchun darslik",
+    "tuzuvchilar": [
+      "K. T. Suyarov",
+      "Z. B. Sangirova",
+      "M. T. Umaraliyeva",
+      "S. G'. Xasanova",
+      "M. K. Yuldasheva",
+      "D. T. Hasanova"
+    ],
+    "nashriyot": "Respublika ta'lim markazi, Toshkent",
+    "yil": 2022,
+    "belgi": "Yangi nashr (UNICEF hamkorligida), Xalq ta'limi vazirligi nashrga tavsiya etgan",
+    "betlar_soni": 192,
+    "boblar_soni": 12,
+    "mavzular_soni": 86,
+    "haftalik_soat": 3,
+    "yillik_soat": 102,
+    "shartli_belgilar": {
+      "amaliy": "Amaliy mashg'ulot",
+      "loyiha": "Loyiha ishi",
+      "yakun": "Bob yuzasidan mantiqiy fikrlashga yo'naltiruvchi topshiriqlar"
+    },
+    "manba": {
+      "pdf": "https://drive.google.com/uc?id=133jck0u-0iOovCobWuo3ofg-085vWZbw&export=download",
+      "talqih": "https://www.test-uz.ru/book.php?id=519",
+      "qidiruv_sana": "2026-09-22"
+    },
+    "eshatma": "Fizikaga oid bilimlar asosan 2, 6, 10, 11, 12-boblarda beriladi (journal.namspi.uz tahlili)."
+  },
+  "kirish": { "title": "Kirish", "page": 5 },
+  "boblar": [
+    {
+      "id": 1,
+      "title": "Tabiatni o'rganish",
+      "domains": ["tadqiqot", "metodologiya"],
+      "yakun_page": 14,
+      "mavzular": [
+        { "n": 1, "title": "Tabiiy fanlarning tadqiqot obyekti", "page": 6, "tur": ["nazariy"] },
+        { "n": 2, "title": "Ilmiy tadqiqotni rejalashtirish", "page": 8, "tur": ["nazariy"] },
+        { "n": 3, "title": "Ma'lumotlarni grafikda tasvirlash", "page": 11, "tur": ["amaliy"] },
+        { "n": 4, "title": "Ekosistema modelini yasash", "page": 13, "tur": ["loyiha"] }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Modda va uning xossalari",
+      "domains": ["fizika", "kimyo"],
+      "yakun_page": 36,
+      "mavzular": [
+        { "n": 5, "title": "Modda tuzilishi", "page": 15, "tur": ["nazariy"] },
+        { "n": 6, "title": "Moddaning uch holatini kuzatish", "page": 17, "tur": ["amaliy"] },
+        { "n": 7, "title": "Gazlar", "page": 19, "tur": ["nazariy"] },
+        { "n": 8, "title": "Suyuqliklar", "page": 21, "tur": ["nazariy"] },
+        { "n": 9, "title": "Diffuziya hodisasini o'rganish", "page": 23, "tur": ["amaliy"] },
+        { "n": 10, "title": "Qattiq moddalar", "page": 25, "tur": ["nazariy"] },
+        { "n": 11, "title": "Moddaning zichligi", "page": 27, "tur": ["nazariy"] },
+        { "n": 12, "title": "Turli shaklga ega bo'lgan jismlarning zichligini aniqlash", "page": 29, "tur": ["amaliy"] },
+        { "n": 13, "title": "Bug'lanish, qaynash va kondensatsiya", "page": 31, "tur": ["nazariy"] },
+        { "n": 14, "title": "Sun'iy yomg'ir hosil qilish", "page": 33, "tur": ["amaliy", "loyiha"] },
+        { "n": 15, "title": "Novvot tayyorlash texnologiyasi", "page": 35, "tur": ["loyiha"] }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Tirik organizmlarning xilmaxilligi",
+      "domains": ["biologiya"],
+      "yakun_page": 46,
+      "mavzular": [
+        { "n": 16, "title": "Tirik organizmlar klassifikatsiyasi", "page": 37, "tur": ["nazariy"] },
+        { "n": 17, "title": "O'simliklar dunyosi", "page": 39, "tur": ["nazariy"] },
+        { "n": 18, "title": "Hayvonot dunyosi", "page": 41, "tur": ["nazariy"] },
+        { "n": 19, "title": "O'simliklar sistematikasini o'rganish", "page": 43, "tur": ["amaliy"] },
+        { "n": 20, "title": "Hayvonlar sistematikasini o'rganish", "page": 45, "tur": ["amaliy"] }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Tirik organizmlarning tuzilishi",
+      "domains": ["biologiya"],
+      "yakun_page": 66,
+      "mavzular": [
+        { "n": 21, "title": "Tirik organizmlarning tuzilishi", "page": 47, "tur": ["nazariy"] },
+        { "n": 22, "title": "Tirik organizmlarning oziqlanishi", "page": 50, "tur": ["nazariy"] },
+        { "n": 23, "title": "Odamning ovqat hazm qilish sistemasi", "page": 53, "tur": ["nazariy"] },
+        { "n": 24, "title": "Ratsional ovqatlanish, kunlik ovqat ratsionini tuzish", "page": 55, "tur": ["amaliy"] },
+        { "n": 25, "title": "Tirik organizmlarning nafas olishi", "page": 57, "tur": ["nazariy"] },
+        { "n": 26, "title": "Tirik organizmlarda oziq moddalar transporti", "page": 59, "tur": ["nazariy"] },
+        { "n": 27, "title": "Tirik organizmlarning ayirishi", "page": 61, "tur": ["nazariy"] },
+        { "n": 28, "title": "Tirik organizmlarning ta'sirlanishi", "page": 63, "tur": ["nazariy"] },
+        { "n": 29, "title": "Tirik organizm — yaxlit sistema", "page": 65, "tur": ["amaliy"] }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Ekologiya va barqaror rivojlanish",
+      "domains": ["ekologiya", "geografiya"],
+      "yakun_page": 79,
+      "mavzular": [
+        { "n": 30, "title": "Iqlim", "page": 67, "tur": ["nazariy"] },
+        { "n": 31, "title": "Iqlimga ta'sir etuvchi omillar", "page": 69, "tur": ["nazariy"] },
+        { "n": 32, "title": "Iqlim o'zgarishining Yer tabiatiga ta'siri", "page": 71, "tur": ["nazariy"] },
+        { "n": 33, "title": "Ekosistemalardagi o'zaro munosabatlar", "page": 73, "tur": ["nazariy"] },
+        { "n": 34, "title": "Ekosistemalarda energiya oqimi", "page": 75, "tur": ["nazariy"] },
+        { "n": 35, "title": "Toza ichimlik suvni olish", "page": 77, "tur": ["loyiha"] }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quyosh sistemasi va koinot",
+      "domains": ["astronomiya", "fizika"],
+      "yakun_page": 90,
+      "mavzular": [
+        { "n": 36, "title": "Quyosh sistemasi", "page": 80, "tur": ["nazariy"] },
+        { "n": 37, "title": "Yulduzlar", "page": 82, "tur": ["nazariy"] },
+        { "n": 38, "title": "Qutb yulduziga qarab mo'ljal olish", "page": 84, "tur": ["nazariy"] },
+        { "n": 39, "title": "Oy — Yerning tabiiy yo'ldoshi", "page": 86, "tur": ["nazariy"] },
+        { "n": 40, "title": "Oy holatini kuzatish", "page": 88, "tur": ["loyiha", "kuzatish"] }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Geografik xaritalar",
+      "domains": ["geografiya", "matematika"],
+      "yakun_page": 103,
+      "mavzular": [
+        { "n": 41, "title": "Geografik xaritalar", "page": 91, "tur": ["nazariy"] },
+        { "n": 42, "title": "Masshtablar bilan ishlash", "page": 94, "tur": ["amaliy"] },
+        { "n": 43, "title": "Geografik koordinatalarni aniqlash", "page": 96, "tur": ["nazariy"] },
+        { "n": 44, "title": "Joy balandligini o'lchash", "page": 99, "tur": ["nazariy"] },
+        { "n": 45, "title": "Relyefning xaritalarda gorizontallar bilan tasvirlanishi", "page": 101, "tur": ["amaliy"] }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Yer qobiqlari",
+      "domains": ["geografiya", "fizika"],
+      "yakun_page": 120,
+      "mavzular": [
+        { "n": 46, "title": "Litosfera plitalari", "page": 104, "tur": ["nazariy"] },
+        { "n": 47, "title": "Vulqon maketini yasash", "page": 107, "tur": ["amaliy", "loyiha"] },
+        { "n": 48, "title": "Gidrosfera va uning qismlari", "page": 108, "tur": ["nazariy"] },
+        { "n": 49, "title": "Atmosfera tuzilishi", "page": 110, "tur": ["nazariy"] },
+        { "n": 50, "title": "Havo bosimi", "page": 112, "tur": ["nazariy"] },
+        { "n": 51, "title": "Havo harorati", "page": 114, "tur": ["nazariy"] },
+        { "n": 52, "title": "Havo haroratining sutkalik va yillik amplitudasini aniqlash", "page": 116, "tur": ["amaliy"] },
+        { "n": 53, "title": "Biosfera", "page": 117, "tur": ["nazariy"] }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Mening vatanim",
+      "domains": ["geografiya"],
+      "yakun_page": 131,
+      "mavzular": [
+        { "n": 54, "title": "O'zbekiston dunyo xaritasida", "page": 121, "tur": ["nazariy"] },
+        { "n": 55, "title": "O'zbekistonning ma'muriy-hududiy bo'linishi va chegaradosh davlatlari mozaikasini yasash", "page": 124, "tur": ["amaliy", "loyiha"] },
+        { "n": 56, "title": "Mamlakatimizdagi mashhur tabiiy obyektlar", "page": 125, "tur": ["nazariy"] },
+        { "n": 57, "title": "Vatanimizning muhofaza etiladigan tabiiy obyektlari", "page": 127, "tur": ["nazariy"] },
+        { "n": 58, "title": "O'zbekiston iqlimining o'ziga xos jihatlari", "page": 129, "tur": ["nazariy"] }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Harakat va kuch",
+      "domains": ["fizika", "biologiya"],
+      "yakun_page": 156,
+      "mavzular": [
+        { "n": 59, "title": "Harakat turlari", "page": 132, "tur": ["nazariy"] },
+        { "n": 60, "title": "Kuch", "page": 134, "tur": ["nazariy"] },
+        { "n": 61, "title": "Oddiy mexanizmlar", "page": 136, "tur": ["nazariy"] },
+        { "n": 62, "title": "Odamning tayanch-harakat sistemasi", "page": 138, "tur": ["nazariy"] },
+        { "n": 63, "title": "Richagni muvozanatga keltirish", "page": 140, "tur": ["amaliy"] },
+        { "n": 64, "title": "Suyuqlik va gazlarda bosim", "page": 142, "tur": ["nazariy"] },
+        { "n": 65, "title": "Bosim tirik organizmlar hayotida", "page": 144, "tur": ["nazariy"] },
+        { "n": 66, "title": "Suyuqliklarda bosim", "page": 146, "tur": ["amaliy"] },
+        { "n": 67, "title": "Tutash idishlar", "page": 148, "tur": ["nazariy"] },
+        { "n": 68, "title": "Tutash idishlarda suyuqliklarning joylashuvi", "page": 150, "tur": ["amaliy"] },
+        { "n": 69, "title": "Nima uchun kemalar cho'kmaydi?", "page": 152, "tur": ["nazariy"] },
+        { "n": 70, "title": "Jismlarning suzish shartlari", "page": 154, "tur": ["amaliy"] }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Energiya",
+      "domains": ["fizika"],
+      "yakun_page": 175,
+      "mavzular": [
+        { "n": 71, "title": "Yorug'lik hodisalari", "page": 157, "tur": ["nazariy"] },
+        { "n": 72, "title": "Linzalar", "page": 159, "tur": ["nazariy"] },
+        { "n": 73, "title": "Shisha prizmadan yorug'likning o'tishi", "page": 161, "tur": ["amaliy"] },
+        { "n": 74, "title": "Jismlarning issiqlikdan kengayishi", "page": 163, "tur": ["nazariy"] },
+        { "n": 75, "title": "Issiqlikning uzatilishi", "page": 165, "tur": ["nazariy"] },
+        { "n": 76, "title": "Energiya va ekologiya", "page": 167, "tur": ["nazariy"] },
+        { "n": 77, "title": "Energiyani tejash", "page": 169, "tur": ["nazariy"] },
+        { "n": 78, "title": "Energiyani tejash (loyiha)", "page": 171, "tur": ["loyiha"] },
+        { "n": 79, "title": "Energiya almashinuvi", "page": 173, "tur": ["amaliy"] }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Elektr va magnit hodisalar",
+      "domains": ["fizika"],
+      "yakun_page": 190,
+      "mavzular": [
+        { "n": 80, "title": "Jismlarning elektrlanishi", "page": 176, "tur": ["amaliy"] },
+        { "n": 81, "title": "Meva va sabzavotlardan elektr olish", "page": 178, "tur": ["amaliy", "loyiha"] },
+        { "n": 82, "title": "Sodda elektr zanjiri", "page": 180, "tur": ["amaliy"] },
+        { "n": 83, "title": "Lampochkalarning ulanish shakllari", "page": 182, "tur": ["nazariy"] },
+        { "n": 84, "title": "Elektr xavfsizlik choralari", "page": 184, "tur": ["nazariy"] },
+        { "n": 85, "title": "Magnit — bizning hayotimizda", "page": 186, "tur": ["nazariy"] },
+        { "n": 86, "title": "Magnitdan foydalanish", "page": 188, "tur": ["amaliy"] }
+      ]
+    }
+  ],
+  "baholash": {
+    "tizim": "BSB (bosqichma-bosqich shakllanuvchi baholash) + CHSB (chorak yakuni yillik/yarmiyillik)",
+    "2025-2026_nazorat_royxati": {
+      "bsb": ["BSB 1", "BSB 2", "BSB 3", "BSB 4", "BSB 5"],
+      "chsb": ["CHSB-1", "CHSB-2", "CHSB-3"],
+      "manba": "https://sor-soch.com/bsb.php?cat=270"
+    },
+    "qoida": "CHSB/BSB bo'yicha 100 ballik shkala, vazirlik buyruqlari asosida; test + og'zaviy + amaliy topshiriq formatlari"
+  },
+  "mashq_daftari": {
+    "rtm_qatori": "Respublika ta'lim markazi nashridagi 6-sinf «Tabiiy fanlar» qatorida alohida mashq daftari topilmadi — amaliy/loyiha topshiriqlari darslikning o'ziga kiritilgan.",
+    "novda_qatori": {
+      "kitob": "Tabiiy fanlar. 6-sinf: darslik + mashq daftari",
+      "muallif": "Aleksandr Grey (Marshall Cavendish Education, o'zbek tiliga tarjima qilingan va mahalliylashtirilgan)",
+      "nashriyot": "Novda Edutainment, Toshkent",
+      "yil": 2024,
+      "mashq_daftari_manba": "Metodik qo'llanma adabiyotlar ro'yxatida: \"Tabiiy fanlar\" 6-sinf mashq daftari, Aleksandr Grey, Toshkent-2024 (ommalashtirish.uz PDF)",
+      "holat": "Ochiq PDF nusxa topilmadi — bosma kitob, o'qituvchi maktab kutubxonasi orqali oladi"
+    }
+  }
+}

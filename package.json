@@ -1,0 +1,14 @@
+{
+  "name": "6tf-platform",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "6-sinf Tabiiy fan (Science) uchun o'qituvchi platformasi",
+  "scripts": {
+    "extract": "node tools/pdf-extract.mjs",
+    "selftest": "node tools/selftest.mjs"
+  },
+  "dependencies": {
+    "pdfjs-dist": "^4.10.38"
+  }
+}
