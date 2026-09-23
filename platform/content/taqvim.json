@@ -1,0 +1,367 @@
+{
+  "izoh": "Taxminiy taqvim: 34 hafta × 3 soat = 102 soat — 26 mavzu haftasi + BSB 1-5 + CHSB 1-3. Sanalar platformada «o'quv yili boshi» (dushanba) kunidan hisoblanadi va tahrirlanadi.",
+  "haftaSoat": 3,
+  "jamiSoat": 102,
+  "haftalar": 34,
+  "qatorlar": [
+    {
+      "tur": "mavzu",
+      "kod": "1.1",
+      "nom": "Ratsional ovqatlanish",
+      "bob": 1,
+      "chorak": 1,
+      "soat": 3,
+      "hafta": 1
+    },
+    {
+      "tur": "mavzu",
+      "kod": "1.2",
+      "nom": "Ovqat hazm qilish sistemasi",
+      "bob": 1,
+      "chorak": 1,
+      "soat": 3,
+      "hafta": 2
+    },
+    {
+      "tur": "mavzu",
+      "kod": "2.1",
+      "nom": "Nafas sistemasi",
+      "bob": 2,
+      "chorak": 1,
+      "soat": 3,
+      "hafta": 3
+    },
+    {
+      "tur": "mavzu",
+      "kod": "2.2",
+      "nom": "Qon aylanish sistemasi",
+      "bob": 2,
+      "chorak": 1,
+      "soat": 3,
+      "hafta": 4
+    },
+    {
+      "tur": "BSB",
+      "n": 1,
+      "nom": "BSB-1 — 1-chorak bosqichli nazorat ishi",
+      "bob": 2,
+      "chorak": 1,
+      "soat": 3,
+      "qamrov": [
+        "1.1",
+        "1.2",
+        "2.1",
+        "2.2"
+      ],
+      "hafta": 5
+    },
+    {
+      "tur": "mavzu",
+      "kod": "3.1",
+      "nom": "Yuqumli kasalliklar",
+      "bob": 3,
+      "chorak": 1,
+      "soat": 3,
+      "hafta": 6
+    },
+    {
+      "tur": "mavzu",
+      "kod": "3.2",
+      "nom": "Kasallik tarqalishining oldini olish",
+      "bob": 3,
+      "chorak": 1,
+      "soat": 3,
+      "hafta": 7
+    },
+    {
+      "tur": "mavzu",
+      "kod": "3.3",
+      "nom": "Odam organizmining himoya mexanizmlari",
+      "bob": 3,
+      "chorak": 1,
+      "soat": 3,
+      "hafta": 8
+    },
+    {
+      "tur": "CHSB",
+      "n": 1,
+      "nom": "CHSB-1 — 1-chorak yakuniy nazorat ishi",
+      "bob": 3,
+      "chorak": 1,
+      "soat": 3,
+      "qamrov": [
+        "1.1",
+        "1.2",
+        "2.1",
+        "2.2",
+        "3.1",
+        "3.2",
+        "3.3"
+      ],
+      "hafta": 9
+    },
+    {
+      "tur": "mavzu",
+      "kod": "4.1",
+      "nom": "Oziq zanjirlari va oziq to‘ri",
+      "bob": 4,
+      "chorak": 2,
+      "soat": 3,
+      "hafta": 10
+    },
+    {
+      "tur": "mavzu",
+      "kod": "4.2",
+      "nom": "Energiya va zaharli moddalar oqimi",
+      "bob": 4,
+      "chorak": 2,
+      "soat": 3,
+      "hafta": 11
+    },
+    {
+      "tur": "mavzu",
+      "kod": "5.1",
+      "nom": "Moddalarning xossalari",
+      "bob": 5,
+      "chorak": 2,
+      "soat": 3,
+      "hafta": 12
+    },
+    {
+      "tur": "mavzu",
+      "kod": "5.2",
+      "nom": "Qaynash va bug‘lanish",
+      "bob": 5,
+      "chorak": 2,
+      "soat": 3,
+      "hafta": 13
+    },
+    {
+      "tur": "BSB",
+      "n": 2,
+      "nom": "BSB-2 — 2-chorak bosqichli nazorat ishi",
+      "bob": 5,
+      "chorak": 2,
+      "soat": 3,
+      "qamrov": [
+        "4.1",
+        "4.2",
+        "5.1",
+        "5.2"
+      ],
+      "hafta": 14
+    },
+    {
+      "tur": "mavzu",
+      "kod": "6.1",
+      "nom": "Fizik o‘zgarishlar",
+      "bob": 6,
+      "chorak": 2,
+      "soat": 3,
+      "hafta": 15
+    },
+    {
+      "tur": "mavzu",
+      "kod": "6.2",
+      "nom": "Moddalarning erish jarayoni",
+      "bob": 6,
+      "chorak": 2,
+      "soat": 3,
+      "hafta": 16
+    },
+    {
+      "tur": "mavzu",
+      "kod": "6.3",
+      "nom": "Kimyoviy reaksiyalar",
+      "bob": 6,
+      "chorak": 2,
+      "soat": 3,
+      "hafta": 17
+    },
+    {
+      "tur": "CHSB",
+      "n": 2,
+      "nom": "CHSB-2 — 2-chorak yakuniy nazorat ishi",
+      "bob": 6,
+      "chorak": 2,
+      "soat": 3,
+      "qamrov": [
+        "4.1",
+        "4.2",
+        "5.1",
+        "5.2",
+        "6.1",
+        "6.2",
+        "6.3"
+      ],
+      "hafta": 18
+    },
+    {
+      "tur": "mavzu",
+      "kod": "7.1",
+      "nom": "Massa, og‘irlik va gravitatsiya kuchi",
+      "bob": 7,
+      "chorak": 3,
+      "soat": 3,
+      "hafta": 19
+    },
+    {
+      "tur": "mavzu",
+      "kod": "7.2",
+      "nom": "Harakatlanayotgan jismlarga ta’sir qiluvchi kuchlar",
+      "bob": 7,
+      "chorak": 3,
+      "soat": 3,
+      "hafta": 20
+    },
+    {
+      "tur": "mavzu",
+      "kod": "8.1",
+      "nom": "Yorug‘likning qaytishi",
+      "bob": 8,
+      "chorak": 3,
+      "soat": 3,
+      "hafta": 21
+    },
+    {
+      "tur": "BSB",
+      "n": 3,
+      "nom": "BSB-3 — 3-chorak bosqichli nazorat ishi",
+      "bob": 8,
+      "chorak": 3,
+      "soat": 3,
+      "qamrov": [
+        "7.1",
+        "7.2",
+        "8.1"
+      ],
+      "hafta": 22
+    },
+    {
+      "tur": "mavzu",
+      "kod": "8.2",
+      "nom": "Yorug‘likning sinishi",
+      "bob": 8,
+      "chorak": 3,
+      "soat": 3,
+      "hafta": 23
+    },
+    {
+      "tur": "mavzu",
+      "kod": "9.1",
+      "nom": "Elektr zanjir sxemalari",
+      "bob": 9,
+      "chorak": 3,
+      "soat": 3,
+      "hafta": 24
+    },
+    {
+      "tur": "mavzu",
+      "kod": "9.2",
+      "nom": "Elektr zanjir turlari",
+      "bob": 9,
+      "chorak": 3,
+      "soat": 3,
+      "hafta": 25
+    },
+    {
+      "tur": "CHSB",
+      "n": 3,
+      "nom": "CHSB-3 — 3-chorak yakuniy nazorat ishi",
+      "bob": 9,
+      "chorak": 3,
+      "soat": 3,
+      "qamrov": [
+        "7.1",
+        "7.2",
+        "8.1",
+        "8.2",
+        "9.1",
+        "9.2"
+      ],
+      "hafta": 26
+    },
+    {
+      "tur": "mavzu",
+      "kod": "10.1",
+      "nom": "Tog‘ jinslarining turlari",
+      "bob": 10,
+      "chorak": 4,
+      "soat": 3,
+      "hafta": 27
+    },
+    {
+      "tur": "mavzu",
+      "kod": "10.2",
+      "nom": "Tog‘ jinslarining o‘zgarishi",
+      "bob": 10,
+      "chorak": 4,
+      "soat": 3,
+      "hafta": 28
+    },
+    {
+      "tur": "BSB",
+      "n": 4,
+      "nom": "BSB-4 — 4-chorak bosqichli nazorat ishi",
+      "bob": 10,
+      "chorak": 4,
+      "soat": 3,
+      "qamrov": [
+        "10.1",
+        "10.2"
+      ],
+      "hafta": 29
+    },
+    {
+      "tur": "mavzu",
+      "kod": "11.1",
+      "nom": "Tuproq turlari",
+      "bob": 11,
+      "chorak": 4,
+      "soat": 3,
+      "hafta": 30
+    },
+    {
+      "tur": "mavzu",
+      "kod": "11.2",
+      "nom": "Tuproq tarkibi va o‘simliklarning o‘sishi",
+      "bob": 11,
+      "chorak": 4,
+      "soat": 3,
+      "hafta": 31
+    },
+    {
+      "tur": "BSB",
+      "n": 5,
+      "nom": "BSB-5 — 4-chorak bosqichli nazorat ishi",
+      "bob": 11,
+      "chorak": 4,
+      "soat": 3,
+      "qamrov": [
+        "10.1",
+        "10.2",
+        "11.1",
+        "11.2"
+      ],
+      "hafta": 32
+    },
+    {
+      "tur": "mavzu",
+      "kod": "12.1",
+      "nom": "Quyosh sistemasi",
+      "bob": 12,
+      "chorak": 4,
+      "soat": 3,
+      "hafta": 33
+    },
+    {
+      "tur": "mavzu",
+      "kod": "12.2",
+      "nom": "Oyning fazalari",
+      "bob": 12,
+      "chorak": 4,
+      "soat": 3,
+      "hafta": 34
+    }
+  ]
+}

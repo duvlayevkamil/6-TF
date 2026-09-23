@@ -72,6 +72,7 @@ olinadi — yangi texnologiya ixtiro qilinmaydi:
 
 ```bash
 npm install
+node tools/build-taqvim.mjs   # kun taqvimi rejasi (platform/content/taqvim.json)
 npm run build        # platform/* + data/curriculum → 6-sinf.html (bitta fayl)
 npm run serve        # http://localhost:8080/6-sinf.html
 npm run content:check # kontent fayllari sxemasi + noto'g'ri yozuv belgilari
@@ -93,6 +94,7 @@ turadi — shuni maktabga berish mumkin).
 | `platform/styles.css` | `7-sinf.html` ranglari va o'lchamlari (amber/cyan, Georgia + Segoe UI) |
 | `platform/app.js` | Qobiq: 5 tab, progress, test konstruktori, slaydlar, chop markazi, boshqaruv paneli |
 | `platform/labs.js` | 17 turdagi interaktiv simulyator (`lab`+`labMode` bo'yicha) |
+| `platform/content/taqvim.json` | Kun taqvimi: 34 hafta × 3 soat = 102 soat (26 mavzu + BSB 1–5 + CHSB 1–3) — `node tools/build-taqvim.mjs` yasadigan fayl |
 | `platform/content/bob-01.json … bob-12.json` | 26 mavzuning nazariyasi, formulalari, atamalari, testlari, o'yin va amaliy topshiriqlari — **o'zimiz yozgan matn** |
 
 Kontent `data/curriculum/6-sinf-science.topics.json` (kitob mundarijasi —

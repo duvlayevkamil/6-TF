@@ -335,3 +335,17 @@ button { font: inherit; cursor: pointer; }
   #topbar { flex-wrap: wrap; }
   #content { padding: 14px 12px 60px; }
 }
+
+/* ---- kun taqvimi ---- */
+#content .tq-table{font-size:13px}
+#content .tq-table th:nth-child(1),#content .tq-table td:nth-child(1){width:34px;color:var(--muted)}
+#content .tq-table th:nth-child(4),#content .tq-table td:nth-child(4){width:40px}
+#content .tq-table th:nth-child(5),#content .tq-table td:nth-child(5){width:56px;text-align:center}
+#content .tq-table td:nth-child(6) input{width:100%;min-width:110px}
+#content .tq-table tr.tq-bugun td{background:rgba(245,166,35,.13)}
+#content .tq-table tr.tq-done td{color:var(--muted)}
+#content .tq-table tr.tq-done td:nth-child(3){text-decoration:line-through;text-decoration-color:rgba(143,155,176,.6)}
+@media print{
+  #content .tq-table{font-size:11px}
+  #content .tq-table tr.tq-bugun td{background:none}
+}

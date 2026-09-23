@@ -38,6 +38,7 @@
     tab: "nazariya",
     topic: TOPICS[0]?.kod || "",
     panel: false,
+    taq: false,
     progress: load(),
     test: null,
     slides: null,
@@ -121,11 +122,17 @@
   /* ---------------- topbar ---------------- */
   function renderTopbar() {
     const t = cur();
-    $("#crumb").innerHTML = t
+    $("#crumb").innerHTML = state.taq
+      ? `<b>6-sinf Tabiiy fan</b> · kun taqvimi — ${TAQ ? TAQ.haftalar + " hafta · " + TAQ.jamiSoat + " soat" : "reja kiritilmagan"}`
+      : t
       ? `<b>${esc(t.bobNomi)}</b> · ${t.kod} ${esc(t.t)} · <span class="muted">darslik ${esc(betMatn(t.kitob?.oralig))}</span>`
       : `<b>6-sinf Tabiiy fan</b> · boshqaruv paneli`;
+    const boshqa = state.panel || state.taq;
     $$("#tabs .tab-btn").forEach((b) =>
-      b.classList.toggle("active", state.panel ? b.dataset.act === "panel" : !state.panel && b.dataset.tab === state.tab)
+      b.classList.toggle(
+        "active",
+        state.taq ? b.dataset.act === "taqvim" : state.panel ? b.dataset.act === "panel" : !boshqa && b.dataset.tab === state.tab
+      )
     );
   }
 
@@ -134,6 +141,7 @@
     renderTopbar();
     renderSidebar();
     const host = $("#content");
+    if (state.taq) return renderTaqvim(host);
     if (state.panel) return renderPanel(host);
     const t = cur();
     if (!t) {
@@ -161,11 +169,24 @@
     const b = betMatn(t.kitob?.oralig);
     return b ? `${t.d}-bob · ${b}` : `${t.d}-bob`;
   }
+  function tqChip(kod) {
+    if (!TAQ) return "";
+    const r = (TAQ.qatorlar || []).find((x) => x.tur === "mavzu" && x.kod === kod);
+    if (!r) return "";
+    const bugun = bugungiHafta();
+    let holat = "reja";
+    if (tq().done[r.hafta]) holat = "✓ o'tilgan";
+    else if (bugun && r.hafta === bugun) holat = "⏭ bugungi dars";
+    else if (bugun && r.hafta < bugun) holat = "o'tkazib yuborilgan";
+    return `<span class="chip">${r.hafta}-hafta · ${oraligOf(r.hafta)} · ${holat}</span>`;
+  }
+
   function head(t, sub) {
     return `<div class="card">
       <h2>${esc(t.t)}</h2>
       <div class="kitob-box">
         <span class="chip">${t.kod}</span>
+        ${tqChip(t.kod)}
         <span class="chip cyan">Darslik ${esc(bobMatn(t))}</span>
         ${t.kitob?.amaliyIsh ? `<span class="chip amber">Amaliy ish ${t.kitob.amaliyIsh.kod}: ${esc(t.kitob.amaliyIsh.nomi)}</span>` : ""}
         ${t.kitob?.boshqotirma ? `<span class="chip">Boshqotirma: ${t.kitob.boshqotirma}-bet</span>` : ""}
@@ -632,6 +653,155 @@
     inp.click();
   }
 
+
+  /* ---------------- kun taqvimi (102 soat / 34 hafta) ---------------- */
+  const TAQ = DATA.meta?.taqvim || null;
+  const OYLAR = ["yanv", "fev", "mar", "apr", "may", "iyn", "iyl", "avg", "sen", "okt", "noy", "dek"];
+  function tq() {
+    if (!state.progress.__taqvim || typeof state.progress.__taqvim !== "object")
+      state.progress.__taqvim = { start: "", done: {}, izoh: {} };
+    const o = state.progress.__taqvim;
+    o.done = o.done || {};
+    o.izoh = o.izoh || {};
+    return o;
+  }
+  function sanaOf(h, offset) {
+    const st = tq().start;
+    if (!st) return null;
+    const d = new Date(st + "T00:00:00");
+    if (isNaN(d.getTime())) return null;
+    d.setDate(d.getDate() + (h - 1) * 7 + (offset || 0));
+    return d;
+  }
+  const fmt = (d) => (d ? `${d.getDate()}-${OYLAR[d.getMonth()]}` : "—");
+  function oraligOf(h) {
+    const a = sanaOf(h, 0), b = sanaOf(h, 4);
+    return a ? `${fmt(a)} – ${fmt(b)}` : "sana kiritilmagan";
+  }
+  function bugungiHafta() {
+    const a = sanaOf(1, 0);
+    if (!a) return 0;
+    const t = new Date();
+    t.setHours(12, 0, 0, 0);
+    const farq = Math.floor((t - a) / 86400000);
+    if (farq < 0) return 0;
+    return Math.floor(farq / 7) + 1;
+  }
+  function tqRowLabel(r) {
+    if (r.tur === "mavzu") return `<button class="chip amber" data-topic="${esc(r.kod)}" style="cursor:pointer">${esc(r.kod)} ${esc(r.nom)}</button>`;
+    return `<span class="chip cyan">${esc(r.nom)}</span>`;
+  }
+  function tqQatorlar() {
+    return (TAQ?.qatorlar || []).slice();
+  }
+  function renderTaqvim(host) {
+    if (!TAQ) {
+      host.innerHTML = `<div class="card"><h2>📅 Kun taqvimi</h2>
+        <p class="muted">Taqvim rejasi kiritilmagan. Loyihada: <code>node tools/build-taqvim.mjs</code> —
+        26 mavzu + BSB 1–5 + CHSB 1–3, 34 hafta × 3 soat = 102 soat hisobidan yasaladi.</p></div>`;
+      return;
+    }
+    const rows = tqQatorlar();
+    const o = tq();
+    const bugun = bugungiHafta();
+    const jami = rows.length;
+    const otilgan = rows.filter((r) => o.done[r.hafta]).length;
+    const soat = rows.reduce((a, r) => a + r.soat, 0);
+    const otilganSoat = rows.filter((r) => o.done[r.hafta]).reduce((a, r) => a + r.soat, 0);
+    const keyingi = rows.find((r) => r.hafta >= (bugun || 1) && !o.done[r.hafta]);
+    const choraklar = [...new Set(rows.map((r) => r.chorak))].sort((a, b) => a - b);
+    host.innerHTML = `<div class="card" id="tq-hero">
+        <h2>📅 Kun taqvimi — ${jami} hafta · ${soat} soat</h2>
+        <p class="muted small">${esc(TAQ.izoh || "")}</p>
+        <div class="chips" style="margin-top:10px;flex-wrap:wrap;gap:8px;align-items:center">
+          <label class="small" style="display:flex;align-items:center;gap:6px">O'quv yili boshi (dushanba):
+            <input type="date" data-t-start value="${esc(o.start || "")}" class="nb-input"></label>
+          <button class="btn small" data-act="tq-now">⚑ Shu haftani 1-hafta qilish</button>
+          <button class="btn small ghost" data-act="tq-clear">↺ Sanani o'chirish</button>
+          <button class="btn small" data-act="tq-print">🖨 Chop etish</button>
+          <button class="btn small" data-act="tq-csv">⬇ CSV</button>
+        </div>
+        <div class="stat-grid" style="margin-top:12px">
+          <div class="stat"><b>${otilgan}/${jami}</b><span>o'tilgan hafta</span></div>
+          <div class="stat"><b>${otilganSoat}/${soat}</b><span>soat</span></div>
+          <div class="stat"><b>${bugun || "—"}</b><span>bugungi hafta raqami</span></div>
+          <div class="stat"><b>${keyingi ? keyingi.hafta : "—"}</b><span>keyingi dars haftasi</span></div>
+        </div>
+        ${keyingi ? `<p style="margin-top:10px"><b>Keyingi dars:</b> ${tqRowLabel(keyingi)} · ${oraligOf(keyingi.hafta)}</p>` : `<p style="margin-top:10px" class="muted">Reja bo'yicha barcha haftalar belgilangan ✓</p>`}
+      </div>
+      <div class="card">
+        <h3>Choraklar</h3>
+        <div class="bob-progress">
+        ${choraklar.map((c) => {
+          const rs = rows.filter((r) => r.chorak === c);
+          const d = rs.filter((r) => o.done[r.hafta]).length;
+          const pct = Math.round((d / rs.length) * 100);
+          return `<div class="bp-row"><span class="kod">${c}-ch</span>
+            <div><div class="bp-bar"><i style="width:${pct}%"></i></div></div>
+            <span class="muted">${d}/${rs.length} hafta</span></div>`;
+        }).join("")}
+        </div>
+      </div>
+      <div class="card">
+        <h3>Haftalar bo'yicha reja</h3>
+        <table class="data-table tq-table">
+          <thead><tr><th>#</th><th>Sana</th><th>Dars / nazorat</th><th>Soat</th><th>O'tildi</th><th>Izoh</th></tr></thead>
+          <tbody>
+          ${rows
+            .map((r) => {
+              const done = !!o.done[r.hafta];
+              return `<tr class="${r.hafta === bugun ? "tq-bugun" : ""}${done ? " tq-done" : ""}">
+                <td>${r.hafta}</td>
+                <td class="small">${oraligOf(r.hafta)}${r.hafta === bugun ? ' <span class="chip amber">⏭ bugun</span>' : ""}</td>
+                <td>${tqRowLabel(r)}${r.qamrov && r.qamrov.length ? `<div class="muted small">qamrov: ${esc(r.qamrov.join(", "))}</div>` : ""}</td>
+                <td>${r.soat}</td>
+                <td><input type="checkbox" data-tq-done="${r.hafta}" ${done ? "checked" : ""}></td>
+                <td><input class="nb-input" data-tq-note="${r.hafta}" value="${esc(o.izoh[r.hafta] || "")}" placeholder="—"></td>
+              </tr>`;
+            })
+            .join("")}
+          </tbody>
+        </table>
+        <p class="muted small" style="margin-top:8px">Sanalar <b>dushanbadan juma</b> gacha bo'lgan hafta sifatida ko'rsatiladi.
+        Reja tahrirlanmaydi — <code>platform/content/taqvim.json</code> va <code>node tools/build-taqvim.mjs</code>.</p>
+      </div>`;
+  }
+  function tqSheetHtml() {
+    const rows = tqQatorlar();
+    const o = tq();
+    return `<div class="print-sheet"><div class="psheet-card">
+      <div class="phd"><b>6-sinf Tabiiy fan — kun taqvimi</b><span>${TAQ ? TAQ.haftalar + " hafta · " + TAQ.jamiSoat + " soat · haftasiga " + TAQ.haftaSoat + " soat" : ""}${o.start ? " · boshi: " + esc(o.start) : ""}</span></div>
+      <table><thead><tr><th>#</th><th>Hafta</th><th>Dars / nazorat</th><th>Soat</th><th>O'tildi</th><th>Izoh</th></tr></thead>
+      <tbody>${rows
+        .map(
+          (r) =>
+            `<tr><td>${r.hafta}</td><td>${oraligOf(r.hafta)}</td><td>${esc((r.tur === "mavzu" ? r.kod + " " + r.nom : r.nom))}</td><td>${r.soat}</td><td>${o.done[r.hafta] ? "✓" : ""}</td><td>${esc(o.izoh[r.hafta] || "")}</td></tr>`
+        )
+        .join("")}</tbody></table>
+      <p class="lbl">Imzo: ________________ · Metodist: ________________ · Direktor: ________________</p>
+    </div></div>`;
+  }
+  function tqPrint() {
+    if (!TAQ) return toast("Taqvim rejasi yo'q");
+    $("#print-area").innerHTML = tqSheetHtml();
+    window.print();
+  }
+  function tqCsv() {
+    if (!TAQ) return toast("Taqvim rejasi yo'q");
+    const o = tq();
+    const lines = ["hafta;sana;dars;tur;soat;o'tildi;izoh"];
+    for (const r of tqQatorlar())
+      lines.push([r.hafta, oraligOf(r.hafta).replace(/\s*–\s*/, "-"), (r.tur === "mavzu" ? r.kod + " " + r.nom : r.nom).replace(/;/g, ","), r.tur, r.soat, o.done[r.hafta] ? "ha" : "yo'q", (o.izoh[r.hafta] || "").replace(/;/g, ",")].join(";"));
+    const matn = "\ufeff" + lines.join("\n");
+    const a = document.createElement("a");
+    a.href = "data:text/csv;charset=utf-8," + encodeURIComponent(matn);
+    a.download = "tabiiy6-taqvim.csv";
+    document.body.appendChild(a);
+    try { a.click(); } catch (e) {}
+    a.remove();
+    toast("Taqvim CSV fayli yuklab olindi");
+  }
+
   function renderPanel(host) {
     const viewed = TOPICS.filter((t) => state.progress[t.kod]?.viewed).length;
     const tests = TOPICS.filter((t) => state.progress[t.kod]?.test);
@@ -645,6 +815,7 @@
         <div class="chips" style="margin-top:10px">
           <button class="btn primary" data-act="slides">📽 Dars slaydlari</button>
           <button class="btn" data-act="print">🖨 Chop markazi</button>
+          <button class="btn" data-act="taqvim">📅 Kun taqvimi</button>
           <button class="btn" data-act="export-progress">⬇ Progress nusxasi (.json)</button>
           <button class="btn" data-act="import-progress">⬆ Progres tiklash</button>
           <button class="btn ghost" data-act="reset">⚠ Progressni tozalash</button>
@@ -655,6 +826,7 @@
         <div class="stat"><b>${avg}%</b><span>o'rtacha test natijasi</span></div>
         <div class="stat"><b>${filled}</b><span>to'ldirilgan amaliy ish</span></div>
         <div class="stat"><b>${stepsAll}/${stepsMax}</b><span>bajarilgan bosqich</span></div>
+        ${TAQ ? `<div class="stat"><b>${TAQ.qatorlar.filter((r) => tq().done[r.hafta]).length}/${TAQ.haftalar}</b><span>taqvim bo'yicha o'tilgan hafta</span></div>` : ""}
       </div>
       <div class="card">
         <h3>Boblar bo'yicha progress</h3>
@@ -892,6 +1064,7 @@
       if (!b) return;
       state.topic = b.dataset.topic;
       state.panel = false;
+      state.taq = false;
       state.test = null;
       document.body.classList.remove("sb-open");
       render();
@@ -970,7 +1143,28 @@
           render();
         } else if (a === "panel") {
           state.panel = !state.panel;
+          state.taq = false;
           render();
+        } else if (a === "taqvim") {
+          state.taq = !state.taq;
+          state.panel = false;
+          render();
+        } else if (a === "tq-now") {
+          const d = new Date();
+          const kun = (d.getDay() + 6) % 7; // 0 = dushanba
+          d.setDate(d.getDate() - kun);
+          tq().start = d.toISOString().slice(0, 10);
+          save();
+          render();
+          toast("Taqvim shu haftadan boshlab hisoblanadi");
+        } else if (a === "tq-clear") {
+          tq().start = "";
+          save();
+          render();
+        } else if (a === "tq-print") {
+          tqPrint();
+        } else if (a === "tq-csv") {
+          tqCsv();
         } else if (a === "burger") {
           document.body.classList.toggle("sb-open");
         }
@@ -1000,6 +1194,30 @@
       }
     });
     document.addEventListener("change", (e) => {
+      const start = e.target.closest("[data-t-start]");
+      if (start) {
+        tq().start = start.value || "";
+        save();
+        render();
+        return;
+      }
+      const done = e.target.closest("[data-tq-done]");
+      if (done) {
+        const o = tq();
+        o.done[done.dataset.tqDone] = done.checked;
+        save();
+        render();
+        return;
+      }
+      const note = e.target.closest("[data-tq-note]");
+      if (note) {
+        const o = tq();
+        const v = note.value.trim();
+        if (v) o.izoh[note.dataset.tqNote] = v;
+        else delete o.izoh[note.dataset.tqNote];
+        save();
+        return;
+      }
       const step = e.target.closest("[data-step]");
       if (step) {
         const t = cur();

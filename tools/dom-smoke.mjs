@@ -70,7 +70,7 @@ const check = (cond, msg) => {
 /* ---- 1. kabat (shell) ---- */
 check(qa("#bob-list .bob-group").length === 12, `12 bob bo'lishi kerak, ${qa("#bob-list .bob-group").length} ta`);
 check(qa("#bob-list .topic-item").length === 26, `26 mavzu bo'lishi kerak, ${qa("#bob-list .topic-item").length} ta`);
-check(qa("#tabs .tab-btn").length === 6, `6 tab tugmasi kerak, ${qa("#tabs .tab-btn").length} ta`);
+check(qa("#tabs .tab-btn").length === 7, `7 tab tugmasi kerak (5 tab + taqvim + panel), ${qa("#tabs .tab-btn").length} ta`);
 check(/Nazariya/.test(q("#content").textContent), "birinchi ekranda Nazariya ko'rinmadi");
 console.log("  ✓ shell: 12 bob, 26 mavzu, 6 tab");
 
@@ -202,7 +202,9 @@ console.log(`  ✓ chop markazi: ${qa("#print-area .print-sheet").length} varaq 
 click(q('#tabs [data-act="panel"]'), "boshqaruv paneli");
 check(/Boblar bo'yicha progress/.test(q("#content").textContent), "panel progress ro'yxati yo'q");
 check(/Amaliy ishlar ro'yxati/.test(q("#content").textContent), "amaliy ishlar ro'yxati yo'q");
-check(qa("#content .stat").length === 4, "statistik kartalar soni 4 ta emas");
+check(qa("#content .stat").length === 5, "statistik kartalar soni 5 ta emas (4 + taqvim)");
+  check(/taqvim bo'yicha o'tilgan hafta/.test(q("#content").textContent), "panelda taqvim statistikasi yo'q");
+  check(/Kun taqvimi/.test(q("#content").textContent), "panelda taqvim tugmasi yo'q");
 console.log("  ✓ boshqaruv paneli");
 
 /* ---- 11. bob navigatsiyasi (panel ichidagi chip) ---- */
@@ -239,6 +241,47 @@ check(/Nazariya/.test(q("#content").textContent), "chip orqali mavzu ochildi");
   check(disk["9.1"]?.test?.bal === 100, "import saqlanmadi");
   check(q("#toast").textContent.includes("tiklandi"), "import haqida xabar yo'q");
   console.log("  ✓ progress eksport/import (1 mavzu tiklandi, begona kod tashlandi)");
+}
+
+/* ---- 11c. kun taqvimi ---- */
+{
+  const TF = window.__TF;
+  click(q('#tabs [data-act="taqvim"]'), "taqvimni ochish");
+  const rows = qa("#content .tq-table tbody tr");
+  check(rows.length === 34, `taqvim qatorlari 34 bo'lishi kerak, ${rows.length}`);
+  check(/kun taqvimi/i.test(q("#crumb").textContent), "crumb taqvimni ko'rsatmadi");
+  check(qa("#content .bp-row").length === 4, "chorak progresslari 4 ta emas");
+  const inp = q('#content [data-t-start]');
+  check(!!inp, "sana kiritish maydoni yo'q");
+  inp.value = "2026-09-07";
+  inp.dispatchEvent(new window.Event("change", { bubbles: true }));
+  const h1 = q("#content .tq-table tbody tr");
+  check(/7-sen – 11-sen/.test(h1.textContent.replace(/\s+/g, " ")), "1-hafta sanasi noto'g'ri: " + h1.textContent.replace(/\s+/g, " ").slice(0, 60));
+  // belgilash + izoh + saqlash
+  const cb = q('#content [data-tq-done="1"]');
+  cb.checked = true;
+  cb.dispatchEvent(new window.Event("change", { bubbles: true }));
+  const nt = q('#content [data-tq-note="2"]');
+  nt.value = "tatil boshi";
+  nt.dispatchEvent(new window.Event("change", { bubbles: true }));
+  await new Promise((r) => setTimeout(r, 20));
+  check(TF.state.progress.__taqvim?.done?.["1"] === true, "o'tildi belgisi saqlanmadi");
+  check(/tatil boshi/.test(TF.state.progress.__taqvim?.izoh?.["2"] || ""), "izoh saqlanmadi");
+  const disk = JSON.parse(window.localStorage.getItem("tabiiy6_progress_v1") || "{}");
+  check(disk.__taqvim?.start === "2026-09-07", "taqvim localStorage'ga tushmadi");
+  check(qa('#content tr.tq-done').length === 1, "o'tilgan qator ajralib turmadi");
+  check(/bugun|Keyingi dars/.test(q("#content").textContent), "bugungi/keyingi dars ko'rsatkichi yo'q");
+  // chop va CSV
+  click(q('#content [data-act="tq-print"]'), "taqvimni chop etish");
+  check(/kun taqvimi/.test(q("#print-area").textContent), "chop varaqasida taqvim yo'q");
+  check(qa("#print-area .print-sheet").length === 1, "taqvim varaqasi 1 ta emas");
+  click(q('#content [data-act="tq-csv"]'), "CSV yuklab olish");
+  check(/CSV/.test(q("#toast").textContent), "CSV xabari yo'q");
+  // mavzu chipi orqali o'tish
+  const chip = q("#content .tq-table [data-topic]");
+  click(chip, "taqvimdan mavzuga o'tish");
+  check(TF.state.taq === false && /Nazariya/.test(q("#content").textContent), "taqvimdan mavzu ochilmadi");
+  console.log("  ✓ kun taqvimi: 34 hafta, sana hisobi, belgi+izoh, chop, CSV");
 }
 
 /* ---- 12. xatolar ---- */

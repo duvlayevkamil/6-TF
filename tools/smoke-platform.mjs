@@ -158,6 +158,32 @@ else {
   ok("buildTest: 30 savol + bilim/amaliy rejimlar");
 }
 
+
+/* ---------- 6. kun taqvimi ---------- */
+{
+  const T = DATA.meta?.taqvim;
+  if (!T) xatolar.push("meta.taqvim yo'q — `node tools/build-taqvim.mjs` ishlatilsa");
+  else {
+    const soat = T.qatorlar.reduce((a, r) => a + r.soat, 0);
+    if (T.qatorlar.length !== T.haftalar) xatolar.push(`taqvim: ${T.qatorlar.length} qator, haftalar ${T.haftalar}`);
+    if (soat !== 102) xatolar.push(`taqvim: jami soat ${soat}, 102 kerak`);
+    const kodlar = T.qatorlar.filter((r) => r.tur === "mavzu").map((r) => r.kod);
+    if (new Set(kodlar).size !== 26) xatolar.push(`taqvimda noyob mavzu soni ${new Set(kodlar).size}`);
+    for (const k of kodlar) if (!DATA.topics.some((t) => t.kod === k)) xatolar.push(`taqvim: mavzu orolda yo'q — ${k}`);
+    for (const t of DATA.topics) if (!kodlar.includes(t.kod)) xatolar.push(`taqvim: mavzu tushib qolgan — ${t.kod}`);
+    const bsb = T.qatorlar.filter((r) => r.tur === "BSB").map((r) => r.n).join();
+    const chsb = T.qatorlar.filter((r) => r.tur === "CHSB").map((r) => r.n).join();
+    if (bsb !== "1,2,3,4,5") xatolar.push(`taqvim BSB tartibi: ${bsb}`);
+    if (chsb !== "1,2,3") xatolar.push(`taqvim CHSB tartibi: ${chsb}`);
+    T.qatorlar.forEach((r, i) => {
+      if (r.hafta !== i + 1) xatolar.push(`taqvim: hafta raqami ketma-ket emas (${i + 1} → ${r.hafta})`);
+      if (!["mavzu", "BSB", "CHSB"].includes(r.tur)) xatolar.push(`taqvim: noma'lum tur ${r.tur}`);
+      if (!r.nom || String(r.nom).length < 4) xatolar.push(`taqvim: ${r.hafta}-haftada nom yo'q`);
+    });
+    ok(`taqvim: ${T.haftalar} hafta · ${soat} soat · BSB ${bsb} · CHSB ${chsb} · mavzu haftalari ${kodlar.length}`);
+  }
+}
+
 /* ---------- natija ---------- */
 if (xatolar.length) {
   console.log(`\nXATOLAR (${xatolar.length}):`);

@@ -148,8 +148,25 @@ const noLab = topics.filter((t) => {
 if (noLab.length) fail(`labs.js'da bunday simulyator yo'q: ${noLab.map((t) => t.lab + "/" + t.labMode + " (" + t.kod + ")").join(", ")}`);
 
 /* ---------- 5. HTML yig'ish ---------- */
+/* ---------- 4.5 kun taqvimi (platform/content/taqvim.json) ---------- */
+let taqvim = null;
+try {
+  taqvim = jread("platform/content/taqvim.json");
+} catch (e) {
+  console.log("! taqvim.json yo'q — `node tools/build-taqvim.mjs` bilan yasalsa bo'ladi");
+}
+if (taqvim) {
+  const soat = taqvim.qatorlar.reduce((a, r) => a + r.soat, 0);
+  if (soat !== taqvim.jamiSoat) fail(`taqvim: soatlar yig'indisi ${soat}, kutilgan ${taqvim.jamiSoat}`);
+  if (taqvim.qatorlar.length !== taqvim.haftalar) fail("taqvim: qatorlar soni `haftalar` bilan mos emas");
+  const tkod = taqvim.qatorlar.filter((r) => r.tur === "mavzu").map((r) => r.kod);
+  const mkod = topics.map((t) => t.kod);
+  if (tkod.length !== mkod.length) fail(`taqvimda ${mkod.length - tkod.length} mavzu yetishmaydi`);
+  for (const k of tkod) if (!mkod.includes(k)) fail(`taqvimda_notanish mavzu kodi: ${k}`);
+}
 const meta = {
   ...struct.meta,
+  taqvim,
   holat: "kontent to'ldirilgan: 26/26 mavzu (nazariya, test, simulyator, amaliy topshiriq)",
   manba: "Darslik.pdf va Mashq daftari.pdf mundarijasi (tasdiqlangan) + o'qituvchi yozgan kontent",
   platforma: "7-sinf.html arxitekturasi (bitta fayl, JSON orol, localStorage)",
@@ -180,6 +197,9 @@ console.log(
     ` amaliy bosqichlar: ${topics.reduce((a, t) => a + t.task.steps.length, 0)}`
 );
 console.log(`  simulyatorlar: ${new Set(topics.map((t) => t.lab)).size} tur (${[...new Set(topics.map((t) => t.lab))].join(", ")})`);
+console.log(
+  `  kun taqvimi: ${taqvim ? taqvim.haftalar + " hafta · " + taqvim.jamiSoat + " soat · BSB " + taqvim.qatorlar.filter((r) => r.tur === "BSB").length + " · CHSB " + taqvim.qatorlar.filter((r) => r.tur === "CHSB").length : "kiritilmagan"}`
+);
 const pos = [0, 0, 0, 0];
 for (const t of topics) for (const q of t.quiz) if (q[2] >= 0 && q[2] < 4) pos[q[2]]++;
 console.log(`  javob pozitsiyalari (A/B/C/D): ${pos.join(" / ")} — har bir savolda variantlar urug'li tartibda`);
