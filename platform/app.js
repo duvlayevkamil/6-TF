@@ -552,6 +552,86 @@
   }
 
   /* ---- Boshqaruv paneli ---- */
+  /* ---------------- progress nusxasi: eksport / import ---------------- */
+  function exportProgress() {
+    const payload = {
+      app: "6-sinf Tabiiy fan",
+      kalit: KEY,
+      tuzilgan: new Date().toISOString(),
+      mavzular: TOPICS.length,
+      progress: state.progress,
+    };
+    const matn = JSON.stringify(payload, null, 1);
+    const a = document.createElement("a");
+    const yangi = typeof URL.createObjectURL === "function";
+    try {
+      a.href = yangi ? URL.createObjectURL(new Blob([matn], { type: "application/json" })) : "data:application/json;charset=utf-8," + encodeURIComponent(matn);
+    } catch (e) {
+      a.href = "data:application/json;charset=utf-8," + encodeURIComponent(matn);
+    }
+    a.download = "tabiiy6-progress-" + new Date().toISOString().slice(0, 10) + ".json";
+    document.body.appendChild(a);
+    try {
+      a.click();
+    } catch (e) {
+      /* ba'zi muhitlarda (masalan, DOM sinovlarida) navigatsiya yo'q */
+    }
+    setTimeout(() => {
+      if (yangi) URL.revokeObjectURL(a.href);
+      a.remove();
+    }, 2000);
+    toast("Progress fayli yuklab olindi — boshqa kompyuterda «⬆ Progres tiklash» bilan kiriting.");
+  }
+  function importProgress(file) {
+    const rd = new FileReader();
+    rd.onload = () => {
+      let obj;
+      try {
+        obj = JSON.parse(String(rd.result));
+      } catch (e) {
+        toast("✗ Fayl o'qilmadi: JSON emas");
+        return;
+      }
+      const src = obj && obj.progress && typeof obj.progress === "object" ? obj.progress : obj;
+      if (!src || typeof src !== "object" || Array.isArray(src)) {
+        toast("✗ Fayl formati tanilmadi");
+        return;
+      }
+      const codes = new Set(TOPICS.map((t) => t.kod));
+      let tiklangan = 0, tashlangan = 0;
+      for (const kod of Object.keys(src)) {
+        if (!codes.has(kod)) {
+          tashlangan++;
+          continue;
+        }
+        const v = src[kod];
+        if (!v || typeof v !== "object") {
+          tashlangan++;
+          continue;
+        }
+        state.progress[kod] = { ...state.progress[kod], ...v };
+        tiklangan++;
+      }
+      save();
+      renderSidebar();
+      render();
+      toast(`✓ ${tiklangan} mavzu progressi tiklandi` + (tashlangan ? ` · ${tashlangan} yozuv tashlandi` : ""));
+    };
+    rd.onerror = () => toast("✗ Fayl o'qilmadi");
+    rd.readAsText(file, "utf-8");
+  }
+  function pickProgressFile() {
+    const inp = document.createElement("input");
+    inp.type = "file";
+    inp.accept = "application/json,.json";
+    inp.onchange = () => {
+      const f = inp.files && inp.files[0];
+      if (f) importProgress(f);
+      inp.remove();
+    };
+    inp.click();
+  }
+
   function renderPanel(host) {
     const viewed = TOPICS.filter((t) => state.progress[t.kod]?.viewed).length;
     const tests = TOPICS.filter((t) => state.progress[t.kod]?.test);
@@ -565,6 +645,8 @@
         <div class="chips" style="margin-top:10px">
           <button class="btn primary" data-act="slides">📽 Dars slaydlari</button>
           <button class="btn" data-act="print">🖨 Chop markazi</button>
+          <button class="btn" data-act="export-progress">⬇ Progress nusxasi (.json)</button>
+          <button class="btn" data-act="import-progress">⬆ Progres tiklash</button>
           <button class="btn ghost" data-act="reset">⚠ Progressni tozalash</button>
         </div>
       </div>
@@ -845,6 +927,8 @@
         if (a === "slides") openSlides(t ? buildSlides(t) : TOPICS.flatMap((x) => buildSlides(x)));
         else if (a === "print") openPrint();
         else if (a === "do-print") doPrint();
+        else if (a === "export-progress") exportProgress();
+        else if (a === "import-progress") pickProgressFile();
         else if (a === "print-all") {
           printCards().forEach((c, i) => (state.print.sel[i] = true));
           openPrint();
@@ -997,5 +1081,5 @@
   }
 
   /* test uchun ichki funksiyalar */
-  window.__TF = { TOPICS, BOBS, buildTest, buildSlides, slideHTML, printSheet, mezonList, DATA };
+  window.__TF = { TOPICS, BOBS, buildTest, buildSlides, slideHTML, printSheet, mezonList, DATA, state, exportProgress, importProgress };
 })();

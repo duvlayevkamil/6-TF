@@ -28,8 +28,17 @@ if (!existsSync(FILE)) {
 
 const xatolar = [];
 const log = [];
+const { JSDOM: J, VirtualConsole } = await import("jsdom");
+const vc = new VirtualConsole();
+vc.on("jsdomError", (e) => {
+  if (/Not implemented/.test(e.message)) return; // jsdom: navigatsiya, print va h.k. yo'q
+  xatolar.push("jsdomError: " + (e.detail?.stack || e.message));
+});
+if (typeof vc.forwardTo === "function") vc.forwardTo(console, { omitJSDOMErrors: true });
+else if (typeof vc.sendTo === "function") vc.sendTo(console, { omitJSDOMErrors: true });
 const dom = new JSDOM(readFileSync(FILE, "utf8"), {
   url: "http://localhost:8080/6-sinf.html",
+  virtualConsole: vc,
   runScripts: "dangerously",
   pretendToBeVisual: true,
   beforeParse(window) {
@@ -200,6 +209,37 @@ console.log("  ✓ boshqaruv paneli");
 const bobChip = q("#content .bp-row [data-topic]");
 click(bobChip, "panel chip orqali mavzuga o'tish");
 check(/Nazariya/.test(q("#content").textContent), "chip orqali mavzu ochildi");
+
+/* ---- 11b. progress nusxasi: eksport va import ---- */
+{
+  click(q('#tabs [data-act="panel"]'), "panelga qaytish");
+  check(!!q('#content [data-act="export-progress"]') && !!q('#content [data-act="import-progress"]'), "eksport/import tugmalari yo'q");
+  // jsdom'da «navigatsiya» qilmaydi — shu sinovda yuklab olish bosqichini o'chiramiz
+  const clickBosh = window.HTMLAnchorElement.prototype.click;
+  window.HTMLAnchorElement.prototype.click = function () { log.push("yuklab olish bosqichi: " + this.download); };
+  window.__TF.exportProgress();
+  window.HTMLAnchorElement.prototype.click = clickBosh;
+  check(log.some((l) => /tabiiy6-progress-\d{4}-\d{2}-\d{2}\.json/.test(l)), "fayl nomi to'g'ri emas: " + log.slice(-2).join(","));
+  check(/Progress fayli yuklab olindi/.test(q("#toast").textContent), "eksport javob bermadi");
+  const TF = window.__TF;
+  const payload = JSON.stringify({
+    kalit: "tabiiy6_progress_v1",
+    progress: {
+      "9.1": { viewed: true, test: { bal: 100, savol: 5, togri: 5, sana: "2026-09-01" }, notebook: { xulosa: "nusxa orqali kelgan xulosa" } },
+      "99.9": { viewed: true },
+    },
+  });
+  const file = new window.File([payload], "nusxa.json", { type: "application/json" });
+  TF.importProgress(file);
+  await new Promise((r) => setTimeout(r, 60));
+  check(TF.state.progress["9.1"]?.test?.bal === 100, "import qilingan test natijasi kirmadi");
+  check(/nusxa orqali/.test(TF.state.progress["9.1"]?.notebook?.xulosa || ""), "import qilingan daftara kirmadi");
+  check(!TF.state.progress["99.9"], "mavzuga tegishli bo'lmagan yozuv qabul qilindi");
+  const disk = JSON.parse(window.localStorage.getItem("tabiiy6_progress_v1") || "{}");
+  check(disk["9.1"]?.test?.bal === 100, "import saqlanmadi");
+  check(q("#toast").textContent.includes("tiklandi"), "import haqida xabar yo'q");
+  console.log("  ✓ progress eksport/import (1 mavzu tiklandi, begona kod tashlandi)");
+}
 
 /* ---- 12. xatolar ---- */
 if (xatolar.length) {
