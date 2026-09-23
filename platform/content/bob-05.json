@@ -1,0 +1,442 @@
+{
+  "bob": 5,
+  "chorak": 2,
+  "topics": [
+    {
+      "kod": "5.1",
+      "lab": "modda",
+      "labMode": "xossalar",
+      "theory": "Modda — hajm va massaga ega bo'lgan hamma narsa. Bu talab gazlarga ham tegishli: havo ham modda, uning ham massasi bor. Puflangan sharni tortib, keyin havosini chiqarib qayta tartsangiz — farq seziladi.\n\nModdaning xossalari uni boshqalaridan ajratadi va qayerda ishlatishni belgilaydi: zichlik, qattiqlik, mo'rtlik, egiluvchanlik, suvni o'tkazish, issiqlik va elektr o'tkazuvchanlik, shaffoflik. Xossalar moddaning massasiga yoki shakliga bog'liq emas — 1 g ham, 1 kg mis ham bir xil zichlikka ega.\n\nZichlik — birlik hajmdagi massa: ρ = m ÷ V. Suvning zichligi 1000 kg/m³ (1 sm³ suv ≈ 1 g). Bir xil hajmdagi temir va yog'ochdan temir og'irroq, chunki uning zichligi katta. Zichlik jismning suzish yoki cho'kishini oldindan aytib beradi: zichligi suvnikidan kichik jism suzaydi, kattasi cho'kadi.\n\nIssiqlik o'tkazuvchanlik — moddaning issiqlikni o'tkazish qobiliyati. Metallar (mis, alyuminiy) issiqlikni tez tarqatadi — shu sabab qozon ular yasalgan. Yog'och, plastmassa, rezina va havo issiqlikni sekin o'tkazadi — bu issiq tutqich va deraza ramalarining sababi. Elektr o'tkazuvchanlik ham shu tarzda farq qiladi: metallar tokni yaxshi o'tkazadi, plastmassa va rezina o'tkazmaydi.\n\nBir xil xona haroratida (≈20°C) turli moddalar turli holatda bo'ladi, chunki har birining erish va qaynash harorati boshqacha: spirt qaynaydi (78°C), suv suyuq (0–100°C), temir qattiq (eriydi 1538°C da), kislorod esa gaz. Modda xossalarini bilish — to'g'ri materialni to'g'ri ishga tanlash degani.",
+      "formulas": [
+        "Modda = hajm + massaga ega narsa",
+        "ρ = m ÷ V — zichlik (kg/m³ yoki g/sm³)",
+        "ρ(suv) = 1000 kg/m³ = 1 g/sm³",
+        "ρ(jism) < ρ(suv) → suzaydi; ρ(jism) > ρ(suv) → cho'kadi",
+        "Yaxshi o'tkazgich: metall · Yomon: yog'och, plastmassa, havo",
+        "Moddaning holati = erish va qaynash haroratiga bog'liq"
+      ],
+      "vocab": [
+        {
+          "w": "Zichlik",
+          "m": "birlik hajmdagi massa, ρ = m ÷ V"
+        },
+        {
+          "w": "Issiqlik o'tkazuvchanlik",
+          "m": "moddaning issiqlikni o'tkazish qobiliyati"
+        },
+        {
+          "w": "Elektr o'tkazuvchanlik",
+          "m": "moddaning tokni o'tkazish qobiliyati"
+        },
+        {
+          "w": "Qattiqlik",
+          "m": "sirtning tirnalishga qarshiligi"
+        },
+        {
+          "w": "Mo'rtlik",
+          "m": "zarbda sinish xossasi (shisha, g'isht, keramika)"
+        },
+        {
+          "w": "Shaffoflik",
+          "m": "yorug'likni o'zidan o'tkazish xossasi"
+        }
+      ],
+      "quiz": [
+        [
+          "Gazlar ham massaga egami?",
+          [
+            "Ha — havo ham modda, uning massasi bor",
+            "Yo'q — gazning og'irligi bo'lmaydi",
+            "Faqat issiq gazda",
+            "Faqat chang aralash bo'lsa"
+          ],
+          0,
+          "Puflangan shar havo chiqqanda yengillashadi — demak havoning massasi bor."
+        ],
+        [
+          "Zichlik qanday topiladi?",
+          [
+            "Massani hajmga bo'lish orqali",
+            "Massani hajmga ko'paytirib",
+            "Faqat hajmni o'lchab",
+            "Og'irlikni tortib"
+          ],
+          0,
+          "ρ = m ÷ V — birlik hajmdagi massa."
+        ],
+        [
+          "Qozon nega metaldan, tutqichi esa plastmassadan yasaldi?",
+          [
+            "Metall issiqlikni yaxshi, plastmassa yomon o'tkazadi",
+            "Plastmassa metallarga qaraganda ancha arzon",
+            "Metall plastmassaga qaraganda yengilroq",
+            "Tutqichning chiroyli ko'rinishi ham hisobga olinadi"
+          ],
+          0,
+          "Ikkala xossa bir buyumda kerak: o'tkazish + himoya."
+        ],
+        [
+          "Bir xil hajmdagi temir va yog'ochdan qaysi og'irroq?",
+          [
+            "Temir — zichligi katta",
+            "Yog'och — tuzilishi zich",
+            "Ikkalasi teng",
+            "Ma'lumot yetarli emas"
+          ],
+          0,
+          "Hajm bir xil bo'lsa, og'irlik zichlikka bog'liq."
+        ],
+        [
+          "Materialni ishga tanlashda nimaga qaraladi?",
+          [
+            "Uning xossalariga",
+            "Faqat rangiga",
+            "Faqat narxiga",
+            "Qadoqlanishiga"
+          ],
+          0,
+          "Xossa — buyumning vazifasiga mosligini belgilaydi (praktik ish «To'g'ri tanlov» shu asosda)."
+        ],
+        [
+          "Havo ham modda ekanini tajribada qanday tekshirish mumkin?",
+          [
+            "Zaxirni bo'sh va havo to'la holatda tortib, farqni solishtirish",
+            "Zaxirning rangini yorug'lik ostida tekshirib ko'rish",
+            "Zaxirni suvga solib, cho'kishi kuzatiladi",
+            "Zaxirni qizdirib, og'irligi o'zgarmasligini yozish"
+          ],
+          0,
+          "Havo to'la zaxir og'irroq — demak havoning ham massasi bor."
+        ],
+        [
+          "Zichlik qanday topiladi va o'lchov birligi nima?",
+          [
+            "Massani hajmga bo'lish: ρ = m ÷ V, kg/m³",
+            "Hajmni massaga ko'paytirish: V × m, m³/kg",
+            "Massaga hajmni qo'shish: m + V, kg·m³",
+            "Hajmdan massani ayirish: V − m, m³"
+          ],
+          0,
+          "Zichlik — birlik hajmdagi massa; suv uchun bu 1000 kg/m³."
+        ],
+        [
+          "Nega metall qoshiqning tutqichi qiziydi, plastik tutqich esa qizimaydi?",
+          [
+            "Metall issiqlikni tez, plastik esa sekin o'tkazadi",
+            "Plastik qoshiq issiqlikni butunlay yutib oladi",
+            "Metall plastikka qaraganda ancha yengil",
+            "Plastik tutqich havo oqimini ichiga tortadi"
+          ],
+          0,
+          "Issiqlik o'tkazuvchanlik xossasi — bir xil haroratda materiallarni farqlantiradi."
+        ]
+      ],
+      "slideQuiz": [
+        [
+          "Xona haroratida spirt, suv va temir turli holatda — nega?",
+          [
+            "Har birining erish va qaynash harorati boshqacha",
+            "Hammasi bir xil holatda, faqat ko'rinish boshqacha",
+            "Temir og'irroq",
+            "Havo spirtini bug'latadi"
+          ],
+          0,
+          "Holat haroratga, chegaralar esa moddaga bog'liq."
+        ],
+        [
+          "Deraza ramasida plastmassa (yoki yog'och) nima uchun yaxshi?",
+          [
+            "Issiqlikni yomon o'tkazadi — issiqlik saqlanadi",
+            "Metallga qaraganda issiqlikni tez o'tkazadi",
+            "Suvni o'tkazib yuboradigan g'ovak material",
+            "Blokning og'irligini sezilarli oshiradi"
+          ],
+          0,
+          "Bu yerda kerakli xossa — past issiqlik o'tkazuvchanlik."
+        ]
+      ],
+      "game": [
+        [
+          "Xossani qiymati bilan moslang: mis",
+          [
+            "Issiqlik va tokni yaxshi o'tkazadi",
+            "Issiqlikni umuman o'tkazmaydi",
+            "Suvda eriydi",
+            "Mo'rt va yengil"
+          ],
+          0,
+          "Mis — o'tkazgich, shu sabab sim va idishlarda."
+        ],
+        [
+          "Shaffoflik qaysi buyumda asosiy talab?",
+          [
+            "Deraza oynasida",
+            "Qozon tutqichida",
+            "Devor bo'yog'ida",
+            "Oyoq kiyimida"
+          ],
+          0,
+          "Yorug'lik o'tishi kerak — qattiq va silliq, lekin shaffof."
+        ],
+        [
+          "Qaysi biri modda EMAS?",
+          [
+            "Yorug'lik",
+            "Havo",
+            "Suv bug'i",
+            "Qum"
+          ],
+          0,
+          "Yorug'lik — energiya; hajm va massaga ega emas."
+        ],
+        [
+          "Suvda suzadigan jismning zichligi qanday bo'ladi?",
+          [
+            "1 g/sm³ dan kichik",
+            "1 g/sm³ dan katta",
+            "aynan 1 g/sm³",
+            "Zichlik aloqador emas"
+          ],
+          0,
+          "ρ < ρ(suv) bo'lsa — jism suzadi."
+        ]
+      ],
+      "task": {
+        "q": "«To'g'ri tanlov» — 4 ta materialni (mis sim, yog'och tayoqcha, plastmassa qoshiq, alyuminiy folga) 4 ta vazifaga tanlang: (1) issiq suvli idishning tutqichi, (2) zanjir o'tkazgichi, (3) qozon, (4) deraza rama. Har tanlovda qaysi xossa hal qilganini yozing.",
+        "a": "(1) yog'och yoki plastmassa — issiqlikni yomon o'tkazadi; (2) mis — tokni yaxshi o'tkazadi; (3) alyuminiy — issiqlikni yaxshi o'tkazadi va yengil; (4) plastmassa — past issiqlik o'tkazuvchanlik + suvga chidamlilik.",
+        "why": "Tanlov mezonini xossaga asoslash — fanning amaliy qismi: material vazifaga mos bo'lsa, buyum ishonchli va xavfsiz ishlaydi.",
+        "steps": [
+          "Har materialning 4 xossasini sinab ko'ring (tirnash, suvga tushirish, magnit, qattiqlik)",
+          "Har vazifa uchun nomzodlarni solishtiring",
+          "Bittasini tanlab, qaysi xossa asos bo'lganini yozing",
+          "Rad etilgan variantni ham xossa bilan asoslang",
+          "Xulosa: bitta material hamma vazifaga yaraqlimi?"
+        ],
+        "jihoz": [
+          "Mis sim, yog'och tayoqcha, plastmassa qoshiq, alyuminiy folga",
+          "Iliq suvli stakan",
+          "Batareya, lampa, kalit (o'tkazuvchanlikni tekshirish uchun)",
+          "Magnit"
+        ],
+        "xavfsizlik": [
+          "Issiq suv va folga bilan ehtiyot bo'ling",
+          "O'tkazuvchanlikni faqat batareya (3–4,5 V) bilan tekshiring",
+          "Sinovdan keyin qo'llarni yuving"
+        ]
+      },
+      "labTitle": "Modda xossalari va ularni sinash"
+    },
+    {
+      "kod": "5.2",
+      "lab": "modda",
+      "labMode": "qaynash",
+      "theory": "Qattiq → suyuq (erish), suyuq → qattiq (qotish), suyuq → gaz (bug'lanish yoki qaynash), gaz → suyuq (kondensatsiya), qattiq → gaz (sublimatsiya) — bu agregat holat o'zgarishlari. Ularning barchasi fizik o'zgarishlardir: modda o'zgarmaydi, faqat zarrachalar tartibi va harakati o'zgaradi.\n\nBug'lanish suyuqlikning erkin sirtidan istalgan haroratda bo'ladi — tezroq harakatlangan zarrachalar suyuqlikdan chiqib ketadi va qolgan qism soviydi (shu sabab teridagi spirt sovitadi). Qaynash esa ma'lum haroratda butun hajm bo'ylab sodir bo'ladi: pufakchalar paydo bo'lib, ular ichidagi bug' bosimi tashqi bosimga tenglashadi.\n\nHar bir moddaning qaynash harorati tashqi bosimga bog'liq. Tovuq pishirish uchun qozonning qopqog'i bosimni oshiradi — suv 100°C dan yuqori haroratda qaynaydi va taom tez tayyor bo'ladi. Tog'da esa bosim kam, suv past haroratda qaynaydi va non pishi sekinlashadi.\n\nQizdirish egri chizig'i jarayonni aniq ko'rsatadi: harorat ko'tariladi → erish (harorat tekis) → suyuqlik qiziydi → qaynash (harorat yana tekis) → bug' qiziydi. «Tekis» qismlarda energiya zarrachalar orasidagi bog'lanishni uzishga sarflanadi.",
+      "formulas": [
+        "Bug'lanish: sirtida, har qanday haroratda",
+        "Qaynash: butun hajmda, ma'lum haroratda",
+        "Qaynash harorati tashqi bosimga bog'liq",
+        "Erishda harorat o'zgarmaydi (issiqlik bog'lanish uzishga ketadi)",
+        "Kondensatsiya — bug'lanishning teskarisi",
+        "Sovitish — bug'lanish tezlashganda kuchayadi (shamol, nam sochiq, ventilyator)"
+      ],
+      "vocab": [
+        {
+          "w": "Qaynash",
+          "m": "suyuqlikning butun hajmi bo'ylab bug'ga aylanishi"
+        },
+        {
+          "w": "Bug'lanish",
+          "m": "suyuqlik sirtidan molekulaning chiqib ketishi"
+        },
+        {
+          "w": "Kondensatsiya",
+          "m": "bug'ning suyuqlikka aylanishi"
+        },
+        {
+          "w": "Qaynash harorati",
+          "m": "bug' bosimi tashqi bosimga tenglashadigan harorat"
+        },
+        {
+          "w": "Sublimatsiya",
+          "m": "qattiq holatdan to'g'ridan-to'g'ri gaz holatiga o'tish"
+        },
+        {
+          "w": "Qizdirish egri chizig'i",
+          "m": "haroratning vaqt bo'yicha o'zgarish grafigi"
+        }
+      ],
+      "quiz": [
+        [
+          "Qaynash va bug'lanishning asosiy farqi nimada?",
+          [
+            "Qaynash butun hajmda, bug'lanish faqat sirtda",
+            "Bug'lanish faqat qaynaganida bo'ladi",
+            "Qaynash uchun sovitish kerak",
+            "Farqi yo'q"
+          ],
+          0,
+          "Qaynash ma'lum haroratda, bug'lanish istalgan haroratda."
+        ],
+        [
+          "Nega daryoda suv 100°C da qaynamaydi?",
+          [
+            "Tashqi bosim past (tog'da) yoki bug' tarqaladi",
+            "Daryo suvi juda toza bo'lgani uchun qaynamaydi",
+            "Quyosh nuri suvni yetarli qizdira olmaydi",
+            "Suvning zichligi oshib, qaynash to'xtaydi"
+          ],
+          0,
+          "Qaynash harorati bosimga bog'liq; ochiq havoda bug' tarqalib, harorat ~100°C da qoladi."
+        ],
+        [
+          "Suyuqlik qaynayotganda harorat qanday o'zgaradi?",
+          [
+            "Deyarli o'zgarmaydi",
+            "Tez ko'tariladi",
+            "Pasayadi",
+            "Avval pasayadi, keyin oshadi"
+          ],
+          0,
+          "Egr chiziqda tekis qism — energiya bog'lanish uzishga sarflanadi."
+        ],
+        [
+          "Nega ho'l kiyimni shamolli havoda kiyganda sovuq his qilasiz?",
+          [
+            "Tezroq bug'lanish teridan issiqlikni oladi",
+            "Shamol teriga issiqlik qo'shib yuboradi",
+            "Suv matoda qizib, sovuq tuyulishini beradi",
+            "Matoning zichligi oshib, shamol o'tmaydi"
+          ],
+          0,
+          "Tez bug'lanish energiyani teridan oladi — shuning uchun sovitadi."
+        ],
+        [
+          "Qopqog'i bosim oshiruvchi idishda taom tez pishadi, chunki...",
+          [
+            "Suyuqlik yuqoriroq haroratda qaynaydi",
+            "Suyuqlik past haroratda qaynaydi",
+            "Bosim bug'ni yo'q qiladi",
+            "Idish katta"
+          ],
+          0,
+          "Bosim ↑ → qaynash harorati ↑ → pishish tezlashadi."
+        ],
+        [
+          "Qaynash bug'lanishdan nimasi bilan farq qiladi?",
+          [
+            "Butun hajmda va ma'lum haroratda sodir bo'ladi",
+            "Faqat sirtda va istalgan haroratda sodir bo'ladi",
+            "Faqat sovuq suyuqliklarda yuz beradigan jarayon",
+            "Issiqlik yutilmasdan o'tadigan tez jarayon"
+          ],
+          0,
+          "Bug'lanish — sirtida va har qanday haroratda; qaynash — butun hajmda, qaynash haroratida."
+        ],
+        [
+          "Shakar mayda qandga qaraganda tezroq erishi nimaga bog'liq?",
+          [
+            "Mayda donalarda suv bilan kontakt yuzasi katta",
+            "Qand donalarining zichligi kattaligida",
+            "Shakar suv bilan kimyoviy reaksiyaga kirishadi",
+            "Mayda donalar suvni o'zi qizdirib yuboradi"
+          ],
+          0,
+          "Yuzani oshirish — erish tezligiga ta'sir etuvchi uch omildan biri."
+        ],
+        [
+          "100 g suvga 20 g tuz solinsa, eritmaning massa ulushi taxminan qancha bo'ladi?",
+          [
+            "≈17%",
+            "≈20%",
+            "≈25%",
+            "≈12%"
+          ],
+          0,
+          "Eritma massasi 120 g: 20 ÷ 120 × 100% ≈ 17%."
+        ]
+      ],
+      "slideQuiz": [
+        [
+          "Qizdirish egri chizig'ining «tekis» qismi nimani bildiradi?",
+          [
+            "Holat o'zgarishi ketmoqda, harorat o'zgarmayapti",
+            "Isitgich o'chirilgan, suyuqlik sovimoqda",
+            "Harorat pasayib, modda qotmoqda",
+            "Modda butunlay bug'lanib tugamoqda"
+          ],
+          0,
+          "Tekis qism — energiya holat o'zgarishiga sarflanayotgani belgisi."
+        ],
+        [
+          "Muz eritayotganda harorat qanday?",
+          [
+            "0°C da saqlanadi",
+            "Tez oshadi",
+            "−10°C gacha tushadi",
+            "Qaynaydi"
+          ],
+          0,
+          "Erish — harorat o'zgarmaydigan jarayon."
+        ]
+      ],
+      "game": [
+        [
+          "Jarayonni nomi bilan moslashting: qattiq → gaz (to'g'ridan-to'g'ri)",
+          [
+            "Sublimatsiya",
+            "Kondensatsiya",
+            "Eritish",
+            "Qotirish"
+          ],
+          0,
+          "Quruq muz yoki kiyimdagi muzning to'g'ridan-to'g'ri bug'lanishi."
+        ],
+        [
+          "Qaysida harorat o'zgarmaydi?",
+          [
+            "Qaynashda",
+            "Suyuqlik qizyganda",
+            "Qattiq jism qiziganda",
+            "Gaz siqilganda"
+          ],
+          0,
+          "Holat almashinuvi — haroratning tekis turishi."
+        ],
+        [
+          "Bug'lanishni tezlashtirmaydigan omil — qaysi?",
+          [
+            "Suyuqlik rangi",
+            "Harorat",
+            "Sirt yuzasi",
+            "Shamol (havo harakati)"
+          ],
+          0,
+          "Rang bug'lanish tezligiga deyarli ta'sir qilmaydi."
+        ]
+      ],
+      "task": {
+        "q": "«Qaynatish va bug'latish» — ikki stkanga bir xil miqdorda suv quying: birini ochiq, ikkinchisini qopqog'i bilan qoplab, 10 daqiqa qoldiring. Qaysi biri ko'proq kamaydi? Haroratni qayd eting va qizdirish egri chizig'ini chizing.",
+        "a": "Ochiq stakanda suv ko'proq kamayadi (sirt katta va bug' tarqaladi). Qaynash paytida harorat ~100°C da tekis turadi — grafikda gorizontal qism bo'ladi.",
+        "why": "Bitta sharoitni (sirt yopiq/yopiq emas) o'zgartirib, qolganlarini bir xil saqlash — nazorat qilinadigan tajribaning mohiyati.",
+        "steps": [
+          "Ikkala idishdagi suv hajmini o'lchang (V0)",
+          "Biriga qopqoq, ikkinchisiga qopqoq qo'ymang",
+          "Har 2 daqiqada harorat va qolgan suv miqdorini yozing",
+          "Jadval tuzing, so'ng vaqt—harorat grafigini chizing",
+          "Xulosa: qaysi jarayon bug'lanish, qaysi qaynash? Grafikning tekis qismi qaysi?"
+        ],
+        "jihoz": [
+          "Ikkita bir xil stakan",
+          "Chayka yoki termoometr",
+          "O'lchash silindri yoki shpriss (ml)",
+          "Sekundomer"
+        ],
+        "xavfsizlik": [
+          "Qaynab turgan suv va bug'dan kuyish xavfi bor — idishni faqat qo'lqop bilan oling",
+          "Elektr plitasi yoki isitgichni ustoz nazorati ostida ishlating",
+          "Termonyamni stakan tubiga qo'ymang"
+        ]
+      }
+    }
+  ]
+}

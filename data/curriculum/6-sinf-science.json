@@ -1,0 +1,852 @@
+{
+  "meta": {
+    "fan": "Tabiiy fan (Science)",
+    "sinf": 6,
+    "kitob_darslik": {
+      "nomi": "NATURE SCIENCE SCHOOLBOOK G6 UZB",
+      "tavsif": "Umumta'lim maktablarining 6-sinfi uchun darslik (o'zbek tilidagi mahalliylashtirilgan nashr)",
+      "betlar": 172,
+      "sahifa_o'lchami": "220x290 mm",
+      "nashrga_tayyor": "2024-08-27",
+      "fayl": "Darslik.pdf"
+    },
+    "kitob_mashq_daftari": {
+      "nomi": "NATURE SCIENCE WORKBOOK G6 UZB",
+      "tavsif": "6-sinf uchun mashq daftari (amaliy ishlar, boshqotirma, bilimlar xaritasi, takrorlash, mustahkamlash)",
+      "betlar": 148,
+      "sahifa_o'lchami": "220x290 mm",
+      "nashrga_tayyor": "2024-08-29",
+      "fayl": "Mashq daftari.pdf"
+    },
+    "kirish_bo'lim": "Siz tadqiqotchisiz! (darslik, 1-bet)",
+    "tuzilma_ustunlari": {
+      "mavzu": "Bob va mavzu nomi + o'rganish savollari (•)",
+      "tadqiqotchilik_konikmalari": "Kitobning «Tadqiqotchilik ko'nikmalari» ustuni — bob bo'yicha ko'nikmalar ro'yxati",
+      "ilm_fanning_hayotga_tatbiqi": "«Ilm-fanning hayotga tatbiqi» ustuni — bob bo'yicha tatbiq/muhokama mavzulari",
+      "izoh": "Ustunlardagi ro'yxatlar bob darajasida berilgan; mavzuga bog'lash o'qituvchi ixtiyorida"
+    },
+    "hisob": {
+      "boblar": 12,
+      "mavzular_darslikda": 26,
+      "organish_savollari": 37,
+      "qism_mavzular": 10,
+      "tadqiqotchilik_konikmalari": 112,
+      "ilm_fanning_hayotga_tatbiqi": 23,
+      "amaliy_ishlar_mashq_daftarida": 30,
+      "boshqotirma": 12,
+      "bilimlar_xaritasi": 12,
+      "takrorlash": 12,
+      "mustahkamlash": 12
+    },
+    "manba": {
+      "github": "https://github.com/duvlayevkamil/6-TF/blob/main/Darslik.pdf va Mashq daftari.pdf (mundarija sahifalari)",
+      "kommit": "9ec3c27 Add files via upload"
+    },
+    "holat": "tasdiqlangan — bu ikki kitob asosida dars o'tiladi",
+    "ishonch": {
+      "darslik_ustun_legendasi": {
+        "1-ustun": "Biologiya, kimyo, fizika, geografiya (umumiy fan doirasi)",
+        "2-ustun": "Tadqiqotchilik ko'nikmalari",
+        "3-ustun": "Ilm-fanning hayotga tatbiqi",
+        "izoh": "Mundarijaning viii beti pastida chop etilgan umumiy legenda — har bob uchun alohida berilmagan"
+      },
+      "eslatmalar": [
+        "Konikma va tatbiq bandlari bobga sahifadagi vertikal band (Y koordinatasi) bo'yicha bog'langan. Bob 1 ning «Ilm-fanning hayotga tatbiqi» ro'yxati kitobda bo'sh — bu koordinatalar bilan tekshirilgan.",
+        "endBet — keyingi bob boshlanishidan oldingi bet; kitobda chop etilmagan, hisoblangan.",
+        "Bob darajasidagi fan ro'yxati kitobda yo'q, shuning uchun JSON'da ham yo'q.",
+        "Nomlar, savollar, ko'nikmalar va betlar kitobda chop etilganidek olingan; izoh yoki qo'shimcha matn qo'shilmagan.",
+        "Ma'lumot tools/extract-toc.mjs bilan PDF'dan avtomatik o'qilgan va tools/verify-curriculum.mjs bilan qayta tekshiriladi."
+      ],
+      "manba_fayllar": [
+        "Darslik.pdf — 8 PDF bet (Mundarija: kitobning viii–xv betlari)",
+        "Mashq daftari.pdf — 3 PDF bet (Mundarija)"
+      ]
+    }
+  },
+  "boblar": [
+    {
+      "id": 1,
+      "nomi": "Ovqat hazm qilish sistemasi",
+      "startBet": 4,
+      "endBet": 13,
+      "mavzular": [
+        {
+          "kod": "1.1",
+          "nomi": "Ratsional ovqatlanish",
+          "savollar": [
+            "Muvozanatlashgan ratsion nima?"
+          ],
+          "qism_mavzular": []
+        },
+        {
+          "kod": "1.2",
+          "nomi": "Ovqat hazm qilish sistemasi",
+          "savollar": [
+            "Ovqat qanday hazm bo‘ladi?",
+            "Hayvonlarning ovqat hazm qilish sistemasi o‘xshash tuzilganmi?"
+          ],
+          "qism_mavzular": []
+        }
+      ],
+      "tadqiqotchilik_konikmalari": [
+        "jadval va ustunli diagrammadan foydalanib tadqiqot natijalarini izohlash;",
+        "turli ma’lumot manbalaridan olingan dalillardan foydalanib savollarga javob berish;",
+        "kuzatishlar asosida obyektlarni tasniflash;",
+        "modelda o‘rganilayotgan obyektning asosiy xususiyatlari aks etishini anglash;",
+        "ilmiy tushunchani tasvirlashda modeldan foydalanish."
+      ],
+      "ilm_fanning_hayotga_tatbiqi": [],
+      "mashq_daftari": {
+        "amaliyIshlar": [
+          {
+            "kod": "1.1",
+            "nomi": "Oilamning ovqat ratsioni",
+            "bet": 1
+          },
+          {
+            "kod": "1.2",
+            "nomi": "Ovqat hazm qilish sistemasi modelini tayyorlash",
+            "bet": 3
+          }
+        ],
+        "boshqotirma": 5,
+        "bilimlarXaritasi": 6,
+        "takrorlash": 7,
+        "mustahkamlash": 10
+      }
+    },
+    {
+      "id": 2,
+      "nomi": "Nafas va qon aylanish sistemalari",
+      "startBet": 14,
+      "endBet": 31,
+      "mavzular": [
+        {
+          "kod": "2.1",
+          "nomi": "Nafas sistemasi",
+          "savollar": [
+            "Nafas sistemasi qanday funksiyani bajaradi?",
+            "Biz qanday nafas olamiz va chiqaramiz?",
+            "Umurtqali hayvonlarning nafas sistemasi qanday tuzilgan?"
+          ],
+          "qism_mavzular": []
+        },
+        {
+          "kod": "2.2",
+          "nomi": "Qon aylanish sistemasi",
+          "savollar": [
+            "Qon aylanish sistemasi qanday funksiyani bajaradi?",
+            "Tanamiz bo‘ylab qon qanday harakatlanadi?",
+            "Umurtqali hayvonlarning qon aylanish sistemasi qanday tuzilgan?"
+          ],
+          "qism_mavzular": []
+        }
+      ],
+      "tadqiqotchilik_konikmalari": [
+        "ilmiy hodisani tasvirlash va izohlashda modeldan foydalanish;",
+        "ilmiy hodisani tushunishda modelning ahamiyatini bayon etish;",
+        "tadqiqotni yaxshilash yuzasidan taklif berish va uni izohlash;",
+        "o‘lchash natijalarini taqdim etish uchun jadval tuzish;",
+        "ishonchli natijalar olish uchun o‘lchashlarni takrorlash zarurligi yuzasidan qaror qabul qilish;",
+        "tadqiqot natijalaridagi qonuniyatni bayon etish hamda kutilmagan natijalarni aniqlash;",
+        "turli ma’lumot manbalaridan olingan dalillardan foydalanib savollarga javob berish;",
+        "nuqtali diagrammadan foydalanib tadqiqot natijalarini izohlash."
+      ],
+      "ilm_fanning_hayotga_tatbiqi": [
+        "ilmiy bilimlar vaqt o‘tishi bilan o‘zgarishini ko‘rsatish uchun to‘plangan dalillardan foydalanish;",
+        "bahs-munozarada o‘z nuqtayi nazarini ilmiy dalillardan foydalanib asoslash."
+      ],
+      "mashq_daftari": {
+        "amaliyIshlar": [
+          {
+            "kod": "2.1",
+            "nomi": "Nafas olish va nafas chiqarish",
+            "bet": 12
+          },
+          {
+            "kod": "2.2",
+            "nomi": "Nafas sistemasi modelini tayyorlash",
+            "bet": 14
+          },
+          {
+            "kod": "2.3",
+            "nomi": "Jismoniy mashqlar yurak qisqarishlari chastotasi hamda nafas chastotasiga qanday ta’sir etadi?",
+            "bet": 16
+          },
+          {
+            "kod": "2.4",
+            "nomi": "Umurtqali hayvonlarning yurak qisqarishlari chastotasi hamda nafas chastotasi",
+            "bet": 19
+          }
+        ],
+        "boshqotirma": 20,
+        "bilimlarXaritasi": 21,
+        "takrorlash": 22,
+        "mustahkamlash": 26
+      }
+    },
+    {
+      "id": 3,
+      "nomi": "Kasalliklar",
+      "startBet": 32,
+      "endBet": 46,
+      "mavzular": [
+        {
+          "kod": "3.1",
+          "nomi": "Yuqumli kasalliklar",
+          "savollar": [
+            "Kasalliklarning kelib chiqish sababi nimada?",
+            "Kasalliklar qanday tarqaladi?"
+          ],
+          "qism_mavzular": []
+        },
+        {
+          "kod": "3.2",
+          "nomi": "Kasallik tarqalishining oldini olish",
+          "savollar": [
+            "Kasallik tarqalishining oldini qanday olish mumkin?",
+            "Hasharotlar chaqishidan qanday himoyalanish zarur?"
+          ],
+          "qism_mavzular": []
+        },
+        {
+          "kod": "3.3",
+          "nomi": "Odam organizmining himoya mexanizmlari",
+          "savollar": [
+            "Odam organizmi kasalliklarga qarshi qanday kurashadi?"
+          ],
+          "qism_mavzular": []
+        }
+      ],
+      "tadqiqotchilik_konikmalari": [
+        "ilmiy tushunchani tasvirlash va izohlashda modeldan foydalanish;",
+        "ilmiy tushunchani anglashda modelning ahamiyatini bayon etish;",
+        "nazorat qilinadigan tajriba rejasini tuzish va uch xil o‘zgaruvchini aniqlash;",
+        "tadqiqot uchun kerakli jihozlarni tanlash va ulardan to‘g‘ri foydalanish;",
+        "turli tadqiqot metodlarining o‘ziga xos xususiyatlarini anglash;",
+        "amaliy ishni bajarish davomida yuzaga kelishi mumkin bo‘lgan xavflarni hamda ularni kamaytirish yo‘llarini bayon etish;",
+        "egallangan bilimlarni qo‘llab tadqiqot natijalarini bashorat qilish;",
+        "kuzatish natijalarini taqdim etish uchun jadval tuzish;",
+        "tadqiqot natijalariga asoslanib ilmiy xulosa chiqarish;",
+        "tadqiqot natijalariga asoslanib bashoratning aniqligini bayon etish;",
+        "nuqtali diagrammadan foydalanib tadqiqot natijalarini izohlash;",
+        "turli ma’lumot manbalaridan olingan dalillardan foydalanib savollarga javob berish."
+      ],
+      "ilm_fanning_hayotga_tatbiqi": [
+        "ilmiy bilimlar vaqt o‘tishi bilan o‘zgarishini ko‘rsatish uchun to‘plangan dalillardan foydalanish;",
+        "tabiiy fanlarning muayyan sohasida faoliyat yurituvchi kasb egalarini aniqlash va ularning faoliyatini tavsiflash;",
+        "bahs-munozarada o‘z nuqtayi nazarini ilmiy dalillardan foydalanib asoslash."
+      ],
+      "mashq_daftari": {
+        "amaliyIshlar": [
+          {
+            "kod": "3.1",
+            "nomi": "Kasalliklarning kelib chiqish sababi nimada?",
+            "bet": 29
+          },
+          {
+            "kod": "3.2",
+            "nomi": "Purkagich yordamida “aksirish”",
+            "bet": 31
+          },
+          {
+            "kod": "3.3",
+            "nomi": "Organizmni himoya qiluvchi to‘siq",
+            "bet": 33
+          }
+        ],
+        "boshqotirma": 35,
+        "bilimlarXaritasi": 36,
+        "takrorlash": 37,
+        "mustahkamlash": 40
+      }
+    },
+    {
+      "id": 4,
+      "nomi": "Oziq zanjiri va oziq to‘ri",
+      "startBet": 47,
+      "endBet": 59,
+      "mavzular": [
+        {
+          "kod": "4.1",
+          "nomi": "Oziq zanjirlari va oziq to‘ri",
+          "savollar": [
+            "Oziq zanjirlari va oziq to‘rlari qanday tuzilgan?"
+          ],
+          "qism_mavzular": []
+        },
+        {
+          "kod": "4.2",
+          "nomi": "Energiya va zaharli moddalar oqimi",
+          "savollar": [
+            "Oziq zanjirlari va oziq to‘rlari bo‘ylab energiya qanday uzatiladi?",
+            "Zaharli moddalar oziq zanjiri va oziq to‘rlari bо‘уlаb uzatilishi mumkinmi?"
+          ],
+          "qism_mavzular": []
+        }
+      ],
+      "tadqiqotchilik_konikmalari": [
+        "turli manbalardan olingan ma’lumotlarga asoslanib tirik organizmlarni tasniflash;",
+        "ilmiy hodisani tushunishda modelning ahamiyatini bayon etish;",
+        "ilmiy hodisani tasvirlash va izohlashda modeldan foydalanish."
+      ],
+      "ilm_fanning_hayotga_tatbiqi": [
+        "tabiiy fanlar yutuqlaridan kundalik hayotda foydalanilishini bayon etish;",
+        "fan va texnologiya yutuqlaridan foydalanishning atrof-muhitga ijobiy va salbiy ta’sirini muhokama qilish."
+      ],
+      "mashq_daftari": {
+        "amaliyIshlar": [
+          {
+            "kod": "4.1",
+            "nomi": "Oziq zanjiri tuzish",
+            "bet": 41
+          },
+          {
+            "kod": "4.2",
+            "nomi": "Zaharli moddalar oziq zanjiri bo‘ylab qanday uzatiladi?",
+            "bet": 43
+          }
+        ],
+        "boshqotirma": 45,
+        "bilimlarXaritasi": 46,
+        "takrorlash": 47,
+        "mustahkamlash": 49
+      }
+    },
+    {
+      "id": 5,
+      "nomi": "Moddaning xossalari",
+      "startBet": 60,
+      "endBet": 70,
+      "mavzular": [
+        {
+          "kod": "5.1",
+          "nomi": "Moddalarning xossalari",
+          "savollar": [
+            "Gazlar ham massaga egami?",
+            "Bir xil haroratda turli moddalarning agregat holati o‘zgaradimi?",
+            "Issiqlik o‘tkazuvchanlik va elektr o‘tkazuvchanlik nima?"
+          ],
+          "qism_mavzular": []
+        },
+        {
+          "kod": "5.2",
+          "nomi": "Qaynash va bug‘lanish",
+          "savollar": [
+            "Qaynash va bug‘lanish bir-biridan qanday farq qiladi?"
+          ],
+          "qism_mavzular": []
+        }
+      ],
+      "tadqiqotchilik_konikmalari": [
+        "tadqiqot uchun kerakli jihozlarni tanlash va ulardan to‘g‘ri foydalanish;",
+        "ilmiy savol qo‘yish va unga javob topishga yordam beradigan eng yaxshi tadqiqot metodini tanlash;",
+        "egallangan bilimlarni qo‘llab tadqiqot natijalarini bashorat qilish;",
+        "amaliy ishni bajarish davomida xavfsizlik qoidalariga rioya qilish;",
+        "tadqiqotni yaxshilash yuzasidan taklif berish va uni izohlash;",
+        "turli tadqiqot metodlarining o‘ziga xos xususiyatlarini anglash;",
+        "nazorat qilinadigan tajriba rejasini tuzish va uch xil o‘zgaruvchini aniqlash;",
+        "amaliy ishni bajarish davomida yuzaga kelishi mumkin bo‘lgan xavflarni hamda ularni kamaytirish yo‘llarini bayon etish;",
+        "tadqiqot natijalariga asoslanib bashoratning aniqligini bayon etish;",
+        "o‘lchash ishlarini to‘g‘ri va aniq bajarish;",
+        "kuzatish natijalarini taqdim etish uchun jadval tuzish;",
+        "tadqiqot natijalariga asoslanib ilmiy xulosa chiqarish."
+      ],
+      "ilm_fanning_hayotga_tatbiqi": [
+        "bahs-munozarada o‘z nuqtayi nazarini ilmiy dalillardan foydalanib asoslash;",
+        "tabiiy fanlar yutuqlaridan kundalik hayotda foydalanilishini bayon etish."
+      ],
+      "mashq_daftari": {
+        "amaliyIshlar": [
+          {
+            "kod": "5.1",
+            "nomi": "To‘g‘ri tanlov",
+            "bet": 51
+          },
+          {
+            "kod": "5.2",
+            "nomi": "Qaynatish va bug‘latish",
+            "bet": 54
+          }
+        ],
+        "boshqotirma": 56,
+        "bilimlarXaritasi": 57,
+        "takrorlash": 58,
+        "mustahkamlash": 61
+      }
+    },
+    {
+      "id": 6,
+      "nomi": "Fizik va kimyoviy o‘zgarishlar",
+      "startBet": 71,
+      "endBet": 86,
+      "mavzular": [
+        {
+          "kod": "6.1",
+          "nomi": "Fizik o‘zgarishlar",
+          "savollar": [
+            "Barcha fizik o‘zgarishlar qaytar jarayonmi?"
+          ],
+          "qism_mavzular": [
+            "Qaytar va qaytmas o‘zgarishlar"
+          ]
+        },
+        {
+          "kod": "6.2",
+          "nomi": "Moddalarning erish jarayoni",
+          "savollar": [
+            "Erish nima?"
+          ],
+          "qism_mavzular": [
+            "Qattiq moddalarning eruvchanligiga haroratning ta’siri"
+          ]
+        },
+        {
+          "kod": "6.3",
+          "nomi": "Kimyoviy reaksiyalar",
+          "savollar": [
+            "Kimyoviy reaksiyalarda qanday o‘zgarishlar sodir bo‘ladi?",
+            "Kimyoviy reaksiya sodir bo‘lganini qanday bilish mumkin?"
+          ],
+          "qism_mavzular": []
+        }
+      ],
+      "tadqiqotchilik_konikmalari": [
+        "o‘rganilayotgan obyektlarda kuzatiladigan farqlarga asoslanib kalit-aniqlagich tuzish;",
+        "ilmiy savol qo‘yish va unga javob topishga yordam beradigan eng yaxshi tadqiqot metodini tanlash;",
+        "turli tadqiqot metodlarining o‘ziga xos xususiyatlarini anglash;",
+        "nazorat qilinadigan tajriba rejasini tuzish va uch xil o‘zgaruvchini aniqlash;",
+        "tadqiqot uchun kerakli jihozlarni tanlash va ulardan to‘g‘ri foydalanish;",
+        "o‘lchash ishlarini to‘g‘ri va aniq bajarish;",
+        "ishonchli natijalar olish uchun kuzatishlarni takrorlash zarurligi yuzasidan qaror qabul qilish;",
+        "egallangan bilimlarni qo‘llab tadqiqot natijalarini bashorat qilish;",
+        "amaliy ishni bajarish davomida yuzaga kelishi mumkin bo‘lgan xavflarni hamda ularni kamaytirish yo‘llarini bayon etish;",
+        "kuzatish va o‘lchash natijalarini taqdim etish uchun jadval tuzish;",
+        "kuzatish natijalarini rasm orqali ifodalash;",
+        "chiziqli grafikdan foydalanib tadqiqot natijalarini izohlash;",
+        "tadqiqot natijalaridagi qonuniyatni bayon etish hamda kutilmagan natijalarni aniqlash;",
+        "tadqiqot natijalariga asoslanibilmiy xulosa chiqarish;",
+        "tadqiqot natijalariga asoslanib bashoratning aniqligini bayon etish;",
+        "tadqiqotni yaxshilash yuzasidan taklif berish va uni izohlash;",
+        "amaliy ishni bajarish davomida xavfsizlik qoidalariga rioya qilish."
+      ],
+      "ilm_fanning_hayotga_tatbiqi": [
+        "fan va texnologiya yutuqlaridan foydalanishning atrof-muhitga ijobiy ta’sirini muhokama qilish."
+      ],
+      "mashq_daftari": {
+        "amaliyIshlar": [
+          {
+            "kod": "6.1",
+            "nomi": "Qaytar fizik o‘zgarishlar",
+            "bet": 63
+          },
+          {
+            "kod": "6.2",
+            "nomi": "Moddalarning erish jarayoni",
+            "bet": 65
+          },
+          {
+            "kod": "6.3",
+            "nomi": "Kimyoviy reaksiya belgilari",
+            "bet": 68
+          }
+        ],
+        "boshqotirma": 71,
+        "bilimlarXaritasi": 72,
+        "takrorlash": 73,
+        "mustahkamlash": 75
+      }
+    },
+    {
+      "id": 7,
+      "nomi": "Kuchlarning ta’siri",
+      "startBet": 87,
+      "endBet": 97,
+      "mavzular": [
+        {
+          "kod": "7.1",
+          "nomi": "Massa, og‘irlik va gravitatsiya kuchi",
+          "savollar": [
+            "Massa va og‘irlik orasidagi farq nimada?",
+            "Gravitatsiya kuchi o‘zgarganda og‘irlik va massa o‘zgaradimi?"
+          ],
+          "qism_mavzular": []
+        },
+        {
+          "kod": "7.2",
+          "nomi": "Harakatlanayotgan jismlarga ta’sir qiluvchi kuchlar",
+          "savollar": [
+            "Jismlarga kuchlar qanday ta’sir qiladi?",
+            "Jism massasi va shakli uning suzishi yoki cho‘kishiga qanday ta’sir qiladi?"
+          ],
+          "qism_mavzular": []
+        }
+      ],
+      "tadqiqotchilik_konikmalari": [
+        "egallangan bilimlarni qo‘llab tadqiqot natijalarini bashorat qilish;",
+        "o‘rganilayotgan obyektlarni kuzatish va tajriba natijalariga asoslanib tasniflash;",
+        "o‘lchash ishlarini to‘g‘ri va aniq bajarish;",
+        "ishonchli natijalar olish uchun o‘lchashlarni takrorlash zarurligi yuzasidan qaror qabul qilish;",
+        "tadqiqot natijalariga asoslanib bashoratning aniqligini bayon etish;",
+        "ustunli diagrammadan foydalanib tadqiqot natijalarini izohlash;",
+        "tadqiqot natijalaridagi qonuniyatni bayon etish hamda kutilmagan natijalarni aniqlash;",
+        "ilmiy tushunchani anglashda modelning ahamiyatini bayon etish;",
+        "nazorat qilinadigan tajriba rejasini tuzish va uch xil o‘zgaruvchini aniqlash;",
+        "tadqiqot uchun kerakli jihozlarni tanlash va ulardan to‘g‘ri foydalanish.",
+        "tadqiqotni yaxshilash yuzasidan taklif berish va uni izohlash;",
+        "o‘rganilayotgan obyektlarda kuzatiladigan farqlarga asoslanib kalit-aniqlagich tuzish."
+      ],
+      "ilm_fanning_hayotga_tatbiqi": [
+        "tabiiy fanlar yutuqlaridan kundalik hayotda foydalanilishini bayon etish."
+      ],
+      "mashq_daftari": {
+        "amaliyIshlar": [
+          {
+            "kod": "7.1",
+            "nomi": "Gravitatsiyaning ta’siri",
+            "bet": 77
+          },
+          {
+            "kod": "7.2",
+            "nomi": "Turli shaklga ega bo‘lgan suzuvchi jismlar",
+            "bet": 79
+          }
+        ],
+        "boshqotirma": 82,
+        "bilimlarXaritasi": 83,
+        "takrorlash": 84,
+        "mustahkamlash": 86
+      }
+    },
+    {
+      "id": 8,
+      "nomi": "Yorug‘likning tarqalishi",
+      "startBet": 98,
+      "endBet": 108,
+      "mavzular": [
+        {
+          "kod": "8.1",
+          "nomi": "Yorug‘likning qaytishi",
+          "savollar": [
+            "Yorug‘lik yassi ko‘zgudan qanday qaytadi?"
+          ],
+          "qism_mavzular": []
+        },
+        {
+          "kod": "8.2",
+          "nomi": "Yorug‘likning sinishi",
+          "savollar": [
+            "Yorug‘lik bir muhitdan ikkinchi muhitga o‘tganda nima sodir bo‘ladi?"
+          ],
+          "qism_mavzular": []
+        }
+      ],
+      "tadqiqotchilik_konikmalari": [
+        "o‘rganilayotgan obyektlarni kuzatish natijalariga asoslanib tasniflash;",
+        "tadqiqot natijalaridagi qonuniyatni bayon etish hamda kutilmagan natijalarni aniqlash;",
+        "tadqiqotni yaxshilash yuzasidan taklif berish va uni izohlash;",
+        "ishonchli natijalar olish uchun o‘lchashlarni takrorlash zarurligi yuzasidan qaror qabul qilish;",
+        "ilmiy hodisani tasvirlash va izohlashda modeldan foydalanish;",
+        "ilmiy savol qo‘yish va unga javob topishga yordam beradigan eng yaxshi tadqiqot metodini tanlash;",
+        "turli tadqiqot metodlarining o‘ziga xos xususiyatlarini anglash;",
+        "nazorat qilinadigan tajriba rejasini tuzish va uch xil o‘zgaruvchini aniqlash."
+      ],
+      "ilm_fanning_hayotga_tatbiqi": [
+        "tabiiy fanlar yutuqlaridan kundalik hayotda foydalanilishini bayon etish;",
+        "tabiiy fanlarning muayyan sohasida faoliyat yurituvchi kasb egalarini aniqlash va ularning faoliyatini tavsiflash;",
+        "fan va texnologiya yutuqlaridan foydalanishning atrof-muhitga ijobiy va salbiy ta’sirini muhokama qilish."
+      ],
+      "mashq_daftari": {
+        "amaliyIshlar": [
+          {
+            "kod": "8.1",
+            "nomi": "Yorug‘likning qaytishi",
+            "bet": 88
+          },
+          {
+            "kod": "8.2",
+            "nomi": "Yorug‘likning sinishiga doir qiziqarli tajriba",
+            "bet": 90
+          }
+        ],
+        "boshqotirma": 91,
+        "bilimlarXaritasi": 92,
+        "takrorlash": 93,
+        "mustahkamlash": 95
+      }
+    },
+    {
+      "id": 9,
+      "nomi": "Elektr zanjirlar",
+      "startBet": 109,
+      "endBet": 119,
+      "mavzular": [
+        {
+          "kod": "9.1",
+          "nomi": "Elektr zanjir sxemalari",
+          "savollar": [
+            "Elektr zanjir sxemasi deganda nimani tushunamiz?"
+          ],
+          "qism_mavzular": []
+        },
+        {
+          "kod": "9.2",
+          "nomi": "Elektr zanjir turlari",
+          "savollar": [
+            "Qaysi elektr zanjirdagi chiroqlar yorqinroq yonadi?"
+          ],
+          "qism_mavzular": [
+            "Elementlari ketma-ket ulangan elektr zanjir",
+            "Elementlari parallel ulangan elektr zanjir"
+          ]
+        }
+      ],
+      "tadqiqotchilik_konikmalari": [
+        "tadqiqot uchun kerakli jihozlarni tanlash va ulardan to‘g‘ri foydalanish;",
+        "amaliy ishni bajarish davomida xavfsizlik qoidalariga rioya qilish;",
+        "ilmiy tushunchani anglashda modelning ahamiyatini bayon etish;",
+        "ilmiy tushunchani tasvirlash va izohlashda modeldan foydalanish;",
+        "egallangan bilimlarni qo‘llab tadqiqot natijalarini bashorat qilish;",
+        "tadqiqot natijalariga asoslanib bashoratning aniqligini bayon etish;",
+        "tadqiqot natijalaridagi qonuniyatni bayon etish hamda kutilmagan natijalarni aniqlash."
+      ],
+      "ilm_fanning_hayotga_tatbiqi": [
+        "bahs-munozarada o‘z nuqtayi nazarini ilmiy dalillardan foydalanib asoslash;",
+        "fan va texnologiya yutuqlaridan foydalanishning atrof-muhitga ijobiy ta’sirini muhokama qilish."
+      ],
+      "mashq_daftari": {
+        "amaliyIshlar": [
+          {
+            "kod": "9.1",
+            "nomi": "Elektr zanjir sxemalari",
+            "bet": 97
+          },
+          {
+            "kod": "9.2",
+            "nomi": "Chiroqni yoqing",
+            "bet": 98
+          },
+          {
+            "kod": "9.3",
+            "nomi": "Qaysi turdagi elektr zanjirdan foydalanish kerak?",
+            "bet": 100
+          }
+        ],
+        "boshqotirma": 102,
+        "bilimlarXaritasi": 103,
+        "takrorlash": 104,
+        "mustahkamlash": 107
+      }
+    },
+    {
+      "id": 10,
+      "nomi": "Tog‘ jinslari",
+      "startBet": 120,
+      "endBet": 131,
+      "mavzular": [
+        {
+          "kod": "10.1",
+          "nomi": "Tog‘ jinslarining turlari",
+          "savollar": [],
+          "qism_mavzular": [
+            "Magmatik tog‘ jinslari",
+            "Cho‘kindi tog‘ jinslari",
+            "Metamorfik tog‘ jinslari"
+          ]
+        },
+        {
+          "kod": "10.2",
+          "nomi": "Tog‘ jinslarining o‘zgarishi",
+          "savollar": [],
+          "qism_mavzular": [
+            "Tog‘ jinslarining o‘zgarishi",
+            "Toshqotgan qoldiqlar"
+          ]
+        }
+      ],
+      "tadqiqotchilik_konikmalari": [
+        "jismlarni kuzatish natijalariga asoslanib tasniflash;",
+        "kuzatish natijalarini taqdim etish uchun jadval tuzish;",
+        "aniqlashtirish va tasniflash metodidan qanday foydalanishni anglash;",
+        "o‘rganilayotgan obyektlarda kuzatiladigan farqlarga asoslanib kalit-aniqlagich tuzish;",
+        "ilmiy hodisani tasvirlash va izohlashda modeldan foydalanish;",
+        "tadqiqot natijalariga asoslanib ilmiy xulosa chiqarish."
+      ],
+      "ilm_fanning_hayotga_tatbiqi": [
+        "tabiiy fanlarning muayyan sohasida faoliyat yurituvchi kasb egalarini aniqlash va ularning faoliyatini tavsiflash;",
+        "ilmiy bilimlar vaqt o‘tishi bilan o‘zgarishini ko‘rsatish uchun to‘plangan dalillardan foydalanish;",
+        "fan va texnologiya yutuqlaridan foydalanishning atrof-muhitga salbiy ta’sirini muhokama qilish;",
+        "bahs-munozarada o‘z nuqtayi nazarini ilmiy dalillardan foydalanib asoslash."
+      ],
+      "mashq_daftari": {
+        "amaliyIshlar": [
+          {
+            "kod": "10.1",
+            "nomi": "Tog‘ jinslarining turlarini aniqlash",
+            "bet": 110
+          },
+          {
+            "kod": "10.2",
+            "nomi": "Tog‘ jinslarining o‘zgarishi",
+            "bet": 111
+          },
+          {
+            "kod": "10.3",
+            "nomi": "Cho‘kindi jinslarda toshqotgan qoldiqlar modelini tayyorlash",
+            "bet": 113
+          }
+        ],
+        "boshqotirma": 114,
+        "bilimlarXaritasi": 115,
+        "takrorlash": 116,
+        "mustahkamlash": 118,
+        "nominvarianti": "Tog‘ jinslarining turlari"
+      }
+    },
+    {
+      "id": 11,
+      "nomi": "Tuproq",
+      "startBet": 132,
+      "endBet": 142,
+      "mavzular": [
+        {
+          "kod": "11.1",
+          "nomi": "Tuproq turlari",
+          "savollar": [
+            "Tuproqning qanday turlari bor?"
+          ],
+          "qism_mavzular": []
+        },
+        {
+          "kod": "11.2",
+          "nomi": "Tuproq tarkibi va o‘simliklarning o‘sishi",
+          "savollar": [
+            "Tuproq tarkibi o‘simlik o‘sishiga qanday ta’sir qiladi?"
+          ],
+          "qism_mavzular": []
+        }
+      ],
+      "tadqiqotchilik_konikmalari": [
+        "amaliy ishni bajarish davomida xavfsizlik qoidalariga rioya qilish;",
+        "kuzatish natijalarini taqdim etish uchun jadval tuzish;",
+        "kuzatish natijalarini rasm orqali ifodalash;",
+        "jismlarni kuzatish natijalariga asoslanib tasniflash;",
+        "o‘lchash ishlarini to‘g‘ri va aniq bajarish;",
+        "o‘rganilayotgan obyektlarda kuzatiladigan farqlarga asoslanib kalit-aniqlagich tuzish;",
+        "amaliy ishni bajarish davomida yuzaga kelishi mumkin bo‘lgan xavflarni hamda ularni kamaytirish yo‘llarini bayon etish;",
+        "ilmiy hodisani tasvirlash va izohlashda modeldan foydalanish;",
+        "tadqiqot uchun kerakli jihozlarni tanlash va ulardan to‘g‘ri foydalanish;",
+        "ilmiy hodisani tushunishda modelning ahamiyatini bayon etish;",
+        "turli tadqiqot metodlarining o‘ziga xos xususiyatlarini anglash;",
+        "tadqiqot natijalariga asoslanib ilmiy xulosa chiqarish;",
+        "tadqiqotni yaxshilash yuzasidan taklif berish va uni izohlash."
+      ],
+      "ilm_fanning_hayotga_tatbiqi": [
+        "tabiiy fanlarning muayyan sohasida faoliyat yurituvchi kasb egalarini aniqlash va ularning faoliyatini tavsiflash;",
+        "tabiiy fanlar yutuqlaridan kundalik hayotda foydalanilishini bayon etish."
+      ],
+      "mashq_daftari": {
+        "amaliyIshlar": [
+          {
+            "kod": "11.1",
+            "nomi": "Qaysi tuproq o‘zida ko‘proq namlikni saqlab tura oladi?",
+            "bet": 120
+          },
+          {
+            "kod": "11.2",
+            "nomi": "O‘simlik yaxshi o‘sishi uchun qanday tuproq zarur?",
+            "bet": 122
+          }
+        ],
+        "boshqotirma": 124,
+        "bilimlarXaritasi": 125,
+        "takrorlash": 126,
+        "mustahkamlash": 128
+      }
+    },
+    {
+      "id": 12,
+      "nomi": "Quyosh sistemasi",
+      "startBet": 143,
+      "endBet": null,
+      "mavzular": [
+        {
+          "kod": "12.1",
+          "nomi": "Quyosh sistemasi",
+          "savollar": [
+            "Oy qanday harakatlanadi?"
+          ],
+          "qism_mavzular": [
+            "Sayyoralarning Quyoshga nisbatan joylashishi va harakati"
+          ]
+        },
+        {
+          "kod": "12.2",
+          "nomi": "Oyning fazalari",
+          "savollar": [
+            "Oyning qanday fazalari bor?"
+          ],
+          "qism_mavzular": []
+        }
+      ],
+      "tadqiqotchilik_konikmalari": [
+        "ilmiy hodisani tasvirlash va izohlashda modeldan foydalanish;",
+        "ilmiy hodisani tushunishda modelning ahamiyatini bayon etish;",
+        "turli ma’lumot manbalaridan olingan dalillardan foydalanib savollarga javob berish;",
+        "jadvaldan foydalanib tadqiqot natijalarini izohlash;",
+        "tadqiqot natijalaridagi qonuniyatni bayon etish hamda kutilmagan natijalarni aniqlash;",
+        "turli tadqiqot metodlarining o‘ziga xos xususiyatlarini anglash;",
+        "kuzatish natijalarini rasm orqali ifodalash;",
+        "egallangan bilimlarni qo‘llab tadqiqot natijalarini bashorat qilish;",
+        "ilmiy savol qo‘yish va unga javob topishga yordam beradigan eng yaxshi tadqiqot metodini tanlash."
+      ],
+      "ilm_fanning_hayotga_tatbiqi": [
+        "ilmiy bilimlar vaqt o‘tishi bilan o‘zgarishini ko‘rsatish uchun to‘plangan dalillardan foydalanish."
+      ],
+      "mashq_daftari": {
+        "amaliyIshlar": [
+          {
+            "kod": "12.1",
+            "nomi": "Quyosh, sayyoralar va Oy",
+            "bet": 130
+          },
+          {
+            "kod": "12.2",
+            "nomi": "Oy fazalarini modellashtirish",
+            "bet": 131
+          }
+        ],
+        "boshqotirma": 132,
+        "bilimlarXaritasi": 133,
+        "takrorlash": 134,
+        "mustahkamlash": 137
+      }
+    }
+  ],
+  "platforma_uchun": {
+    "mavzu_kartasi_talablari": [
+      "sarlavha (kod + nomi), darslik betoralig'i (startBet-endBet) va havola",
+      "kitobdagi o'rganish savollari — darsni muammo bilan ochish uchun aynan shu savollar ishlatiladi",
+      "bobning tadqiqotchilik ko'nikmalari — o'quvchi baholanadigan ko'nikma ro'yxati",
+      "mashq daftaridagi amaliy ish (tajriba/model) — nazorat qilinadigan tajriba, jihozlar, xavfsizlik",
+      "boshqotirma (tez tekshirish), bilimlar xaritasi (vizual xulosa), takrorlash va mustahkamlash (bob yakuniy baholash)"
+    ],
+    "baholash_eshatmasi": "Har bobda 4 xil ish turi bor: amaliy ish → boshqotirma → takrorlash → mustahkamlash. Platformada BSB slotlarini shu ketma-ketlikka bog'lash mumkin.",
+    "arxitektura": {
+      "namuna": "Repozitoriyadagi 7-sinf.html (Fizika 7 — Interaktiv platforma, Duvlayev K.A.)",
+      "tamoyil": "Bitta HTML fayl: ichida <script id='topics-data' type='application/json'> data ormoli + bitta JS + bo'limlar bo'yicha <style>. Backend yo'q.",
+      "saqlash": "localStorage: progress (results/examResults), daftarcha (mavzuga mos kalit), laboratoriya holati, savol banki",
+      "sahifa_tuzilishi": "sidebar (progress, mavzular ro'yxati, dashboard, print markazi) + main (crumb, sarlavha, mezon-chip, tabs, content, slides)",
+      "tabs": [
+        "📖 Nazariya",
+        "🔧 Simulyator",
+        "🎡 O'yin",
+        "📝 Test",
+        "✍️ Amaliy topshiriq"
+      ],
+      "print": "bosib chiqarish markazi: bitta dars yoki butun bob, sahifaga 2 yoki 4 slayd",
+      "6_sinf_uchun": "Ma'lumot ormoli: data/curriculum/6-sinf-science.topics.json (npm run topics) — maydon nomlari 7-sinf.html bilan bir xil, ustiga 'kitob' va 'urinish' qo'shilgan"
+    },
+    "mazmun_javobgarligi": "theory/formulas/quiz/task javoblari — o'qituvchi yozadi. Generator faqat kitobda chop etilgan nomlar, savollar, ko'nikmalar va betlarni soladi; darslik matni ko'chirilmaydi."
+  }
+}

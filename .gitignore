@@ -1,0 +1,8 @@
+node_modules/
+data/raw/
+sources/*.pdf
+*.log
+.DS_Store
+
+# generatorning vaqtinchalik solishtiruv chiqishi
+data/curriculum/*.extracted.json

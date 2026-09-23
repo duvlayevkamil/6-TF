@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "fan": "Tabiiy fan (Science)",
+    "sinf": 6,
+    "kitob_darslik": {
+      "nomi": "NATURE SCIENCE SCHOOLBOOK G6 UZB",
+      "tavsif": "Umumta'lim maktablarining 6-sinfi uchun darslik (o'zbek tilidagi mahalliylashtirilgan nashr)",
+      "betlar": 172,
+      "sahifa_o'lchami": "220x290 mm",
+      "nashrga_tayyor": "2024-08-27",
+      "fayl": "Darslik.pdf"
+    },
+    "kitob_mashq_daftari": {
+      "nomi": "NATURE SCIENCE WORKBOOK G6 UZB",
+      "tavsif": "6-sinf uchun mashq daftari (amaliy ishlar, boshqotirma, bilimlar xaritasi, takrorlash, mustahkamlash)",
+      "betlar": 148,
+      "sahifa_o'lchami": "220x290 mm",
+      "nashrga_tayyor": "2024-08-29",
+      "fayl": "Mashq daftari.pdf"
+    },
+    "kirish_bo'lim": "Siz tadqiqotchisiz! (darslik, 1-bet)",
+    "tuzilma_ustunlari": {
+      "mavzu": "Bob va mavzu nomi + o'rganish savollari (•)",
+      "tadqiqotchilik_konikmalari": "Kitobning «Tadqiqotchilik ko'nikmalari» ustuni — bob bo'yicha ko'nikmalar ro'yxati",
+      "ilm_fanning_hayotga_tatbiqi": "«Ilm-fanning hayotga tatbiqi» ustuni — bob bo'yicha tatbiq/muhokama mavzulari",
+      "izoh": "Ustunlardagi ro'yxatlar bob darajasida berilgan; mavzuga bog'lash o'qituvchi ixtiyorida"
+    },
+    "hisob": {
+      "boblar": 0,
+      "mavzular_darslikda": 0,
+      "amaliy_ishlar_mashq_daftarida": 0,
+      "boshqotirma": 0,
+      "bilimlar_xaritasi": 0,
+      "takrorlash": 0,
+      "mustahkamlash": 0
+    },
+    "manba": {
+      "github": "https://github.com/duvlayevkamil/6-TF/blob/main/Darslik.pdf va Mashq daftari.pdf (mundarija sahifalari)",
+      "kommit": "9ec3c27 Add files via upload"
+    },
+    "holat": "tasdiqlangan — bu ikki kitob asosida dars o'tiladi",
+    "ishonch": {
+      "darslik_ustun_legendasi": {
+        "1-ustun": "Biologiya, kimyo, fizika, geografiya (umumiy fan doirasi)",
+        "2-ustun": "Tadqiqotchilik ko'nikmalari",
+        "3-ustun": "Ilm-fanning hayotga tatbiqi",
+        "izoh": "Mundarijaning viii beti pastida chop etilgan umumiy legenda — har bob uchun alohida berilmagan"
+      },
+      "eslatmalar": [
+        "Konikma va tatbiq bandlari bobga sahifadagi vertikal band (Y koordinatasi) bo'yicha bog'langan. Bob 1 ning «Ilm-fanning hayotga tatbiqi» ro'yxati kitobda bo'sh — bu koordinatalar bilan tekshirilgan.",
+        "endBet — keyingi bob boshlanishidan oldingi bet; kitobda chop etilmagan, hisoblangan.",
+        "Bob darajasidagi fan ro'yxati kitobda yo'q, shuning uchun JSON'da ham yo'q.",
+        "Nomlar, savollar, ko'nikmalar va betlar kitobda chop etilganidek olingan; izoh yoki qo'shimcha matn qo'shilmagan.",
+        "Ma'lumot tools/extract-toc.mjs bilan PDF'dan avtomatik o'qilgan va tools/verify-curriculum.mjs bilan qayta tekshiriladi."
+      ],
+      "manba_fayllar": [
+        "Darslik.pdf — 8 PDF bet (Mundarija: kitobning viii–xv betlari)",
+        "Mashq daftari.pdf — 3 PDF bet (Mundarija)"
+      ]
+    }
+  },
+  "platforma_uchun": {
+    "mavzu_kartasi_talablari": [
+      "sarlavha (kod + nomi), darslik betoralig'i (startBet-endBet) va havola",
+      "kitobdagi o'rganish savollari — darsni muammo bilan ochish uchun aynan shu savollar ishlatiladi",
+      "bobning tadqiqotchilik ko'nikmalari — o'quvchi baholanadigan ko'nikma ro'yxati",
+      "mashq daftaridagi amaliy ish (tajriba/model) — nazorat qilinadigan tajriba, jihozlar, xavfsizlik",
+      "boshqotirma (tez tekshirish), bilimlar xaritasi (vizual xulosa), takrorlash va mustahkamlash (bob yakuniy baholash)"
+    ],
+    "baholash_eshatmasi": "Har bobda 4 xil ish turi bor: amaliy ish → boshqotirma → takrorlash → mustahkamlash. Platformada BSB slotlarini shu ketma-ketlikka bog'lash mumkin.",
+    "arxitektura": {
+      "namuna": "Repozitoriyadagi 7-sinf.html (Fizika 7 — Interaktiv platforma, Duvlayev K.A.)",
+      "tamoyil": "Bitta HTML fayl: ichida <script id='topics-data' type='application/json'> data ormoli + bitta JS + bo'limlar bo'yicha <style>. Backend yo'q.",
+      "saqlash": "localStorage: progress (results/examResults), daftarcha (mavzuga mos kalit), laboratoriya holati, savol banki",
+      "sahifa_tuzilishi": "sidebar (progress, mavzular ro'yxati, dashboard, print markazi) + main (crumb, sarlavha, mezon-chip, tabs, content, slides)",
+      "tabs": [
+        "📖 Nazariya",
+        "🔧 Simulyator",
+        "🎡 O'yin",
+        "📝 Test",
+        "✍️ Amaliy topshiriq"
+      ],
+      "print": "bosib chiqarish markazi: bitta dars yoki butun bob, sahifaga 2 yoki 4 slayd",
+      "6_sinf_uchun": "Ma'lumot ormoli: data/curriculum/6-sinf-science.topics.json (npm run topics) — maydon nomlari 7-sinf.html bilan bir xil, ustiga 'kitob' va 'urinish' qo'shilgan"
+    },
+    "mazmun_javobgarligi": "theory/formulas/quiz/task javoblari — o'qituvchi yozadi. Generator faqat kitobda chop etilgan nomlar, savollar, ko'nikmalar va betlarni soladi; darslik matni ko'chirilmaydi."
+  }
+}

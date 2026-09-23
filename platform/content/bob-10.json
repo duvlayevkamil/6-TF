@@ -1,0 +1,460 @@
+{
+  "bob": 10,
+  "chorak": 4,
+  "topics": [
+    {
+      "kod": "10.1",
+      "lab": "jins",
+      "labMode": "turlar",
+      "theory": "Tog' jinslari — Yer po'stini tashkil qiluvchi tabiiy agregatlar. Ular hosil bo'lishiga qarab uch guruhga bo'linadi: magmatik, o'tqazuvchi (cho'kindi) va metamorfik.\n\nMagmatik jinslar — erigan magma soviganda hosil bo'ladi. Sekin sovigan (yer ostida) kristallari yirik bo'ladi: granite. Tez soviganida (lava oqimida) kristallari mayda yoki shishasimon bo'ladi: bazalt, pemza.\n\nCho'kindi (o'tqazuvchi) jinslar — egilgan jinslar va mineral zarralari, organik qoldiqlar suv yoki shamol tubiga cho'kishidan qatlamlab hosil bo'ladi. Qumtosh, gil, ohak toshi, mergel shunga misol. Ular ko'pincha qatlamlarga bo'linadi va ichida qoldiqlar saqlanadi.\n\nMetamorfik jinslar — mavjud jinslar yuqori harorat va bosim ostida o'zgarishidan paydo bo'ladi. Metamorfik jinslarga marmar, kvartsit, slanets va gneys kiradi. Marmar — ohak toshining, slanets — gilning «o'zgargan» holati.\n\nJinslarni ajratishda tuzilishga (dona, qatlam, kristall), qattiqlik (Mohs shkalasi), zichlik va kislota bilan reaksiyaga (ohak toshida ko'pik chiqadi) qarashadi.",
+      "formulas": [
+        "3 guruh: magmatik · cho'kindi · metamorfik",
+        "Magmatik: magma soviydi (sekin → yirik kristall)",
+        "Cho'kindi: zarralar qatlamlab cho'kti",
+        "Metamorfik: harorat + bosim → qayta kristallanish",
+        "Ohak toshi + sirka → CO₂ (ko'pik)",
+        "Mohs shkalasi: 1 talk … 10 olmos"
+      ],
+      "vocab": [
+        {
+          "w": "Magma",
+          "m": "yer ostidagi erigan silikat massasi"
+        },
+        {
+          "w": "Lava",
+          "m": "yer yuzasiga chiqqan magma"
+        },
+        {
+          "w": "Cho'kindi jins",
+          "m": "zarralar yoki qoldiqlar qatlamlanib yig'ilishidan hosil bo'lgan jins"
+        },
+        {
+          "w": "Metamorfizm",
+          "m": "jinsning harorat va bosim ta'sirida qayta o'zgarishi"
+        },
+        {
+          "w": "Mineral",
+          "m": "tabiiy bir jinsli kimyoviy modda (kvarc, dala shpati, kalsit)"
+        },
+        {
+          "w": "Qattiqlik",
+          "m": "jinsning tirnalishga qarshiligi"
+        }
+      ],
+      "quiz": [
+        [
+          "Granit qaysi guruhga kiradi?",
+          [
+            "Magmatik",
+            "Cho'kindi",
+            "Metamorfik",
+            "Organik"
+          ],
+          0,
+          "Magma sekin soviganda yirik kristalli granite hosil bo'ladi."
+        ],
+        [
+          "Pemza suvda suzadi, chunki...",
+          [
+            "Ichida gaz pufakchalari ko'p — zichligi kichik",
+            "Pemza juda yengil materialdan yasalgan",
+            "Pemza magmatik jins hisoblanmaydi",
+            "Suv pemzani yuqoriga tortadi"
+          ],
+          0,
+          "Tez sovigan lavada gaz qolgan — shu «g'ovak» tuzilish."
+        ],
+        [
+          "Marmar qanday hosil bo'ladi?",
+          [
+            "Ohak toshi harorat va bosim ta'sirida o'zgaradi",
+            "Qum daryo tubida qatlamlanib cho'kadi",
+            "Magma sovib, toshga aylanib qoladi",
+            "Gil quyosh ostida qurib, qotib qoladi"
+          ],
+          0,
+          "Bu — metamorfik qayta kristallanish."
+        ],
+        [
+          "Jinsda qatlamlilik va qoldiqlar bor — qaysi guruh?",
+          [
+            "Cho'kindi",
+            "Magmatik",
+            "Metamorfik",
+            "Tuproq"
+          ],
+          0,
+          "Qatlam va qoldiqlar — cho'kindi jinslarning belgisi."
+        ],
+        [
+          "Ohak toshini aniqlashning oddiy usuli — nima?",
+          [
+            "Sirka tomchilatib, ko'pik chiqishini kuzatish",
+            "Suvda eritib, cho'kmasini tekshirish",
+            "Magnit bilan tortib, javobini bilish",
+            "Og'irligini tarozi bilan solishtirish"
+          ],
+          0,
+          "Kaltsiy karbonat kislota bilan CO₂ chiqaradi."
+        ],
+        [
+          "Magmatik jins qanday hosil bo'ladi?",
+          [
+            "Magma sovib, kristallanadi",
+            "Parchalangan jins suvda cho'kadi",
+            "Jinslar chuqurda ezilib o'zgaradi",
+            "Organik qoldiqlar qatlam bo'ladi"
+          ],
+          0,
+          "Granit va bazalt — molalova sovishidan hosil bo'lgan magmatik jinslar."
+        ],
+        [
+          "Cho'kindi (sediment) jinslarga xos belgi — qaysi biri?",
+          [
+            "Qatlamlilik va ba'zan qoldiqlarning bo'lishi",
+            "Har doim kristall, shishasimon tuzilish",
+            "Faqat vulqon o'zoklarida uchraydi",
+            "Kislota bilan hech qachon ko'pik chiqarmaydi"
+          ],
+          0,
+          "Ohak toshi, qumtosh, gil — suvda cho'kishdan qatlama-qatlam hosil bo'ladi."
+        ],
+        [
+          "Granit, pemza va marmorning umumiy xossasi — nima?",
+          [
+            "Ular — jins, ya'ni mineral aralashmasi",
+            "Ular — mineral, ya'ni bir jinsli modda",
+            "Uchala ham suvda yaxshi eriydi",
+            "Uchala ham cho'kindi jinslardir"
+          ],
+          0,
+          "Mineral — bir modda, jins esa bir nechta mineralning tabiiy aralashmasi."
+        ]
+      ],
+      "slideQuiz": [
+        [
+          "Nega granite kristallari yirik, bazaltta esa mayda?",
+          [
+            "Granit sekin, bazalt tez soviydi",
+            "Granit yengil",
+            "Bazalt suv bilan aralashgan",
+            "Kristallar o'sib ulgurmaydi — chunki kislorod kam"
+          ],
+          0,
+          "Sovish tezligi kristall o'lchamini belgilaydi."
+        ],
+        [
+          "Gil → slanets. Bu qanday o'zgarish?",
+          [
+            "Metamorfik",
+            "Cho'kish",
+            "Eritish",
+            "O'chirish"
+          ],
+          0,
+          "Bosim va harorat ostida qayta kristallanish."
+        ]
+      ],
+      "game": [
+        [
+          "Jinsni guruhi bilan moslashting: qumtosh",
+          [
+            "Cho'kindi",
+            "Magmatik",
+            "Metamorfik",
+            "Sun'iy"
+          ],
+          0,
+          "Qum donalari sementlanib qatlam hosil qilgan."
+        ],
+        [
+          "Qaysi xossa jinslarni ajratishda yordam bermaydi?",
+          [
+            "Harorati (xona sharoitida)",
+            "Rangi va chizig'i rangi",
+            "Qattiqligi (chizib ko'rish)",
+            "Tuzilishi (donali yoki qatlamli)"
+          ],
+          0,
+          "Barcha namunalar xona haroratida — bu farqlovchi belgi emas."
+        ],
+        [
+          "Metamorfik jinsga misol — qaysi?",
+          [
+            "Kvartsit",
+            "Bazalt",
+            "Qum",
+            "Tuz"
+          ],
+          0,
+          "Kvartsit — qumtoshning metamorfik holati."
+        ]
+      ],
+      "task": {
+        "q": "«Tog' jinslari kolleksiyasi» — 6 namunani (granite, bazalt, pemza, qumtosh, gil, marmar/ohak toshi) tuzilishi, rangi, qattiqligi va sirka bilan sinovi bo'yicha taqqoslang. 3×6 taqqoslash jadvali tuzing va har namunani guruhi bilan asoslang.",
+        "a": "Granite — yirik kristalli, magmatik; bazalt — maydonali, magmatik; pemza — g'ovak, magmatik; qumtosh — donali, cho'kindi; gil — plastik, cho'kindi; marmar — kristalli, metamorfik (ohak toshi esa sirkada ko'pik chiqaradi).",
+        "why": "Taqqoslash jadvali belgilarni ajratadi va xulosani subyektiv fikrdan ob'ektiv mezonlarga asoslaydi — geologik tasnifning haqiqiy usuli.",
+        "steps": [
+          "Har namuna uchun o'lcham va nom yozilgan katalog varag'i tayyorlang",
+          "Kuzatuvlarni yozing: rang, dona o'lchami, qatlam, g'ovak",
+          "Qattiqlik sinovi: tirnoq, mis tanga, stilo bilan tirnang",
+          "Sirka sinovi (har tomchidan keyin yuving)",
+          "Guruhini aniqlab, asosini bir jumlada yozing"
+        ],
+        "jihoz": [
+          "6 ta jins namunasi",
+          "Kichik qo'rg'oshin",
+          "Osh sodasi yoki sirka (tomchilatish uchun)",
+          "Lupa, oq qog'oz (chiziq rangi uchun)",
+          "Katalog varag'i"
+        ],
+        "xavfsizlik": [
+          "Namunalarni qo'lqop bilan ushlang, changini yutmang",
+          "Sirka bilan ishlashda ko'zni himoya qiling",
+          "Sinovdan keyin qo'llarni yuving; namunani og'izga olmang"
+        ]
+      }
+    },
+    {
+      "kod": "10.2",
+      "lab": "jins",
+      "labMode": "qoldiq",
+      "theory": "Jinslarning buzilishi va o'zgarishi — atmosfera, suv, harorat va tirik organizmlar ta'sirida kechadigan jarayon. Uning ikki turi: fizik maydalash va kimyoviy o'zgarish.\n\nFizik maydalash — jins parchalanadi, lekin tarkibi o'zgarmaydi. Eng yaqqol misol: suv jins yoriqlariga kirib, muzlab kengayadi va toshni yoradi (muz orqali maydalash). Haroratning kundalik kechinmasi ham shu tarzda ishlaydi: tashqi qatlam qiziydi-soviydi va ajraladi.\n\nKimyoviy o'zgarishda suv va erigan gazlar (ayniqsa CO₂ bilan karbonat angidridli kislota) jins mineralarini eritadi, oksidlaydi (temir zanglashi) yoki gidratlaydi — yangi moddalar hosil bo'ladi.\n\nBiotik ta'sir: o'simlik ildizlari yoriqlarni kengaytiradi; tuproqda yashovchi qurtlar va hasharot lichinkalari toshni yemaydi, ammo qatlamni yumshatadi; organik kislotalar mineralarni parchalaydi.\n\nBuzilish mahsuloti — qum, gil, shag'al va tuproq. Shu sabab jinslarning o'zgarishi tuproq hosil bo'lishining birinchi bosqichi: maydalangan material keyinchalik tirik organizmlar bilan birga tuproqqa aylanadi.\n\nBuzilish sekin kechadi: 1 mm qatlam hosil bo'lishi uchun yuzlab yillar kerak bo'lishi mumkin. Shu sabab buzilgan relyef (kanon, qoya) tarixni o'qish uchun ochiq «sahifa».\n\nToshqotgan qoldiqlar (fossiliyalar) — jinslar ichida saqlanib qolgan qadimgi organizm qoldiqlari yoki izlari: suyak, chig'anoq, barg, iz. Ular asosan cho'kindi jinslarda uchraydi, chunki qoldiq parchalanib ketmasligi uchun tez qoplanishi — loy yoki qum ostida qolishi kerak.\n\nQoldiq bir necha yo'l bilan saqlanadi: qattiq qism mineralga almashadi; bo'shliq qolip ko'rinishida qotadi; ba'zan faqat iz (yurish izi, tiriq) qoladi. Yumshoq to'qimalar deyarli saqlanmaydi, shu sabab qoldiq to'plami har doim to'liq emas.\n\nQoldiqlar — Yer tarixini o'qish dalili: pastdagi qatlam eskiroq, yuqordagisi yangiroq (jinslar buzilmagan bo'lsa); qaysi qatlamda qanday qoldiq borligi esa o'sha davr muhitini — dengiz, ko'l yoki quruqlik ekanini aytadi. Tog' cho'qqisidan dengiz chig'anog'i topilsa, bu yer bir paytlar suv ostida bo'lganiga dalil bo'ladi.",
+      "formulas": [
+        "Fizik maydalash → o'lcham kichrayadi, tarkibi o'zgarmaydi",
+        "Kimyoviy → yangi moddalar (erish, oksidlanish)",
+        "Muz + suv = yoriq kengayadi (muz sinishi)",
+        "CO₂ + suv → kislota → ohak toshi eriydi",
+        "Biotik: ildiz, organizmlar, organik kislotalar",
+        "Buzilish mahsuloti: qum, gil, shag'al → tuproq",
+        "Qoldiq: cho'kindi jinsda saqlanadi; pastki qatlam — eskiroq"
+      ],
+      "vocab": [
+        {
+          "w": "Maydalash",
+          "m": "jinsning mayda bo'laklarga ajralishi"
+        },
+        {
+          "w": "Fizik buzilish",
+          "m": "tarkibi o'zgarmagan parchalanish"
+        },
+        {
+          "w": "Kimyoviy buzilish",
+          "m": "mineral tarkibi o'zgaradigan jarayon"
+        },
+        {
+          "w": "Oksidlanish",
+          "m": "kislorod bilan reaksiya (masalan, zanglash)"
+        },
+        {
+          "w": "Yoriq",
+          "m": "jinsdagi mayda bo'shliq, suv va havo kiradigan iz"
+        },
+        {
+          "w": "Toshqotgan qoldiq (fossiliya)",
+          "m": "jinslarda saqlangan qadimgi organizm qoldig'i yoki izi"
+        },
+        {
+          "w": "Qolip",
+          "m": "organizm o'rnida qotib qolgan bo'shliq yoki mineral quyma"
+        }
+      ],
+      "quiz": [
+        [
+          "Muzning jinsni yorishida nima ishlaydi?",
+          [
+            "Suv muzlaganda kengayadi",
+            "Suv muzlaganda qisqaradi",
+            "Harorat keskin ortadi",
+            "Shamol jismni tortadi"
+          ],
+          0,
+          "Muz hajmi ~9% katta — yoriqni bosim bilan yoradi."
+        ],
+        [
+          "Kimyoviy buzilishga misol — qaysi biri?",
+          [
+            "Temirli mineralning zanglashi",
+            "Toshning urilib sinishi",
+            "Shag'alning suvda cho'kishi",
+            "Suvning ochiq havoda bug'lanishi"
+          ],
+          0,
+          "Oksidlanishda yangi modda hosil bo'ladi."
+        ],
+        [
+          "Fizik maydalashda nima o'zgarmaydi?",
+          [
+            "Mineral tarkibi",
+            "Bo'lak o'lchami",
+            "Sirt yuzasi",
+            "Ko'rinishi"
+          ],
+          0,
+          "Faqat o'lcham va shakl o'zgaradi."
+        ],
+        [
+          "Toshqotgan qoldiqlar asosan qaysi jinslarda uchraydi?",
+          [
+            "Cho'kindi jinslarda",
+            "Magmatik jinslarda",
+            "Metamorfik jinslarda",
+            "Tuproqda uchramaydi"
+          ],
+          0,
+          "Qoldiqning saqlanishi uchun tez qoplanish — cho'kish jarayoni kerak."
+        ],
+        [
+          "Pastki qatlamda baliq qoldig'i, ustki qatlamda kul va tog' qoldig'i bo'lsa, nima deyiladi?",
+          [
+            "Pastki qatlam eskiroq, u yerda bir payt suv bo'lgan",
+            "Ustki qatlam eskiroq, suv keyin paydo bo'ldi",
+            "Ikkala qatlam ham bir xil yoshda ekan",
+            "Qatlamlarning yoshini aniqlab bo'lmaydi"
+          ],
+          0,
+          "Cho'kish tartibi va qoldiq turi — yosh va muhitni aniqlash mezoni."
+        ],
+        [
+          "Tuproq hosil bo'lishining boshlang'ich (mineral) moddasi — nima?",
+          [
+            "Buzilgan jins: qum, gil, shag'al",
+            "Faqat o'simlik qoldiqlari",
+            "Yomg'ir suvida erigan tuz",
+            "Havoda uchraydigan chang"
+          ],
+          0,
+          "Jinslarning buzilishi — tuproqning mineral qismi, asosi."
+        ],
+        [
+          "Nega buzilish jarayoni «sekin kechadigan» deb ataladi?",
+          [
+            "1 mm qatlam uchun yuzlab yillar kerak",
+            "Jarayon faqat qishda boradi",
+            "Suv uni butunlay to'xtatadi",
+            "Shamol jarayonni orqaga qaytaradi"
+          ],
+          0,
+          "Shu sabab buzilgan yoki qazib olingan qatlam asrlar davomida tiklanadi."
+        ],
+        [
+          "Qaysi sharoitda kimyoviy buzilish eng kuchli kechadi?",
+          [
+            "Suv va CO₂ ko'p, iqlim issiq hamda nam",
+            "Havo quruq va sovuq bo'lganda",
+            "Jins muz ostida yopiq qolganda",
+            "Tosh ochiq qumda yotganda"
+          ],
+          0,
+          "Nam va issiq muhitda kislotali eritma faol ishlaydi — minerallar eriydi."
+        ]
+      ],
+      "slideQuiz": [
+        [
+          "Qoyaning ichida qatlamlar ko'rinsa — bu nimani ko'rsatadi?",
+          [
+            "Jarayon uzoq muddat davomida takrorlangan",
+            "Tosh sun'iy ravishda qo'yilgan",
+            "Suv faqat qishda ishlaydi",
+            "Buzilish faqat kimyoviy jarayon"
+          ],
+          0,
+          "Qatlamlar — vaqt va takrorlanish belgisi."
+        ],
+        [
+          "Toshni qizdirib sovuq suvga solish tajribasi nimani ko'rsatadi?",
+          [
+            "Harorat keskin o'zgarsa, maydalash tezlashadi",
+            "Bu tajribada kimyoviy reaksiya boradi",
+            "Tosh qizdirilganda erib ketadi",
+            "Suv bug'lanib, haroratni olib qochadi"
+          ],
+          0,
+          "Issiq kengayadi, sovuq qisqaradi — shu kuch bilan po'stloq ajraladi."
+        ],
+        [
+          "Bir tog' cho'qqisidan dengiz chig'anog'i qoldig'i topildi. Bu nimani anglatadi?",
+          [
+            "Bu yer bir paytlar dengiz tubi bo'lgan",
+            "Chig'anog'ni qush olib chiqqan",
+            "Tosh sun'iy qo'yilgan",
+            "Tuproq ko'chirilgan"
+          ],
+          0,
+          "Qoldiq qaysi jinsda topilgani qadimgi muhitni ko'rsatadi."
+        ]
+      ],
+      "game": [
+        [
+          "Jarayonni turi bilan moslashting: suv toshni eritib, yangi modda hosil qilishi",
+          [
+            "Kimyoviy buzilish",
+            "Fizik maydalash",
+            "Cho'kish",
+            "Yonish"
+          ],
+          0,
+          "Yangi modda — kimyoviy jarayon."
+        ],
+        [
+          "Qaysi iqlimda muz maydalashi kuchli?",
+          [
+            "Tunayu kunduz muzlash-bo'zadigan tog'li iqlimda",
+            "Doimiy issiq va quruq cho'l iqlimida",
+            "Yil bo'yi doimiy muzlagan hududlarda",
+            "Iliq va nam dengiz iqlimida"
+          ],
+          0,
+          "Takroriy muzlash-bo'zish — eng faol mexanik kuch."
+        ],
+        [
+          "Katta tosh → mayda shag'al. Bu yerda o'zgargan narsa — ...",
+          [
+            "Sirt yuzasi ortadi",
+            "Mineral tarkibi",
+            "Zichlik",
+            "Rang ham, tarkib ham"
+          ],
+          0,
+          "Maydalash sirt yuzasini oshiradi — kimyoviy ta'sir kuchayadi."
+        ],
+        [
+          "Qoldiqning saqlanish yo'lini tanlang: suyak mineralga aylangan",
+          [
+            "Almashinuv (mineralga aylangan) qoldiq",
+            "Qolip — bo'shliq qotib qolgan iz",
+            "Iz qoldig'i — faqat hayot izi",
+            "Chirindi — organik qoldiq"
+          ],
+          0,
+          "Qattiq qism asta-sekin mineralga almashadi."
+        ]
+      ],
+      "task": {
+        "q": "Asosiy amaliy ish: 3 ta bir xil shag'al yoki g'ishtni 3 holatda saqlang — (1) quruq idish, (2) suvda (24 soat), (3) qizdirib sovuq suvga solish (5 marta, ustoz nazoratida). Har holatdan tushgan maydalarni yig'ib solishtiring. Qo'shimcha amaliy ish (10.3): gil va gips bilan toshqotgan qoldiq modeli — bargni bosib qolip oling.",
+        "a": "Eng ko'p mayda (uchunt, chang) harorat keskin o'zgargan va suvda bo'lgan holatda; quruq namunada o'zgarish deyarli yo'q. Modelda esa barg chirigach qatlamda uning qolipi (bo'shliq) qoladi — pastdagi qatlam eskiroq, yuqordagisi yangi.",
+        "why": "Uch holatni bir xil sharoitda solishtirish qaysi omil buzilishni tezlashtirishini aniq ko'rsatadi; qolip modeli esa paleontologlar qanday ishlaydigi — hodisani takrorlab bo'lmaydigan vaqtda modellashtirish usulini o'rgatadi.",
+        "steps": [
+          "Uch idishga bir xil o'lchamli toshlarni soling va massasini yozing",
+          "Har 24 soatda idishni silkiting, tushgan maydalarni qog'ozga to'plang",
+          "Uchinchi holatda qizdirib-sovutish siklini takrorlang (faqat ustoz bilan)",
+          "Maydalarni quruq qog'ozda solishtiring: o'lchami va miqdori",
+          "Qo'shimcha ish: gil qatlamiga barg bosib, ustiga gips quying, quritib qolipni oling va qatlam tartibini asoslang"
+        ],
+        "jihoz": [
+          "3 shaffof plastik idish qopqog'i bilan",
+          "3 ta bir xil o'lchamli shag'al yoki g'isht bo'laklari",
+          "Suv, iliq suvli idish yoki qizdirgich (ustoz nazoratida)",
+          "Qog'oz sochiq, lupa, tarozi (0,1 g)",
+          "Qo'shimcha: gil, gips, 2 barg"
+        ],
+        "xavfsizlik": [
+          "Qizdirilgan toshni faqat qisqich bilan oling",
+          "Sovuq suvga solganda mayda bo'laklar sachrashi mumkin — himoya ko'zoynagi",
+          "Ishni taglikda, ochiq joyda yoki deraza oldida bajaring; gips qotganda qo'llarni sovunlab yuving"
+        ]
+      },
+      "labTitle": "Buzilish va toshqotgan qoldiqlar modeli"
+    }
+  ]
+}

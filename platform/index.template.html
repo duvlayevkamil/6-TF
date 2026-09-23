@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>6-sinf · Tabiiy fan — interaktiv platforma</title>
+    <meta name="description" content="6-sinf Tabiiy fan: 12 bob, 26 mavzu — nazariya, simulyator, o'yin, test va amaliy topshiriq bitta faylda." />
+    <style>
+      /*@@CSS@@*/
+    </style>
+  </head>
+  <body>
+    <div id="layout">
+      <aside id="sidebar">
+        <div id="brand">
+          <h1>Tabiiy fan · 6-sinf</h1>
+          <p>Kitob mundarijasi asosida · @@BOBLAR@@ bob, @@MAVZULAR@@ mavzu</p>
+        </div>
+        <input id="search" type="search" placeholder="Mavzu qidirish…" autocomplete="off" />
+        <nav id="bob-list"></nav>
+        <div class="small muted" style="border-top: 1px solid var(--line); padding-top: 8px">
+          Ma'lumot darslik va mashq daftari mundarijasidan olgan. Progress brauzeringizda saqlanadi.
+        </div>
+      </aside>
+
+      <main id="main">
+        <header id="topbar">
+          <button class="btn small" data-act="burger" id="burger">☰</button>
+          <div id="crumb"></div>
+          <div id="tabs">
+            <button class="tab-btn" data-tab="nazariya">📖 Nazariya</button>
+            <button class="tab-btn" data-tab="simulyator">🔧 Simulyator</button>
+            <button class="tab-btn" data-tab="oyin">🎡 O'yin</button>
+            <button class="tab-btn" data-tab="test">📝 Test</button>
+            <button class="tab-btn" data-tab="amaliy">✍️ Amaliy topshiriq</button>
+            <button class="tab-btn" data-act="taqvim">📅 Taqvim</button>
+            <button class="tab-btn" data-act="panel">📊 Boshqaruv paneli</button>
+          </div>
+        </header>
+        <section id="content"></section>
+      </main>
+    </div>
+
+    <!-- Slaydlar rejimi -->
+    <div id="slides">
+      <div id="slides-head">
+        <button class="btn small" data-sl="prev">←</button>
+        <span id="slides-title" class="title"></span>
+        <span class="spacer"></span>
+        <span id="slides-pos" class="muted small"></span>
+        <button class="btn small" data-act="print">🖨 Chop markazi</button>
+        <button class="btn small" data-sl="print-now">🖨 Varaqqa</button>
+        <button class="btn small" data-sl="close">✕ Yopish</button>
+        <button class="btn small" data-sl="next">→</button>
+      </div>
+      <div id="slides-stage"></div>
+      <div id="slides-foot">
+        <span class="hint">← → tugmalari yoki bo'sh joy — slayd almashtirish; Esc — chiqish</span>
+      </div>
+    </div>
+
+    <!-- Chop markazi -->
+    <div id="modal-overlay"></div>
+    <!-- Chop etish uchun tayyorlanadigan maydon -->
+    <div id="print-area"></div>
+    <div id="toast"></div>
+
+    <script id="topics-data" type="application/json">
+      @@DATA@@
+    </script>
+    <script>
+      /*@@LABS@@*/
+    </script>
+    <script>
+      /*@@APP@@*/
+    </script>
+  </body>
+</html>

@@ -1,0 +1,636 @@
+{
+  "bob": 6,
+  "chorak": 2,
+  "topics": [
+    {
+      "kod": "6.1",
+      "lab": "ozgarish",
+      "labMode": "fizik",
+      "theory": "Fizik o'zgarishda moddaning tarkibi o'zgarmaydi — faqat shakli, holati yoki aralashma ko'rinishi o'zgaradi. Qog'ozni burash, muzni eritish, sho'r suvdan tuzni bug'latish, temir simni cho'zish — barchasi fizik o'zgarish.\n\nO'zgarishni qaytar va qaytmas deb ham ajratishadi. Qaytar o'zgarish — boshlang'ich holatga qaytarish mumkin bo'lgan: muz suv, suv bug'i va yana muzga aylanadi; egilgan rezina qayta o'z holiga keladi. Qaytmas — qaytib bo'lmaydigan: qog'oz kuyganda kul va gaz hosil bo'ladi (bu allaqachon kimyoviy o'zgarish), tuxum qotadi, po'lat cho'zilib ketadi.\n\nDiqqat: bir jarayonda ikkala tur aralashishi mumkin. Shamning erishi — fizik, fitilning yonishi — kimyoviy.\n\n«Kalit-aniqlagich» usuli: o'zgarishni aniqlash uchun savollarni ketma-ket qo'ying. 1) Yangi modda hosil bo'ldimi? 2) Rang, hido yoki gaz chiqdimi? 3) Jarayonni bir xil sharoitga qaytarib, avvalgi holatga keladimi? Birinchi ikki javob «ha» bo'lsa — kimyoviy o'zgarish ehtimoli kuchli.\n\nFizik o'zgarishlarda massa saqlanadi: muzning eriganidagi massasi o'zgarmaydi. Shu sababli tajribada boshidan va oxiridan tortib ko'rish — xulosani tekshirishning ishonchli yo'li.",
+      "formulas": [
+        "Fizik o'zgarish: tarkib o'zgarmaydi",
+        "Kimyoviy o'zgarish: yangi modda hosil bo'ladi",
+        "Qaytar: boshlang'ich holatga qaytib bo'ladi",
+        "Qaytmas: qaytib bo'lmaydi",
+        "Fizik o'zgarishda massa saqlanadi",
+        "Bir jarayonda ikkala tur birga ketishi mumkin"
+      ],
+      "vocab": [
+        {
+          "w": "Fizik o'zgarish",
+          "m": "moddaning tarkibi o'zgarmagan holatga kelishi"
+        },
+        {
+          "w": "Qaytar o'zgarish",
+          "m": "teskari yo'l bilan boshlang'ich holatga qaytariladigan o'zgarish"
+        },
+        {
+          "w": "Qaytmas o'zgarish",
+          "m": "avvalgi holatga qaytarib bo'lmaydigan o'zgarish"
+        },
+        {
+          "w": "Kalit-aniqlagich",
+          "m": "ketma-ket savollar bilan tasniflash sxemasi"
+        },
+        {
+          "w": "Massaning saqlanishi",
+          "m": "o'zgarishda modda miqdori o'zgarmasligi"
+        }
+      ],
+      "quiz": [
+        [
+          "Qaysi biri fizik o'zgarish?",
+          [
+            "Muzning erishi",
+            "Qog'ozning yonishi",
+            "Sutning quyushishi",
+            "Temirning zanglashi"
+          ],
+          0,
+          "Muz eriganda suv molekulasi o'zgarmaydi — faqat holat o'zgaradi."
+        ],
+        [
+          "Qaytar o'zgarishga misol — qaysi biri?",
+          [
+            "Rezina lentani cho'zib, qayta qisqartirish",
+            "Shamning fitili yonib, kulga aylanishi",
+            "Xamirning pishirib qotirilishi",
+            "Tuxum oqining qizdirilganda oqarib qotishi"
+          ],
+          0,
+          "Lenta qisqarib avvalgi holatiga qaytadi — tarkibi o'zgarmaydi."
+        ],
+        [
+          "Fizik o'zgarishda massa qanday bo'ladi?",
+          [
+            "Saqlanadi",
+            "Ortadi",
+            "Kamayadi",
+            "Yo'qoladi"
+          ],
+          0,
+          "Tarkib o'zgarmagani uchun tortilgan massa bir xil qoladi."
+        ],
+        [
+          "Qaysi hodisa qaytmas?",
+          [
+            "Shisha sinishi",
+            "Suvning muzlashi",
+            "Tuzning erishi",
+            "Bukilgan qog'ozni yozish"
+          ],
+          0,
+          "Sinmagan shishani hech qanday yo'l bilan bir butun holiga qaytarib bo'lmaydi."
+        ],
+        [
+          "O'zgarish fizik yoki kimyoviy ekanini aniqlashning asosiy mezoni nima?",
+          [
+            "Yangi modda hosil bo'ldimi yoki yo'qmi",
+            "Harorat o'zgargan yoki o'zgarmaganmi",
+            "Ovoz chiqqan yoki jimjit o'tganmi",
+            "Modda qizigan yoki soviganmi"
+          ],
+          0,
+          "Hal qiluvchi belgi — modda tarkibining o'zgarishi."
+        ],
+        [
+          "Qaysi hodisa qaytmas, biroq fizik o'zgarishga misol bo'ladi?",
+          [
+            "Sindirgan shishani yopishtirsang ham tiklanmaydi",
+            "Tuzni suvda eritib, keyin bug'latib qayta olish",
+            "Muzni eritib, so'ng qaytadan muzlatish",
+            "Qog'ozni bukish va yana tekislab qo'yish"
+          ],
+          0,
+          "Shishaning tarkibi o'zgarmagan (fizik), lekin sinish amalda qaytmas."
+        ],
+        [
+          "Fizik o'zgarishda massa nega saqlanadi?",
+          [
+            "Modda qo'shilmaydi va kamaymaydi — faqat ko'rinishi o'zgaradi",
+            "Moddaning bir qismi yo'qolib, energiyaga aylanadi",
+            "Idish devori modda bilan birga og'irlashadi",
+            "Massa faqat qizdirilganda o'zini yo'qotadi"
+          ],
+          0,
+          "Muz eriganda ham, bug'lansa ham yopiq idishdagi massa o'zgarmaydi."
+        ],
+        [
+          "«Kalit-aniqlagich» usulida birinchi bo'lib qaysi savol qo'yiladi?",
+          [
+            "Yangi modda hosil bo'ldimi?",
+            "Harorat o'zgargan yoki o'zgarmaganmi?",
+            "Massa o'lchangan yoki o'lchlanmaganmi?",
+            "Aralashtirilgan yoki aralashtirilmaganmi?"
+          ],
+          0,
+          "Fizik va kimyoviy farqining hal qiluvchi mezoni — yangi moddaning bor-yo'qligi."
+        ]
+      ],
+      "slideQuiz": [
+        [
+          "Shamning erishi va yonishi — qanday farqlanadi?",
+          [
+            "Erishi fizik, yonishi kimyoviy",
+            "Ikkalasi ham kimyoviy",
+            "Ikkalasi ham fizik",
+            "Erishi kimyoviy, yonishi fizik"
+          ],
+          0,
+          "Parafin eriydi (holat o'zgaradi); yonishda CO₂ va suv hosil bo'ladi."
+        ],
+        [
+          "Rangning o'zgarishi va gaz chiqishi — nimani anglatadi?",
+          [
+            "Kimyoviy o'zgarish belgisi",
+            "Fizik o'zgarish belgisi",
+            "Harorat pasayishi",
+            "Massa ortishi"
+          ],
+          0,
+          "Bu ikki belgi yangi modda hosil bo'lishiga ishora qiladi."
+        ]
+      ],
+      "game": [
+        [
+          "O'zgarishni turiga ajrating: qand shakarning qorayishi",
+          [
+            "Kimyoviy",
+            "Fizik",
+            "Qaytar fizik",
+            "Biologik"
+          ],
+          0,
+          "Qorayishda yangi moddalar hosil bo'ladi."
+        ],
+        [
+          "Tuzni suvda eritib, so'ng suvni bug'latib olish — bu...",
+          [
+            "Fizik o'zgarish — aralashmani ajratish",
+            "Kimyoviy reaksiya — yangi modda hosil bo'ladi",
+            "Yadroviy o'zgarish — atomlar parchalanadi",
+            "Jarayon emas — modda o'zgarishsiz qoladi"
+          ],
+          0,
+          "Tuz va suv o'zgarishsiz qoladi — shu sabab aralashmani ajratish mumkin."
+        ],
+        [
+          "Qog'ozni bukish nima uchun «qaytar» deb bo'lmaydi?",
+          [
+            "Qog'oz tolalari singan — tiklab bo'lmaydi",
+            "Moddaning tarkibi butunlay o'zgarib ketgan",
+            "Reaksiya natijasida gaz ajralib chiqqan",
+            "Harorat oshib, qog'oz qurib qolgan"
+          ],
+          0,
+          "Mayda tuzilish buzilishi uni amalda qaytmas qiladi."
+        ]
+      ],
+      "task": {
+        "q": "10 ta hodisa ro'yxatini (muz erishi, non pishi, sim egish, non yonishi, shakar erishi, sut quyushishi, kiyim qurishi, temir zangi, sirka + soda, shisha sinishi) fizik/kimyoviy va qaytar/qaytmas deb ikki belgilang. Kalit-aniqlagich tuzing.",
+        "a": "Fizik: muz erishi, sim egish, kiyim qurishi, shisha sinishi, shakar erishi. Kimyoviy: non pishi/yonishi, sut quyushishi, zang, sirka+soda. Qaytar: muz erishi, sim egish (chegarada), shakar erishi. Qaytmas: yonish, pishish, quyushish, zang.",
+        "why": "Ikki mezon bilan ishlash mezonlarning bir-biriga bog'liq emasligini ko'rsatadi: fizik o'zgarish ham qaytmas bo'lishi mumkin.",
+        "steps": [
+          "2×2 jadval chizing: ustunlar fizik/kimyoviy, qatorlar qaytar/qaytmas",
+          "Har hodisani katakka joylang",
+          "Kalit-aniqlagich savollarini yozing (3 ta)",
+          "Ikkita bahsli holatni asoslang (sim egish, shisha sinishi)",
+          "Xulosa: eng ko'p chalkashlik qaysi meyzonda?"
+        ],
+        "jihoz": [
+          "Katakli qog'oz yoki 2×2 jadval shabloni",
+          "Sodda tajriba uchun: sirka va ovqat sodasi (ixtiyoriy)"
+        ],
+        "xavfsizlik": [
+          "Sirka va soda aralashmasini yopiq idishda qilmaslang (bosim ortadi)",
+          "Yonish tajribalarini faqat ustoz bilan bajaring"
+        ]
+      }
+    },
+    {
+      "kod": "6.2",
+      "lab": "erish",
+      "labMode": "eruvchanlik",
+      "theory": "Erish — moddaning erituvchi ichida mayda zarrachalarga (molekula yoki ionlarga) ajralib tarqalishi. Hosil bo'lgan bir jinsli aralashma — eritma. Erima erigan modda (misol: tuz) va erituvchidan (suv) iborat.\n\nErishning tezligiga uch omil ta'sir qiladi: zarrachalarning o'lchami (maydalash yuzani oshiradi), aralashtirish (yangi erituvchi bilan uchrashuvni tezlashtiradi) va harorat (zarrachalar harakati tezlashadi).\n\nEruvchanlik — ma'lum miqdordagi erituvchida eriy oladigan moddaning eng katta miqdori (odatda 100 g suvga, ma'lum haroratda). Har bir moddaning eruvchanlik chegarasi bor; undan ko'p qo'shsangiz — erimaydi va cho'kma hosil bo'ladi. To'yingan eritma — eriy oladigan chegaraga yetgan eritma.\n\nHaroratning ta'siri har xil: ko'pchilik qattiq moddalar uchun (tuz, shakar) suv qiziganda eruvchanlik ortadi; gazlar uchun esa suv qiziganda kamayadi — shuning uchun issiq suvda baliqlar uchun kislorod kam bo'ladi.\n\nErigan moddaning massasi eritma massasiga qo'shiladi: 20 g tuz + 100 g suv = 120 g eritma. Eritmaning massa foizi shu ikki son bilan hisoblanadi.",
+      "formulas": [
+        "Eritma = erigan modda + erituvchi (bir jinsli aralashma)",
+        "Erish tezligi: maydalash + aralashtirish + harorat",
+        "Eruvchanlik = 100 g erituvchida eriy oladigan maksimal massa",
+        "To'yingan eritma = erish chegarasiga yetgan",
+        "Qattiq moddalar: harorat ↑ → eruvchanlik ↑ (odatda)",
+        "Gazlar: harorat ↑ → eruvchanlik ↓"
+      ],
+      "vocab": [
+        {
+          "w": "Erish",
+          "m": "moddaning erituvchi bo'ylab zarrachalarga ajralib tarqalishi"
+        },
+        {
+          "w": "Eritma",
+          "m": "bir jinsli aralashma"
+        },
+        {
+          "w": "Eruvchanlik",
+          "m": "ma'lum haroratda eriy oladigan maksimal miqdor"
+        },
+        {
+          "w": "To'yingan eritma",
+          "m": "eriy oladigan chegaraga yetgan eritma"
+        },
+        {
+          "w": "Cho'kma",
+          "m": "erimay idish tubiga tushgan qoldiq"
+        },
+        {
+          "w": "Erituvchi",
+          "m": "moddani erituvchi asosiy suyuqlik"
+        }
+      ],
+      "quiz": [
+        [
+          "Erish tezligini oshirmaydigan omil qaysi?",
+          [
+            "Suvning rangi",
+            "Maydalash",
+            "Aralashtirish",
+            "Qizdirish"
+          ],
+          0,
+          "Rang erish tezligiga ta'sir qilmaydi."
+        ],
+        [
+          "Eruvchanlik nima?",
+          [
+            "Ma'lum haroratda eriy oladigan maksimal miqdor",
+            "100 g suvning qaynash harorati (°C da)",
+            "Eritmaning bir kilogrammdagi og'irligi",
+            "Suyuqlikning bug'lanish tezligi (soatiga)"
+          ],
+          0,
+          "Bu — erish chegarasi, odatda 100 g suvga nisbatan aytiladi."
+        ],
+        [
+          "50°C dagi 100 g suvga shakar qo'shib etsangiz, avval eriydi, keyin to'xtaydi. Nega?",
+          [
+            "Eritma to'yingan holatga yetdi",
+            "Shakar tugab qoldi, solish to'xtadi",
+            "Suvning harorati keskin pasaydi",
+            "Suvning bir qismi bug'lanib ketdi"
+          ],
+          0,
+          "Chegara yetganda ortiqcha qism cho'kma bo'lib qoladi."
+        ],
+        [
+          "Issiq suvda erigan kislorod kamroq bo'ladi, chunki...",
+          [
+            "Gazlarning eruvchanligi harorat oshganda kamayadi",
+            "Kislorod suvdan og'irroq bo'lgani uchun chiqadi",
+            "Issiq suv darhol qaynab, kislorodni haydaydi",
+            "Kislorod bug'lanib, havoga aralashib ketadi"
+          ],
+          0,
+          "Gazlar uchun qoida teskari: sovuq suvda eruvchanlik yuqori."
+        ],
+        [
+          "60 g suvga 10 g tuz solib eritsangiz, eritma massasi qancha?",
+          [
+            "70 g",
+            "60 g",
+            "50 g",
+            "10 g"
+          ],
+          0,
+          "Massalar qo'shiladi: 60 + 10 = 70 g."
+        ],
+        [
+          "Nega qishda ko'l va daryo tubidagi baliqlar yashay oladi?",
+          [
+            "Suv 4°C da eng zich bo'lib, muz tagida suyuq qatlam qoladi",
+            "Baliqlar qishda uyquga ketib, nafas olmaydi",
+            "Muz kislorodni butunlay o'ziga shimib oladi",
+            "Suv tubida harorat doim 0°C dan ancha yuqori bo'ladi"
+          ],
+          0,
+          "4°C da suvning zichligi eng katta — shu sabab tubda suyuq va iliqroq qatlam saqlanadi."
+        ],
+        [
+          "Bir xil miqdordagi shakar qaysi suvda tezroq eriydi?",
+          [
+            "Qizdirilgan va aralashtirilgan suvda",
+            "Sovuq va tinch turgan suvda",
+            "Ikkala holatda ham bir xil tezlikda eriydi",
+            "Faqat muzlatilgan suvda tez eriydi"
+          ],
+          0,
+          "Yuqori harorat va aralashtirish — erish tezligini oshiruvchi omillar."
+        ],
+        [
+          "100 g suvga 40 g shakar solindi, 6 g i erimay qoldi. Eruvchanlik taxminan qancha?",
+          [
+            "≈34 g (100 g suvga)",
+            "≈40 g (100 g suvga)",
+            "≈6 g (100 g suvga)",
+            "≈100 g (100 g suvga)"
+          ],
+          0,
+          "Eriegan qism eruvchanlik chegarasi: 40 − 6 = 34 g."
+        ]
+      ],
+      "slideQuiz": [
+        [
+          "Shakarli choyda qand ko'rinib turgan bo'lsa, eritma qanday?",
+          [
+            "To'yingan — ortiqchasini eritib bo'lmaydi",
+            "Suyultirilgan eritma, hali ko'p eritish mumkin",
+            "Qattiq aralashma — eritma umuman yo'q",
+            "Bug'langan eritma, suvi qolmagan"
+          ],
+          0,
+          "Cho'kma — to'yinganlikning belgisi."
+        ],
+        [
+          "Aralashtirish nima uchun erishni tezlashtiradi?",
+          [
+            "Moddani to'yingan qatlamdan uzoqlashtiradi",
+            "Erituvchining haroratini sezilarli ko'taradi",
+            "Aralashtirish moddani mayda bo'laklarga ajratadi",
+            "Aralashtirish orqali suv miqdori ortadi"
+          ],
+          0,
+          "Aralashtirish diffuziya yo'lini qisqartiradi."
+        ]
+      ],
+      "game": [
+        [
+          "Omilni ta'siri bilan moslashting: moddani maydalash",
+          [
+            "Yuzani oshiradi → tezroq eriydi",
+            "Haroratni oshiradi",
+            "Eruvchanlikni o'zgartiradi",
+            "Erituvchini ko'paytiradi"
+          ],
+          0,
+          "Kichik zarrachalar ko'proq suv bilan uchrashadi."
+        ],
+        [
+          "Qaysi eritma «bir jinsli»?",
+          [
+            "Tuzli suv",
+            "Qumli suv",
+            "Yog'li suv",
+            "Bo'ta qog'oz"
+          ],
+          0,
+          "Zarrachalar ko'zga tashlanmay darajada tarqalgan."
+        ],
+        [
+          "Gazning suvda eruvchanligi qachon ortadi?",
+          [
+            "Harorat pasayganda",
+            "Harorat oshganda",
+            "Yorug'lik kuchayganda",
+            "Sovuqda ham, issiqda ham"
+          ],
+          0,
+          "Gazlar — sovuq suvda yaxshi eriydi."
+        ]
+      ],
+      "task": {
+        "q": "«Haroratning eruvchanlikka ta'siri» — 3 ta stakanga 50 ml sovuq, iliq va issiq suv quying. Har biriga 1 g dan shakar qo'shib, to'yingan holatgacha (qand ko'rinmaguncha) davom eting. Natijalarni jadval va diagrammaga aylantiring.",
+        "a": "Issiq suvda ko'proq shakar eriydi: erish chegarasi harorat bilan ko'tariladi. Sovuq suvda birinchi bo'lib cho'kma paydo bo'ladi.",
+        "why": "O'zgartiriladigan omil — faqat harorat; suv miqdori, shakar bo'lagi o'lchami va aralashtirish soni bir xil bo'lsa, qonuniyat ishonchli bo'ladi.",
+        "steps": [
+          "Har stakanga 50 ml suv va haroratni yozing",
+          "1 g dan shakar qo'shib, to'liq eriguncha aralashtiring (har stakanda bir xil marta)",
+          "Cho'kma ko'ringan paytda umumiy massasini yozing",
+          "Jadval: harorat — erigan shakar massasi",
+          "Ustunli diagramma va xulosa: bog'lanish chiziqli,mi?"
+        ],
+        "jihoz": [
+          "3 stakan yoki kolba",
+          "O'lchash silindri",
+          "Shakar, tarozi va choy qoshiqchasi",
+          "Termometr",
+          "Bir xil misol uchun taymer"
+        ],
+        "xavfsizlik": [
+          "Issiq suv bilan ehtiyot bo'ling",
+          "Shakarni og'izga sinab ko'rish uchun ishlating (tajriba uchun emas)",
+          "Ish oxirida stakanlar yuviladi"
+        ]
+      }
+    },
+    {
+      "kod": "6.3",
+      "lab": "ozgarish",
+      "labMode": "kimyo",
+      "theory": "Kimyoviy reaksiya — moddalarning tarkibi o'zgarib, yangi modda hosil bo'lishi. Boshlang'ich moddalar — reaksiyaga kirishuvchilar, yakunda — hosilalar. Reaksiyalarni shartli ravishda «A + B → C» ko'rinishida yozishadi.\n\nReaksiya ketayotganini ko'rsatuvchi belgilar: rang o'zgarishi, gaz chiqishi (pufakchalar), cho'kma hosil bo'lishi, haroratning o'zgarishi (qizish yoki soviya), hid o'zgarishi, yorug'lik chiqishi. Har bir belgi o'zi holisi bilan yetarli emas — bir nechta belgi birga bo'lsa xulosa ishonchli bo'ladi.\n\nReaksiya uchun zarrachalar to'qnashishi kerak, shuning uchun reaksiya tezligiga moddaning holati (yuzasi), harorat va konsentratsiya ta'sir qiladi. Katalizator — reaksiyani tezlashtiruvchi, ammo reaksiya oxirida o'zgarmay qoladigan modda.\n\nMassaning saqlanish qonuni: reaksiyaga kirishuvchi moddalarning umumiy massasi hosil bo'lgan moddalar massasiga teng. Chunki atomlar yo'qolmaydi va paydo bo'lmaydi — faqat bog'lanishlari qayta taqsimlanadi. Buni tekshirish uchun reaksiyani yopiq idishda o'tkazib, oldidan va keyidan tortish kifoya.\n\nYonish — kislorod ishtirokidagi tez oksidlanish. Nafas olish ham oksidlanish, lekin sekin va biologik; shamning yonishi va organizmdagi energiya olishi — kimyoviy jihatdan qarindosh jarayonlar.",
+      "formulas": [
+        "Reaksiya: kirishuvchilar → hosilalar",
+        "Belgilar: rang, gaz, cho'kma, harorat, hid, yorug'lik",
+        "Tezlik omillari: yuza, harorat, konsentratsiya, katalizator",
+        "Katalizator — tezlashtiradi va o'zgarmay qoladi",
+        "Massaning saqlanishi: m(kirishuvchi) = m(hosila)",
+        "Yonish = tez oksidlanish; nafas = sekin oksidlanish"
+      ],
+      "vocab": [
+        {
+          "w": "Reagent",
+          "m": "reaksiyaga kirishayotgan modda"
+        },
+        {
+          "w": "Hosila",
+          "m": "reaksiyada vujudga kelgan yangi modda"
+        },
+        {
+          "w": "Cho'kma",
+          "m": "erimay chiqib tushgan modda"
+        },
+        {
+          "w": "Katalizator",
+          "m": "reaksiyani tezlashtiruvchi, o'zi sarflanmaydigan modda"
+        },
+        {
+          "w": "Oksidlanish",
+          "m": "kislorod bilan birikish (yoki elektron berish) jarayoni"
+        },
+        {
+          "w": "Eksotermik reaksiya",
+          "m": "issiqlik ajraladigan reaksiya"
+        }
+      ],
+      "quiz": [
+        [
+          "Kimyoviy reaksiya sodir bo'lganini eng ishonchli qaysi belgi ko'rsatadi?",
+          [
+            "Rang o'zgarishi va yangi moddaning hosil bo'lishi",
+            "Faqat idishning sovib qolishi kuzatilsa",
+            "Faqat aralashtirilgan bo'lsa, xolos",
+            "Faqat suyuqlik qizigan bo'lsa"
+          ],
+          0,
+          "Bitta belgi aldaydi; bir nechtasi va tarkib o'zgarishi asosiy ko'rsatkich."
+        ],
+        [
+          "Gaz chiqishi — bu...",
+          [
+            "Reaksiya belgilaridan biri",
+            "Har doim kimyoviy reaksiya emas, ba'zida bug'lanish",
+            "Faqa fizik jarayon",
+            "Xato"
+          ],
+          0,
+          "Pufakchalar ham fizik (qaynash), ham kimyoviy (CO₂ chiqishi) bo'lishi mumkin."
+        ],
+        [
+          "Massaning saqlanish qonuni nima deydi?",
+          [
+            "Kiritilgan moddalar massasi = hosilalar massasi",
+            "Massa reaksiya davomida doim ortib boradi",
+            "Reaksiyada moddaning bir qismi yo'q bo'ladi",
+            "Qonun faqat qattiq moddalar uchun ishlaydi"
+          ],
+          0,
+          "Atomlar saqlanadi — ular faqat qayta bog'lanadi."
+        ],
+        [
+          "Katalizatorning roli qanday?",
+          [
+            "Reaksiyani tezlashtiradi, o'zi sarflanmaydi",
+            "Reaksiyadan yangi hosila olishni oshiradi",
+            "Eritmaning massasini sezilarli oshiradi",
+            "Reaksiyani butunlay to'xtatib qo'yadi"
+          ],
+          0,
+          "Reaksiya oxirida katalizator avvalgi holatida qoladi."
+        ],
+        [
+          "Nafas olish va shamning yonishi o'rtasidagi o'xshashlik nima?",
+          [
+            "Ikkalasi ham oksidlanish — energiya ajraladi",
+            "Ikkalasi ham juda sekin kechadigan jarayon",
+            "Ikkalasi ham suv hosil qilmaydigan reaksiya",
+            "Ikki jarayon o'rtasida umuman farq yo'q"
+          ],
+          0,
+          "Nafas — sekin va nazorat qilingan; yonish — tez va ochiq issiqlik bilan."
+        ],
+        [
+          "Yonish uchun uch shart kerak: yonuvchi modda, kislorod va...",
+          [
+            "yona harorati (zaruriy issiqlik)",
+            "katalizator (tezlashtiruvchi modda)",
+            "suvsizlantiruvchi modda (quritgich)",
+            "bosim o'lchagich (barometr)"
+          ],
+          0,
+          "Uch shartdan biri bo'lmasa — yonish to'xtaydi; shu tamoyil o'chirishda ishlatiladi."
+        ],
+        [
+          "Nega nam temir quruq temirga qaraganda tezroq zanglaydi?",
+          [
+            "Suv va kislorod birga bo'lsa, oksidlanish tezlashadi",
+            "Namlik temirni qizdirib, eritib yuboradi",
+            "Suv kislorodni butunlay yutib qo'yadi",
+            "Nam temirning zichligi o'zgarib qoladi"
+          ],
+          0,
+          "Zang — temirning kislorod va suv ishtirokida oksidlanishi."
+        ],
+        [
+          "Quyidagilardan qaysi biri reaksiya tezligiga ta'sir qiladi?",
+          [
+            "Moddaning maydalanganligi — yuzaning kattaligi",
+            "Idishning tashqi rangi va naqshining turi",
+            "O'lchov stakanining balandligi va shakli",
+            "Tajriba o'tkazilayotgan kunning tartib raqami"
+          ],
+          0,
+          "Yuzani kattalashtirish to'qnashuvlar sonini oshiradi — reaksiya tezlashadi."
+        ]
+      ],
+      "slideQuiz": [
+        [
+          "Sovuq suvda sodali sirka aralashmasi iliq suvdagidan sekinroq g'alaydi — nega?",
+          [
+            "Past haroratda zarrachalar sekin to'qnashadi",
+            "Sovuq suvda katalizator umuman yo'q",
+            "Sovuq eritmada modda massasi kamayadi",
+            "Sovuq suv toza bo'lib, reaksiyani to'xtatadi"
+          ],
+          0,
+          "Harorat reaksiya tezligiga bevosita ta'sir qiladi."
+        ],
+        [
+          "Reaksiyani yopiq idishda o'tkazishning maqsadi nima?",
+          [
+            "Gaz chiqib ketmasligi — massa saqlanishini tekshirish mumkin",
+            "Haroratni yopiq idishda oshirish uchun",
+            "Eritmaning rangini o'zgarishsiz saqlash uchun",
+            "Reaksiyani imkon qadar tez to'xtatish uchun"
+          ],
+          0,
+          "Ochiq idishda gaz bilan massa «kamayib» ko'rinadi."
+        ]
+      ],
+      "game": [
+        [
+          "Belgini reaksiya turi bilan bog'lang: rangning o'zgarishi",
+          [
+            "Kimyoviy reaksiya belgisi",
+            "Fizik o'zgarish belgisi",
+            "Harakat belgisi",
+            "O'lchov xatosi"
+          ],
+          0,
+          "Rang o'zgarishi yangi moddaga ishora."
+        ],
+        [
+          "Yonish uchun zarur bo'lmagan narsa — qaysi?",
+          [
+            "Yorug'lik",
+            "Yonuvchi modda",
+            "Kislorod",
+            "Yonish harorati"
+          ],
+          0,
+          "Yonish uchun uch omil kerak: modda, O₂ va alangalanish harorati."
+        ],
+        [
+          "Sirka + soda aralashmasida qaysi gaz chiqadi?",
+          [
+            "Ko'mir (IV) oksidi — CO₂ ajraladi",
+            "Kislorod gazi — O₂ ajraladi",
+            "Vodorod gazi — H₂ ajraladi",
+            "Azot gazi — N₂ ajraladi"
+          ],
+          0,
+          "Ko'mir angidridi — pufakchalar shu gaza tegishli."
+        ]
+      ],
+      "task": {
+        "q": "«Kimyoviy reaksiya belgilari» — uchta tajriba: (1) sirkaga soda; (2) sutga limon sharbati; (3) temir qog'oz (po'lat jun) sirka bilan 1 kunga qoldiring. Har birida qaysi belgi kuzatilganini va yangi modda hosil bo'lganmi yoki yo'qmi, asoslang.",
+        "a": "(1) g'illash va pufakchalar — gaz (CO₂) chiqdi, yangi modda bor. (2) sut ezilib, cho'kma (kazein) ajraldi — yangi modda hosil bo'ldi. (3) qizil-jigarrang dog' — zanglangan temir (oksid) paydo bo'ldi.",
+        "why": "Uch xil tajribada uch xil belgi (gaz, cho'kma, rang) kuzatiladi — «belgi ≠ reaksiya» emas, «belgilar majmuasi = reaksiya» degan xulosaga kelish ishonchli.",
+        "steps": [
+          "Har tajriba uchun alohida stakan oling va boshlang'ich holatni yozing",
+          "Qo'shish tartibini yozing (miqdor + vaqt)",
+          "Belgilarni jadvalga kiriting: rang | gaz | cho'kma | harorat | hid",
+          "Har belgiga «yangi moddami?» degan javob qo'shing",
+          "Xulosa: qaysi belgi yolg'iz qoldirganda aldaydi?"
+        ],
+        "jihoz": [
+          "Sirka, ovqat sodasi",
+          "Sut va limon",
+          "Po'lat jun, sirka",
+          "3 stakan, qo'shiqchi"
+        ],
+        "xavfsizlik": [
+          "Sirka va limon sharbatini ko'zga tekkizmang",
+          "Aralashmalarni hidlashda idishni o'zingerik burang, to'g'ridan-to'g'ri ichkanga yuqmang",
+          "Reaksiya oxirida eritmalarni yuvib tashlang, og'izga olmang"
+        ]
+      }
+    }
+  ]
+}
