@@ -171,6 +171,29 @@ yozadi (mualliflik huquqi). `kitob` va `urinish` maydonlari kitobga havola berad
 6. **Ko'nikma analitikasi** — 112 ta tadqiqotchilik ko'nikmasi bo'yicha progress.
 7. **Ustozlik resursi** — metodik qo'llanma va tayyor dars ishlanmalariga havola.
 
+### 4.1 Yig'ilgan platforma (holat)
+
+`npm run build` → `6-sinf.html` (bitta fayl, ~330 KB, internet shart emas).
+
+| Bo'lim | Nima bor |
+|--------|----------|
+| 📖 Nazariya | mavzu bo'yicha paragraflar, formulalar, atama-jadvali, kitob betlari va undagi savollar havolasi; slayd rejimi (`#slides`) |
+| 🔧 Simulyator | 17 turdagi in-page SVG simulyator (ratsion, hazm, nafas, puls, mikrob, himoya, zanjir, modda, o'zgarish, erish, kuch, suzish, yorug'lik, elektr, jins, tuproq, astronomiya) — 25 sozlanadigan holat; natija daftarga saqlanadi |
+| 🎡 O'yin | «To'g'ri javob» (har 5 ta to'g'rida daraja) + «Kalit-aniqlagich» (atama–ma'no eslay o'yini) |
+| 📝 Test | Boblar bo'yicha filtr, 5–40 savol, taymer, aralash/rejim; har javobda izoh; natija + baholash mezonlari chipi |
+| ✍️ Amaliy topshiriq | bajarish tartibi (belgilanadigan ro'yxat), jihoz, xavfsizlik, daftarcha (olchov jadvali + natija + xulosa), txt yuklab olish, chop etish |
+| 🖨 Chop markazi | 1 mavzu / bob / barchasi; varaqda 1, 2 yoki 4 blok; slaydlar + atamalar + test + amaliy varaqasi; javoblar bilan yoki siz qoldirgan holda |
+| 📊 Boshqaruv paneli | chorak bo'yicha progress, boblar, ko'nikma chiplari bo'yicha xatolar statistikasi, daftarcha holati |
+
+Baholash (o'qituvchi uchun ko'rsatma): amaliy ish 8 ball — jihoz+xavfsizlik 0–1,
+jadval+diagramma 0–2, natija 0–2, xulosa 0–2, ko'nikma 0–1 → 7–8 = «5»,
+5–6 = «4», 3–4 = «3». Test: ≥90% «5», ≥75% «4», ≥55% «3».
+
+Tekshiruvlar: `npm run content:check` (sxema + belgilar), `npm run smoke`
+(orol maydonlari, bog'lanishlar, barcha simulyator holatlari, slaydlar, test
+konstruktori), `npm run dom:check` (jsdom'da brauzer sinovi), `npm run verify`
+(struktura ↔ kitoblar).
+
 ## 5. Muammolar / cheklovlar
 
 

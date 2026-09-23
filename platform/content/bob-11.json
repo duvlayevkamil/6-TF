@@ -1,0 +1,110 @@
+{
+  "bob": 11,
+  "chorak": 4,
+  "topics": [
+    {
+      "kod": "11.1",
+      "lab": "tuproq",
+      "labMode": "turlar",
+      "theory": "Tuproq — Yer po'stining hayot beruvchi yumshoq qatlami. U jinslarning maydalangan materialidan, chirindidan (gumus), suv, havo va tirik organizmlardan tashkil topadi.\n\nChirindi (gumus) — o'simlik va hayvonlar qoldiqlarining mikroorganizmlar ta'sirida parchalanib hosil qiladigan qora, unumdor modda. Tuproqning asosiy xossasi — unumdorlik — aynan gumusga bog'liq.\n\nTuproq kesimi (profil) — qatlamlar tizimi: yuqoridagi chirindili g'o'ra qatlam, unda mineral qatlam, pastda ona jins. Har bir qatlam rangi, zichligi va tarkibi bilan farq qiladi.\n\nAsosiy tuproq turlari: qora tuproq (cho'r, eng unumdor, ko'p gumusli), jimp (o'rmonli, kamroq gumusli, kislotali), qumli tuproq (suv va moddalarni tez o'tkazadi, unumdorligi past), shor (tuzli) tuproq — sug'orishdan tuz ko'tarilib zararkunanda bo'ladi, va allyuvial (daryo bo'yi) tuproq — daryo olib kelgan cho'kindilardan hosil bo'lib unumdor bo'ladi.\n\nTuproq — qayta tiklanadigan, ammo juda sekin tiklanadigan resurs: 1 sm unumdor qatlam uchun o'rtacha 100–400 yil kerak.",
+      "formulas": [
+        "Tuproq = mineral qism + gumus + suv + havo + organizmlar",
+        "Gumus = parchalangan organik qoldiqlar",
+        "Unumdorlik ↑ gumus ↑",
+        "Profil: g'o'ra qatlam → mineral qatlam → ona jins",
+        "Qora tuproq > jimp > qumli (unumdorlik bo'yicha)",
+        "1 sm tuproq ≈ 100–400 yil"
+      ],
+      "vocab": [
+        { "w": "Tuproq", "m": "Yer po'stining unumdorlikka ega yumshoq qatlami" },
+        { "w": "Gumus (chirindi)", "m": "organik qoldiqlardan hosil bo'lgan qora, unumdor modda" },
+        { "w": "Unumdorlik", "m": "tuproqning hosil yetishtirish qobiliyati" },
+        { "w": "Tuproq profili", "m": "yuqoridan ona jinsgacha bo'lgan qatlamlar tizimi" },
+        { "w": "Ona jins", "m": "tuproq hosil bo'lgan asosiy tog' jinsi" },
+        { "w": "Shorlanish", "m": "tuproqda tuz to'planib qolishi" }
+      ],
+      "quiz": [
+        ["Tuproqning eng muhim xossasi — qaysi?", ["Unumdorlik", "Rangi", "Hajmi", "Harorati"], 0, "Unumdorlik — tuproqni tuproq qiluvchi xossa."],
+        ["Gumus nima?", ["Organik qoldiqlardan hosil bo'lgan unumdor qora modda", "Mineral tuz", "Suv qatlami", "Qum donasi"], 0, "Gumus tarkibida azot, fosfor, kaliy va uglerod bor."],
+        ["Qaysi tuproq eng unumdor?", ["Qora tuproq", "Qumli tuproq", "Shor tuproq", "Toshli yer"], 0, "Qora tuproqda gumus miqdori eng yuqori."],
+        ["Shorlanish qachon kuchayadi?", ["Ko'p sug'orib, suvi bug'langanda tuz yuqoriga ko'tarilsa", "Yomg'ir yog'ganda", "Qor yog'ganda", "Shamol kuchayganda"], 0, "Bug'lanish tuzni sirtda qoldiradi."],
+        ["Nega tuproq «sekin tiklanadigan» resurs deyiladi?", ["1 sm uchun 100–400 yil kerak", "Hech qachon tiklanmaydi", "1 oyda tiklanadi", "Faqat issiqxona"], 0, "Eroziya bilan yo'qolgan qatlam inson umrida tiklanmaydi."]
+      ],
+      "slideQuiz": [
+        ["Daryo bo'yidagi yerlar unumdor bo'ladi — nega?", ["Suv mayda cho'kindilarni olib kelib qo'yadi", "Yomg'ir ko'p", "Quyosh kuchli", "Shamol kam"], 0, "Allyuvial tuproq — suv keltirgan materialdan hosil bo'ladi."],
+        ["Jimp tuproqda qanday kamchilik bor?", ["Gumus kam va kislotali", "Juda ko'p tuz", "Suv umuman o'tmaydi", "Havo yo'q"], 0, "O'rmon tuprog'i yuvilgan, kislotali va yupqa bo'ladi."]
+      ],
+      "game": [
+        ["Tuproq komponentini roli bilan moslashting: gumus", ["Unumdorlikni beradi", "Suv o'tkazadi", "Zichlikni oshiradi", "Havoni yo'q qiladi"], 0, "Oziqa moddalari va tuproq tuzilishi shu bilan yaxshilanadi."],
+        ["Qaysi tuproq suvni tez o'tkazadi va qurg'oqchil?", ["Qumli", "Loyli", "Qora", "Bataqlik"], 0, "Katta donalar orasidan suv tez oqib ketadi."],
+        ["Tuproq profilida eng pastda nima joylashadi?", ["Ona jins", "Chirindi qatlami", "O'simlik qoldig'i", "Suv ko'li"], 0, "Yuqoridan pastga: chirindi → mineral → ona jins."]
+      ],
+      "task": {
+        "q": "Maktab bog'i va dala chekkasidan olgan 2 tuproq namunangizni solishtiring: rang, hido, zarrachalar tarkibi, suv o'tkazish va pH (lakmus qog'ozi) bo'yicha. Turi va unumdorligini baholang.",
+        "a": "Bog' tuprog'i qoraroq, yumshoq va hido ko'p (gumus), dala chekkasi ochroq va mayda toshli. Suv bog' tuprog'idan sekinroq, ammo tengroq o'tadi; kislotalilik deyarli bir xil.",
+        "why": "Namuna olish joyi tuproq tarkibini belgilaydi — shu sabab solishtirish tuproqdan foydalanish (sug'orish, urug'lantirish) bo'yicha qarorga asos bo'ladi.",
+        "steps": [
+          "Har joydan 2 stakan tuproq oling (yuza 5 cm chuqurlikdan)",
+          "Rang va hidni yozing; qo'lda uvalab tuzilishini tekshiring",
+          "Har stakanga 100 ml suv quying — o'tish vaqtini belgilang",
+          "Lakmus qog'ozini 30 soniya bosib turing, rangni shkalaga solishtiring",
+          "Xulosa: qaysi tuproq unumdor? Sababi nima?"
+        ],
+        "jihoz": ["2 shaffof stakan/pet-shisha", "100 ml suv uchun o'lchagich (silindr)", "Lakmus qog'ozi yoki universal indikator", "Qo'lqop va bog' ketmoni", "Lupa"],
+        "xavfsizlik": ["Tuproqni qo'lqop bilan oling, shisha/temir bo'laklarini tekshiring", "Tajribadan keyin qo'llarni sovunlab yuving", "Indikator qog'ozini og'izga olmang"]
+      }
+    },
+    {
+      "kod": "11.2",
+      "lab": "tuproq",
+      "labMode": "singdirish",
+      "theory": "Tuproqning suv singdirishi (suzish) — tuproq suvni o'ziga olish va ichidan o'tkazish qobiliyati. U donalar o'lchami, tuzilish va organik moddalar miqdoriga bog'liq.\n\nQumli tuproq — katta donalar, katta bo'shliq: suv tez o'tadi, lekin uzoq saqlanmaydi. Loyli (gil) tuproq — mayda donalar, suv sekin singadi, ustida ko'lmak qoladi va qotib yoriladi. Qora tuproq — agregatli tuzilish va gumus tufayli suvni ham yaxshi oladi, ham saqlaydi.\n\nTuproq erosiyasi — unumdor qatlamning suv yoki shamol olib ketishi. Sabablari: yalang'och qolgan yer, o'rmonsiz yon bag'ir, suvni ko'p oqizib sug'orish, yer qatlamini buzuvchi noto'g'ri haydash.\n\nHimoya choralari: o't va daraxt ekish (ildiz tuproqni ushlaydi), gorizontal (gorizontal) haydash va yon bag'irda zinapoyali yerlar, sharbon (daryo bo'yida) sug'orish, yopib o'tirish (mulcha), yon bag'irga ekin qatorini ko'ndalang ekish.\n\nAmaliy ahamiyati: sug'orish me'yori tuproq turiga qarab belgilanadi. Qumli tuproqni kam-kam, lekin tez-tez; loyli tuproqda esa ko'p suv kerak emas — u singmay, oqib ketadi.",
+      "formulas": [
+        "Singdirish = suvning tuproqqa kirish tezligi (ml/min)",
+        "Qumli: o'tkazish ↑, saqlash ↓",
+        "Loyli: o'tkazish ↓, saqlash ↑, yorilish xavfi",
+        "Qora tuproq: o'tkazish va saqlash muvozanati yaxshi",
+        "Eroziya = suv/shamol olib ketishi",
+        "Himoya: ildiz + gorizontal haydash + yopish (mulcha)"
+      ],
+      "vocab": [
+        { "w": "Singdirish (infiltratsiya)", "m": "suvning tuproqqa kirish qobiliyati" },
+        { "w": "Suzuvchanlik", "m": "suvning tuproq bo'ylab pastga harakatlanishi" },
+        { "w": "Agregat", "m": "tuproq donalarining birikkan bo'lagi" },
+        { "w": "Eroziya", "m": "tuproqning suv yoki shamol bilan olib ketilishi" },
+        { "w": "Mulcha", "m": "tuproq yuzasini yopuvchi qoplama (pichan, po'lop, qog'oz)" },
+        { "w": "Yon bag'ir", "m": "qiyalikdagi yer; suv tez oqib, tuproqni yuvadi" }
+      ],
+      "quiz": [
+        ["Suv eng tez qaysi tuproqdan o'tadi?", ["Qumli", "Loyli", "Qora", "Muzlagan"], 0, "Yirik donalar orasida katta bo'shliq bor."],
+        ["Loyli tuproqning kamchiligi — nima?", ["Suv sekin singadi, qatlam qotib yoriladi", "Suv umuman o'tmaydi", "Tuz ko'p", "Havo yo'q"], 0, "Mayda donalar suvni ushlab, sirtni qotiradi."],
+        ["Yon bag'irda tuproqni himoya qilishning eng samarali usuli — qaysi?", ["O't va daraxt ekish, gorizontal haydash", "Ko'proq sug'orish", "Yerni qotirish", "Bir yo'nalishda uzun haydash"], 0, "Ildiz mustahkamlaydi, gorizontal iz esa suvning oqib ketishini to'sadi."],
+        ["Mulchaning vazifasi nima?", ["Suvning bug'lanishini kamaytiradi, yuzani himoya qiladi", "Haroratni oshiradi", "O'g'it vazifasi bajaradi", "Zararkunandalarni ko'paytiradi"], 0, "Yopqich namlikni saqlaydi va yomg'ir urib tuproqni uchirishini kamaytiradi."],
+        ["Qaysi amaliyot tuproq erosiyasini kuchaytiradi?", ["Yalang'och yerda suvni tez oqizish", "Gorizontal haydash", "Daraxt ekish", "Yopib turish"], 0, "Tez oqim yuza qatlamni yuvib olib chiqadi."]
+      ],
+      "slideQuiz": [
+        ["Tajribada 100 ml suv qumli tuproqqa 20 sekundda, loyliga 90 sekundda kirdi. Xulosa?", ["Qumli suvni tez singdiradi, ammo saqlamaydi", "Loyli yaxshiroq", "Ikkalasi bir xil", "Suv qizigan"], 0, "Tezlik va saqlash — ikki xil ko'rsatkich."],
+        ["Nega sug'orish me'yori tuproq turiga qarab belgilanadi?", ["Tuproqning singdirish va saqlash qobiliyati har xil", "Qonun shuni talab qiladi", "Urug' turi uchun", "Suv narxi"], 0, "Noto'g'ri sug'orish suvni ham, tuproqni ham isrof qiladi."]
+      ],
+      "game": [
+        ["Tuproq turini xossasi bilan moslashting: loyli tuproq", ["Suvni sekin singdiradi, qotadi", "Suvni tez o'tkazadi", "Umuman suv olmaydi", "Faqat qumdan iborat"], 0, "Mayda donalar — suv kirish qiyin."],
+        ["Himoya chorasini maqsadi bilan bog'lang: gorizontal haydash", ["Suvning oqib ketishini to'sadi", "Haroratni oshiradi", "Zichlikni oshiradi", "Gumusni kamaytiradi"], 0, "Qiyalik bo'ylab iz suv uchun «to'siq» bo'ladi."],
+        ["Eroziya eng kuchli qachon boshlanadi?", ["Yuz yalang'och va o'simlik yo'q bo'lganda", "Yopib o'tirilganda", "Qor yog'ganda", "Daraxtlar bo'lganda"], 0, "O'simlik tuproqni ushlaydi — undan ayrilsa, yuvilish boshlanadi."]
+      ],
+      "task": {
+        "q": "«Tuproq suv singdirish tajribasi» — 3 ta plastik shishaning tubini kesib, tagiga gazmol soling va bir xil massadagi qumli, loyli va bog' tuprog'ini soling. Har biriga 100 ml suv quying: o'tgan vaqt va hajmni o'lchang. Himoya bo'yicha taklif yozing.",
+        "a": "Suv eng tez qumli tuproqdan o'tadi (o'lchangan hajm katta, vaqt kichik), loyli tuproqda sekin va oz o'tadi; bog' tuprog'i ikkisining o'rtasida. Shu asosda sug'orish rejasi tuziladi.",
+        "why": "Tuproq turlarining suv o'tkazishini bir xil sharoitda solishtirish — qishloq xo'jaligidagi sug'orish qarorining ilmiy asosi.",
+        "steps": [
+          "Uch shishani kesib, tagiga bir xil qalinlikda gazmol yoki paxta soling",
+          "Har biriga 150 g tuproq soling va sirtini tekislang",
+          "Shishani stakan ustiga qo'ying, 100 ml suvni bir maromda quying",
+          "Sekundomer bilan vaqt va stakanga tushgan hajmni yozing",
+          "Diagramma chizing va qaysi tuproqqa qancha suv kerakligini asoslang"
+        ],
+        "jihoz": ["3 plastik shisha (1,5 l)", "Gazmol yoki paxta", "Qumli, loyli, bog' tuprog'i (150 g dan)", "100 ml o'lchagich/siringa", "Sekundomer, stakanlar, tarozi"],
+        "xavfsizlik": ["Plastikni kesganda pichoq ehtiyotkorlik bilan — chetlari o'tkir", "Suvni stolga to'kmang; tizzadan pastda ishlash qulay", "Tuproq bilan ishlagan qo'llarni yuving"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "bob": 3,
+  "chorak": 1,
+  "topics": [
+    {
+      "kod": "3.1",
+      "lab": "mikrob",
+      "labMode": "tarqalish",
+      "theory": "Kasallik — organizmning barqaror ishlashi buzilgan holat. Sabablari ikki guruhga bo'linadi: yuqumli (tashqi ajan — mikrob kiradi) va yuqumsiz (ovqatlanish, irsiyat, muhit, turmush tarzi).\n\nYuqumli kasalliklarning qo'zg'atuvchilari:\n— bakteriyalar — bir hujayrali, hujayra devori bor, ko'pincha bo'linib ko'payadi;\n— viruslar — hujayra tuzilishiga ega emas, faqat tirik hujayra ichida ko'payadi;\n— zamburug'lar va oddiy hayvonlar (parasitlar) ham kasallik keltirib chiqarishi mumkin.\n\nYuqumli kasallik tarqalishining uch bo'g'ini bor: manba (kasal organizm yoki sauguvchi) → uzatish yo'li → kirish eshigi (teri, nafas yo'llari, ovqat hazm kanali, ko'z shilliq qavati). Uch bo'g'in birga bo'lmasa, kasallik yuqmaydi — shuning uchun oldini olish ham shu bo'g'inlardan birini uzish orqali qilinadi.\n\nUzatish yo'llari: havo-tomchi (asirish, yo'tal), ovqat va suv, aloqa (qo'l, buyum), qon so'ruvchi hasharotlar, jinsiy yo'l. Pufakchi tajribasida asirilganda tomchilar qanchalik uzoqqa tarqalishi ko'rinadi — bu havo-tomchi yo'lining namoyishi.\n\nMikroblar uchun qulay sharoit: namlik, iliq harorat, oziqa. Shu sababli shaxsiy gigiyena, ovqatni to'g'ri saqlash va toza suv — kasalliklarning oldini olishning eng arzon va samarali choralari.",
+      "formulas": [
+        "Kasallik = yuqumli + yuqumsiz sabablar",
+        "Virus — hujayrasiz, faqat tirik hujayrada ko'payadi",
+        "Bakteriya — bir hujayrali, bo'linib ko'payadi",
+        "Yuqumli kasallikning 3 bo'g'ini: manba → uzatish yo'li → kirish eshigi",
+        "Bo'g'inlarni birini uzsa — yuqish to'xtaydi",
+        "Mikrob uchun qulay: namlik + iliq harorat + oziqa"
+      ],
+      "vocab": [
+        { "w": "Infeksiya", "m": "mikrobning organizmga kirib ko'payishi" },
+        { "w": "Qo'zg'atuvchi", "m": "kasallik keltirib chiqaradigan organizm" },
+        { "w": "Saug'uvchi", "m": "mikrobni o'zida saqlaydigan, ammo kasal bo'lmagan organizm" },
+        { "w": "Epidemiya", "m": "kasallikning keng tarqalishi" },
+        { "w": "Karantin", "m": "aloqani cheklash orqali tarqalishni to'xtatish" },
+        { "w": "Gigiyena", "m": "salomatlikni saqlash qoidalari" }
+      ],
+      "quiz": [
+        ["Viruslarning bakteriyadan asosiy farqi nimada?", ["Faqat tirik hujayra ichida ko'payadi", "Ancha katta bo'ladi", "Hujayra devoriga ega", "Antibiotikdan o'ladi"], 0, "Virus — hujayrasiz tuzilish; mustaqil ko'pala olmaydi."],
+        ["Yuqumli kasallik tarqalishining birinchi bo'g'ini qaysi?", ["Manba", "Kirish eshigi", "Immun javobi", "Davolash"], 0, "Manba → uzatish yo'li → kirish eshigi tartibida ko'rib chiqiladi."],
+        ["Sovuq urishida kasallik asosan qanday yo'l bilan yuqadi?", ["Havo-tomchi", "Qon orqali", "Teri orqali", "O'simlik orqali"], 0, "Asirish va yo'tal paytida tomchilar havoga tarqaladi."],
+        ["Qaysi chora kasallikning yuqishini to'xtatishga yordam bermaydi?", ["Mikrobni o'ldiruvchi vitamin ichish", "Qo'lni yuvish", "Ovqatni to'g'ri saqlash", "Xonani shamollatish"], 0, "Gigiyena choralari uzatish yo'lini uzadi; «mirakul vitamin» esa ishonchsiz ma'lumot."],
+        ["Mikroblar eng tez qanday sharoitda ko'payadi?", ["Iliq va nam joyda", "Quruq va sovuq joyda", "Yorug' joyda", "Muzlagan holda"], 0, "Namlik, iliq harorat va oziqa — ko'payish uchun uch sharoit."]
+      ],
+      "slideQuiz": [
+        ["Karantin qaysi bo'g'inni uzadi?", ["Uzatish yo'lini (aloqani)", "Manbani", "Kirish eshigini", "Immun tizimini"], 0, "Aloqa cheklansa, mikrob yangi organizmga o'ta olmaydi."],
+        ["Antibiotiklar qaysi qo'zg'atuvchiga ta'sir qiladi?", ["Bakteriyalarga", "Viruslarga", "Ikkalasiga ham", "Hech qaysisiga"], 0, "Antibiotik — bakteriyalarga; virusli kasallikda foydasiz."]
+      ],
+      "game": [
+        ["Kasallikni qo'zg'atuvchi turi bilan moslashting: gripp", ["Virus", "Bakteriya", "Zamburug'", "Parazit qurt"], 0, "Gripp — virusli kasallik, havo-tomchi yo'li bilan yuqadi."],
+        ["Qaysi kasallik ovqat va suv orqali ko'proq yuqadi?", ["Ich yo'li infeksiyalari", "Gripp", "Zamburug' kasalligi", "Allergiya"], 0, "Noto'g'ri yuvilgan sabzavot va ochiq suv — asosiy yo'l."],
+        ["Yuqumsiz kasallikka misol — nima?", ["Anemiya (temir yetishmovchiligi)", "Vetlyanka", "O'pka yallig'lanishi", "Kraxmal kasalligi"], 0, "Ovqatlanish va moddalar almashinuvi buzilishi yuqumli emas."]
+      ],
+      "task": {
+        "q": "«Kasalliklarning kelib chiqish sababi nimada?» — 10 ta kasallik ro'yxatini ikki ustunga ajrating (yuqumli / yuqumsiz) va har biri uchun sababni bir jumlada asoslang.",
+        "a": "Gripp, shamollash, ich yo'li infeksiyalari, zamburug' — yuqumli; anemiya, ko'rish nuqsoni, qandli diabet, allergiya — yuqumsiz. Asosda doim «kim/sabab → qanday yo'l bilan → qayerga kiradi» zanjiri bo'lishi kerak.",
+        "why": "Sababni aniqlash — tasniflash ko'nikmasi; ajratish mezonini o'zingiz yozsangiz, xulosangiz tekshiriladigan bo'ladi.",
+        "steps": [
+          "Ikki ustunli jadval tuzing",
+          "Kasallik nomlarini yozing va manbadan olingan ma'lumot bilan to'ldiring",
+          "Har biriga uzatish yo'lini belgilang (yuqumli bo'lsa)",
+          "Mezonni yozing: nima uchun «yuqumli» deb qaradingiz?",
+          "Xulosa: sinfdagi eng ko'p tarqalish yo'lini aniqlang"
+        ],
+        "jihoz": ["Darslik, 32–46-bet (kasallik turlari)", "Jadval uchun daftar", "Ishonchli manba (o'quv qo'llanma, sayt ro'yxati)"],
+        "xavfsizlik": ["Internetdagi har bir ma'lumotni ishonchli deb hisoblamang — manbani ko'rsating", "O'zingizda kasallik belgisi bo'lsa shifokorga murojaat qiling"]
+      }
+    },
+    {
+      "kod": "3.2",
+      "lab": "mikrob",
+      "labMode": "spreu",
+      "theory": "Kasallik tarqalishining oldini olish uchun zanjirning istalgan bo'g'ini uzilishi yetarli. Amalda to'rt asosiy chora ishlatiladi.\n\n1) Manbaga ta'sir: kasalni erta aniqlash, davolash, zarur bo'lsa ajratish (karantin), hayvonlar kasalligida veterinariya nazorati.\n\n2) Uzatish yo'lini uzish: qo'l yuvish, toza suv, ovqatni yaxshilab pishirish va yuvish, xonani shamollatish, nam tozalash, niqob va masofa, hasharotlarga qarshi choralarni ko'rish.\n\n3) Kirish eshigini mustahkamlash: terini shikastlanishdan saqlash, og'iz va burun bo'shlig'i gigiyenasi, toza doka va antiseptik.\n\n4) Organizmga qarshilikni oshirish: emlash (vaktsina), to'g'ri ovqatlanish, uyqu, harakat, badanga shifobaxsh odatlar.\n\nEmlash — maxsus tayyorlangan preparat yordamida organizmni «tanish»iga o'rgatish. Vaktsina kasallikning o'g'ir ko'rinishini berishdan avval immun tizimini tayyorlaydi, shuning uchun u eng samarali oldini olish choralaridan biridir.\n\n«Pufakchi yordamida asirish» tajribasi ko'rsatadiki, tomchilar 1 metrdan uzoqqa tarqaladi — masofa va niqob shu sababli ishlaydi. Hasharotlar chaqishi bilan tarqaladigan kasalliklarda esa uy ichidagi chakana suv idishlarini yo'q qilish, setka va repellantlar muhim.",
+      "formulas": [
+        "Oldini olish = zanjirning bir bo'g'ini uzilsa yetarli",
+        "4 chora: manba | uzatish yo'li | kirish eshigi | qarshilik",
+        "Qo'l yuvish — eng arzon va eng samarali chora",
+        "Vaktsina — immun tizimini erta tayyorlaydi",
+        "Tomchilar ~1 m gacha tarqaladi → masofa + niqob",
+        "Hasharotlar: suv to'planadigan joylarni yo'q qilish"
+      ],
+      "vocab": [
+        { "w": "Profilaktika", "m": "kasallikning oldini olish tadbirlari" },
+        { "w": "Vaktsina", "m": "organizmni mikroblarga qarshilikka tayyorlovchi preparat" },
+        { "w": "Antiseptik", "m": "mikroblarni o'ldiruvchi yoki ko'payishini to'xtatuvchi modda" },
+        { "w": "Dezinfeksiya", "m": "buyum va xonalardagi mikroblarni yo'q qilish" },
+        { "w": "Repellant", "m": "hasharotlarni qaytaruvchi vosita" },
+        { "w": "Dispersiya", "m": "tomchilarning havoga tarqalishi" }
+      ],
+      "quiz": [
+        ["Qaysi chora «uzatish yo'lini uzish»ga kiradi?", ["Qo'l yuvish", "Vaktsina qilish", "Kasalni davolash", "Ko'z tomchisi"], 0, "Gigiyena mikrobning bir joydan ikkinchisiga o'tishini to'xtatadi."],
+        ["Emlash qaysi yo'nalishda ishlaydi?", ["Organizmning qarshiligini oshiradi", "Manbani yo'q qiladi", "Kirish eshigini yopadi", "Tomchilarni ushlaydi"], 0, "Vaktsina — qo'shimcha chidamlilik chorasi."],
+        ["Pufakchi tajribasi nimani isbotlaydi?", ["Asirilganda tomchilar ancha uzoqqa tarqaladi", "Havo harorati oshadi", "Mikroblar o'ladi", "Ovoz kuchayadi"], 0, "Ko'rinadigan tomchilar — havo-tomchi yo'lining isboti."],
+        ["Nima uchun xonani shamollatish tavsiya etiladi?", ["Havadagi mikrob va namlik konsentratsiyasi kamayadi", "Xona sovib qoladi", "Ovoz tarqaladi", "Chiroq yonadi"], 0, "Toza havo — uzatish yo'lini zaiflashtiruvchi oddiy chora."],
+        ["Hasharotlar chaqishi orqali tarqaladigan kasalliklarga qarshi nima qilish kerak?", ["Uy atrofida suv to'planadigan idishlarni yo'q qilish", "Ko'proq ovqat yeysiz", "Xonani qorong'i qilish", "Derazani yopib qo'yish"], 0, "Suvda ko'payadigan hasharotlarning manbai yo'q qilinadi."]
+      ],
+      "slideQuiz": [
+        ["Kasalni erta aniqlash va ajratish qaysi bo'g'inga ta'sir qiladi?", ["Manbaga", "Kirish eshigiga", "Immun tizimiga", "Ovqatlanishga"], 0, "Manba nazorati — kasal organizmning aloqasini cheklash."],
+        ["Qaysi ma'lumot ishonchsiz?", ["«Bu tabletka barcha viruslarni 1 kunda yo'q qiladi»", "«Vaktsina kasallikning og'ir oqibatlari kamaytiradi»", "«Qo'l yuvish infeksiyani kamaytiradi»", "«Kasalni davolash shifokor nazoratida»"], 0, "«Mirakul» va'dalar, tekshirilmagan ma'lumot — ishonch alomati."]
+      ],
+      "game": [
+        ["Chorani zanjir bo'g'ini bilan moslashting: niqob taqish", ["Uzatish yo'li", "Manba", "Kirish eshigi", "Qarshilik"], 0, "Niqob tomchilarning havo orqali o'tishini kamaytiradi."],
+        ["Ovqatni yaxshilab pishirish qaysi choraga kiradi?", ["Uzatish yo'lini uzish", "Emlash", "Davolash", "Karantin"], 0, "Issiqlik mikroblarni yo'q qiladi va ovqat orqali yuqishning oldini oladi."],
+        ["Chakana suv idishini to'kish — nimaga qarshi chora?", ["Hasharotlar orqali yuqishga", "Havo-tomchiga", "Teri orqali yuqishga", "Irsiy kasallikka"], 0, "Lichinka suvda rivojlanadi — manbai yo'q qilinadi."]
+      ],
+      "task": {
+        "q": "«Kasallik tarqalishining oldini qanday olish mumkin?» — maktab uchun 1 haftalik profilaktika reja tuzing: 4 ta chora, har biriga qaysi zanjir bo'g'ini uzilishini yozing.",
+        "a": "Namuna: (1) sinfda qo'l yuvish jadvali — uzatish yo'li; (2) kasal o'quvchini uyga yuborish — manba; (3) xonani shamollatish va nam tozalash — uzatish yo'li; (4) to'g'ri ovqatlanish va uyqu rejimi — qarshilik.",
+        "why": "Reja har bir harakatning «nimaga qarshi»ligini ko'rsatsa, o'quvchi chorani tushunadi va boshqalarga tushuntira oladi.",
+        "steps": [
+          "Sinfdagi kunlik ritmni yozing (nonushta, tanaffus, tozalash)",
+          "Har ritmga zanjir bo'g'inini moslang",
+          "Jadval tuzing: chora — kim bajaradi — qachon — qaysi bo'g'in",
+          "Kerakli resurs va jihozlarni yozing",
+          "Baholash mezonini qo'shing: haftadan keyin nima o'zgardi?"
+        ],
+        "jihoz": ["Jadval varaqasi", "Sinfdagi kun tartibi", "Poster yoki slayd uchun qog'oz"],
+        "xavfsizlik": ["Antiseptik va dezinfeksiya vositalarini ustoz nazoratisiz ishlatmang", "Dori vositalarini tavsiya qilmang — bu shifokor ishi"]
+      }
+    },
+    {
+      "kod": "3.3",
+      "lab": "himoya",
+      "labMode": "tosiqlar",
+      "theory": "Organizm mikroblarga qarshi bir necha darajada himoyalanadi. Birinchi himoya chizig'i — tashqi to'siqlar: teri, shilliq qavatlar, tupurik, oshqozon kislotasi, yosh suyuqligi, burundagi tukchalar va asqinish refleksi. Ular mikrobdan fizik va kimyoviy to'siq bo'lib xizmat qiladi.\n\nIkkinchi himoya chizig'i — umumjavob. Shikast bo'lsa: qon ivishi jarohatni berkitadi, yallig'lanish (qizil, issiq, shishgan, og'riqli holat) boshlanadi, fagotsitlar mikroblarni yutadi, harorat ko'tarilib ko'payishni sekinlashtiradi.\n\nUchinchi himoya chizig'i — maxsus (spesifik) javob: limfotsitlar. Antigen — mikrobdagi «belgi». B-limfotsitlar antitel ishlab chiqaradi; antitel antigenga moslab qulflanadi. T-limfotsitlar yuqumlangan hujayralarga ta'sir qiladi. Xotira hujayralari shu mikrobni eslab qoladi — takror uchrashganda javob tez va kuchli bo'ladi. Emish aynan shu mexanizmni «o'qitish» uchun ishlatiladi.\n\nImmunlik ikki xil: tabiiy (onisdan bo'ladigan to'siqlar va avvaldan o'tgan kasallikdan keyingi xotira) va sun'iy (emlashdan keyin). Ona sutidagi antitelalar chaqaloqqa birinchi himoyani beradi.",
+      "formulas": [
+        "1-chiziq: teri va shilliq qavatlar (fizik + kimyoviy to'siq)",
+        "2-chiziq: yallig'lanish, fagotsitoz, qon ivishi, harorat",
+        "3-chiziq: limfotsitlar, antitelalar, xotira hujayralari",
+        "Antigen — mikrobning «belgisi»; antitel — unga mos oqsil",
+        "Xotira hujayralari → takror javob tezroq va kuchliroq",
+        "Immunlik: tabiiy va sun'iy (vaktsina)"
+      ],
+      "vocab": [
+        { "w": "Immunitet", "m": "organizmning kasalliklarga qarshi turish qobiliyati" },
+        { "w": "Antigen", "m": "organizmda antitel ishlab chiqarishga sabab bo'ladigan modda" },
+        { "w": "Antitel", "m": "antigenga birikib, zararsizlantiruvchi maxsus oqsil" },
+        { "w": "Fagotsit", "m": "mikroblarni yutib hazm qiluvchi oq qon hujayrasi" },
+        { "w": "Yallig'lanish", "m": "shikast yoki infektsiyaga umumiy javob" },
+        { "w": "Xotira hujayrasi", "m": "mikrobni «eslab» keyingi javobni tezlashtiruvchi limfotsit" }
+      ],
+      "quiz": [
+        ["Qaysi omma birinchi himoya chizig'iga kiradi?", ["Teri va shilliq qavatlar", "Antitelalar", "Fagotsitlar", "Xotira hujayralari"], 0, "Tashqi to'siqlar mikrobing kirishiga to'siq bo'ladi."],
+        ["Antitelaning vazifasi nima?", ["Antigenga birikib zararsizlantiradi", "Mikroblarni yutadi", "Haroratni ko'taradi", "Qonni ivitadi"], 0, "Moslik «kalit — kilti» tamoyili bilan antitel ishlaydi."],
+        ["Emlash qaysi chiziqni tayyorlaydi?", ["Uchinchi — maxsus javob", "Birinchi — teri", "Ikkinchi — yallig'lanish", "Hech birini"], 0, "Vaktsina xotira hujayralarini shakllantiradi."],
+        ["Yaraga qon ivib qobiq hosil qilishi — nima?", ["Ikkinchi himoya chizig'i javobi", "Birinchi chiziq", "Allergik javob", "Irsiy belgi"], 0, "Qobiq mikroblarning kirishini to'sadi — umumiy javob."],
+        ["Chaqaloq ona sutidan qanday himoya oladi?", ["Tayyor antitelalar bilan", "Vaktsina orqali", "Terisi qalinlashib", "Harorat orqali"], 0, "Sutdagi antitelalar — passiv immunlikning namunasi."]
+      ],
+      "slideQuiz": [
+        ["Ikkinchi himoya chizig'iga xos bo'lmagan belgi — qaysi?", ["Mikrobni tanib olish va xotira saqlash", "Harorat ko'tarilishi", "Yallig'lanish", "Fagotsitoz"], 0, "Xotira va «tanish» — uchinchi, maxsus chiziqning ishi."],
+        ["«Mikrobni yutib hazm qilish» — qaysi hujayra vazifasi?", ["Fagotsit", "Eritrotsit", "Trombotsit", "Neyron"], 0, "Oq qon hujayralarining bir turi fagotsitozni bajaradi."]
+      ],
+      "game": [
+        ["Vazifani organ/hujayra bilan moslashting: qonni ivitish", ["Trombotsitlar", "Fagotsitlar", "Eritrotsitlar", "Limfotsitlar"], 0, "Trombotsitlar jarohatni berkitadi."],
+        ["Qaysi modda oshqozonda mikrobni o'ldiradi?", ["Xlorid kislotasi", "O't", "Tupurik", "Insulin"], 0, "Kislota — kimyoviy to'siq; ovqatdagi ko'p mikroblar shu yerda nobud bo'ladi."],
+        ["Allergiya — immun javobning qanday ko'rinishi?", ["Ziyonli darajada kuchayishi", "Umumiy susayishi", "Yo'qligi", "Irsiy o'zgarishi"], 0, "Allergiya — zararsiz moddaga noto'g'ri kuchli javob."]
+      ],
+      "task": {
+        "q": "«Organizmni himoya qiluvchi to'siq» tajribasini tuzing: toza va sovunlangan qo'l bilan yupqa qatlamli jelidagi «mikrob» izlarini taqqoslang va natijani rasm/jadval bilan hujjatlang.",
+        "a": "Sovunlangan qo'l bosilgan qismda «mikrob» (uchun bo'yoq yoki jel ustidagi kukun) ancha kam bo'ladi — sovun va suv mikroblarni mexanik ravishda yuvib ketadi.",
+        "why": "Bu — nazorat qilinadigan tajriba: bitta sharoit (qo'l holati) o'zgartiriladi, qolganlari bir xil; takroriy bosish tasodifni kamaytiradi.",
+        "steps": [
+          "Ikki idishdagi bir xil jelga bo'yoq/kraxmal kukunini surting",
+          "Chap qo'l — toza, o'ng qo'l — sovun bilan yuvilgan va quritilgan",
+          "Ikkala qo'l bilan jellni bir xil kuch bilan bosing",
+          "Qolgan «iz» maydonini katakka bo'ling va sanang",
+          "Jadval va diagramma tuzing, xulosa yozing: farq necha barobar?"
+        ],
+        "jihoz": ["2 idishdagi shaffof jel yoki kraxmal suyuqligi", "Sovun, sochiq", "Bo'yoq/kukun (mikrob o'rniga)", "Katakli qog'oz, lupa"],
+        "xavfsizlik": ["Haqiqiy kasal material bilan ishlamang", "Tajribadan keyin qo'l sovun bilan yuviladi", "Bo'yoqni ko'zga va og'izga tegizmang"]
+      }
+    }
+  ]
+}

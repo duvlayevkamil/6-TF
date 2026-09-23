@@ -56,32 +56,60 @@ olinadi — yangi texnologiya ixtiro qilinmaydi:
 
 - **bitta HTML fayl**, internet shart emas; ma'lumot — ichida
   `<script id="topics-data" type="application/json">` ormoli;
-- `localStorage`: progress (`results`, `examResults`), daftarcha, laboratoriya
-  holati, savol banki;
-- sahifa: `#sidebar` (progress, mavzular ro'yxati, dashboard, print markazi)
-  + `#main` (crumb, sarlavha, mezon-chip, tabs, slides);
-- tabs: 📖 Nazariya · 🔧 Simulyator · 🎡 O'yin · 📝 Test · ✍️ Amaliy topshiriq;
-- bosib chiqarish markazi: bitta dars yoki butun bob, sahifaga 2 yoki 4 slayd.
+- `localStorage` (`tabiiy6_progress_v1`): progress, daftarcha, test natijalari;
+- sahifa: `#sidebar` (qidiruv, boblar va mavzular) + `#main` (crumb, 5 tab);
+- tablar: 📖 Nazariya · 🔧 Simulyator · 🎡 O'yin · 📝 Test · ✍️ Amaliy topshiriq
+  + 📊 Boshqaruv paneli;
+- slayd rejimi (`#slides`), bosib chiqarish markazi (`#modal-overlay` →
+  `#print-area`): 1 dars yoki butun bob, varaqda 1/2/4 blok;
+- mavzu kartasi maydonlari `7-sinf.html` bilan bir xil nomda
+  (`d, c, t, theory, formulas, quiz, task, slideQuiz, gameQuiz`), ustiga
+  6-sinf uchun: `vocab`, `task.steps/jihoz/xavfsizlik`, `lab`+`labMode`,
+  `kitob` (darslik/mashq daftari betlari) va `urinish` (kitobdagi savollar,
+  ko'nikmalar, tatbiq).
 
-6-sinf uchun `topics-data` ma'lumoti `npm run topics` bilan yasaladi: maydon
-nomlari `7-sinf.html` bilan bir xil (`d, c, t, theory, formulas, quiz, task, act,
-slideQuiz, gameQuiz`), ustiga `kitob` (darslik/mashq daftari betlari) va
-`urinish` (kitobdagi savollar, ko'nikmalar, tatbiq) qo'shilgan.
+## Platformani yig'ish va ishga tushirish
 
-`data/curriculum/6-sinf-science.topics.json` — 26 ta mavzu kartasi. `theory`,
-`formulas`, `quiz`, `task.a` ataylab **bo'sh**: ularni o'qituvchi yozadi.
+```bash
+npm install
+npm run build        # platform/* + data/curriculum → 6-sinf.html (bitta fayl)
+npm run serve        # http://localhost:8080/6-sinf.html
+npm run content:check # kontent fayllari sxemasi + noto'g'ri yozuv belgilari
+npm run smoke        # JSON orol, id/bog'lanishlar, 25 simulyator holatlari, slaydlar
+npm run dom:check    # jsdom'da brauzer sinovi: 26 mavzu × 5 tab, test, slayd, chop
+```
+
+`6-sinf.html` — yig'ilgan mahsulot. uni tahrirlash emas, `platform/` dagi
+manbalar tahrirlanadi va `npm run build` qayta yig'adi (fayl Git'da ham
+turadi — shuni maktabga berish mumkin).
+
+### `platform/` tarkibi
+
+| Fayl | Vazifa |
+|------|--------|
+| `platform/index.template.html` | Sahifa qolipi: sidebar, topbar, slaydlar, chop maydoni, `topics-data` ormoli |
+| `platform/styles.css` | `7-sinf.html` ranglari va o'lchamlari (amber/cyan, Georgia + Segoe UI) |
+| `platform/app.js` | Qobiq: 5 tab, progress, test konstruktori, slaydlar, chop markazi, boshqaruv paneli |
+| `platform/labs.js` | 17 turdagi interaktiv simulyator (`lab`+`labMode` bo'yicha) |
+| `platform/content/bob-01.json … bob-12.json` | 26 mavzuning nazariyasi, formulalari, atamalari, testlari, o'yin va amaliy topshiriqlari — **o'zimiz yozgan matn** |
+
+Kontent `data/curriculum/6-sinf-science.topics.json` (kitob mundarijasi —
+tasdiqlangan struktura) bilan birlashtiriladi: mavzu nomi, bobi, betlari va
+amaliy ismi kitobdan, o'quv materiali esa `platform/content/` dan keladi.
 
 ## Papkalar
 
 | Yo'l | Nima |
 |------|------|
 | `data/curriculum/6-sinf-science.json` | **Platformaning strukturaviy asosi** (ikkita kitob bog'langan holda) |
-| `data/curriculum/6-sinf-science.topics.json` | Shu strukturaning platforma formati (topics-data ormoli) |
+| `data/curriculum/6-sinf-science.topics.json` | Shu strukturaning platforma formati (`npm run topics`) |
 | `data/curriculum/6-sinf-science.meta.json` | Tahririy qism: kitob tavsifi, arxitektura va platforma talablari — generator shu faylni qo'shadi |
 | `data/curriculum/6-sinf-tabiiy-fan.json` | RTM 2022 nashri — faqat qiyos uchun |
 | `docs/tadqiqot.md` | Manbalar bo'yicha tadqiqot + arxitektura va modul xaritasi |
 | `sources/` | Kitob PDF lari (lokal, git'da emas) |
-| `tools/` | PDF → JSON konveyeri, tekshiruv va formatga keltirish |
+| `tools/` | PDF → JSON konveyeri, tekshiruv, kontent/platforma yig'uvchi |
+| `platform/` | Platforma manbalari: qolip, CSS, app.js, labs.js, content/ |
+| `6-sinf.html` | **Yig'ilgan platforma** — maktabga beriladigan bitta fayl |
 
 ## Mualliflik huquqi
 
@@ -91,8 +119,11 @@ o'qituvchi o'zi yozgan izoh va topshiriqlar.
 
 ## Keyingi qadam
 
-1. `6-sinf.html` — interfeys `7-sinf.html` sxemasi asosida, ma'lumot
-   `6-sinf-science.topics.json` dan.
-2. 2025-2026 taqvim-mavzu rejasiga bog'lash (haftasiga 3 soat, 102 soat) va
-   BSB/CHSB kunlarini joylashtirish.
-3. `theory` / `quiz` / `task` mazmunini o'qituvchi bilan birga to'ldirish.
+1. `6-sinf.html` yig'ildi: interfeys `7-sinf.html` sxemasi asosida,
+   ma'lumot `6-sinf-science.topics.json` + `platform/content/` dan.
+2. Kontentni chuqurlashtirish: har mavzuga 2–3 variantli amaliy ish va
+   CHSB/BSB turidagi mustahkamlash savollari qo'shish.
+3. 2025-2026 taqvim-mavzu rejasiga bog'lash (haftasiga 3 soat, 102 soat) va
+   soatlar bo'yicha dars rejasi varaqasini ham shu platformaga kiritish.
+4. Sinovdan o'tkazish: bir guruhda 1 hafta ishlash, `platform/content/` dagi
+   matnlarni o'qituvchi bilan birga tahrirlash.

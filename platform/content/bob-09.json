@@ -1,0 +1,113 @@
+{
+  "bob": 9,
+  "chorak": 3,
+  "topics": [
+    {
+      "kod": "9.1",
+      "lab": "elektr",
+      "labMode": "sxema",
+      "labTitle": "Zanjir va shartli belgilar",
+      "theory": "Elektr zanjiri — tok oqishi uchun zarur to'rt element: manba (batareya), o'tkazgich simlar, iste'molchi (lampa, motor) va kalit. Bular yopiq iz hosil qilgandagina tok oqadi.\n\nZanjirni chizishda shartli belgilar ishlatiladi — bu xalqaro «til»: batareya — uzun (musbat) va qisqa (manfiy) chiziqlar; lampa — aylana ichida xoch; kalit — uzilgan chiziq va ko'tarilgan chiziqcha; o'tkazgich — to'g'ri chiziq. Chizma real buyumlardan ancha sodda va hamma uchun tushunarli.\n\nO'tkazgich — tokni yaxshi o'tkazuvchi material: mis, alyuminiy, temir, uglerod (grafit), tuzli suv. Izolyator — o'tkazmaydigan material: rezina, plastmassa, shisha, quruq yog'och, havo. Shu ikki xossani birga ishlatish xavfsizlikning asosi: simning ichi metall, tashqi qatlam rezina.\n\nZanjir elementlarini ulashning ikki turi bor — ketma-ket va parallel. Ular bilan keyingi mavzuda ishlaymiz; hozircha sxemani to'g'ri chizish va o'qish muhim: sxema bo'yicha yig'ilgan zanjir bilan real zanjir bir xil ishlashi kerak.\n\nXavfsizlik: uy tarmog'i (220 V) hayot uchun xavfli — maktabda va uydagi tajribalarda faqat batareya (1,5–9 V) bilan ishlanadi. Qisqa tutashuv (manba qutblarini to'g'ridan-to'g'ri ulash) simni qizdiradi va yong'in keltirib chiqarishi mumkin.",
+      "formulas": [
+        "Yopiq zanjir = manba + o'tkazgich + iste'molchi + kalit",
+        "O'tkazgich: metallar, grafit, tuzli suv",
+        "Izolyator: rezina, plastmassa, shisha, quruq yog'och",
+        "Chizmada: uzun chiziq — musbat qutb, qisqa — manfiy",
+        "Tok kuchi I — amper (A); kuchlanish U — volt (V)",
+        "Qarshilik R — om (Ω)"
+      ],
+      "vocab": [
+        { "w": "Elektr zanjiri", "m": "tok oqadigan yopiq iz" },
+        { "w": "Manba", "m": "zanjirga kuchlanish beruvchi qurilma (batareya, generator)" },
+        { "w": "Iste'molchi", "m": "elektr energiyasini ishga aylantiruvchi element" },
+        { "w": "O'tkazgich", "m": "tokni yaxshi o'tkazuvchi material" },
+        { "w": "Izolyator", "m": "tokni o'tkazmaydigan material" },
+        { "w": "Shartli belgi", "m": "elementni ifodalovchi standart chizma belgisi" }
+      ],
+      "quiz": [
+        ["Zanjirda tok oqishi uchun nima shart?", ["Zanjir yopiq bo'lishi kerak", "Kalit ochiq bo'lishi kerak", "Lampa katta bo'lishi kerak", "Ikki batareya kerak"], 0, "Uzuq izda zarryadlar harakati to'xtaydi."],
+        ["Qaysi material — izolyator?", ["Rezina", "Mis", "Grafit", "Tuzli suv"], 0, "Rezina tokni deyarli o'tkazmaydi."],
+        ["Zanjir sxemasida uzun va qisqa parallel chiziqlar nimani bildiradi?", ["Batareya qutblari", "Lampa", "Kalit holati", "Sim uzunligi"], 0, "Uzun — musbat, qisqa — manfiy qutb."],
+        ["Sxemani o'qish va chizish nega muhim?", ["Chizma bo'yicha zanjirni yig'ish va xatoni topish uchun", "Rasm chiroyli bo'lishi uchun", "Vaqt tejash uchun", "Material narxini bilish uchun"], 0, "Sxema — zanjirni boshqalarga ham aniq tushuntirishning standart usuli."],
+        ["Maktab tajribasida qaysi manba bilan ishlash to'g'ri?", ["Batareya bilan", "Uy rozetkasi bilan", "Tarmoq bloki bilan", "Generatordan"], 0, "220 V xavfli; 3–4,5 V xavfsiz chegarada."]
+      ],
+      "slideQuiz": [
+        ["Sim nega metall ichi va rezina qoplamadan iborat?", ["Biri tokni o'tkazadi, ikkinchisi himoya qiladi", "Rezina tokni kuchaytiradi", "Metall sovishi kerak", "Qoplama arzonroq"], 0, "Ikkita xossa birga ishlaydi: o'tkazuvchanlik + izolyatsiya."],
+        ["Kalit qanday «boshqaradi»?", ["Zanjirni ochib-yopib tokni uzadi yoki o'tkazadi", "Kuchlanishni oshiradi", "Qarshilikni kamaytiradi", "Tokni o'lchaydi"], 0, "Kalit — zanjirning boshqariladigan uzilish joyi."]
+      ],
+      "game": [
+        ["Elementni vazifasi bilan moslang: lampa", ["Iste'molchi", "Manba", "Kalit", "Izolyator"], 0, "Lampa energiyani yorug'likka aylantiradi."],
+        ["Belgini nomiga moslang: aylana ichida xoch", ["Lampa", "Batareya", "Kalit", "Ampermetr"], 0, "Bu — lampaning standart shartli belgisi."],
+        ["Qaysi biri zanjirning majburiy elementi?", ["Manba", "Termometr", "Transportir", "Mikroskop"], 0, "Kuchlanish manbasiz tok oqmaydi."],
+        ["Zanjir yig'ilib, lampa yonmayapti. Birinchi nima tekshiriladi?", ["Iz yopiqmi, ulanishlar mahkammu", "Batareya rangi", "Sim uzunligi", "Lampa og'irligi"], 0, "Eng ko'p uchraydigan sabab — uzilgan yoki bo'sh ulanish."]
+      ],
+      "task": {
+        "q": "«Elektr zanjir sxemalari» — batareya, lampa va kalit bilan zanjir yig'ing, uni (1) rasmga tushiring, (2) shartli belgilar sxemasiga aylantiring; so'ng sxemangizni qo'shningizga bering — u xatosiz yig'a oldimi?",
+        "a": "Zanjir yopiq bo'lsa lampa yonadi; kalit ochilsa — yonmaydi. Sxema to'g'ri bo'lsa, qo'shningiz qurilmalarni shu tartibda ulanganda lampa yonadi.",
+        "why": "Sxemani o'qish va chizish — muhandislik muloqotining asosi: bitta xato (uzilgan iz, noto'g'ri qutb) butun zanjirni ishlamaydigan qiladi.",
+        "steps": [
+          "Zanjirni ulang va lampa yonishini tekshiring",
+          "Real ko'rinishini rasmga tushiring",
+          "Shartli belgilar bilan sxema chizing",
+          "Kalitli va kalitsiz holatni alohida chizing",
+          "Sxemalarni qo'shningiz bilan almashtiring va natijani yozing"
+        ],
+        "jihoz": ["Batareya (3–4,5 V) va patronli lampa", "Kalit, 2–3 ulagich sim (krokodilli)", "Qog'oz, chizg'ich, qalam"],
+        "xavfsizlik": ["Faqat batareya bilan ishlang — uy rozetkasiga ulamang", "Qisqa tutashuvga yo'l qo'ymang (qutblarni to'g'ridan-to'g'ri ulamang)", "Sim va lampa isishi mumkin — uzoq ushlamang"]
+      }
+    },
+    {
+      "kod": "9.2",
+      "lab": "elektr",
+      "labMode": "qiyos",
+      "labTitle": "Ketma-ket va parallel zanjir",
+      "theory": "Ikki lampani bitta iz bo'ylab ulang — ketma-ket zanjir. Unda tokning yagona yo'li bor, shu sabab tok kuchi hamma qismda bir xil (I = I₁ = I₂), kuchlanish esa lampalar bo'ylab bo'linadi (U = U₁ + U₂).\n\nKetma-ket zanjirning zaif joyi — uzilish: bitta lampa ishdan chiqsa yoki olib tashlansa, butun zanjir to'xtaydi va ikkinchi lampa yonmaydi. Umumiy qarshilik ortadi (R = R₁ + R₂), shu sabab lampalar so'nuqroq yonadi.\n\nParallel ulanishda har lampa o'z tarmog'i orqali manbaga ulanadi: kuchlanish har tarmoqda bir xil (U = U₁ = U₂), umumiy tok esa tarmoq toklarining yig'indisiga teng (I = I₁ + I₂).\n\nParallel zanjirning ustunligi — mustaqillik: bitta lampa o'chsa yoki olib tashlansa, qolganlari yonaveradi. Shu sabab uydagi chiroqlar, rozetkalar va asboblar parallel ulanadi — har biri o'z kaliti bilan boshqariladi.\n\nAmmo parallel ulanishda tarmoq soni ortsa umumiy tok ham ortadi — sim qiziydi. Shu sabab tarmoqda himoya avtomati bor: haddan tashqari tokda u izni uzadi. «Qaysi zanjir kerak?» degan savol shu ikki tomondan yechiladi: yorqinlik va mustaqillik kerak bo'lsa — parallel; tokni bir xil saqlaydigan oddiy zanjir kerak bo'lsa — ketma-ket.",
+      "formulas": [
+        "Ketma-ket: I = I₁ = I₂; U = U₁ + U₂; R = R₁ + R₂",
+        "Ketma-ket: bitta uzilish — hammasi to'xtaydi",
+        "Parallel: U = U₁ = U₂; I = I₁ + I₂",
+        "Parallel: 1/R = 1/R₁ + 1/R₂ (umumiy R kamayadi)",
+        "Lampa yorqinligi: parallel > ketma-ket",
+        "Uy tarmog'i = parallel ulanish + himoya avtomati"
+      ],
+      "vocab": [
+        { "w": "Ketma-ket ulanish", "m": "elementlarning bitta iz bo'ylab ulanishi" },
+        { "w": "Parallel ulanish", "m": "elementlarning alohida tarmoqlar orqali ulanishi" },
+        { "w": "Tarmoq", "m": "zanjirning bir iste'molchi o'tadigan qismi" },
+        { "w": "Yorqinlik", "m": "lampaga yetib boradigan quvvatga bog'liq ko'rsatkich" },
+        { "w": "Himoya avtomati", "m": "haddan tashqari tokda izni uzuvchi qurilma" }
+      ],
+      "quiz": [
+        ["Ketma-ket zanjirda tok kuchi qanday bo'ladi?", ["Hamma qismda bir xil", "Birinchi lampada ko'p", "Oxirgisida ko'p", "Taqsimlanib kamayadi"], 0, "Tokning bitta yo'li bor — shu sabab hamma joyda bir xil."],
+        ["2 ta lampani ketma-ket ulanganda ular qanday yonadi?", ["Har biriga kamroq kuchlanish — so'nuqroq", "Ikkalasi ham to'liq yorqin", "Bittasi yonadi", "Umuman yonmaydi"], 0, "U = U₁ + U₂ bo'linadi; har lampa kuchsizroq ishlaydi."],
+        ["Parallel zanjirda bitta lampani olsangiz nima bo'ladi?", ["Qolgani avvalgidek yonadi", "Qolgani o'chadi", "Qolgani yorqinroq", "Batareya buziladi"], 0, "Tarmoqlar mustaqil — kuchlanish o'zgarmaydi."],
+        ["Uydagi chiroqlar qanday ulangan?", ["Parallel", "Ketma-ket", "Aralash", "Ulanish tartibi yo'q"], 0, "Mustaqillik va har asbobga bir xil kuchlanish talabi shuni taqozo qiladi."],
+        ["Ko'p asbobni bir bagetkaga ulash xavfi nimada?", ["Umumiy tok ortadi, sim qiziydi", "Kuchlanish ortadi", "Lampalar yorqinroq yonadi", "Tok to'xtaydi"], 0, "Shu sabab avtomat tok chegarasidan chiqqanda izni uzadi."]
+      ],
+      "slideQuiz": [
+        ["Qaysi zanjirda lampa yorqinroq yonadi (bitta batareya, 2 lampa)?", ["Parallelda", "Ketma-ketda", "Ikkalasi bir xil", "Hech qaysida"], 0, "Parallelda har lampaga to'liq kuchlanish yetib boradi."],
+        ["Yilinma chiroqlarida bittasi yonmasa qolganlari ham o'chdi — qanday ulanish?", ["Ketma-ket", "Parallel", "Aralash", "Sxemada xato yo'q"], 0, "Bitta uzilish butun izni to'xtatadi — bu ketma-ket belgisi."]
+      ],
+      "game": [
+        ["Xossani ulanish turi bilan moslang: bitta uzilish — hammasi to'xtaydi", ["Ketma-ket", "Parallel", "Ikkalasi", "Hech qaysi"], 0, "Yagona yo'l bo'lsa — uzilish hal qiluvchi."],
+        ["Parallel zanjirda I₁ = 0,3 A, I₂ = 0,5 A. Umumiy tok qancha?", ["0,8 A", "0,2 A", "0,15 A", "1,5 A"], 0, "I = I₁ + I₂ = 0,8 A."],
+        ["Qaysi zanjir uy tarmog'i uchun to'g'ri?", ["Parallel", "Ketma-ket", "Farqi yo'q", "Faqat bitta iste'molchi bilan"], 0, "Har asbob mustaqil ishlaydi va 220 V oladi."],
+        ["Ketma-ket zanjirga uchinchi lampa qo'shilsa nima bo'ladi?", ["Hammasi so'nuqroq", "Hammasi yorqinroq", "O'zgarmaydi", "Batareya kuchsizlanmaydi"], 0, "Qarshilik ortadi → tok kamayadi."]
+      ],
+      "task": {
+        "q": "«Chiroqni yoqing» va «Qaysi turdagi elektr zanjirdan foydalanish kerak?» — 2 lampa, batareya va kalit bilan ikki xil zanjir yig'ing, yorqinlikni solishtiring, bitta lampani olib qolgani kuzating. So'ng maktab xonasini yoritish uchun qaysi zanjirni tavsiya qilishni asoslang.",
+        "a": "Ketma-ketda lampalar so'nuqroq, bittasini olsangiz hammasi o'chadi. Parallelda yorqinlik bir xil va lampalar mustaqil yonadi — xonani yoritish uchun parallel tanlanadi (kamchiligi: umumiy tok ortadi, sim isiydi).",
+        "why": "Bu amaliy ishda zanjir turini tanlash haqiqiy muhandislik qaroridir: yorqinlik, mustaqillik va simga tushadigan yuk birga hisobga olinadi.",
+        "steps": [
+          "Ikki lampani ketma-ket ulang, yorqinlikni 1–5 shkalada baho lang",
+          "Bitta lampani oling — ikkinchisi yonadimi?",
+          "Endi parallel ulang, yorqinlikni qayta baho lang",
+          "Parallel holatda ham bitta lampani olib kuzatuv yozing",
+          "Xulosa: xona yoritish uchun qaysi tur va nima uchun?"
+        ],
+        "jihoz": ["Batareya bloki (3–4,5 V)", "2 patronli lampa (2,5 V)", "Kalit, 5–6 ulagich sim (krokodilli)", "Ixtiyoriy: ampermetr (multimetr)"],
+        "xavfsizlik": ["Faqat batareya bilan ishlang — rozetkaga yaqin bermang", "Zanjirni uzoq vaqt ulangab qoldirmang: sim va lampa qiziydi", "Qisqa tutashuv bo'lsa darhol zanjirni oching"]
+      }
+    }
+  ]
+}
