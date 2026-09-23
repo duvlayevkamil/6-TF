@@ -16,28 +16,179 @@
         "Sayyora nur qaytaradi, yulduz nur chiqaradi"
       ],
       "vocab": [
-        { "w": "Quyosh sistemasi", "m": "Quyosh va unga tortishish bilan bog'langan jismlar" },
-        { "w": "Sayyora", "m": "yulduz atrofini aylanuvchi, o'z nuri yo'q jism" },
-        { "w": "Yo'ldosh", "m": "sayyora atrofini aylanuvchi tabiiy jism" },
-        { "w": "Asteroid", "m": "asosan kamarda harakatlanuvchi kichik toshli jism" },
-        { "w": "Kometa", "m": "muz va changdan iborat, quyoshga yaqinlashganda dumi paydo bo'ladigan jism" },
-        { "w": "Astronomik birlik (a.b.)", "m": "Yer bilan Quyosh orasidagi o'rtacha masofa" }
+        {
+          "w": "Quyosh sistemasi",
+          "m": "Quyosh va unga tortishish bilan bog'langan jismlar"
+        },
+        {
+          "w": "Sayyora",
+          "m": "yulduz atrofini aylanuvchi, o'z nuri yo'q jism"
+        },
+        {
+          "w": "Yo'ldosh",
+          "m": "sayyora atrofini aylanuvchi tabiiy jism"
+        },
+        {
+          "w": "Asteroid",
+          "m": "asosan kamarda harakatlanuvchi kichik toshli jism"
+        },
+        {
+          "w": "Kometa",
+          "m": "muz va changdan iborat, quyoshga yaqinlashganda dumi paydo bo'ladigan jism"
+        },
+        {
+          "w": "Astronomik birlik (a.b.)",
+          "m": "Yer bilan Quyosh orasidagi o'rtacha masofa"
+        }
       ],
       "quiz": [
-        ["Quyosh sistemasidagi yagona yulduz — kim?", ["Quyosh", "Oy", "Venera", "Mars"], 0, "Faqat yulduz o'z energiyasi bilan nur chiqaradi."],
-        ["Qaysi sayyoralar guruhi «toshli» hisoblanadi?", ["Ichki (Merkuriy–Mars)", "Tashqi (Yupiter–Neptun)", "Barcha sayyoralar", "Mitti sayyoralar"], 0, "Ichki sayyoralar zich va qattiq yuzaga ega."],
-        ["Asteroidlar kamari qayerda joylashgan?", ["Mars va Yupiter orasida", "Yer va Oy orasida", "Saturn halqasida", "Neptundan keyin"], 0, "Bu ikki sayyora orbitasi orasidagi kamarda 1 mln dan ortiq jism bor."],
-        ["Nega sayyora yulduz emas?", ["O'z nuri yo'q, yulduz nurini qaytaradi", "Juda katta", "Aylanmaydi", "Sovuq"], 0, "Yulduz — termonuklear manba; sayyora — qaytirgich."],
-        ["Yorug'lik Quyoshdan Yerga qancha vaqtda yetadi?", ["≈8 daqiqa", "≈1 soniya", "≈1 soat", "≈1 yil"], 0, "150 mln km ÷ 300 000 km/s ≈ 500 s ≈ 8 min."]
+        [
+          "Quyosh sistemasidagi yagona yulduz — kim?",
+          [
+            "Quyosh",
+            "Oy",
+            "Venera",
+            "Mars"
+          ],
+          0,
+          "Faqat yulduz o'z energiyasi bilan nur chiqaradi."
+        ],
+        [
+          "Qaysi sayyoralar guruhi «toshli» hisoblanadi?",
+          [
+            "Ichki (Merkuriy–Mars)",
+            "Tashqi (Yupiter–Neptun)",
+            "Barcha sayyoralar",
+            "Mitti sayyoralar"
+          ],
+          0,
+          "Ichki sayyoralar zich va qattiq yuzaga ega."
+        ],
+        [
+          "Asteroidlar kamari qayerda joylashgan?",
+          [
+            "Mars va Yupiter orbitasi orasida",
+            "Yer bilan Oy orasida",
+            "Saturn halqasining ichida",
+            "Neptundan keyingi hududda"
+          ],
+          0,
+          "Bu ikki sayyora orbitasi orasidagi kamarda 1 mln dan ortiq jism bor."
+        ],
+        [
+          "Nega sayyora yulduz hisoblanmaydi?",
+          [
+            "O'z nuri yo'q — yulduz nurini qaytaradi",
+            "Sayyora juda katta bo'lgani uchun",
+            "Sayyora o'z o'qi atrofida aylanmaydi",
+            "Sayyora harorati juda sovuq"
+          ],
+          0,
+          "Yulduz — termonuklear manba; sayyora — qaytirgich."
+        ],
+        [
+          "Yorug'lik Quyoshdan Yerga qancha vaqtda yetadi?",
+          [
+            "≈8 daqiqa",
+            "≈1 soniya",
+            "≈1 soat",
+            "≈1 yil"
+          ],
+          0,
+          "150 mln km ÷ 300 000 km/s ≈ 500 s ≈ 8 min."
+        ],
+        [
+          "Quyosh sistemasi massasining 99,8% i kimning hissasiga to'g'ri keladi?",
+          [
+            "Quyoshniki",
+            "Yerniki",
+            "Yupiterniki",
+            "Barcha sayyoralarniki"
+          ],
+          0,
+          "Quyosh — tizimning og'irligi; sayyoralari bor-yo'g'i 0,2% ni tashkil qiladi."
+        ],
+        [
+          "Qaysi sayyora «Qizil sayyora» deb ataladi?",
+          [
+            "Mars — zangrang changi tufayli",
+            "Merkuriy — Quyoshga eng yaqin",
+            "Venera — bulutlari qalin",
+            "Yupiter — halqasi keng"
+          ],
+          0,
+          "Temir oksid (zangrang) chang sayyoraga qizil tus beradi."
+        ],
+        [
+          "Nega sayyoralar Quyosh atrofida aylanib, uchib ketmaydi?",
+          [
+            "Quyoshning tortishish kuchi ushlab turadi",
+            "Sayyoralar bir-biriga tegib turadi",
+            "Kosmosda tortishish kuchi umuman yo'q",
+            "Orbita shakli ularni tortadi"
+          ],
+          0,
+          "Orbital harakat va tortishish muvozanati saqlanadi; tortishish bo'lmasa, sayyora to'g'ri chiziqda uchadi."
+        ]
       ],
       "slideQuiz": [
-        ["Qaysi sayyora eng ko'p yo'ldoshga ega?", ["Yupiter va Saturn (mingga yaqin birgalikda)", "Merkuriy", "Venera", "Yer"], 0, "Ichki sayyoralarda yo'ldosh deyarli yo'q (Merkuriy, Venera — 0 ta)."],
-        ["Kometaning dumi qachon paydo bo'ladi?", ["Quyoshga yaqinlashganda muz bug'lanadi", "Yerdan uzoqlashganda", "Har doim", "Tun paytida"], 0, "Issish va quyosh shamoli gaz-chang quyrog'ini hosil qiladi."]
+        [
+          "Qaysi sayyora eng ko'p yo'ldoshga ega?",
+          [
+            "Yupiter va Saturn — birgalikda mingga yaqin",
+            "Merkuriy — Quyoshga eng yaqin sayyora",
+            "Venera — eng yorug' ko'rinadigan sayyora",
+            "Yer — faqat bitta yo'ldoshga ega"
+          ],
+          0,
+          "Ichki sayyoralarda yo'ldosh deyarli yo'q (Merkuriy, Venera — 0 ta)."
+        ],
+        [
+          "Kometaning dumi qachon paydo bo'ladi?",
+          [
+            "Quyoshga yaqinlashganda muz bug'lanadi",
+            "Yerdan uzoqlashganda kuchayadi",
+            "Kumeta har doim dum ko'rsatadi",
+            "Faqat tun paytida ko'rinadi"
+          ],
+          0,
+          "Issish va quyosh shamoli gaz-chang quyrog'ini hosil qiladi."
+        ]
       ],
       "game": [
-        ["Jismni turi bilan moslashting: Oy", ["Yer tabiiy yo'ldoshi", "Mitti sayyora", "Sayyora", "Kometa"], 0, "Oy — Yerning doimiy yo'ldoshi."],
-        ["Qaysi sayyorani «qizil sayyora» deyishadi?", ["Mars", "Venera", "Merkuriy", "Yupiter"], 0, "Tuproqida temir oksidi ko'p — shu rangni beradi."],
-        ["Tartibni to'g'rilang: Yer, Venera, Mars, Merkuriy", ["Merkuriy, Venera, Yer, Mars", "Venera, Merkuriy, Yer, Mars", "Yer, Venera, Merkuriy, Mars", "Mars, Yer, Venera, Merkuriy"], 0, "Quyoshdan uzoqlik bo'yicha ichki to'rtlik shu tartibda."]
+        [
+          "Jismni turi bilan moslashting: Oy",
+          [
+            "Yer tabiiy yo'ldoshi",
+            "Mitti (qarlik) sayyora",
+            "Quyosh sistemasi sayyorasi",
+            "Kumeta — muzli jism"
+          ],
+          0,
+          "Oy — Yerning doimiy yo'ldoshi."
+        ],
+        [
+          "Qaysi sayyorani «qizil sayyora» deyishadi?",
+          [
+            "Mars",
+            "Venera",
+            "Merkuriy",
+            "Yupiter"
+          ],
+          0,
+          "Tuproqida temir oksidi ko'p — shu rangni beradi."
+        ],
+        [
+          "Tartibni to'g'rilang: Yer, Venera, Mars, Merkuriy",
+          [
+            "Merkuriy, Venera, Yer, Mars",
+            "Venera, Merkuriy, Yer, Mars",
+            "Yer, Venera, Merkuriy, Mars",
+            "Mars, Yer, Venera, Merkuriy"
+          ],
+          0,
+          "Quyoshdan uzoqlik bo'yicha ichki to'rtlik shu tartibda."
+        ]
       ],
       "task": {
         "q": "«Masshtabli model» — Quyosh va sayyoralarni kartoshka, no'xat, murch, kichik shar kabi tanlangan buyumlar bilan masshtabga soling (Quyosh diametri = 10 sm bo'lsa, Yer qancha bo'ladi?) va maktab hovlisida masofalarni 1 m = 15 mln km shkalasida chizing.",
@@ -50,8 +201,16 @@
           "Masofalarni 1 m = 15 mln km shkalasida hisoblang",
           "Hovlida chizing/olasiz va suratga oling; xulosa: qaysi o'lcham hayratlantdirdi?"
         ],
-        "jihoz": ["Kalkulyator", "Uzunlik o'lchagich (rulon 10 m yoki arqon)", "Markalash uchun bo'yoq/ko'cha chiziqlari (oleg)", "Sayyora diametrlari jadvali"],
-        "xavfsizlik": ["Hovlida chizishda avto yo'lidan uzoq bo'ling", "Quyoshga modelga qarab ham optik asboblar bilan to'g'ridan-to'g'ri qaramang"]
+        "jihoz": [
+          "Kalkulyator",
+          "Uzunlik o'lchagich (rulon 10 m yoki arqon)",
+          "Markalash uchun bo'yoq/ko'cha chiziqlari (oleg)",
+          "Sayyora diametrlari jadvali"
+        ],
+        "xavfsizlik": [
+          "Hovlida chizishda avto yo'lidan uzoq bo'ling",
+          "Quyoshga modelga qarab ham optik asboblar bilan to'g'ridan-to'g'ri qaramang"
+        ]
       }
     },
     {
@@ -68,28 +227,179 @@
         "Tutilishlar: Oy orbitasi qiyaligi ≈5° — shu sabab kam kuzatiladi"
       ],
       "vocab": [
-        { "w": "Aylanish (rotatsiya)", "m": "sayyoraning o'z o'qi atrofidagi harakati" },
-        { "w": "Orbital harakat", "m": "sayyoraning yulduz atrofidagi harakati" },
-        { "w": "O'q qiyaligi", "m": "aylanish o'qining orbital tekislikka nisbatan og'ishi" },
-        { "w": "Fasal", "m": "nur burchagi bilan belgilanadigan iqlim davri" },
-        { "w": "Faza", "m": "Oyning ko'rinadigan qismining shakli" },
-        { "w": "Tutilish", "m": "bir jismning soyasi ikkinchisiga tushishi" }
+        {
+          "w": "Aylanish (rotatsiya)",
+          "m": "sayyoraning o'z o'qi atrofidagi harakati"
+        },
+        {
+          "w": "Orbital harakat",
+          "m": "sayyoraning yulduz atrofidagi harakati"
+        },
+        {
+          "w": "O'q qiyaligi",
+          "m": "aylanish o'qining orbital tekislikka nisbatan og'ishi"
+        },
+        {
+          "w": "Fasal",
+          "m": "nur burchagi bilan belgilanadigan iqlim davri"
+        },
+        {
+          "w": "Faza",
+          "m": "Oyning ko'rinadigan qismining shakli"
+        },
+        {
+          "w": "Tutilish",
+          "m": "bir jismning soyasi ikkinchisiga tushishi"
+        }
       ],
       "quiz": [
-        ["Kun va tun almashinuvi nimadan bo'ladi?", ["Yer o'z o'qi atrofini aylanadi", "Quyosh Yer atrofini aylanadi", "Yer to'xtab turadi", "Yer harakatsiz qoladi"], 0, "Bir sutka = 24 soatlik aylanish."],
-        ["Fasllar almashinuvi asosan nimaga bog'liq?", ["Yer o'qining qiyaligiga", "Quyoshgacha bo'lgan masofaga", "Oy fazasiga", "Shamolga"], 0, "Qiyalik sabab nur burchagi yil bo'ylab o'zgaradi."],
-        ["Oyning yorug' qismi qanday hosil bo'ladi?", ["Quyosh nuri Oy yuzasidan qaytadi", "Oy o'zi nur chiqaradi", "Yer nuri yoritadi", "Bulutlar yorug' beradi"], 0, "Oy — yaltiroq tosh, o'z nuriga ega emas."],
-        ["To'lin Oy qachon ko'rinadi?", ["Yer Oyni yonidan ko'rgan, Oy–Yer–Quyosh tekisligida", "Yangi oy holatida", "Oy Quyosh ortida bo'lganda", "Har kuni"], 0, "Oy Quyoshga nisbatan Yerning ortida bo'lsa — butun yuzasi yoritilgan holda ko'rinadi."],
-        ["Quyosh tutilishi qachon bo'ladi?", ["Oy Yer bilan Quyosh orasiga kelganda", "Yer Oy soyasiga tushganda", "Oy to'lin bo'lganda", "Bulutlar qopganda"], 0, "Oy soyasi Yerning tor chizig'iga tushadi."]
+        [
+          "Kun va tun almashinuvi nimadan bo'ladi?",
+          [
+            "Yer o'z o'qi atrofini aylanadi",
+            "Quyosh Yer atrofini aylanadi",
+            "Yer to'xtab turadi",
+            "Yer harakatsiz qoladi"
+          ],
+          0,
+          "Bir sutka = 24 soatlik aylanish."
+        ],
+        [
+          "Fasllar almashinuvi asosan nimaga bog'liq?",
+          [
+            "Yer o'qining qiyaligiga",
+            "Quyoshgacha bo'lgan masofaga",
+            "Oy fazasiga",
+            "Shamolga"
+          ],
+          0,
+          "Qiyalik sabab nur burchagi yil bo'ylab o'zgaradi."
+        ],
+        [
+          "Oyning yorug' qismi qanday hosil bo'ladi?",
+          [
+            "Quyosh nuri Oy yuzasidan qaytadi",
+            "Oy o'zi nur chiqaruvchi jism",
+            "Yer nuri Oyga yetib boradi",
+            "Bulutlar Oyga yorug' beradi"
+          ],
+          0,
+          "Oy — yaltiroq tosh, o'z nuriga ega emas."
+        ],
+        [
+          "To'lin Oy qachon ko'rinadi?",
+          [
+            "Yer o'rtada: Oy–Yer–Quyosh bir to'g'ri chiziqda",
+            "Yangi oy holatida, Oy Quyoshga yaqin",
+            "Oy Quyosh ortida turgan paytida",
+            "Har oyning birinchi kunida"
+          ],
+          0,
+          "Oy Quyoshga nisbatan Yerning ortida bo'lsa — butun yuzasi yoritilgan holda ko'rinadi."
+        ],
+        [
+          "Quyosh tutilishi qachon bo'ladi?",
+          [
+            "Oy Yer bilan Quyosh orasiga kelganda",
+            "Yer Oy soyasiga tushganda",
+            "Oy to'lin bo'lib turgan paytda",
+            "Osmonni bulutlar qopganda"
+          ],
+          0,
+          "Oy soyasi Yerning tor chizig'iga tushadi."
+        ],
+        [
+          "Fasllar almashinuvining asosiy sababi — nima?",
+          [
+            "Yer o'qining 23,5° ga qiyalanganligi",
+            "Yer bilan Quyosh orasi o'zgaradi",
+            "Oyning Yer atrofida aylanishi",
+            "Quyosh nuri kuchi faslga bog'liq"
+          ],
+          0,
+          "Qiyalik tufayli yarim sharlar yil davomida Quyoshga turli burchak ostida qaraydi."
+        ],
+        [
+          "Kun va tun almashinuvi nimadan yuz beradi?",
+          [
+            "Yerning o'z o'qi atrofida aylanishi (24 soat)",
+            "Yerning Quyoshni bir marta aylanishi (365 kun)",
+            "Oyning Yerga yaqinlashib-u uzoqlashishi",
+            "Quyosh nuri yo'nalishining yil bo'yi o'zgarishi"
+          ],
+          0,
+          "24 soatlik aylanish — kun va tunni; 365 kunlik orbital harakat — yil va fasllarni beradi."
+        ],
+        [
+          "Oyning o'zgaruvchan shakllari (fazalari) nimaga bog'liq?",
+          [
+            "Oy–Yer–Quyosh orasidagi burchakka",
+            "Oyning o'z nurini yo'qotib qo'yishiga",
+            "Yer atmosferasidagi bulutlar qoplamaniga",
+            "Oy aylanish tezligi o'zgarishiga"
+          ],
+          0,
+          "Biz Oyning yoritilgan qismini turli burchakdan ko'ramiz — shu sabab shakli o'zgargandek tuyuladi."
+        ]
       ],
       "slideQuiz": [
-        ["Marsda ham fasllar bormi?", ["Bor, u ham qiyalangan o'qga ega (≈25°)", "Yo'q, chunki u sovuq", "Yo'q, chunki orbitasi katta", "Faqat yoz va qish bor"], 0, "Fasllar qiyalik natijasi — boshqa sayyoralarda ham kuzatiladi."],
-        ["Nega har oyda tutilish bo'lmaydi?", ["Oy orbitasi Yer orbitasiga nisbatan qiyalangan", "Oy juda katta", "Quyosh yorug' bermaydi", "Yer aylanmaydi"], 0, "Tugun nuqtalari yaqin bo'lgandagina tutilish bo'ladi."]
+        [
+          "Marsda ham fasllar bormi?",
+          [
+            "Bor — Marsning o'qi ham qiyalangan (≈25°)",
+            "Yo'q — chunki Mars juda sovuq",
+            "Yo'q — orbitasi katta bo'lgani uchun",
+            "Faqat yoz va qish bo'ladi"
+          ],
+          0,
+          "Fasllar qiyalik natijasi — boshqa sayyoralarda ham kuzatiladi."
+        ],
+        [
+          "Nega har oyda tutilish bo'lmaydi?",
+          [
+            "Oy orbitasi Yer orbitasiga nisbatan qiyalangan",
+            "Oy Yerga nisbatan juda katta bo'lgani uchun",
+            "Quyosh bir necha kunga yorug' bermaydi",
+            "Yer o'qi atrofida aylanishni to'xtatadi"
+          ],
+          0,
+          "Tugun nuqtalari yaqin bo'lgandagina tutilish bo'ladi."
+        ]
       ],
       "game": [
-        ["Hodisani sababi bilan moslashting: qish sovuq", ["Nur yonbosh tushadi, katta maydonga tarqaladi", "Quyosh soviydi", "Yer Quyoshdan uzoqlashadi (asosiy sabab)", "Oy yo'q"], 0, "Burchak — energiya zichligini o'zgartiradi."],
-        ["Fazani tartibi bilan aniqlang: to'lin Oydan keyin keladigan faza", ["Oxirgi chorak (kamayib boruvchi)", "Yangi Oy", "Birinchi chorak", "To'lin bo'lib qoladi"], 0, "To'lin → kamayish → oxirgi chorak → yangi Oy."],
-        ["Yer o'qi qiyaligi qancha?", ["≈23,5°", "≈66,5°", "≈45°", "≈90°"], 0, "Bu qiymat fasllarni belgilovchi asosiy son."]
+        [
+          "Hodisani sababi bilan moslashting: qish sovuq",
+          [
+            "Nur yonbosh tushadi, katta maydonga tarqaladi",
+            "Quyosh soviydi",
+            "Yer Quyoshdan uzoqlashadi (asosiy sabab)",
+            "Oy yo'q"
+          ],
+          0,
+          "Burchak — energiya zichligini o'zgartiradi."
+        ],
+        [
+          "Fazani tartibi bilan aniqlang: to'lin Oydan keyin keladigan faza",
+          [
+            "Oxirgi chorak (kamayib boruvchi Oy)",
+            "Yangi Oy — umuman ko'rinmaydi",
+            "Birinchi chorak (o'sib boruvchi)",
+            "To'lin Oy bo'lib qoladi"
+          ],
+          0,
+          "To'lin → kamayish → oxirgi chorak → yangi Oy."
+        ],
+        [
+          "Yer o'qi qiyaligi qancha?",
+          [
+            "≈23,5°",
+            "≈66,5°",
+            "≈45°",
+            "≈90°"
+          ],
+          0,
+          "Bu qiymat fasllarni belgilovchi asosiy son."
+        ]
       ],
       "task": {
         "q": "«Fazalar kuzatuvi» — 1 hafta davomida har kecha Oyning ko'rinishini chizib, soatini va ob-havoni yozing. Hafta oxirida fazalar ketma-ketligini aniqlang va keyingi 10 kun uchun prognoz tuzing.",
@@ -102,8 +412,16 @@
           "Ketma-ketlikni grafiga chizing: kun — yorug'lik foizi",
           "10 kunlik prognoz yozing va keyingi hafta tekshiring"
         ],
-        "jihoz": ["Kuzatuv varag'i va qalam", "Soat/telefon", "Ixtiyoriy: ikiteleskop yoki qo'l chirog'i (xavfsizlik uchun)"],
-        "xavfsizlik": ["Kechasi ko'chaga chiqishda ota-ona yoki ustoz bilan boring", "Yorug'lik yetishmaydigan joyda siljiydigan narsalarga e'tibor bering", "Durbin/teleshkop bilan Quyoshga qaramang"]
+        "jihoz": [
+          "Kuzatuv varag'i va qalam",
+          "Soat/telefon",
+          "Ixtiyoriy: ikiteleskop yoki qo'l chirog'i (xavfsizlik uchun)"
+        ],
+        "xavfsizlik": [
+          "Kechasi ko'chaga chiqishda ota-ona yoki ustoz bilan boring",
+          "Yorug'lik yetishmaydigan joyda siljiydigan narsalarga e'tibor bering",
+          "Durbin/teleshkop bilan Quyoshga qaramang"
+        ]
       }
     }
   ]

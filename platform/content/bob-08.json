@@ -16,28 +16,179 @@
         "Ko'zguda tasvir: buyum masofasi = tasvir masofasi"
       ],
       "vocab": [
-        { "w": "Nur", "m": "yorug'lik tarqalish yo'nalishini ko'rsatuvchi to'g'ri chiziq" },
-        { "w": "Qaytish", "m": "yorning sirtga urilib orqaga qaytishi" },
-        { "w": "Normal", "m": "sirtga tushish nuqtasida o'tkazilgan perpendikulyar" },
-        { "w": "Sochranki qaytish", "m": "yorning har tomonga tarqalib qaytishi" },
-        { "w": "Yonma-yon qaytish", "m": "silliq sirtdan bir yo'nalishda qaytish" },
-        { "w": "Yutuqlik", "m": "sirtning yorug'likni yutish qobiliyati" }
+        {
+          "w": "Nur",
+          "m": "yorug'lik tarqalish yo'nalishini ko'rsatuvchi to'g'ri chiziq"
+        },
+        {
+          "w": "Qaytish",
+          "m": "yorning sirtga urilib orqaga qaytishi"
+        },
+        {
+          "w": "Normal",
+          "m": "sirtga tushish nuqtasida o'tkazilgan perpendikulyar"
+        },
+        {
+          "w": "Sochranki qaytish",
+          "m": "yorning har tomonga tarqalib qaytishi"
+        },
+        {
+          "w": "Yonma-yon qaytish",
+          "m": "silliq sirtdan bir yo'nalishda qaytish"
+        },
+        {
+          "w": "Yutuqlik",
+          "m": "sirtning yorug'likni yutish qobiliyati"
+        }
       ],
       "quiz": [
-        ["Yorug'lik yassi ko'zguga 30° burchak ostida tushsa, qaytish burchagi qancha?", ["30°", "60°", "90°", "15°"], 0, "Qaytish burchagi tushish burchagiga teng (ikkalasi ham normalga nisbatan)."],
-        ["Nega biz kitobni har qanday yo'nalishdan ko'ramiz?", ["Sirt yorug'likni sochranki qaytaradi", "Kitob nur chiqaradi", "Yorug'lik sinadi", "Ko'zimiz harakatlanadi"], 0, "Sochranki qaytish yorni har tomonga tarqatadi."],
-        ["Qora futbolkani quyoshda tutish — nima uchun issiq?", ["Qora yorug'likni ko'p yutadi", "Qora yorug'likni qaytaradi", "Mato havo o'tkazmaydi", "Rang haroratni oshiradi"], 0, "Yutilgan energiya issiqlikka aylanadi."],
-        ["Ko'zgu oldida 1,5 m uzoqda tursangiz, tasvir qancha masofada bo'ladi?", ["Ko'zgu ortida 1,5 m", "3 m", "0,75 m", "Ko'zgu yuzasida"], 0, "Tasvir ko'zgu ortida buyum masofasiga teng masofada hosil bo'ladi."],
-        ["Yorug'lik nima uchun to'g'ri chiziq bo'ylab tarqalishi soyani hosil qiladi?", ["Sirt orqasida yorug'lik yetmaydigan soya bo'ladi", "Sova havoni yutadi", "Yorug'lik sekinlaydi", "Sirt issiqlik tarqatadi"], 0, "To'g'ri chiziqli tarqalish — to'siq ortida qorong'u maydon sababi."]
+        [
+          "Yorug'lik yassi ko'zguga 30° burchak ostida tushsa, qaytish burchagi qancha?",
+          [
+            "30°",
+            "60°",
+            "90°",
+            "15°"
+          ],
+          0,
+          "Qaytish burchagi tushish burchagiga teng (ikkalasi ham normalga nisbatan)."
+        ],
+        [
+          "Nega biz kitobni har qanday yo'nalishdan ko'ramiz?",
+          [
+            "Kitobning sirti yorug'likni sochranki qaytaradi",
+            "Kitob o'zi nur chiqaruvchi manba bo'ladi",
+            "Yorug'lik havoda sinib, har tomonga ketadi",
+            "Ko'z harakatlangani uchun har yo'nalishdan ko'ramiz"
+          ],
+          0,
+          "Sochranki qaytish yorug'likni har tomonga tarqatadi."
+        ],
+        [
+          "Qora futbolkani quyoshda tutish — nima uchun issiq?",
+          [
+            "Qora yorug'likni ko'p yutadi",
+            "Qora yorug'likni qaytaradi",
+            "Mato havo o'tkazmaydi",
+            "Rang haroratni oshiradi"
+          ],
+          0,
+          "Yutilgan energiya issiqlikka aylanadi."
+        ],
+        [
+          "Ko'zgu oldida 1,5 m uzoqda tursangiz, tasvir qancha masofada bo'ladi?",
+          [
+            "Ko'zgu ortida 1,5 m",
+            "3 m",
+            "0,75 m",
+            "Ko'zgu yuzasida"
+          ],
+          0,
+          "Tasvir ko'zgu ortida buyum masofasiga teng masofada hosil bo'ladi."
+        ],
+        [
+          "Yorug'lik to'g'ri chiziq bo'ylab tarqalgani uchun qaysi hodisa yuz beradi?",
+          [
+            "To'siq ortida yorug'lik yetmaydigan soya paydo bo'ladi",
+            "Yorug'lik havoda sekinlab, sovuq bo'ladi",
+            "To'siq yorug'likni butunlay yutib qo'yadi",
+            "Nur to'siqdan o'tib, ikkilanib ko'rinadi"
+          ],
+          0,
+          "To'g'ri chiziqli tarqalish — to'siq ortida qorong'u maydon sababi."
+        ],
+        [
+          "Yonma-yon (bir yo'nalishli) qaytish qachon yuz beradi?",
+          [
+            "Silliq, sayqallangan sirtda",
+            "G'ovak va qo'pol sirtda",
+            "Yumshoq mato yuzasida",
+            "Qora, mat sirtlar ustida"
+          ],
+          0,
+          "Yaltiroq silliq sirt nurdi bir yo'nalishda qaytaradi — shuning uchun ko'zgu ishlaydi."
+        ],
+        [
+          "Nega oq kiyimda quyoshda salqinroq bo'ladi?",
+          [
+            "Oq sirt yorug'likni yaxshi qaytaradi",
+            "Oq mato havo o'tkazmaydi",
+            "Oq rang issiqlikni ko'proq yutadi",
+            "Oq kiyim namni tez bug'latadi"
+          ],
+          0,
+          "Qora yutadi, oq qaytaradi — shuning uchun rang haroratga ta'sir qiladi."
+        ],
+        [
+          "Soya bilan xira (yarimsoya) qachon paydo bo'ladi?",
+          [
+            "Manba katta yoki yorug'lik sochqin bo'lsa",
+            "Manba juda kichik nuqtali bo'lsa",
+            "Yorug'lik butunlay o'chib qolsa",
+            "Sirt sayqallangan holda turganda"
+          ],
+          0,
+          "Katta manbadan nurlar turli yo'nalishda keladi — chekkada xira maydon qoladi."
+        ]
       ],
       "slideQuiz": [
-        ["Burchaklar nimaga nisbatan o'lchanadi?", ["Normalga (sirtga perpendikulyar chiziqqa)", "Sirt yuzasiga", "Ko'zga", "Yorug'lik manbasiga"], 0, "Sirt yuzasiga nisbatan olsak, 60° chiqadi — xato."],
-        ["Tungi yo'lda yaltiroq jileyklarning vazifasi nima?", ["Yorug'likni haydovchi tomon qaytarish", "Rangni o'zgartirish", "Yorug'likni yutish", "Issiqlik saqlash"], 0, "Qaytaruvchi elementlar xavfsizlikni oshiradi."]
+        [
+          "Tushish va qaytish burchaklari nimaga nisbatan o'lchanadi?",
+          [
+            "Normalga — sirtga perpendikulyar chiziqqa",
+            "Ko'zgu sirtining yuzasiga nisbatan",
+            "Yorug'lik manbasining yo'nalishiga",
+            "Qaytgan nurning o'ziga nisbatan"
+          ],
+          0,
+          "Sirt yuzasiga nisbatan o'lcanganda 60° chiqadi — bu xato."
+        ],
+        [
+          "Tungi yo'lda yaltiroq jileyklarning vazifasi nima?",
+          [
+            "Yorug'likni haydovchi tomon qaytarish",
+            "Kiyimning rangini tuni o'zgartirish",
+            "Yorug'likni butunlay yutib yuborish",
+            "Sovuqdan saqlab, issiqlikni saqlash"
+          ],
+          0,
+          "Qaytaruvchi elementlar xavfsizlikni oshiradi."
+        ]
       ],
       "game": [
-        ["Hodisani qonuniyat bilan moslashting: ko'zguda tasvir", ["Yonma-yon qaytish", "Sochranki qaytish", "Sinish", "Yutulish"], 0, "Silliq sirt yorni bir yo'nalishda qaytaradi."],
-        ["Qaysi sirt yorug'likni eng yaxshi qaytaradi?", ["Oq silliq qog'oz", "Qora mato", "Ko'mir", "Qop-qora plastinka"], 0, "Och va silliq — yonma-yon qaytish kuchli."],
-        ["Tushish burchagi 45° bo'lsa, tushuvchi va qaytuvchi nurlar orasidagi burchak qancha?", ["90°", "45°", "135°", "180°"], 0, "α + β = 45° + 45° = 90°."]
+        [
+          "Hodisani qonuniyat bilan moslashting: ko'zguda tasvir",
+          [
+            "Yonma-yon qaytish",
+            "Sochranki qaytish",
+            "Sinish",
+            "Yutulish"
+          ],
+          0,
+          "Silliq sirt yorni bir yo'nalishda qaytaradi."
+        ],
+        [
+          "Qaysi sirt yorug'likni eng yaxshi qaytaradi?",
+          [
+            "Oq silliq qog'oz",
+            "Qora mato",
+            "Ko'mir",
+            "Qop-qora plastinka"
+          ],
+          0,
+          "Och va silliq — yonma-yon qaytish kuchli."
+        ],
+        [
+          "Tushish burchagi 45° bo'lsa, tushuvchi va qaytuvchi nurlar orasidagi burchak qancha?",
+          [
+            "90°",
+            "45°",
+            "135°",
+            "180°"
+          ],
+          0,
+          "α + β = 45° + 45° = 90°."
+        ]
       ],
       "task": {
         "q": "«Yorug'likning qaytishi» — ko'zgu, lazer nuri (yoki qo'l chirog'i + naycha) va transportir bilan 3 ta burchakni (30°, 45°, 60°) o'lchang. Tushish va qaytish burchaklarini yozib, qonuniyatni asoslang.",
@@ -50,8 +201,17 @@
           "45° va 60° da takrorlang; jadvalga kiriting",
           "Xulosa: burchaklar farqi qancha? Xato sabablari nima?"
         ],
-        "jihoz": ["Yassi ko'zgu (ushlagichi bilan)", "Qo'l chirog'i yoki lazer (past quvvatli)", "Transportir, chizg'ich, qalam", "Qora fonli qog'oz"],
-        "xavfsizlik": ["Lazerni hech qachon ko'zga yoki yuzga qaratmang", "Ko'zgu chetlari o'tkir bo'lishi mumkin — ushlagichi bilan tuting", "Chiroq isishi mumkin — qo'lqop yoki sochiq bilan ushlang"]
+        "jihoz": [
+          "Yassi ko'zgu (ushlagichi bilan)",
+          "Qo'l chirog'i yoki lazer (past quvvatli)",
+          "Transportir, chizg'ich, qalam",
+          "Qora fonli qog'oz"
+        ],
+        "xavfsizlik": [
+          "Lazerni hech qachon ko'zga yoki yuzga qaratmang",
+          "Ko'zgu chetlari o'tkir bo'lishi mumkin — ushlagichi bilan tuting",
+          "Chiroq isishi mumkin — qo'lqop yoki sochiq bilan ushlang"
+        ]
       }
     },
     {
@@ -68,28 +228,179 @@
         "Dispersiya: binafsha kuchli, qizil zaif sinadi"
       ],
       "vocab": [
-        { "w": "Sinish", "m": "yorning bir muhitdan ikkinchisiga o'tganda yo'nalishini o'zgartirishi" },
-        { "w": "Optiki zichlik", "m": "muhitning yorug'likni sekinlatish darajasi" },
-        { "w": "Fokus", "m": "linza yig'gan parallel nurlar kesishadigan nuqta" },
-        { "w": "Dispersiya", "m": "oq yorning ranglarga ajralishi" },
-        { "w": "Yig'uvchi linza", "m": "nurlarni fokusga to'playdigan qavariq linza" },
-        { "w": "Sochranki linza", "m": "nurlarni tarqatuvchi linza" }
+        {
+          "w": "Sinish",
+          "m": "yorning bir muhitdan ikkinchisiga o'tganda yo'nalishini o'zgartirishi"
+        },
+        {
+          "w": "Optiki zichlik",
+          "m": "muhitning yorug'likni sekinlatish darajasi"
+        },
+        {
+          "w": "Fokus",
+          "m": "linza yig'gan parallel nurlar kesishadigan nuqta"
+        },
+        {
+          "w": "Dispersiya",
+          "m": "oq yorning ranglarga ajralishi"
+        },
+        {
+          "w": "Yig'uvchi linza",
+          "m": "nurlarni fokusga to'playdigan qavariq linza"
+        },
+        {
+          "w": "Sochranki linza",
+          "m": "nurlarni tarqatuvchi linza"
+        }
       ],
       "quiz": [
-        ["Nur havodan suvga o'tganda nima bo'ladi?", ["Normalga yaqinlashadi", "Normaldan chetlashadi", "Yo'nalishi o'zgarmaydi", "Orqaga qaytadi"], 0, "Suv — optiki zichroq muhit, tezlik kamayadi, burchak kichrayadi."],
-        ["Qolom suvda sinib ko'rinadi, chunki...", ["Suvdan havoga chiqqan nur yo'nalishini o'zgartiradi", "Qolom egiladi", "Suv yorug'likni yutadi", "Ko'z xafa bo'ladi"], 0, "Tasvir suv ostida emas, biroz yuqorida ko'rinadi."],
-        ["Qavariq linza qanday vazifa bajaradi?", ["Nurlarni fokusga yig'adi", "Nurlarni tarqatadi", "Nurlarni qaytaradi", "Yorug'likni yutadi"], 0, "Shu xossadan lupa va fotoapparat obyektivi foydalanadi."],
-        ["Kamalakning hosil bo'lishi qaysi hodisaga asoslangan?", ["Dispersiya (oq yorning ranglarga ajralishi)", "Yonma-yon qaytish", "To'g'ri tarqalish", "Muvozanat"], 0, "Yomg'ir tomchilari prizma kabi ishlaydi."],
-        ["Suvdan havoga chiqqan nurning sinish burchagi tushish burchagidan qanday?", ["Katta", "Kichik", "Teng", "Nolga teng"], 0, "Optiki zich muhitdan siyrak muhitga o'tganda burchak ortadi."]
+        [
+          "Nur havodan suvga o'tganda nima bo'ladi?",
+          [
+            "Normalga yaqinlashadi",
+            "Normaldan chetlashadi",
+            "Yo'nalishi o'zgarmaydi",
+            "Orqaga qaytadi"
+          ],
+          0,
+          "Suv — optiki zichroq muhit, tezlik kamayadi, burchak kichrayadi."
+        ],
+        [
+          "Qolom suvda sinib ko'rinadi, chunki...",
+          [
+            "Suvdan havoga chiqqan nur yo'nalishini o'zgartiradi",
+            "Qolom suvda haqiqatan egilib qoladi",
+            "Suv yorug'likni qisman yutib qo'yadi",
+            "Ko'z nuqsoni tasvirni siljitib ko'rsatadi"
+          ],
+          0,
+          "Tasvir suv ostida emas, biroz yuqorida ko'rinadi."
+        ],
+        [
+          "Qavariq linza qanday vazifa bajaradi?",
+          [
+            "Nurlarni fokusga yig'adi",
+            "Nurlarni tarqatadi",
+            "Nurlarni qaytaradi",
+            "Yorug'likni yutadi"
+          ],
+          0,
+          "Shu xossadan lupa va fotoapparat obyektivi foydalanadi."
+        ],
+        [
+          "Kamalakning hosil bo'lishi qaysi hodisaga asoslangan?",
+          [
+            "Dispersiya — oq yorug'lik ranglarga ajraladi",
+            "Yonma-yon qaytish — ko'zgudagidek",
+            "Yorug'likning to'g'ri tarqalishi",
+            "Muvozanatlashgan sochranki qaytish"
+          ],
+          0,
+          "Yomg'ir tomchilari prizma kabi ishlaydi."
+        ],
+        [
+          "Suvdan havoga chiqqan nurning sinish burchagi tushish burchagidan qanday?",
+          [
+            "Katta",
+            "Kichik",
+            "Teng",
+            "Nolga teng"
+          ],
+          0,
+          "Optiki zich muhitdan siyrak muhitga o'tganda burchak ortadi."
+        ],
+        [
+          "Havadan suvga kirgan nur normalga nisbatan qanday o'zgaradi?",
+          [
+            "Normalga yaqinlashadi — burchak kichrayadi",
+            "Normaldan chetlashadi — burchak ortadi",
+            "Yo'nalishi umuman o'zgarmay qoladi",
+            "Orqaga qaytib, suvdan chiqib ketadi"
+          ],
+          0,
+          "Zich muhitga kirganda nur sinish burchagi kichik bo'ladi."
+        ],
+        [
+          "Qavariq (yig'uvchi) linza qanday vazifa bajaradi?",
+          [
+            "Nurlarni fokusga yig'ib, tasvirni kattalashtiradi",
+            "Nurlarni tarqatib, tasvirni kichraytiradi",
+            "Yorug'likni butunlay yutib qo'yadi",
+            "Nurni kelgan tomonga qaytaradi"
+          ],
+          0,
+          "Lupa, fotoapparat va ko'z linzasi — yig'uvchi linzaga misol."
+        ],
+        [
+          "Lupaning ishlashi qaysi hodisaga asoslanadi?",
+          [
+            "Yorug'likning sinishiga",
+            "Yorug'likning qaytishiga",
+            "Yorug'likning yutilishiga",
+            "Soyaning hosil bo'lishiga"
+          ],
+          0,
+          "Qavariq linza nurni sindiradi — shuning uchun tasvir kattalashadi."
+        ]
       ],
       "slideQuiz": [
-        ["Baliqchini suv ostidagi baliqqa nayza otganda nima hisobga olishi kerak?", ["Tasvir haqiqiy joydan yuqoriroq ko'rinadi", "Rang o'zgaradi", "Ovoz kech eshitiladi", "Suv to'siq bo'ladi"], 0, "Sinish tufayli tasvir ko'tarilib ko'rinadi — pastroq nishon olish kerak."],
-        ["Qaysi rang linzada eng kuchli sinadi?", ["Binafsha", "Qizil", "Sariq", "Yashil"], 0, "To'lqin uzunligi qisqa bo'lsa, sinish kuchli."]
+        [
+          "Baliqchini suv ostidagi baliqqa nayza otganda nima hisobga olishi kerak?",
+          [
+            "Tasvir haqiqiy joyidan yuqoriroq ko'rinadi",
+            "Baliqning rangi o'zgarib ko'rinadi",
+            "Ovoz kechikib eshitila boshlaydi",
+            "Suv nayzani to'xtatib qo'yadi"
+          ],
+          0,
+          "Sinish tufayli tasvir ko'tarilib ko'rinadi — pastroq nishon olish kerak."
+        ],
+        [
+          "Qaysi rang linzada eng kuchli sinadi?",
+          [
+            "Binafsha",
+            "Qizil",
+            "Sariq",
+            "Yashil"
+          ],
+          0,
+          "To'lqin uzunligi qisqa bo'lsa, sinish kuchli."
+        ]
       ],
       "game": [
-        ["Hodisani qurilma bilan moslashting: lupa", ["Yig'uvchi linza", "Yassi ko'zgu", "Botiq linza", "Prizma"], 0, "Qavariq linza tasvirni kattalashtiradi."],
-        ["Qaysida nur normaldan chetlashadi?", ["Suvdan havoga o'tganda", "Havodan shishaga", "Havodan suvga", "Vakuumda"], 0, "Siyrak muhitga o'tishda burchak ortadi."],
-        ["Prizmadan chiqqan oq yorug'lik — nima bo'ladi?", ["Ranglar spektriga ajraladi", "Yanada oq bo'ladi", "To'liq yutiladi", "Orqaga qaytadi"], 0, "Har bir rang boshqacha sinadi — dispersiya."]
+        [
+          "Hodisani qurilma bilan moslashting: lupa",
+          [
+            "Yig'uvchi linza",
+            "Yassi ko'zgu",
+            "Botiq linza",
+            "Prizma"
+          ],
+          0,
+          "Qavariq linza tasvirni kattalashtiradi."
+        ],
+        [
+          "Qaysi holatda nur normaldan chetlashadi?",
+          [
+            "Suvdan havoga o'tganda",
+            "Havodan shishaga o'tganda",
+            "Havodan suvga o'tganda",
+            "Vakuumda to'g'ri tarqalganda"
+          ],
+          0,
+          "Siyrak muhitga o'tishda sinish burchagi ortadi."
+        ],
+        [
+          "Prizmadan chiqqan oq yorug'lik bilan nima bo'ladi?",
+          [
+            "Ranglar spektriga ajraladi",
+            "Yanada oqroq bo'lib qoladi",
+            "Prizma ichida butunlay yutiladi",
+            "Orqaga qaytib ketadi"
+          ],
+          0,
+          "Har bir rang boshqacha sinadi — bu dispersiya."
+        ]
       ],
       "task": {
         "q": "Suvga solingan qolomning sinishini o'lchang: stakan yonidan qog'ozga chizilgan chiziqni qo'yib, sinish burchaklarini transportir bilan aniqlang va «tasvir ko'tarilib ko'rinadi» xulosasini chizma bilan asoslang.",
@@ -102,8 +413,16 @@
           "Normalni chizing va burchaklarni aniq yozib oling",
           "Xulosa: qaysi muhitda burchak kichik? Nega tasvir ko'tariladi?"
         ],
-        "jihoz": ["Shaffof stakan, suv", "Qolom yoki somon naycha", "Transportir, qog'oz, chizg'ich", "Chizma uchun floaster"],
-        "xavfsizlik": ["Shishani ushlashda ehtiyot bo'ling", "Suvni stolga to'kmang — elektron qurilmalardan uzoq tuting"]
+        "jihoz": [
+          "Shaffof stakan, suv",
+          "Qolom yoki somon naycha",
+          "Transportir, qog'oz, chizg'ich",
+          "Chizma uchun floaster"
+        ],
+        "xavfsizlik": [
+          "Shishani ushlashda ehtiyot bo'ling",
+          "Suvni stolga to'kmang — elektron qurilmalardan uzoq tuting"
+        ]
       }
     }
   ]

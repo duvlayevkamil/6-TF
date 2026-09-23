@@ -56,10 +56,12 @@ olinadi — yangi texnologiya ixtiro qilinmaydi:
 
 - **bitta HTML fayl**, internet shart emas; ma'lumot — ichida
   `<script id="topics-data" type="application/json">` ormoli;
-- `localStorage` (`tabiiy6_progress_v1`): progress, daftarcha, test natijalari;
+- `localStorage` (`tabiiy6_progress_v1`): progress, daftarcha, test natijalari va
+  kun taqvimi belgilari; boshqa kompyuterga o'tkazish uchun «⬇ Progress JSON /
+  ⬆ Tiklash» (fayl tashqarisiga hech narsa chiqmaydi);
 - sahifa: `#sidebar` (qidiruv, boblar va mavzular) + `#main` (crumb, 5 tab);
 - tablar: 📖 Nazariya · 🔧 Simulyator · 🎡 O'yin · 📝 Test · ✍️ Amaliy topshiriq
-  + 📊 Boshqaruv paneli;
+  + 📅 Kun taqvimi + 📊 Boshqaruv paneli; har mavzuda 8 savolli test;
 - slayd rejimi (`#slides`), bosib chiqarish markazi (`#modal-overlay` →
   `#print-area`): 1 dars yoki butun bob, varaqda 1/2/4 blok;
 - mavzu kartasi maydonlari `7-sinf.html` bilan bir xil nomda
@@ -76,6 +78,7 @@ node tools/build-taqvim.mjs   # kun taqvimi rejasi (platform/content/taqvim.json
 npm run build        # platform/* + data/curriculum → 6-sinf.html (bitta fayl)
 npm run serve        # http://localhost:8080/6-sinf.html
 npm run content:check # kontent fayllari sxemasi + noto'g'ri yozuv belgilari
+node tools/quiz-report.mjs 3 --short   # 3-bob savollarida variant uzunligi balansi
 npm run smoke        # JSON orol, id/bog'lanishlar, 25 simulyator holatlari, slaydlar
 npm run dom:check    # jsdom'da brauzer sinovi: 26 mavzu × 5 tab, test, slayd, chop
 ```
@@ -128,7 +131,7 @@ o'qituvchi o'zi yozgan izoh va topshiriqlar.
    ma'lumot `6-sinf-science.topics.json` + `platform/content/` dan.
 2. Kontentni chuqurlashtirish: har mavzuga 2–3 variantli amaliy ish va
    CHSB/BSB turidagi mustahkamlash savollari qo'shish.
-3. 2025-2026 taqvim-mavzu rejasiga bog'lash (haftasiga 3 soat, 102 soat) va
-   soatlar bo'yicha dars rejasi varaqasini ham shu platformaga kiritish.
+3. `labTitle`larni to'ldirish (22/26 mavzuda bo'sh) va chop markaziga 60+
+   varaq uchun tasdiq so'rovi qo'shish.
 4. Sinovdan o'tkazish: bir guruhda 1 hafta ishlash, `platform/content/` dagi
    matnlarni o'qituvchi bilan birga tahrirlash.

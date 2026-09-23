@@ -256,8 +256,8 @@
           "Jismga ta'sir qiluvchi kuchlar o'zaro yo'qqa chiqsa nima bo'ladi?",
           [
             "Tezlik o'zgarmaydi — tinchlik yoki tekis harakat",
-            "Jism darhol to'xtab qoladi",
-            "Jism kuchayib tezlanadi",
+            "Jism darhol to'xtab, harakatsiz qoladi",
+            "Jism keyinchalik kuchayib tezlanadi",
             "Jism yuqoriga ko'tarila boshlaydi"
           ],
           0,
@@ -351,7 +351,7 @@
             "Suv po'latga Arximed kuchini bermaydi"
           ],
           0,
-          "O'rtacha zichlik muhim: ichida havo bo'lgani uchun ρ_umumiy < ρ_suv."
+          "O'rtacha zichlik muhim: ichida havo bo'lgani uchun ρ(umumiy) < ρ(suv)."
         ],
         [
           "Parashyutchi ochilgan parashyut bilan sekin tushadi, chunki...",
@@ -386,7 +386,7 @@
             "Havoda"
           ],
           0,
-          "Tuzli suvning zichligi katta → F_A = ρ·g·V ortadi."
+          "Tuzli suvning zichligi katta → Arximed kuchi ρ·g·V bo'yicha ortadi."
         ],
         [
           "Bir xil shakldagi shar va kubni turing: 5 N og'irlikka 8 N itarib chiqarish kuchi bor. Nima bo'ladi?",

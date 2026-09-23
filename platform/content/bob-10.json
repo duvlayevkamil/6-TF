@@ -56,10 +56,10 @@
         [
           "Pemza suvda suzadi, chunki...",
           [
-            "Ichida gaz pufakchalari ko'p, umumiy zichlik kichik",
-            "Yengil materialdan",
-            "U magmatik emas",
-            "Suv uni tortadi"
+            "Ichida gaz pufakchalari ko'p — zichligi kichik",
+            "Pemza juda yengil materialdan yasalgan",
+            "Pemza magmatik jins hisoblanmaydi",
+            "Suv pemzani yuqoriga tortadi"
           ],
           0,
           "Tez sovigan lavada gaz qolgan — shu «g'ovak» tuzilish."
@@ -68,12 +68,12 @@
           "Marmar qanday hosil bo'ladi?",
           [
             "Ohak toshi harorat va bosim ta'sirida o'zgaradi",
-            "Qum cho'kadi",
-            "Magma soviydi",
-            "Gil quriydi"
+            "Qum daryo tubida qatlamlanib cho'kadi",
+            "Magma sovib, toshga aylanib qoladi",
+            "Gil quyosh ostida qurib, qotib qoladi"
           ],
           0,
-          "Bu metamorfik qayta kristallanish."
+          "Bu — metamorfik qayta kristallanish."
         ],
         [
           "Jinsda qatlamlilik va qoldiqlar bor — qaysi guruh?",
@@ -90,12 +90,45 @@
           "Ohak toshini aniqlashning oddiy usuli — nima?",
           [
             "Sirka tomchilatib, ko'pik chiqishini kuzatish",
-            "Suvda eritish",
-            "Magnit bilan tortish",
-            "Og'irligini solishtirish"
+            "Suvda eritib, cho'kmasini tekshirish",
+            "Magnit bilan tortib, javobini bilish",
+            "Og'irligini tarozi bilan solishtirish"
           ],
           0,
           "Kaltsiy karbonat kislota bilan CO₂ chiqaradi."
+        ],
+        [
+          "Magmatik jins qanday hosil bo'ladi?",
+          [
+            "Magma sovib, kristallanadi",
+            "Parchalangan jins suvda cho'kadi",
+            "Jinslar chuqurda ezilib o'zgaradi",
+            "Organik qoldiqlar qatlam bo'ladi"
+          ],
+          0,
+          "Granit va bazalt — molalova sovishidan hosil bo'lgan magmatik jinslar."
+        ],
+        [
+          "Cho'kindi (sediment) jinslarga xos belgi — qaysi biri?",
+          [
+            "Qatlamlilik va ba'zan qoldiqlarning bo'lishi",
+            "Har doim kristall, shishasimon tuzilish",
+            "Faqat vulqon o'zoklarida uchraydi",
+            "Kislota bilan hech qachon ko'pik chiqarmaydi"
+          ],
+          0,
+          "Ohak toshi, qumtosh, gil — suvda cho'kishdan qatlama-qatlam hosil bo'ladi."
+        ],
+        [
+          "Granit, pemza va marmorning umumiy xossasi — nima?",
+          [
+            "Ular — jins, ya'ni mineral aralashmasi",
+            "Ular — mineral, ya'ni bir jinsli modda",
+            "Uchala ham suvda yaxshi eriydi",
+            "Uchala ham cho'kindi jinslardir"
+          ],
+          0,
+          "Mineral — bir modda, jins esa bir nechta mineralning tabiiy aralashmasi."
         ]
       ],
       "slideQuiz": [
@@ -138,9 +171,9 @@
           "Qaysi xossa jinslarni ajratishda yordam bermaydi?",
           [
             "Harorati (xona sharoitida)",
-            "Rangi",
-            "Qattiqligi",
-            "Tuzilishi"
+            "Rangi va chizig'i rangi",
+            "Qattiqligi (chizib ko'rish)",
+            "Tuzilishi (donali yoki qatlamli)"
           ],
           0,
           "Barcha namunalar xona haroratida — bu farqlovchi belgi emas."
@@ -231,20 +264,20 @@
           "Muzning jinsni yorishida nima ishlaydi?",
           [
             "Suv muzlaganda kengayadi",
-            "Suv qisqaradi",
-            "Harorat ortadi",
-            "Shamol tortadi"
+            "Suv muzlaganda qisqaradi",
+            "Harorat keskin ortadi",
+            "Shamol jismni tortadi"
           ],
           0,
           "Muz hajmi ~9% katta — yoriqni bosim bilan yoradi."
         ],
         [
-          "Kimyoviy buzilishga misol — qaysi?",
+          "Kimyoviy buzilishga misol — qaysi biri?",
           [
             "Temirli mineralning zanglashi",
-            "Toshning sinishi",
-            "Shag'alning cho'kishi",
-            "Suvning bug'lanishi"
+            "Toshning urilib sinishi",
+            "Shag'alning suvda cho'kishi",
+            "Suvning ochiq havoda bug'lanishi"
           ],
           0,
           "Oksidlanishda yangi modda hosil bo'ladi."
@@ -272,25 +305,58 @@
           "Qoldiqning saqlanishi uchun tez qoplanish — cho'kish jarayoni kerak."
         ],
         [
-          "Pastki qatlamda baliq, ustki qatlamda o't o'rniga tog' qoldig'i bo'lsa, nima deyiladi?",
+          "Pastki qatlamda baliq qoldig'i, ustki qatlamda kul va tog' qoldig'i bo'lsa, nima deyiladi?",
           [
-            "Pastki qatlam eskiroq va u yerda bir payt suv bo'lgan",
-            "Ustki qatlam eskiroq",
-            "Ikkalasi bir xil yoshda",
-            "Qatlamlar yoshi aniqlanmaydi"
+            "Pastki qatlam eskiroq, u yerda bir payt suv bo'lgan",
+            "Ustki qatlam eskiroq, suv keyin paydo bo'ldi",
+            "Ikkala qatlam ham bir xil yoshda ekan",
+            "Qatlamlarning yoshini aniqlab bo'lmaydi"
           ],
           0,
           "Cho'kish tartibi va qoldiq turi — yosh va muhitni aniqlash mezoni."
+        ],
+        [
+          "Tuproq hosil bo'lishining boshlang'ich (mineral) moddasi — nima?",
+          [
+            "Buzilgan jins: qum, gil, shag'al",
+            "Faqat o'simlik qoldiqlari",
+            "Yomg'ir suvida erigan tuz",
+            "Havoda uchraydigan chang"
+          ],
+          0,
+          "Jinslarning buzilishi — tuproqning mineral qismi, asosi."
+        ],
+        [
+          "Nega buzilish jarayoni «sekin kechadigan» deb ataladi?",
+          [
+            "1 mm qatlam uchun yuzlab yillar kerak",
+            "Jarayon faqat qishda boradi",
+            "Suv uni butunlay to'xtatadi",
+            "Shamol jarayonni orqaga qaytaradi"
+          ],
+          0,
+          "Shu sabab buzilgan yoki qazib olingan qatlam asrlar davomida tiklanadi."
+        ],
+        [
+          "Qaysi sharoitda kimyoviy buzilish eng kuchli kechadi?",
+          [
+            "Suv va CO₂ ko'p, iqlim issiq hamda nam",
+            "Havo quruq va sovuq bo'lganda",
+            "Jins muz ostida yopiq qolganda",
+            "Tosh ochiq qumda yotganda"
+          ],
+          0,
+          "Nam va issiq muhitda kislotali eritma faol ishlaydi — minerallar eriydi."
         ]
       ],
       "slideQuiz": [
         [
-          "Qoyaning ichida qatlam qatlamlari ko'rinsa — bu nimani ko'rsatadi?",
+          "Qoyaning ichida qatlamlar ko'rinsa — bu nimani ko'rsatadi?",
           [
-            "Jarayon muddat davomida takrorlangan",
-            "Tosh sun'iy",
-            "Suv faqat kishida ishlaydi",
-            "Buzilish kimyoviy emas"
+            "Jarayon uzoq muddat davomida takrorlangan",
+            "Tosh sun'iy ravishda qo'yilgan",
+            "Suv faqat qishda ishlaydi",
+            "Buzilish faqat kimyoviy jarayon"
           ],
           0,
           "Qatlamlar — vaqt va takrorlanish belgisi."
@@ -298,10 +364,10 @@
         [
           "Toshni qizdirib sovuq suvga solish tajribasi nimani ko'rsatadi?",
           [
-            "Harorat keskin o'zgarishi fizik maydalashni tezlashtiradi",
-            "Kimyoviy reaksiya boradi",
-            "Tosh eriydi",
-            "Suv bug'lanadi"
+            "Harorat keskin o'zgarsa, maydalash tezlashadi",
+            "Bu tajribada kimyoviy reaksiya boradi",
+            "Tosh qizdirilganda erib ketadi",
+            "Suv bug'lanib, haroratni olib qochadi"
           ],
           0,
           "Issiq kengayadi, sovuq qisqaradi — shu kuch bilan po'stloq ajraladi."
@@ -334,9 +400,9 @@
           "Qaysi iqlimda muz maydalashi kuchli?",
           [
             "Tunayu kunduz muzlash-bo'zadigan tog'li iqlimda",
-            "Doimiy issiqda",
-            "Quruq cho'lda",
-            "Doimiy muzda"
+            "Doimiy issiq va quruq cho'l iqlimida",
+            "Yil bo'yi doimiy muzlagan hududlarda",
+            "Iliq va nam dengiz iqlimida"
           ],
           0,
           "Takroriy muzlash-bo'zish — eng faol mexanik kuch."
@@ -355,10 +421,10 @@
         [
           "Qoldiqning saqlanish yo'lini tanlang: suyak mineralga aylangan",
           [
-            "Almashinuv qoldig'i",
-            "Qolip",
-            "Iz qoldig'i",
-            "Chirindi"
+            "Almashinuv (mineralga aylangan) qoldiq",
+            "Qolip — bo'shliq qotib qolgan iz",
+            "Iz qoldig'i — faqat hayot izi",
+            "Chirindi — organik qoldiq"
           ],
           0,
           "Qattiq qism asta-sekin mineralga almashadi."

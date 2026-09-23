@@ -96,7 +96,7 @@
         [
           "Qaysi hodisa qaytmas, biroq fizik o'zgarishga misol bo'ladi?",
           [
-            "Sindirgan shishani yopishtirib ham avvalgi holatga qaytarolmaslik",
+            "Sindirgan shishani yopishtirsang ham tiklanmaydi",
             "Tuzni suvda eritib, keyin bug'latib qayta olish",
             "Muzni eritib, so'ng qaytadan muzlatish",
             "Qog'ozni bukish va yana tekislab qo'yish"
@@ -119,9 +119,9 @@
           "«Kalit-aniqlagich» usulida birinchi bo'lib qaysi savol qo'yiladi?",
           [
             "Yangi modda hosil bo'ldimi?",
-            "Harorat o'zgardimi?",
-            "Massa o'lchandimi?",
-            "Aralashtirildimi?"
+            "Harorat o'zgargan yoki o'zgarmaganmi?",
+            "Massa o'lchangan yoki o'lchlanmaganmi?",
+            "Aralashtirilgan yoki aralashtirilmaganmi?"
           ],
           0,
           "Fizik va kimyoviy farqining hal qiluvchi mezoni — yangi moddaning bor-yo'qligi."
@@ -262,9 +262,9 @@
           "Eruvchanlik nima?",
           [
             "Ma'lum haroratda eriy oladigan maksimal miqdor",
-            "100 g suvning qaynash harorati",
-            "Eritmaning kilogrammdagi og'irligi",
-            "Suyuqlikning bug'lanish tezligi"
+            "100 g suvning qaynash harorati (°C da)",
+            "Eritmaning bir kilogrammdagi og'irligi",
+            "Suyuqlikning bug'lanish tezligi (soatiga)"
           ],
           0,
           "Bu — erish chegarasi, odatda 100 g suvga nisbatan aytiladi."

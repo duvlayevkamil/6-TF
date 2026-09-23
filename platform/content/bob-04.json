@@ -289,12 +289,12 @@
           "Zanjir bo'ylab energiya kamayishining asosiy sababi nima?",
           [
             "Har bosqichda harakat va issiqlikka sarflanadi",
-            "Yirtqichlar ovqatni sekin yeydi",
-            "O'simlik energiyani yashiradi",
-            "Strelkalar to'g'ri chizilmagan"
+            "Yirtqichlar ovqatni juda sekin yeydi",
+            "O'simlik energiyani o'zida yashiradi",
+            "Zanjir strelkalari noto'g'ri chizilgan"
           ],
           0,
-          "Sarflangan energiya qaytmaydi — shu tufayli darajalar soni cheklangan."
+          "Har trofik darajada energiyaning faqat ~10% i keyingisiga o'tadi."
         ],
         [
           "Qaysi holatda xavf kattaroq?",
@@ -346,12 +346,12 @@
           "Simob bilan ifloslangan suv havzasida eng katta konsentratsiya kimda kutiladi?",
           [
             "Yirik yirtqich baliqda",
-            "Suvda",
-            "Suvo'tlarda",
-            "Mayda baliqchada"
+            "Suvda erigan holda",
+            "Suvo'tlarda to'planadi",
+            "Mayda baliqchalarda"
           ],
           0,
-          "Tepa konsumentgacha kuchayadi."
+          "Konsentratsiya oziqa zanjiri bo'ylab yuqoriga ko'tarilgan sadi ortadi."
         ],
         [
           "Pestitsid ishlatishning ekotizimga salbiy ta'siriga misol — nima?",
@@ -369,13 +369,13 @@
         [
           "Jarayonni atama bilan moslashting: konsentratsiyaning darajalar bo'yicha ortishi",
           [
-            "Biologik kuchayish",
-            "Diffuziya",
-            "Emulsiyalash",
-            "Kondensatsiya"
+            "Biologik kuchayish (bioakkumulyatsiya)",
+            "Diffuziya (modda tarqalishi)",
+            "Emulsiyalash (suyuqlik aralashmasi)",
+            "Kondensatsiya (bug'ning siqilishi)"
           ],
           0,
-          "Bu atama zanjir bo'ylab ortishni bildiradi."
+          "Zaharli modda yeyish orqali to'planadi va har darajada kuchayadi."
         ],
         [
           "Mikroplastik birinchi bo'lib kimga kiradi?",

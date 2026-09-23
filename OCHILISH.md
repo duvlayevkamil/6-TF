@@ -21,13 +21,18 @@ npm run serve      # http://localhost:8080/6-sinf.html
 | 📖 Nazariya | mavzu matni, formulalar, atamalar, kitob betlari; «🎬 Slaydlar» — dars uchun 11 ta blok |
 | 🔧 Simulyator | SVG model + slayderlar; har o'lchov «💾 Natijani daftarga» bilan daftarga tushadi |
 | 🎡 O'yin | tezkor javob (streak + daraja) va kalit-aniqlagich (atama–ma'no) |
-| 📝 Test | bob/rejim/taymer bo'yicha konstruktor, izohli tekshirish, foiz va baho |
+| 📝 Test | har mavzuda **8 savol**; bob/rejim/taymer bo'yicha konstruktor, izohli tekshirish, foiz va baho |
 | ✍️ Amaliy topshiriq | bajarish tartibi, jihoz, xavfsizlik, daftarcha jadvali, natija + xulosa |
+| 📅 Kun taqvimi | 34 hafta × 3 soat = 102 soat: mavzu haftalari, BSB 1–5, CHSB 1–3, chorak bo'yicha progress; «⚑ Shu haftani 1-hafta qilish», 🖨 varaqa, ⬇ CSV |
 | 🖨 Chop markazi | 1 mavzu / bob / barchasi; varaqda 1–2–4 blok; javobli yoki javobsiz |
-| 📊 Boshqaruv paneli | progress, ko'nikma bo'yicha xatolar, daftarcha holati |
+| 📊 Boshqaruv paneli | progress, ko'nikma bo'yicha xatolar, daftarcha holati, «⬇ Progress JSON / ⬆ Tiklash» |
 
-Progress, daftarcha va test natijalari `localStorage` da (`tabiiy6_progress_v1`)
-saqlanadi — faylni o'sha brauzerda qayta ochsangiz joyida turadi.
+Progress, daftarcha, test natijalari va taqvim belgilari `localStorage` da
+(`tabiiy6_progress_v1`) saqlanadi — faylni o'sha brauzerda qayta ochsangiz
+joyida turadi. **Boshqa kompyuterga o'tkazish** uchun: 📊 Boshqaruv paneli →
+«⬇ Progress JSON» (faylni saqlang) → ikkinchi kompyuterda «⬆ Tiklash».
+Kun taqvimi sanalari o'quv yiliga bog'liq — 📅 tabida «o'quv yili boshi
+(dushanba)» kunini bir marta kiritasiz, qolgan barcha sana shundan chiqadi.
 
 ## Baholash mezonlari (o'qituvchi qo'yadi, platforma hisoblab beradi)
 
@@ -48,6 +53,11 @@ npm run build           # 6-sinf.html qayta yig'iladi
 npm run smoke           # bog'lanishlar va simulyatorlar testi
 npm run dom:check       # brauzer sinovi (jsdom)
 ```
+
+Yangi savol yozganda ikkita qoida: (1) to'g'ri javob **eng uzun variant
+bo'lmasin** — shovqinli variantlarni ham mazmunan to'ldiring; (2) `izoh`
+satri bo'lsin. Tekshirish: `node tools/quiz-report.mjs 3 --short` (3-bob
+bo'yicha 1.35× ortiqcha uzunlik farqlari va mavjud savollar ro'yxati).
 
 `6-sinf.html` — yig'ilgan fayl, uni qo'lda tahrirlamang.
 
