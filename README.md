@@ -108,6 +108,7 @@ amaliy ismi kitobdan, o'quv materiali esa `platform/content/` dan keladi.
 | `data/curriculum/6-sinf-science.meta.json` | Tahririy qism: kitob tavsifi, arxitektura va platforma talablari — generator shu faylni qo'shadi |
 | `data/curriculum/6-sinf-tabiiy-fan.json` | RTM 2022 nashri — faqat qiyos uchun |
 | `docs/tadqiqot.md` | Manbalar bo'yicha tadqiqot + arxitektura va modul xaritasi |
+| `docs/tahlil.md` | Yig'ilgan platformaning tahlili: qamrov, tezlik, topilgan kamchiliklar va xulosa |
 | `sources/` | Kitob PDF lari (lokal, git'da emas) |
 | `tools/` | PDF → JSON konveyeri, tekshiruv, kontent/platforma yig'uvchi |
 | `platform/` | Platforma manbalari: qolip, CSS, app.js, labs.js, content/ |
