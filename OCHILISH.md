@@ -1,8 +1,22 @@
 # 6-sinf Tabiiy fan — interaktiv platforma (`6-sinf.html`)
 
+## Faylni olish (bitta .html)
+
+Platforma — **bitta fayl**: `6-sinf TF.html` (378 KB). Yonida hech narsa
+kerak emas: nazariya, simulyatorlar, o'yin, test banki (208 savol), amaliy
+daftarcha, kun taqvimi va chop markazi faylning ichida. Internet ishlamasadan
+ham ishlaydi, `localStorage`ga yozadi.
+
+- **Papkadan:** `6-sinf TF.html` ni nusxalang (masalan, USB-xotiraga) — har bir
+  kompyuter/planshetda shu fayl ochiladi.
+- **Preview orqali:** `http://localhost:8080/yuklab-olish` — brauzer saqlab oladi.
+- **GitHub'dan:** `https://github.com/duvlayevkamil/6-TF/raw/arena/01a0caab-6-tf/6-sinf%20TF.html`
+- **Yangilash:** papkada `npm run package` — fayl qayta yig'iladi va sha256
+  bilan chiqariladi (`npm run standalone:check` — bitta fayl mustaqilligi).
+
 ## Tez boshlash
 
-**1-usul (eng oson):** `6-sinf.html` faylini nusxalab oling va brauzerda oching
+**1-usul (eng oson):** `6-sinf TF.html` faylini nusxalab oling va brauzerda oching
 (ichiga torting yoki ikki marta bosing). Internet, ustun (server), o'rnatish
 shart emas. `file://` da ham ishlaydi; faqat progress saqlanishi brauzerning
 o'sha holatiga bog'liq bo'lib qoladi.
@@ -52,6 +66,7 @@ npm run content:check   # sxema + belgi/typo tekshiruvi
 npm run build           # 6-sinf.html qayta yig'iladi
 npm run smoke           # bog'lanishlar va simulyatorlar testi
 npm run dom:check       # brauzer sinovi (jsdom)
+npm run package         # yuklab olinadigan «6-sinf TF.html» papkaga chiqadi
 ```
 
 Yangi savol yozganda ikkita qoida: (1) to'g'ri javob **eng uzun variant

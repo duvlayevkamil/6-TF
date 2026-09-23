@@ -15,6 +15,7 @@ import { extname, join, normalize, resolve } from "node:path";
 const ROOT = resolve(new URL("..", import.meta.url).pathname);
 const PORT = Number(process.env.PORT || 8080);
 const FILE = "6-sinf.html";
+const DOWNLOAD = "6-sinf TF.html"; // brauzerda saqlanadigan nom
 
 const MIME = {
   ".html": "text/html; charset=utf-8",
@@ -42,7 +43,7 @@ const send = (res, path, attach) => {
     "content-length": statSync(abs).size,
     "cache-control": "no-cache",
   };
-  if (attach) head["content-disposition"] = `attachment; filename="${FILE}"`;
+  if (attach) head["content-disposition"] = `attachment; filename*=UTF-8''${encodeURIComponent(DOWNLOAD)}; filename="${DOWNLOAD}"`;
   res.writeHead(200, head);
   createReadStream(abs).pipe(res);
 };
@@ -55,5 +56,5 @@ createServer((req, res) => {
 }).listen(PORT, "0.0.0.0", () => {
   const kb = (statSync(join(ROOT, FILE)).size / 1024).toFixed(0);
   console.log(`✓ ${FILE} (${kb} KB) — http://localhost:${PORT}/`);
-  console.log(`  yuklab olish: http://localhost:${PORT}/yuklab-olish`);
+  console.log(`  yuklab olish (attachment): http://localhost:${PORT}/yuklab-olish  →  ${DOWNLOAD}`);
 });

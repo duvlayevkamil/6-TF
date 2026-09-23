@@ -185,10 +185,14 @@ const html = read("platform/index.template.html")
 
 if (/<\/script>/i.test(data)) fail("JSON orolida </script> qoldig'i bor");
 writeFileSync(P("6-sinf.html"), html);
+/* O'qituvchi papkasidagi nom — shu nom bilan ham tarqatiladi (bir xil baytlar). */
+const DELIVERABLE = "6-sinf TF.html";
+writeFileSync(P(DELIVERABLE), html);
 
 /* ---------- 6. hisobot ---------- */
 const kb = (n) => (n / 1024).toFixed(1) + " KB";
 const size = statSync(P("6-sinf.html")).size;
+console.log(`✓ «${DELIVERABLE}» — bir xil mazmun bilan yozildi (muallif papkasidagi nom)`);
 console.log(`✓ 6-sinf.html yig'ildi: ${topics.length} mavzu, ${meta.boblar} bob, ${kb(size)}`);
 console.log(
   `  nazariya paragraflari: ${topics.reduce((a, t) => a + t.theory.split("\n\n").length, 0)},` +

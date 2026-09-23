@@ -5,6 +5,7 @@
   "type": "module",
   "description": "6-sinf Tabiiy fan (Science) uchun o'qituvchi platformasi",
   "scripts": {
+    "package": "node tools/package.mjs",
     "extract": "node tools/pdf-extract.mjs",
     "extract:toc": "node tools/extract-toc.mjs --write",
     "mundarija": "node tools/mundarija-columns.mjs \"sources/Darslik.pdf\"",
@@ -15,7 +16,8 @@
     "build": "node tools/build-platform.mjs",
     "serve": "node tools/serve.mjs",
     "smoke": "node tools/build-platform.mjs && node tools/smoke-platform.mjs",
-    "dom:check": "node tools/build-platform.mjs && node tools/dom-smoke.mjs"
+    "dom:check": "node tools/build-platform.mjs && node tools/dom-smoke.mjs",
+    "standalone:check": "node tools/standalone-check.mjs"
   },
   "dependencies": {
     "pdfjs-dist": "^4.10.38"

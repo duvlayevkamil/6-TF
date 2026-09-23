@@ -75,13 +75,31 @@ olinadi — yangi texnologiya ixtiro qilinmaydi:
 ```bash
 npm install
 node tools/build-taqvim.mjs   # kun taqvimi rejasi (platform/content/taqvim.json)
-npm run build        # platform/* + data/curriculum → 6-sinf.html (bitta fayl)
+npm run build        # platform/* + data/curriculum → 6-sinf.html + «6-sinf TF.html»
+npm run package      # yuklab olinadigan nusxa: papkada «6-sinf TF.html» + sha256
+npm run standalone:check  # fayl bo'sh papkada ham ishlaydi (jsdom tekshiruvi)
 npm run serve        # http://localhost:8080/6-sinf.html
 npm run content:check # kontent fayllari sxemasi + noto'g'ri yozuv belgilari
 node tools/quiz-report.mjs 3 --short   # 3-bob savollarida variant uzunligi balansi
 npm run smoke        # JSON orol, id/bog'lanishlar, 25 simulyator holatlari, slaydlar
 npm run dom:check    # jsdom'da brauzer sinovi: 26 mavzu × 5 tab, test, slayd, chop
 ```
+
+### Yuklab olinadigan fayl
+
+Bitta fayl — **`6-sinf TF.html`** (378 KB, `6-sinf.html` bilan bir xil baytlar).
+Internet, server, o'rnatish shart emas: faylni brauzerda ochsangiz bo'ldi.
+Uch xil olish yo'li:
+
+| Qayerdan | Qanday |
+|---|---|
+| Shu papkadan | `6-sinf TF.html` faylini nusxalang (repozitoriyda ham, workspace papkasida ham turadi) |
+| Live preview orqali | `http://localhost:8080/yuklab-olish` — brauzer «saqlab olish» sifatida ochadi |
+| GitHub'dan | `https://github.com/duvlayevkamil/6-TF/raw/arena/01a0caab-6-tf/6-sinf%20TF.html` |
+
+Fayl mustaqilligi `npm run standalone:check` bilan tasdiqlanadi: bo'sh papkaga
+nusxalanib, jsdom'da ochiladi (12 bob, 26 mavzu, 7 tab, 8 savolli test, taqvim,
+eksport/import — 0 xato). Tarkibida tashqi `src`/`href`/URL **yo'q**.
 
 O'qituvchi uchun qisqa yo'riqnoma: **`OCHILISH.md`**.
 
