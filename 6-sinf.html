@@ -1945,7 +1945,7 @@ window.LABS = (function () {
   function renderTopbar() {
     const t = cur();
     $("#crumb").innerHTML = t
-      ? `<b>${esc(t.bobNomi)}</b> · ${t.kod} ${esc(t.t)} · <span class="muted">darslik ${esc(t.kitob?.bet || "")}-bet</span>`
+      ? `<b>${esc(t.bobNomi)}</b> · ${t.kod} ${esc(t.t)} · <span class="muted">darslik ${esc(betMatn(t.kitob?.oralig))}</span>`
       : `<b>6-sinf Tabiiy fan</b> · boshqaruv paneli`;
     $$("#tabs .tab-btn").forEach((b) =>
       b.classList.toggle("active", state.panel ? b.dataset.act === "panel" : !state.panel && b.dataset.tab === state.tab)
@@ -1971,12 +1971,25 @@ window.LABS = (function () {
     else renderTask(host, t);
   }
 
+  /* Kitob betlari: mundarija bet raqamini BOB darajasida beradi, shuning uchun
+     «4–13» butun bobga tegishli — buni interfeysda shunday ko'rsatamiz. */
+  function betMatn(oralig) {
+    const o = String(oralig || "").trim();
+    if (!o) return "";
+    const [a, b] = o.split("–");
+    if (!b || b.trim() === "") return `${a}-betdan boshlanadi`;
+    return `${a}–${b}-betlar`;
+  }
+  function bobMatn(t) {
+    const b = betMatn(t.kitob?.oralig);
+    return b ? `${t.d}-bob · ${b}` : `${t.d}-bob`;
+  }
   function head(t, sub) {
     return `<div class="card">
       <h2>${esc(t.t)}</h2>
       <div class="kitob-box">
         <span class="chip">${t.kod}</span>
-        <span class="chip cyan">Darslik: ${esc(t.kitob?.oralig || "")}-bet</span>
+        <span class="chip cyan">Darslik ${esc(bobMatn(t))}</span>
         ${t.kitob?.amaliyIsh ? `<span class="chip amber">Amaliy ish ${t.kitob.amaliyIsh.kod}: ${esc(t.kitob.amaliyIsh.nomi)}</span>` : ""}
         ${t.kitob?.boshqotirma ? `<span class="chip">Boshqotirma: ${t.kitob.boshqotirma}-bet</span>` : ""}
         ${t.kitob?.mustahkamlash ? `<span class="chip">Mustahkamlash: ${t.kitob.mustahkamlash}-bet</span>` : ""}
@@ -2436,6 +2449,7 @@ window.LABS = (function () {
       title: topic.kod + " · " + topic.t,
       sub: "6-sinf Tabiiy fan · " + topic.bobNomi,
       bet: topic.kitob?.oralig,
+      bobText: bobMatn(topic),
       ai: topic.kitob?.amaliyIsh,
       savollar: topic.urinish?.savollar || [],
     });
@@ -2455,7 +2469,7 @@ window.LABS = (function () {
       body = `<div class="sub">${esc(s.sub)}</div><h1 class="hd">${esc(s.title)}</h1>
         <p class="muted">Maqsad: mavzuni muhokama qilish, model bilan ishlash va natijani daftarga yozish.</p>
         <div class="kvs">
-          <div class="fbox"><b>Darslik:</b> ${esc(s.bet || "")}-bet${s.ai ? " · amaliy ish " + esc(s.ai.kod) : ""}</div>
+          <div class="fbox"><b>Darslik</b> ${esc(s.bobText || "")}${s.ai ? " · amaliy ish " + esc(s.ai.kod) : ""}</div>
           ${s.ai ? `<div class="fbox"><b>Amaliy ish:</b> ${esc(s.ai.nomi)}</div>` : ""}
           ${(s.savollar || []).length ? `<div class="fbox"><b>Savollar:</b> ${s.savollar.map(esc).join(" ")}</div>` : ""}
         </div>`;
@@ -2558,11 +2572,13 @@ window.LABS = (function () {
   function printSheet(s, tp, opts) {
     const withAns = (opts.quiz || "javob") === "javob";
     const head = `<div class="phd"><b>${esc(tp.kod)} ${esc(tp.t)}</b><span>${esc(tp.bobNomi)} · darslik ${esc(
-      tp.kitob?.oralig || ""
-    )}-bet${tp.kitob?.amaliyIsh?.bet ? " · mashq daftari " + esc(tp.kitob.amaliyIsh.bet) + "-bet" : ""}</span></div>`;
+      betMatn(tp.kitob?.oralig)
+    )}${tp.kitob?.amaliyIsh?.bet ? " · mashq daftari " + esc(tp.kitob.amaliyIsh.bet) + "-bet" : ""}</span></div>`;
     let body = "";
     if (s.type === "cover")
-      body = `<h4>${esc(s.title)}</h4><p class="lbl">${esc(s.sub)}</p>${(tp.urinish?.savollar || []).map((q) => `<p>• ${esc(q)}</p>`).join("")}`;
+      body = `<h4>${esc(s.title)}</h4><p class="lbl">${esc(s.sub)} · darslik ${esc(s.bobText || "")}</p>
+        ${(tp.urinish?.savollar || []).map((q) => `<p>• ${esc(q)}</p>`).join("")}
+        ${tp.kitob?.amaliyIsh ? `<p class="lbl">Amaliy ish ${esc(tp.kitob.amaliyIsh.kod)}${tp.kitob.amaliyIsh.nomi ? " — " + esc(tp.kitob.amaliyIsh.nomi) : ""}</p>` : ""}`;
     else if (s.type === "theory") body = `<p>${esc(s.text)}</p>`;
     else if (s.type === "formulas") body = `<ul>${s.items.map((f) => `<li>${esc(f)}</li>`).join("")}</ul>`;
     else if (s.type === "vocab")
