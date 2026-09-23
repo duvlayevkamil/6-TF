@@ -85,6 +85,49 @@ if (missing.length) fail(`kontenti yo'q mavzular: ${missing.join(", ")}`);
 const extra = [...byKod.keys()].filter((k) => !struct.topics.some((t) => (t.kitob?.kod || `${t.d}.${t.c}`) === k));
 if (extra.length) fail(`strukturada yo'q, kontentda bor kodlar: ${extra.join(", ")}`);
 
+/* ---------- 3.5 variantlarni aralashtirish ---------- */
+/* Kontentda an'ana: to'g'ri javob birinchi (indeks 0) — o'qituvchi uchun o'qish oson.
+   Yig'ilgan faylda esa variantlar har savolga urug'li (deterministik) tartibda
+   joylashtiriladi, aks holda o'quvchi «har doim A javob to'g'ri» deb o'rganib qoladi. */
+function hash32(str) {
+  let h = 2166136261 >>> 0;
+  for (let i = 0; i < str.length; i++) {
+    h ^= str.charCodeAt(i);
+    h = Math.imul(h, 16777619) >>> 0;
+  }
+  return h >>> 0;
+}
+function rng(seed) {
+  let x = (seed || 1) >>> 0;
+  return () => {
+    x ^= x << 13; x >>>= 0; x ^= x >> 17; x ^= x << 5; x >>>= 0;
+    return x / 4294967296;
+  };
+}
+function shuffleRows(rows, seedKey, kod) {
+  return (rows || []).map((row, i) => {
+    const [q, opts, idx, why] = row;
+    if (!Array.isArray(opts) || opts.length < 2 || !(idx >= 0 && idx < opts.length)) return row;
+    const rand = rng(hash32(`${seedKey}|${kod}|${i}|${String(q).slice(0, 40)}`));
+    const perm = opts.map((_, k) => k);
+    for (let k = perm.length - 1; k > 0; k--) {
+      const j = Math.floor(rand() * (k + 1));
+      [perm[k], perm[j]] = [perm[j], perm[k]];
+    }
+    const newOpts = perm.map((p) => opts[p]);
+    const newIdx = perm.indexOf(idx);
+    if (newOpts[newIdx] !== opts[idx]) fail(`${kod}: ${seedKey}[${i}] variantlarni aralashtirishda javob yo'qoldi`);
+    return [q, newOpts, newIdx, why];
+  });
+}
+for (const t of topics) {
+  t.quiz = shuffleRows(t.quiz, "quiz", t.kod);
+  t.slideQuiz = shuffleRows(t.slideQuiz, "sq", t.kod);
+  const g = shuffleRows(t.game, "game", t.kod);
+  t.game = g;
+  t.gameQuiz = g; // 7-sinf sxemasi bilan moslik uchun — bir xil tartibda
+}
+
 /* ---------- 4. LABS ro'yxatini tekshirish ---------- */
 const labsSrc = read("platform/labs.js");
 // labs.js faylini izolyatsiyada ishga tushirib, REG va ALIAS ro'yxatlarini olamiz
@@ -137,4 +180,7 @@ console.log(
     ` amaliy bosqichlar: ${topics.reduce((a, t) => a + t.task.steps.length, 0)}`
 );
 console.log(`  simulyatorlar: ${new Set(topics.map((t) => t.lab)).size} tur (${[...new Set(topics.map((t) => t.lab))].join(", ")})`);
+const pos = [0, 0, 0, 0];
+for (const t of topics) for (const q of t.quiz) if (q[2] >= 0 && q[2] < 4) pos[q[2]]++;
+console.log(`  javob pozitsiyalari (A/B/C/D): ${pos.join(" / ")} — har bir savolda variantlar urug'li tartibda`);
 console.log("  ochish uchun:  npm run serve  →  http://localhost:8080/6-sinf.html");

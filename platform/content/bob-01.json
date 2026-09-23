@@ -16,29 +16,157 @@
         "Kunlik sut, non, go'sht/baliq, sabzavot va meva — turli guruhlar"
       ],
       "vocab": [
-        { "w": "Ratsion", "m": "bir kunda iste'mol qilinadigan ovqatning rejasi" },
-        { "w": "Makloelementlar", "m": "oqsil, yog', uglevod — ko'p kerak bo'ladigan moddalar" },
-        { "w": "Mikroelementlar", "m": "vitaminlar, minerallar, suv — oz miqdorda kerak" },
-        { "w": "Uglevodlar", "m": "organizmning asosiy energiya manbasi" },
-        { "w": "Oqsillar", "m": "hujayra va to'qimalarning qurilish materiali" },
-        { "w": "Vitaminlar", "m": "jarayonlarni tartibga soluvchi organik moddalar" }
+        {
+          "w": "Ratsion",
+          "m": "bir kunda iste'mol qilinadigan ovqatning rejasi"
+        },
+        {
+          "w": "Makloelementlar",
+          "m": "oqsil, yog', uglevod — ko'p kerak bo'ladigan moddalar"
+        },
+        {
+          "w": "Mikroelementlar",
+          "m": "vitaminlar, minerallar, suv — oz miqdorda kerak"
+        },
+        {
+          "w": "Uglevodlar",
+          "m": "organizmning asosiy energiya manbasi"
+        },
+        {
+          "w": "Oqsillar",
+          "m": "hujayra va to'qimalarning qurilish materiali"
+        },
+        {
+          "w": "Vitaminlar",
+          "m": "jarayonlarni tartibga soluvchi organik moddalar"
+        }
       ],
       "quiz": [
-        ["Ovqatdagi asosiy energiya manba qaysi modda guruhi?", ["Uglevodlar", "Vitaminlar", "Minerallar", "Suv"], 0, "Uglevodlar — tezkor energiya manbai; 1 g da ≈ 17 kJ."],
-        ["1 g yog' parchalanganda ajraladigan energiya taxminan qancha?", ["39 kJ", "17 kJ", "4 kJ", "90 kJ"], 0, "Yog' — eng «quvvatli» modda: 1 g da ≈ 39 kJ, oqsil va uglevodda ≈ 17 kJ."],
-        ["Oqsil : yog' : uglevod ning tavsiya etiladigan nisbati:", ["1 : 1 : 4", "1 : 4 : 1", "4 : 1 : 1", "1 : 2 : 2"], 0, "Muvozanatlashgan ratsionda bu nisbat taxminan 1:1:4 deb olinadi."],
-        ["Ratsional ovqatlanishning asosiy belgisi nima?", ["Energiya sarf bilan ta'minlanadi va mahsulotlar xilma-xil", "Faqat bir xil ovqatni ko'p yeysang bo'ldi", "Kuniga b mahal ovqatlanish yetarli", "Yog'lar umuman yo'q"], 0, "Muvozanat ikki qismli: miqdor (sarf = kirish) va tarkib (turli guruhlar)."],
-        ["Vitaminlar organizmda asosan nima vazifani bajaradi?", ["Jarayonlarni tartibga soladi", "Asosiy energiya manbai bo'ladi", "Suyakka o'xshash qurilish materiali beradi", "Oksigen tashiydi"], 0, "Vitaminlar energiya bermaydi — ular kimyoviy jarayonlarni regulatsiya qiladi."]
+        [
+          "Ovqatdagi asosiy energiya manba qaysi modda guruhi?",
+          [
+            "Uglevodlar",
+            "Vitaminlar",
+            "Minerallar",
+            "Suv"
+          ],
+          0,
+          "Uglevodlar — tezkor energiya manbai; 1 g da ≈ 17 kJ."
+        ],
+        [
+          "1 g yog' parchalanganda ajraladigan energiya taxminan qancha?",
+          [
+            "39 kJ",
+            "17 kJ",
+            "4 kJ",
+            "90 kJ"
+          ],
+          0,
+          "Yog' — eng «quvvatli» modda: 1 g da ≈ 39 kJ, oqsil va uglevodda ≈ 17 kJ."
+        ],
+        [
+          "Oqsil : yog' : uglevod ning tavsiya etiladigan nisbati:",
+          [
+            "1 : 1 : 4",
+            "1 : 4 : 1",
+            "4 : 1 : 1",
+            "1 : 2 : 2"
+          ],
+          0,
+          "Muvozanatlashgan ratsionda bu nisbat taxminan 1:1:4 deb olinadi."
+        ],
+        [
+          "Ratsional ovqatlanishning asosiy belgisi nima?",
+          [
+            "Energiya sarf bilan ta'minlanadi va mahsulotlar xilma-xil",
+            "Faqat bir xil ovqatni ko'p yeysang bo'ldi",
+            "Kuniga b mahal ovqatlanish yetarli",
+            "Yog'lar umuman yo'q"
+          ],
+          0,
+          "Muvozanat ikki qismli: miqdor (sarf = kirish) va tarkib (turli guruhlar)."
+        ],
+        [
+          "Vitaminlar organizmda asosan nima vazifani bajaradi?",
+          [
+            "Jarayonlarni tartibga soladi",
+            "Asosiy energiya manbai bo'ladi",
+            "Suyakka o'xshash qurilish materiali beradi",
+            "Oksigen tashiydi"
+          ],
+          0,
+          "Vitaminlar energiya bermaydi — ular kimyoviy jarayonlarni regulatsiya qiladi."
+        ]
       ],
       "slideQuiz": [
-        ["Muvozanatlashgan ratsionda eng katta ulush qaysi guruhga tegishli?", ["Yog'lar", "Oqsillar", "Uglevodlar", "Vitaminlar"], 2, "Nisbat 1:1:4 — uglevodlar eng ko'p."],
-        ["Kunlik ratsionni tekshirish uchun qaysi vizual vosita qulay?", ["Ustunli diagramma", "Faqat matn", "Chizma emas", "Rasm galereyasi"], 0, "Diagramma guruhlar ulushini bir qarashda taqqoslash imkonini beradi."]
+        [
+          "Muvozanatlashgan ratsionda eng katta ulush qaysi guruhga tegishli?",
+          [
+            "Uglevodlar",
+            "Yog'lar",
+            "Oqsillar",
+            "Vitaminlar"
+          ],
+          0,
+          "Nisbat 1:1:4 — uglevodlar eng ko'p."
+        ],
+        [
+          "Kunlik ratsionni tekshirish uchun qaysi vizual vosita qulay?",
+          [
+            "Ustunli diagramma",
+            "Faqat matn",
+            "Chizma emas",
+            "Rasm galereyasi"
+          ],
+          0,
+          "Diagramma guruhlar ulushini bir qarashda taqqoslash imkonini beradi."
+        ]
       ],
       "game": [
-        ["Mahsulotni uning asosiy modda guruhi bilan moslashting: kartoshka", ["Uglevod", "Yog'", "Oqsil", "Vitamin"], 0, "Kartoshka — asosan kraxmal, ya'ni uglevod."],
-        ["Tuxum oqi asosan nimaga boy?", ["Yog'", "Oqsil", "Uglevod", "Suv"], 1, "Tuxum oqi — toza oqsil namunasi."],
-        ["Apelsin asosan qaysi mikroelement manbai?", ["Vitamin C", "Kalsiy", "Yog'", "Kraxmal"], 0, "Sitruslar vitamin C ga boy."],
-        ["Sur'ya (yog') organizmda asosan nima uchun kerak?", ["Uzoq muddatli energiya zaxirasi", "Oqsil qurilishi", "Suv saqlash", "Oksigen tashish"], 0, "Yog' — energiya zaxirasi va issiqlik izolatsiyasi."]
+        [
+          "Mahsulotni uning asosiy modda guruhi bilan moslashting: kartoshka",
+          [
+            "Uglevod",
+            "Yog'",
+            "Oqsil",
+            "Vitamin"
+          ],
+          0,
+          "Kartoshka — asosan kraxmal, ya'ni uglevod."
+        ],
+        [
+          "Tuxum oqi asosan nimaga boy?",
+          [
+            "Oqsil",
+            "Yog'",
+            "Uglevod",
+            "Suv"
+          ],
+          0,
+          "Tuxum oqi — toza oqsil namunasi."
+        ],
+        [
+          "Apelsin asosan qaysi mikroelement manbai?",
+          [
+            "Vitamin C",
+            "Kalsiy",
+            "Yog'",
+            "Kraxmal"
+          ],
+          0,
+          "Sitruslar vitamin C ga boy."
+        ],
+        [
+          "Sur'ya (yog') organizmda asosan nima uchun kerak?",
+          [
+            "Uzoq muddatli energiya zaxirasi",
+            "Oqsil qurilishi",
+            "Suv saqlash",
+            "Oksigen tashish"
+          ],
+          0,
+          "Yog' — energiya zaxirasi va issiqlik izolatsiyasi."
+        ]
       ],
       "task": {
         "q": "Oilangning bir kunlik ratsionini yozib chiqing va uni to'rt guruhga ajrating: oqsillar, yog'lar, uglevodlar, vitamin/mineral mahsulotlari. Har guruh uchun ustunli diagramma tuzing va muvozanatni baholang.",
@@ -51,8 +179,15 @@
           "Ustunli diagramma chizing, o'qlarga nom va birlik yozing",
           "Xulosa: qaysi guruh yetishmayapti, nima taklif qilasiz?"
         ],
-        "jihoz": ["Daftar va qalam", "Oilaviy ratsion yozuvi", "Millimetr qog'oz yoki diagramma uchun jadval"],
-        "xavfsizlik": ["Mahsulotlarni og'iz orqali tekshirish kerak emas — yozuv va ma'lumot bilan ishlang", "Allergiya bo'lgan mahsulotni belgilab qo'ying"]
+        "jihoz": [
+          "Daftar va qalam",
+          "Oilaviy ratsion yozuvi",
+          "Millimetr qog'oz yoki diagramma uchun jadval"
+        ],
+        "xavfsizlik": [
+          "Mahsulotlarni og'iz orqali tekshirish kerak emas — yozuv va ma'lumot bilan ishlang",
+          "Allergiya bo'lgan mahsulotni belgilab qo'ying"
+        ]
       }
     },
     {
@@ -69,28 +204,146 @@
         "Singdirish asosan ingichka ichakdagi villinlarda"
       ],
       "vocab": [
-        { "w": "Ferment", "m": "bir moddani ikkinchisiga aylantiruvchi oqsil" },
-        { "w": "Peristaltika", "m": "kanal devoridagi to'lqinli mushak qisqarishi" },
-        { "w": "Chimildiq", "m": "oshqozonda hosil bo'ladigan yarim suyuq ovqat aralashmasi" },
-        { "w": "Villin", "m": "ichak devoridagi singdirish maydonini oshiruvchi chiqit" },
-        { "w": "Emulsiya", "m": "yog'ning mayda tomchilarga bo'linishi" },
-        { "w": "Oshqozonosti bezi", "m": "hazm fermentlari va natriy bikarbonatini ichakka quyadigan bez" }
+        {
+          "w": "Ferment",
+          "m": "bir moddani ikkinchisiga aylantiruvchi oqsil"
+        },
+        {
+          "w": "Peristaltika",
+          "m": "kanal devoridagi to'lqinli mushak qisqarishi"
+        },
+        {
+          "w": "Chimildiq",
+          "m": "oshqozonda hosil bo'ladigan yarim suyuq ovqat aralashmasi"
+        },
+        {
+          "w": "Villin",
+          "m": "ichak devoridagi singdirish maydonini oshiruvchi chiqit"
+        },
+        {
+          "w": "Emulsiya",
+          "m": "yog'ning mayda tomchilarga bo'linishi"
+        },
+        {
+          "w": "Oshqozonosti bezi",
+          "m": "hazm fermentlari va natriy bikarbonatini ichakka quyadigan bez"
+        }
       ],
       "quiz": [
-        ["Hazm jarayonining asosiy qismi qayerda sodir bo'ladi?", ["Ingichka ichakda", "Oshqozonda", "Og'izda", "Qo'lloq ichakda"], 0, "Parchalash og'iz va oshqozonda boshlanadi, asosiy hazm va singdirish esa ingichka ichakda."],
-        ["Tishlarning vazifasi qaysi turdagi ta'sirga kiradi?", ["Mexanik", "Kimyoviy", "Biologik", "Elektr"], 0, "Maydalash — fizik (mexanik) ta'sir; fermentlar esa kimyoviy."],
-        ["O'tning hazmdagi roli nimada?", ["Yog'ni maydalaydi (emulsiya)", "Oqsilni parchalaydi", "Kraxmalni parchalaydi", "Qonni tozalaydi"], 0, "O't ferment emas; u yog'ni mayda tomchilarga bo'lib, fermentlar ishini osonlashtiradi."],
-        ["Kraxmal parchalanishi qayerda boshlanadi?", ["Og'izda", "Oshqozonda", "To'g'ri ichakda", "Yutqoqda"], 0, "Tupurikdagi amilaza kraxmalni og'izda parchalashni boshlaydi."],
-        ["Qo'lloq ichakda asosan nima sodir bo'ladi?", ["Suv va mineral moddalar singdiriladi", "Oqsil parchalanadi", "Yog' emulsiyalanadi", "Ovqat chaynaldi"], 0, "Qoldiqdan suvni qaytarib olish — suvsizlanishning oldini oladi."]
+        [
+          "Hazm jarayonining asosiy qismi qayerda sodir bo'ladi?",
+          [
+            "Ingichka ichakda",
+            "Oshqozonda",
+            "Og'izda",
+            "Qo'lloq ichakda"
+          ],
+          0,
+          "Parchalash og'iz va oshqozonda boshlanadi, asosiy hazm va singdirish esa ingichka ichakda."
+        ],
+        [
+          "Tishlarning vazifasi qaysi turdagi ta'sirga kiradi?",
+          [
+            "Mexanik",
+            "Kimyoviy",
+            "Biologik",
+            "Elektr"
+          ],
+          0,
+          "Maydalash — fizik (mexanik) ta'sir; fermentlar esa kimyoviy."
+        ],
+        [
+          "O'tning hazmdagi roli nimada?",
+          [
+            "Yog'ni maydalaydi (emulsiya)",
+            "Oqsilni parchalaydi",
+            "Kraxmalni parchalaydi",
+            "Qonni tozalaydi"
+          ],
+          0,
+          "O't ferment emas; u yog'ni mayda tomchilarga bo'lib, fermentlar ishini osonlashtiradi."
+        ],
+        [
+          "Kraxmal parchalanishi qayerda boshlanadi?",
+          [
+            "Og'izda",
+            "Oshqozonda",
+            "To'g'ri ichakda",
+            "Yutqoqda"
+          ],
+          0,
+          "Tupurikdagi amilaza kraxmalni og'izda parchalashni boshlaydi."
+        ],
+        [
+          "Qo'lloq ichakda asosan nima sodir bo'ladi?",
+          [
+            "Suv va mineral moddalar singdiriladi",
+            "Oqsil parchalanadi",
+            "Yog' emulsiyalanadi",
+            "Ovqat chaynaldi"
+          ],
+          0,
+          "Qoldiqdan suvni qaytarib olish — suvsizlanishning oldini oladi."
+        ]
       ],
       "slideQuiz": [
-        ["Oshqozon devoridagi mushaklar ovqatni qanday siljitadi?", ["Peristaltika to'lqini bilan", "Tortishish kuchi bilan", "Faqat og'irlik bilan", "Elon yordamida"], 0, "Mushaklar ketma-ket qisqarib ovqatni oldinga suradi."],
-        ["Villinlarning asosiy vazifasi — nima?", ["Singdirish yuzasini oshirish", "Ovqatni maydalash", "Kislota ishlab chiqarish", "Ferment saqlash"], 0, "Ko'p sonli chiqitlar yuzani bir necha barobar kattalashtiradi."]
+        [
+          "Oshqozon devoridagi mushaklar ovqatni qanday siljitadi?",
+          [
+            "Peristaltika to'lqini bilan",
+            "Tortishish kuchi bilan",
+            "Faqat og'irlik bilan",
+            "Elon yordamida"
+          ],
+          0,
+          "Mushaklar ketma-ket qisqarib ovqatni oldinga suradi."
+        ],
+        [
+          "Villinlarning asosiy vazifasi — nima?",
+          [
+            "Singdirish yuzasini oshirish",
+            "Ovqatni maydalash",
+            "Kislota ishlab chiqarish",
+            "Ferment saqlash"
+          ],
+          0,
+          "Ko'p sonli chiqitlar yuzani bir necha barobar kattalashtiradi."
+        ]
       ],
       "game": [
-        ["Bo'limni vazifasi bilan moslashting: oshqozon", ["Oqsilni parchalash va chimildiq hosil qilish", "Suvni qaytarish", "Kraxmalni to'liq parchalash", "O't ishlab chiqarish"], 0, "Oshqozonda oqsil parchalanadi va mexanik ezish bo'ladi."],
-        ["Yirtqichlarda o'simxo'rlarga qaraganda hazm kanali qanday?", ["Qisqaroq", "Ancha uzunroq", "Bir xil", "Umuman yo'q"], 0, "O'simlik tolasi qiyin hazm bo'ladi — shuning uchun o'simxo'rlarda kanal uzun va ko'p bo'lmali."],
-        ["Qaysi organ o'tni saqlaydi?", ["O't pufagi", "Oshqozonosti bezi", "Jigar", "Buyrak"], 0, "O't jigarda hosil bo'ladi, o't pufagida saqlanadi."]
+        [
+          "Bo'limni vazifasi bilan moslashting: oshqozon",
+          [
+            "Oqsilni parchalash va chimildiq hosil qilish",
+            "Suvni qaytarish",
+            "Kraxmalni to'liq parchalash",
+            "O't ishlab chiqarish"
+          ],
+          0,
+          "Oshqozonda oqsil parchalanadi va mexanik ezish bo'ladi."
+        ],
+        [
+          "Yirtqichlarda o'simxo'rlarga qaraganda hazm kanali qanday?",
+          [
+            "Qisqaroq",
+            "Ancha uzunroq",
+            "Bir xil",
+            "Umuman yo'q"
+          ],
+          0,
+          "O'simlik tolasi qiyin hazm bo'ladi — shuning uchun o'simxo'rlarda kanal uzun va ko'p bo'lmali."
+        ],
+        [
+          "Qaysi organ o'tni saqlaydi?",
+          [
+            "O't pufagi",
+            "Oshqozonosti bezi",
+            "Jigar",
+            "Buyrak"
+          ],
+          0,
+          "O't jigarda hosil bo'ladi, o't pufagida saqlanadi."
+        ]
       ],
       "task": {
         "q": "Ovqat hazm qilish sistemasi modelini tayyorlang (shisha, naycha, rezina pufak, moyli qog'oz) va modelda kanallar bo'ylab ovqat harakatini hamda emulsiyani ko'rsating.",
@@ -103,8 +356,18 @@
           "Emulsiyani sinab ko'ring: suv + moy, sovun tomizing va aralashtiring",
           "Modelning kamchiliklarini yozing (narsani o'lchamaydi, fermentlarni ko'rsatmaydi)"
         ],
-        "jihoz": ["Shisha butilka (0,5 l)", "Silikon naycha (30 sm)", "Rezina pufak yoki qo'lqop", "O'simlik yog'i, suv, sovun", "Moyga chidamli qog'oz"],
-        "xavfsizlik": ["Shishani ehtiyot qiling — sinishda ustozga xabar bering", "Sovun suyuqligini og'izga olib bo'lmaydi", "Ish oxirida qo'l yuviladi"]
+        "jihoz": [
+          "Shisha butilka (0,5 l)",
+          "Silikon naycha (30 sm)",
+          "Rezina pufak yoki qo'lqop",
+          "O'simlik yog'i, suv, sovun",
+          "Moyga chidamli qog'oz"
+        ],
+        "xavfsizlik": [
+          "Shishani ehtiyot qiling — sinishda ustozga xabar bering",
+          "Sovun suyuqligini og'izga olib bo'lmaydi",
+          "Ish oxirida qo'l yuviladi"
+        ]
       }
     }
   ]

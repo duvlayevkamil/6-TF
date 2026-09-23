@@ -70,6 +70,7 @@ function testSatrlari(arr, file, kod, nom, minimal = 2) {
     if (!Array.isArray(opts) || opts.length !== 4) push(file, kod, `${tag}: 4 ta variant kerak (${opts?.length})`);
     else if (new Set(opts).size !== opts.length) push(file, kod, `${tag}: variantlar takrorlanadi`);
     if (typeof idx !== "number" || idx < 0 || idx > 3) push(file, kod, `${tag}: to'g'ri indeks 0..3 bo'lishi kerak`);
+    else if (idx !== 0) push(file, kod, `${tag}: an'ana — to'g'ri javob variantlar ro'yxatida BIRINCHI turishi kerak (build o'zi aralashtiradi)`);
     if (typeof why !== "string" || why.trim().length < 8) push(file, kod, `${tag}: izoh yo'q yoki qisqa`);
   });
 }

@@ -39,6 +39,27 @@ for (const t of DATA.topics) {
 }
 ok(`JSON orol: ${DATA.topics.length} mavzu, ${new Set(DATA.topics.map((t) => t.d)).size} bob`);
 
+/* ---------- 1b. variantlar aralashtirilganmi (javob bir joyga to'planmasin) ---------- */
+{
+  const pos = [0, 0, 0, 0];
+  let rows = 0, badIdx = 0, shortOpts = 0;
+  for (const t of DATA.topics)
+    for (const [tag, arr] of [["quiz", t.quiz], ["slideQuiz", t.slideQuiz], ["game", t.game]])
+      for (const q of arr || []) {
+        rows++;
+        if (!Array.isArray(q[1]) || q[1].length < 2) shortOpts++;
+        if (!(q[2] >= 0 && q[2] < (q[1] || []).length)) badIdx++;
+        else if (q[1].length === 4) pos[q[2]]++;
+      }
+  if (shortOpts) xatolar.push(`${shortOpts} savolda variantlar 2 tadan kam`);
+  if (badIdx) xatolar.push(`${badIdx} savolda to'g'ri indeks chegaradan tashqarida`);
+  const share = Math.max(...pos) / rows;
+  // an'ana buzilmasa (kontentda javob doim 0) pozitsiyalar aralashtirilgan bo'lishi shart
+  if (pos[0] === rows) xatolar.push("barcha javoblar A variantda — build'da aralashtirish ishlamadi");
+  if (share > 0.5) xatolar.push(`javoblar bir pozitsiyaga to'plangan: A/B/C/D = ${pos.join("/")}`);
+  ok(`variantlar tartibi: ${rows} savol, A/B/C/D = ${pos.join("/")} (eng ko'pi ${(share * 100).toFixed(0)}%)`);
+}
+
 /* ---------- 2. id lar ---------- */
 const appSrc = readFileSync(join(ROOT, "platform/app.js"), "utf8");
 const used = [...new Set([...appSrc.matchAll(/\$\("#([\w-]+)"\)/g)].map((x) => x[1]))];
