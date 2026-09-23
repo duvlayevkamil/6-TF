@@ -78,13 +78,13 @@
         [
           "Ratsional ovqatlanishning asosiy belgisi nima?",
           [
-            "Energiya sarf bilan ta'minlanadi va mahsulotlar xilma-xil",
-            "Faqat bir xil ovqatni ko'p yeysang bo'ldi",
-            "Kuniga b mahal ovqatlanish yetarli",
-            "Yog'lar umuman yo'q"
+            "Energiya sarfi bilan ta'minlanadi va mahsulotlar xilma-xil bo'ladi",
+            "Kuniga faqat bitta turdagi ovqatni ko'p miqdorda iste'mol qilish",
+            "Ovqatlanish sonini kamaytirib, kechki ovqatga ko'proq joy qoldirish",
+            "Ratsiondan yog'larni butunlay chiqarib, faqat uglevod bilan yashash"
           ],
           0,
-          "Muvozanat ikki qismli: miqdor (sarf = kirish) va tarkib (turli guruhlar)."
+          "Muvozanat — energiya kelishi va sarfi tengligi, shunga xilma-xillik ham shart."
         ],
         [
           "Vitaminlar organizmda asosan nima vazifani bajaradi?",
@@ -96,6 +96,39 @@
           ],
           0,
           "Vitaminlar energiya bermaydi — ular kimyoviy jarayonlarni regulatsiya qiladi."
+        ],
+        [
+          "Mikroelementlarga qaysi moddalar guruhi kiradi?",
+          [
+            "Vitaminlar, minerallar va suv",
+            "Oqsillar, yog'lar va uglevodlar",
+            "Kraxmal, glyukoza va sellyuloza",
+            "Aminokislotalar va yog' kislotalari"
+          ],
+          0,
+          "Mikroelementlar oz miqdorda kerak, biroqsiz bo'lmaydi — bular vitamin, mineral va suv."
+        ],
+        [
+          "Yog'lar nega eng «quvvatli» modda guruhi hisoblanadi?",
+          [
+            "Yog'ning 1 g'ida ≈ 39 kJ, oqsil va uglevodniki ≈ 17 kJ",
+            "Yog'ning 1 g'ida ≈ 17 kJ, uglevodniki esa ≈ 39 kJ",
+            "Yog'lar energiya bermaydi, faqat tanani issiq saqlaydi",
+            "Oqsillar yog'dan ikki barobar ko'p energiya beradi"
+          ],
+          0,
+          "1 g yog' ≈ 39 kJ — bu oqsil va uglevodga qaraganda deyarli ikki barobar ko'p."
+        ],
+        [
+          "Ratsionni tahlil qilishda ustunli diagramma nima uchun qulay?",
+          [
+            "Guruhlar bo'yicha miqdorni ko'z bilan taqqoslash oson bo'ladi",
+            "Diagramma ovqatning kimyoviy tarkibini o'zgartirib yuboradi",
+            "Diagramma faqat ovqatning og'irligini o'lchash uchun yaroqli",
+            "Diagramma vitaminlar miqdorini sezilarli kamaytiradi"
+          ],
+          0,
+          "Diagramma taqqoslash uchun: eng baland ustun qaysi guruh ko'pligini ko'rsatadi."
         ]
       ],
       "slideQuiz": [
@@ -160,9 +193,9 @@
           "Sur'ya (yog') organizmda asosan nima uchun kerak?",
           [
             "Uzoq muddatli energiya zaxirasi",
-            "Oqsil qurilishi",
-            "Suv saqlash",
-            "Oksigen tashish"
+            "Hujayra qurilishi uchun material",
+            "Tanada suv va mineral moddalarni saqlash",
+            "Oksigeni hujayralarga tashish"
           ],
           0,
           "Yog' — energiya zaxirasi va issiqlik izolatsiyasi."
@@ -194,7 +227,7 @@
       "kod": "1.2",
       "lab": "hazm",
       "labMode": "oqim",
-      "theory": "Hazm qilish — murakkab oziq moddalarni hujayra singdira oladigan kichik molekulalarga aylantirish jarayoni. Jarayon ovqat hazm qilish kanalida sodir bo'ladi va ikki xil ta'sir aralash ishlaydi: mexanik (chaqnash, ezish, siljitish) va kimyoviy (fermentlar).\n\nKanal bo'limlari: og'iz → yutqoq → qizilo'ngach → oshqozon → ingichka ichak → qo'lloq ichak → to'g'ri ichak → davomchi ichak.\n\nOg'izda tishlar ovqatni maydalaydi, tupurik uni namlaydi va amilaza kraxmalni parchalashni boshlaydi. Qizilo'ngachda mushaklar to'lqinli qisqarish (peristaltika) ovqatni pastga suradi. Oshqozonda shira va xlorid kislotasi oqsilni parchalaydi, ezish orqali chimildiq hosil bo'ladi.\n\nIngichka ichakda asosiy hazm va singdirish bo'ladi: o't yog'ni maydalaydi (emulsiya qiladi), oshqozonosti bezi shirasi fermentlarni yetkazadi, ichak devoridagi mayda o'sintilar — villinlar tayyor moddalarni qonga o'tkazadi. Qo'lloq ichakda suv va mineral moddalar singdiriladi, qoldiq qism to'g'ri ichakka o'tadi.\n\nHayvonlarda ham shu prinsip ishlaydi: sigirning ko'p bo'lmali o'simlik tolalarini parchalashga, yirtqichning qisqa kanali esa oqsilga moslashgan. Shu o'xshashlik va farqlarni solishtirish — mavzuning ikkinchi yarimi.",
+      "theory": "Hazm qilish — murakkab oziq moddalarni hujayra singdira oladigan kichik molekulalarga aylantirish jarayoni. Jarayon ovqat hazm qilish kanalida sodir bo'ladi va ikki xil ta'sir aralash ishlaydi: mexanik (chaqnash, ezish, siljitish) va kimyoviy (fermentlar).\n\nKanal bo'limlari: og'iz → yutqoq → qizilo'ngach → oshqozon → ingichka ichak → qo'lloq ichak → to'g'ri ichak → davomchi ichak.\n\nOg'izda tishlar ovqatni maydalaydi, tupurik uni namlaydi va amilaza kraxmalni parchalashni boshlaydi. Qizilo'ngachda mushaklar to'lqinli qisqarish (peristaltika) ovqatni pastga suradi. Oshqozonda shira va xlorid kislotasi oqsilni parchalaydi, ezish orqali chimildiq hosil bo'ladi.\n\nIngichka ichakda asosiy hazm va singdirish bo'ladi: o't yog'ni maydalaydi (emulsiya qiladi), oshqozonosti bezi shirasi fermentlarni yetkazadi, ichak devoridagi mayda o'sintilar — villinlar tayyor moddalarni qonga o'tkazadi. Qo'lloq ichakda suv va mineral moddalar singdiriladi, qoldiq qism to'g'ri ichakka o'tadi.\n\nHayvonlarda ham shu prinsip ishlaydi: sigirning ko'p bo'limli o'simlik tolalarini parchalashga, yirtqichning qisqa kanali esa oqsilga moslashgan. Shu o'xshashlik va farqlarni solishtirish — mavzuning ikkinchi yarimi.",
       "formulas": [
         "Hazm = mexanik + kimyoviy ta'sir",
         "Kanal: og'iz → yutqoq → qizilo'ngach → oshqozon → ingichka ichak → qo'lloq ichak → to'g'ri ichak",
@@ -277,13 +310,46 @@
         [
           "Qo'lloq ichakda asosan nima sodir bo'ladi?",
           [
-            "Suv va mineral moddalar singdiriladi",
-            "Oqsil parchalanadi",
-            "Yog' emulsiyalanadi",
-            "Ovqat chaynaldi"
+            "Suv va mineral moddalar qayta singdiriladi",
+            "Oqsillar pepsin yordamida parchalanadi",
+            "Yog'lar o't ta'sirida emulsiyalanadi",
+            "Ovqat tishlar ishtirokida chaynaladi"
           ],
           0,
-          "Qoldiqdan suvni qaytarib olish — suvsizlanishning oldini oladi."
+          "Suqning bir qismi va minerallar shu bo'limda qayta so'riladi; qoldiq to'g'ri ichakka o'tadi."
+        ],
+        [
+          "Peristaltika qayerda va qanday ishlaydi?",
+          [
+            "Qizilo'ngach devori to'lqinlanib, ovqatni pastga suradi",
+            "Og'iz bo'shlig'ida tishlar ovqatni maydalab ezadi",
+            "To'g'ri ichak qoldiqni tana tashqarisiga chiqaradi",
+            "Oshqozonda shira ajralishini nerv tolalari boshqaradi"
+          ],
+          0,
+          "Peristaltika — kanal devoridagi to'lqinli mushak qisqarishi; u chaynalgan massani suradi."
+        ],
+        [
+          "Villinlar hazmda qanday vazifa bajaradi?",
+          [
+            "Singdirish maydonini oshirib, tayyor moddalarni qonga o'tkazadi",
+            "Ovqatni mexanik ezib, yarim suyuq chimildiqqa aylantiradi",
+            "Yog'ni kislotali muhitda mayda tomchilarga bo'ladi",
+            "Kraxmalni parchalovchi amilaza fermentini ishlab chiqaradi"
+          ],
+          0,
+          "Villinlar ingichka ichak devoridagi chiqitlar — ular singdirish yuzasini kattalashtiradi."
+        ],
+        [
+          "Sigirning oshqozoni ko'p bo'limli — bu nimaga moslashuv?",
+          [
+            "O'simlik tolasini (sellyulozani) sekin parchalashga",
+            "Go'shtni tez hazm qilish uchun kanalni qisqartirishga",
+            "Ovqatni chaynamasdan yutishga mo'ljallashga",
+            "Suvni qaytarishni to'xtatish uchun ichakni uzaytirishga"
+          ],
+          0,
+          "Ko'p bo'limli oshqozon va undagi mikroorganizmlar qattiq tolani parchalashga xizmat qiladi."
         ]
       ],
       "slideQuiz": [
@@ -315,9 +381,9 @@
           "Bo'limni vazifasi bilan moslashting: oshqozon",
           [
             "Oqsilni parchalash va chimildiq hosil qilish",
-            "Suvni qaytarish",
-            "Kraxmalni to'liq parchalash",
-            "O't ishlab chiqarish"
+            "Suv va mineral moddalarni qaytarish",
+            "Kraxmalni to'liq uglevodgacha parchalash",
+            "O't ishlab, yog'ni emulsiya qilish"
           ],
           0,
           "Oshqozonda oqsil parchalanadi va mexanik ezish bo'ladi."

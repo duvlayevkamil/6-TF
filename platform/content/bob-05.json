@@ -68,9 +68,9 @@
           "Qozon nega metaldan, tutqichi esa plastmassadan yasaldi?",
           [
             "Metall issiqlikni yaxshi, plastmassa yomon o'tkazadi",
-            "Plastmassa arzon",
-            "Metall yengil",
-            "Tutqich chiroyli bo'lishi kerak"
+            "Plastmassa metallarga qaraganda ancha arzon",
+            "Metall plastmassaga qaraganda yengilroq",
+            "Tutqichning chiroyli ko'rinishi ham hisobga olinadi"
           ],
           0,
           "Ikkala xossa bir buyumda kerak: o'tkazish + himoya."
@@ -96,6 +96,39 @@
           ],
           0,
           "Xossa — buyumning vazifasiga mosligini belgilaydi (praktik ish «To'g'ri tanlov» shu asosda)."
+        ],
+        [
+          "Havo ham modda ekanini tajribada qanday tekshirish mumkin?",
+          [
+            "Zaxirni bo'sh va havo to'la holatda tortib, farqni solishtirish",
+            "Zaxirning rangini yorug'lik ostida tekshirib ko'rish",
+            "Zaxirni suvga solib, cho'kishi kuzatiladi",
+            "Zaxirni qizdirib, og'irligi o'zgarmasligini yozish"
+          ],
+          0,
+          "Havo to'la zaxir og'irroq — demak havoning ham massasi bor."
+        ],
+        [
+          "Zichlik qanday topiladi va o'lchov birligi nima?",
+          [
+            "Massani hajmga bo'lish: ρ = m ÷ V, kg/m³",
+            "Hajmni massaga ko'paytirish: V × m, m³/kg",
+            "Massaga hajmni qo'shish: m + V, kg·m³",
+            "Hajmdan massani ayirish: V − m, m³"
+          ],
+          0,
+          "Zichlik — birlik hajmdagi massa; suv uchun bu 1000 kg/m³."
+        ],
+        [
+          "Nega metall qoshiqning tutqichi qiziydi, plastik tutqich esa qizimaydi?",
+          [
+            "Metall issiqlikni tez, plastik esa sekin o'tkazadi",
+            "Plastik qoshiq issiqlikni butunlay yutib oladi",
+            "Metall plastikka qaraganda ancha yengil",
+            "Plastik tutqich havo oqimini ichiga tortadi"
+          ],
+          0,
+          "Issiqlik o'tkazuvchanlik xossasi — bir xil haroratda materiallarni farqlantiradi."
         ]
       ],
       "slideQuiz": [
@@ -114,9 +147,9 @@
           "Deraza ramasida plastmassa (yoki yog'och) nima uchun yaxshi?",
           [
             "Issiqlikni yomon o'tkazadi — issiqlik saqlanadi",
-            "Metallga qaraganda o'tkazgich",
-            "Ko'proq og'ir",
-            "Suvni yaxshi o'tkazadi"
+            "Metallga qaraganda issiqlikni tez o'tkazadi",
+            "Suvni o'tkazib yuboradigan g'ovak material",
+            "Blokning og'irligini sezilarli oshiradi"
           ],
           0,
           "Bu yerda kerakli xossa — past issiqlik o'tkazuvchanlik."
@@ -248,12 +281,12 @@
           "Nega daryoda suv 100°C da qaynamaydi?",
           [
             "Tashqi bosim past (tog'da) yoki bug' tarqaladi",
-            "Suv toza",
-            "Quyosh yetarli emas",
-            "Suvning zichligi ortadi"
+            "Daryo suvi juda toza bo'lgani uchun qaynamaydi",
+            "Quyosh nuri suvni yetarli qizdira olmaydi",
+            "Suvning zichligi oshib, qaynash to'xtaydi"
           ],
           0,
-          "Qaynash harorati bosimga bog'liq; ochiq havoda bug' tarqaladi va harorat ~100°C da qoladi."
+          "Qaynash harorati bosimga bog'liq; ochiq havoda bug' tarqalib, harorat ~100°C da qoladi."
         ],
         [
           "Suyuqlik qaynayotganda harorat qanday o'zgaradi?",
@@ -267,15 +300,15 @@
           "Egr chiziqda tekis qism — energiya bog'lanish uzishga sarflanadi."
         ],
         [
-          "Nega shimmoqni shamolli havoda keyin quriganda sovuq his qilasiz?",
+          "Nega ho'l kiyimni shamolli havoda kiyganda sovuq his qilasiz?",
           [
-            "Tezroq bug'lanish terini sovitadi",
-            "Shamol issiqlik qo'shadi",
-            "Suv isiydi",
-            "Matoning zichligi ortadi"
+            "Tezroq bug'lanish teridan issiqlikni oladi",
+            "Shamol teriga issiqlik qo'shib yuboradi",
+            "Suv matoda qizib, sovuq tuyulishini beradi",
+            "Matoning zichligi oshib, shamol o'tmaydi"
           ],
           0,
-          "Tez bug'lanish → energiyani teridan oladi → sovitadi."
+          "Tez bug'lanish energiyani teridan oladi — shuning uchun sovitadi."
         ],
         [
           "Qopqog'i bosim oshiruvchi idishda taom tez pishadi, chunki...",
@@ -287,19 +320,52 @@
           ],
           0,
           "Bosim ↑ → qaynash harorati ↑ → pishish tezlashadi."
+        ],
+        [
+          "Qaynash bug'lanishdan nimasi bilan farq qiladi?",
+          [
+            "Butun hajmda va ma'lum haroratda sodir bo'ladi",
+            "Faqat sirtda va istalgan haroratda sodir bo'ladi",
+            "Faqat sovuq suyuqliklarda yuz beradigan jarayon",
+            "Issiqlik yutilmasdan o'tadigan tez jarayon"
+          ],
+          0,
+          "Bug'lanish — sirtida va har qanday haroratda; qaynash — butun hajmda, qaynash haroratida."
+        ],
+        [
+          "Shakar mayda qandga qaraganda tezroq erishi nimaga bog'liq?",
+          [
+            "Mayda donalarda suv bilan kontakt yuzasi katta",
+            "Qand donalarining zichligi kattaligida",
+            "Shakar suv bilan kimyoviy reaksiyaga kirishadi",
+            "Mayda donalar suvni o'zi qizdirib yuboradi"
+          ],
+          0,
+          "Yuzani oshirish — erish tezligiga ta'sir etuvchi uch omildan biri."
+        ],
+        [
+          "100 g suvga 20 g tuz solinsa, eritmaning massa ulushi taxminan qancha bo'ladi?",
+          [
+            "≈17%",
+            "≈20%",
+            "≈25%",
+            "≈12%"
+          ],
+          0,
+          "Eritma massasi 120 g: 20 ÷ 120 × 100% ≈ 17%."
         ]
       ],
       "slideQuiz": [
         [
-          "Egri chiziqning «tekis» qismi nimani bildiradi?",
+          "Qizdirish egri chizig'ining «tekis» qismi nimani bildiradi?",
           [
             "Holat o'zgarishi ketmoqda, harorat o'zgarmayapti",
-            "Isitgich o'chgan",
-            "Harorat pasaymoqda",
-            "Modda bug'langan"
+            "Isitgich o'chirilgan, suyuqlik sovimoqda",
+            "Harorat pasayib, modda qotmoqda",
+            "Modda butunlay bug'lanib tugamoqda"
           ],
           0,
-          "Holat o'zgarishida energiya bog'lanishlarni uzishga sarflanadi."
+          "Tekis qism — energiya holat o'zgarishiga sarflanayotgani belgisi."
         ],
         [
           "Muz eritayotganda harorat qanday?",

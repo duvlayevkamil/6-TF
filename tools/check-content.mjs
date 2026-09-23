@@ -72,6 +72,12 @@ function testSatrlari(arr, file, kod, nom, minimal = 2) {
     if (typeof idx !== "number" || idx < 0 || idx > 3) push(file, kod, `${tag}: to'g'ri indeks 0..3 bo'lishi kerak`);
     else if (idx !== 0) push(file, kod, `${tag}: an'ana — to'g'ri javob variantlar ro'yxatida BIRINCHI turishi kerak (build o'zi aralashtiradi)`);
     if (typeof why !== "string" || why.trim().length < 8) push(file, kod, `${tag}: izoh yo'q yoki qisqa`);
+    if (Array.isArray(opts) && typeof idx === "number" && opts.length === 4) {
+      const u = opts.map((x) => String(x).length);
+      const togri = u[idx], boshqa = Math.max(...u.filter((_, k) => k !== idx));
+      if (togri / Math.max(1, boshqa) > 1.6)
+        ogohlantirish.push(`${file} [${kod}] ${tag}: to'g'ri javob boshqalardan ${((togri / Math.max(1, boshqa)) * 100 - 100).toFixed(0)}% uzun — «eng uzun javob to'g'ri» belgisi paydo bo'ladi`);
+    }
   });
 }
 
@@ -158,7 +164,8 @@ for (const [k, v] of Object.entries(labs)) console.log(`  ${k}: ${[...v].join(",
 
 if (ogohlantirish.length) {
   console.log(`\nOgohlantirish (${ogohlantirish.length}):`);
-  for (const w of ogohlantirish.slice(0, 20)) console.log("  ! " + w);
+  for (const w of ogohlantirish) console.log("  ! " + w);
+console.log(`\n(${ogohlantirish.length} ta ogohlantirish)`);
 }
 
 if (xatolar.length) {

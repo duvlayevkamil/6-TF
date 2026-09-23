@@ -16,28 +16,179 @@
         "Katta o'lchamli hayvonlarda nafas chastotasi kamroq"
       ],
       "vocab": [
-        { "w": "Alveola", "m": "o'pkadagi gaz almashinuvi bo'ladigan havo pufakchasi" },
-        { "w": "Diyafragma", "m": "ko'pir kafasi bilan qorin bo'shlig'ini ajratuvchi mushak" },
-        { "w": "Diffuziya", "m": "moddaning ko'p konsentratsiyali joydan kam joyga tarqalishi" },
-        { "w": "Bronx", "m": "traxeyadan o'pkaga havo olib boruvchi yo'l" },
-        { "w": "Jabra", "m": "suvda erigan kislorodni olish organi" },
-        { "w": "Nafas chastotasi", "m": "bir daqiqadagi nafas olish soni" }
+        {
+          "w": "Alveola",
+          "m": "o'pkadagi gaz almashinuvi bo'ladigan havo pufakchasi"
+        },
+        {
+          "w": "Diyafragma",
+          "m": "ko'pir kafasi bilan qorin bo'shlig'ini ajratuvchi mushak"
+        },
+        {
+          "w": "Diffuziya",
+          "m": "moddaning ko'p konsentratsiyali joydan kam joyga tarqalishi"
+        },
+        {
+          "w": "Bronx",
+          "m": "traxeyadan o'pkaga havo olib boruvchi yo'l"
+        },
+        {
+          "w": "Jabra",
+          "m": "suvda erigan kislorodni olish organi"
+        },
+        {
+          "w": "Nafas chastotasi",
+          "m": "bir daqiqadagi nafas olish soni"
+        }
       ],
       "quiz": [
-        ["Nafas olishda diyafragma qanday harakatlanadi?", ["Qisqarib pastga tushadi", "Bo'shashib yuqoriga ko'tariladi", "Harakatlanmaydi", "Chetga siljiydi"], 0, "Pastga tushganda ko'pir kafasi kengayadi va havo kiradi."],
-        ["O'pka pufakchalarida gaz almashinuvi qanday yo'l bilan bo'ladi?", ["Diffuziya orqali", "Faol tashish orqali", "Mushak qisqarishi orqali", "Osmos yordamida"], 0, "Kislorod va uglerod (IV) oksidi konsentratsiya farqi hisobiga o'tadi."],
-        ["Traxeyaning qavariq halqalarining vazifasi nima?", ["Nafas yo'lini ochiq saqlash", "Havoni isitish", "Qon aylanishini tezlashtirish", "Ovoz chiqarish"], 0, "Halqalar yumshoq devor yopilib qolishiga yo'l qo'ymaydi."],
-        ["Baliqlar kislorodni qayerdan oladi?", ["Suvda erigan kislorodni jabra orqali", "Havodan teri orqali", "O'pka orqali", "Og'iz bo'shlig'idan"], 0, "Jabrada suv oqimi bilan qon oqimi qarama-qarshi harakatlanadi — almashinuv samarali."],
-        ["Bir daqiqada nafas soni eng ko'p bo'lgan hayvon qaysi?", ["Sichqon", "Fil", "Ot", "Timsoh"], 0, "Kichik tanali hayvonlarda moddalar almashinuvi tez — nafas chastotasi yuqori."]
+        [
+          "Nafas olishda diyafragma qanday harakatlanadi?",
+          [
+            "Qisqarib pastga tushadi",
+            "Bo'shashib yuqoriga ko'tariladi",
+            "Harakatlanmaydi",
+            "Chetga siljiydi"
+          ],
+          0,
+          "Pastga tushganda ko'pir kafasi kengayadi va havo kiradi."
+        ],
+        [
+          "O'pka pufakchalarida gaz almashinuvi qanday yo'l bilan bo'ladi?",
+          [
+            "Diffuziya orqali",
+            "Faol tashish orqali",
+            "Mushak qisqarishi orqali",
+            "Osmos yordamida"
+          ],
+          0,
+          "Kislorod va uglerod (IV) oksidi konsentratsiya farqi hisobiga o'tadi."
+        ],
+        [
+          "Traxeyaning qavariq halqalarining vazifasi nima?",
+          [
+            "Nafas yo'lini ochiq saqlash",
+            "Havoni isitish",
+            "Qon aylanishini tezlashtirish",
+            "Ovoz chiqarish"
+          ],
+          0,
+          "Halqalar yumshoq devor yopilib qolishiga yo'l qo'ymaydi."
+        ],
+        [
+          "Baliqlar kislorodni qayerdan va qanday oladi?",
+          [
+            "Suvda erigan kislorodni jabra orqali oladi",
+            "Havodagi kislorodni nam terisi orqali qabul qiladi",
+            "Kislorodni o'pka pufakchalari orqali oladi",
+            "Kislorodni og'iz bo'shlig'i orqali yutib oladi"
+          ],
+          0,
+          "Jabrada suv va qon qarama-qarshi harakatlanadi — shuning uchun almashinuv samarali."
+        ],
+        [
+          "Bir daqiqada nafas soni eng ko'p bo'lgan hayvon qaysi?",
+          [
+            "Sichqon",
+            "Fil",
+            "Ot",
+            "Timsoh"
+          ],
+          0,
+          "Kichik tanali hayvonlarda moddalar almashinuvi tez — nafas chastotasi yuqori."
+        ],
+        [
+          "Nafas olishda ko'krak qafasi kengayganda o'pka ichidagi bosim qanday o'zgaradi?",
+          [
+            "Kamayadi — shuning uchun havo ichkariga kiradi",
+            "Ortadi — shuning uchun havo ichkariga kiradi",
+            "O'zgarmaydi, faqat o'pkaning hajmi o'zgaradi",
+            "Kamayadi — havo tashqariga chiqib ketadi"
+          ],
+          0,
+          "Havo yuqori bosimdan past bosimga harakatlanadi: bosim kamaysa — olish, oshsa — chiqarish."
+        ],
+        [
+          "Traxeya va bronxlarning ichki yuzasidagi mayda junjaklar nima ish qiladi?",
+          [
+            "Chang-zarrani shilliq bilan birga yuqoriga siljitadi",
+            "Havoni isitib, kerakli namlikka keltiradi",
+            "Alveolalarda gaz almashinuvini tezlashtiradi",
+            "Bronx devorini kengaytirib, nafasni osonlashtiradi"
+          ],
+          0,
+          "Junjaklar «evlat» kabi ishlaydi: shilliq changni yopishtiradi, junjaklar uni yutqichga haydaydi."
+        ],
+        [
+          "Qushlarda o'pkadan tashqari havo xaltalari bor — ular nima beradi?",
+          [
+            "Uchishda gaz almashinuvini uzluksiz davom ettiradi",
+            "Sovuq havoni isitib, tana haroratini saqlaydi",
+            "Ovqatni mexanik maydalashga yordam beradi",
+            "Suvni tanada saqlab qolish imkonini beradi"
+          ],
+          0,
+          "Havo xaltalari o'pka bilan bir ishladi — qushda nafas bir tomonlama oqadi va kislorod uzilmaydi."
+        ]
       ],
       "slideQuiz": [
-        ["Qushlarda nafas samaradorligini oshiradigan qo'shimcha organ — nima?", ["Havo qopchalari", "Jabra", "Teri nafas", "Buron kavaki"], 0, "Havo qopchalari uchishda qo'shimcha kislorod zaxirasini beradi."],
-        ["Nafas chiqarishda o'pka ichidagi bosim qanday o'zgaradi?", ["Ortadi", "Kamayadi", "O'zgarmaydi", "Nolga tushadi"], 0, "Bosim ortganda havo tashqariga chiqadi."]
+        [
+          "Qushlarda nafas samaradorligini oshiradigan qo'shimcha organ — nima?",
+          [
+            "Havo qopchalari",
+            "Jabra",
+            "Teri nafas",
+            "Buron kavaki"
+          ],
+          0,
+          "Havo qopchalari uchishda qo'shimcha kislorod zaxirasini beradi."
+        ],
+        [
+          "Nafas chiqarishda o'pka ichidagi bosim qanday o'zgaradi?",
+          [
+            "Ortadi",
+            "Kamayadi",
+            "O'zgarmaydi",
+            "Nolga tushadi"
+          ],
+          0,
+          "Bosim ortganda havo tashqariga chiqadi."
+        ]
       ],
       "game": [
-        ["Bo'limni vazifasi bilan moslashting: burun bo'shlig'i", ["Havoni isitish, namlash, tozalash", "Gaz almashinuvi", "Ovoz chiqarish", "Havoni siqish"], 0, "Burun — nafas havosini tayyorlovchi «filtr»."],
-        ["Qaysi organ o'pka pufakchalari bilan qamrab olingan?", ["Qon kapillyarlari", "Limfa tomirlari", "Nerv tolalari", "Siydik yo'llari"], 0, "Kapillyar to'ri gaz almashinuvini ta'minlaydi."],
-        ["Suvda-yuruvchilarda (qurbaqa) qo'shimcha nafas organi — nima?", ["Teri", "Jabra", "Havo qopchasi", "O'pka pufakchasi yo'q"], 0, "Yupqa, nam teri orqali ham gaz almashinuvadi."]
+        [
+          "Bo'limni vazifasi bilan moslashting: burun bo'shlig'i",
+          [
+            "Havoni isitadi, namlantiradi va changdan tozalaydi",
+            "Gaz almashinuvi pufakchalarda bo'lib o'tadi",
+            "Ovoz chiqarish uchun tovush pardalari tortiladi",
+            "Havoni siqib, nafas chiqarishni tezlashtiradi"
+          ],
+          0,
+          "Burun — nafas havosini tayyorlovchi «filtr»."
+        ],
+        [
+          "Qaysi organ o'pka pufakchalari bilan qamrab olingan?",
+          [
+            "Qon kapillyarlari",
+            "Limfa tomirlari",
+            "Nerv tolalari",
+            "Siydik yo'llari"
+          ],
+          0,
+          "Kapillyar to'ri gaz almashinuvini ta'minlaydi."
+        ],
+        [
+          "Suvda-yuruvchilarda (qurbaqa) qo'shimcha nafas organi — nima?",
+          [
+            "Teri",
+            "Jabra",
+            "Havo qopchasi",
+            "O'pka pufakchasi yo'q"
+          ],
+          0,
+          "Yupqa, nam teri orqali ham gaz almashinuvadi."
+        ]
       ],
       "task": {
         "q": "Nafas sistemasi modelini tayyorlang (shisha, ikki shamol o'tkazgich (ventilyator), rezina plyonka) va diyafragma harakatini o'zgartirib nafas olish/chiqarishni kuzating. Natijani jadvalga yozing.",
@@ -50,8 +201,16 @@
           "Qo'yib yuboring — teskari holatni yozing",
           "Xulosa: hajm va bosim qanday bog'langan? Model nimani ko'rsata olmaydi?"
         ],
-        "jihoz": ["Shisha butilka (1 l)", "2 shamol o'tkazgich (ventilyator) (yoki pufak)", "Rezina plyonka / qo'lqop", "Naycha va lenta"],
-        "xavfsizlik": ["Shishaga bosim bilan ishlaganda ehtiyot bo'ling", "Modeldan keyin qo'l yuviladi"]
+        "jihoz": [
+          "Shisha butilka (1 l)",
+          "2 shamol o'tkazgich (ventilyator) (yoki pufak)",
+          "Rezina plyonka / qo'lqop",
+          "Naycha va lenta"
+        ],
+        "xavfsizlik": [
+          "Shishaga bosim bilan ishlaganda ehtiyot bo'ling",
+          "Modeldan keyin qo'l yuviladi"
+        ]
       }
     },
     {
@@ -68,28 +227,179 @@
         "Jadval → o'rtacha qiymat → diagramma (ma'lumot ishlash tartibi)"
       ],
       "vocab": [
-        { "w": "Arteriya", "m": "yurakdan qonni olib chiquvchi qalin devorli tomir" },
-        { "w": "Vena", "m": "qonni yurakka qaytaruvchi, ichida qopqoqcha bor tomir" },
-        { "w": "Kapillyar", "m": "eng mayda tomir; gaz va modda almashinuvi shu yerda" },
-        { "w": "Puls", "m": "yurak qisqarishi natijasida arteriya devorining tebranishi" },
-        { "w": "Qon bosimi", "m": "qonning tomir devoriga tushiradigan bosimi" },
-        { "w": "Qovoqcha", "m": "qonni qorinchaga quyuvchi yurak bo'lagi" }
+        {
+          "w": "Arteriya",
+          "m": "yurakdan qonni olib chiquvchi qalin devorli tomir"
+        },
+        {
+          "w": "Vena",
+          "m": "qonni yurakka qaytaruvchi, ichida qopqoqcha bor tomir"
+        },
+        {
+          "w": "Kapillyar",
+          "m": "eng mayda tomir; gaz va modda almashinuvi shu yerda"
+        },
+        {
+          "w": "Puls",
+          "m": "yurak qisqarishi natijasida arteriya devorining tebranishi"
+        },
+        {
+          "w": "Qon bosimi",
+          "m": "qonning tomir devoriga tushiradigan bosimi"
+        },
+        {
+          "w": "Qovoqcha",
+          "m": "qonni qorinchaga quyuvchi yurak bo'lagi"
+        }
       ],
       "quiz": [
-        ["Qonni yurakdan olib chiqadigan tomirlar qanday ataladi?", ["Arteriyalar", "Venalar", "Kapillyarlar", "Limfomatik yo'llar"], 0, "Arteriya — yurakdan; vena — yurakka olib keladi."],
-        ["Gaz va modda almashinuvi qaysi tomirlarda bo'ladi?", ["Kapillyarlarda", "Aortada", "Yirik venalarda", "Qovoqchalarda"], 0, "Kapillyar devori bir qavatli — almashinuv shu yerda qulay."],
-        ["Chap qorincha qonni qayerga haydaydi?", ["Katta aylanishga (butun tanaga)", "Faqat o'pkaga", "Yurak mushagiga", "Buyrakka"], 0, "Chap qorincha — eng qalin devorli bo'lim, aorta orqali tanani ta'minlaydi."],
-        ["O'ng qovoqchaga qanday qon keladi?", ["Venoz (kislorodsiz)", "Arteriyal (kislorodga boy)", "Aralashgan", "Qon kelmaydi"], 0, "O'ng tomon venoz qonni o'pka aylanishiga yuboradi."],
-        ["Yugurgandan keyin puls chastotasi qanday o'zgaradi va nima uchun?", ["Ortadi — mushaklarga ko'proq kislorod kerak", "Kamayadi — yurak charchaydi", "O'zgarmaydi", "Avval ortadi, keyin to'xtaydi"], 0, "Zaryad ortganda energiya ehtiyoji oshadi — yurak tezroq ishlaydi."]
+        [
+          "Qonni yurakdan olib chiqadigan tomirlar qanday ataladi?",
+          [
+            "Arteriyalar",
+            "Venalar",
+            "Kapillyarlar",
+            "Limfomatik yo'llar"
+          ],
+          0,
+          "Arteriya — yurakdan; vena — yurakka olib keladi."
+        ],
+        [
+          "Gaz va modda almashinuvi qaysi tomirlarda bo'ladi?",
+          [
+            "Kapillyarlarda",
+            "Aortada",
+            "Yirik venalarda",
+            "Qovoqchalarda"
+          ],
+          0,
+          "Kapillyar devori bir qavatli — almashinuv shu yerda qulay."
+        ],
+        [
+          "Chap qorincha qonni qayerga haydaydi?",
+          [
+            "Katta aylanishga — butun tana bo'ylab",
+            "Faqat o'pka aylanishiga, ya'ni o'pkaga",
+            "Yurakning o'z mushaklariga (toj tomirlarga)",
+            "Buyrak aylanishiga — filtrlash uchun alohida"
+          ],
+          0,
+          "Chap qorincha — eng qalin devorli bo'lim, aorta orqali butun tanani qon bilan ta'minlaydi."
+        ],
+        [
+          "O'ng qovoqchaga qanday qon keladi?",
+          [
+            "Venoz (kislorodsiz)",
+            "Arteriyal (kislorodga boy)",
+            "Aralashgan",
+            "Qon kelmaydi"
+          ],
+          0,
+          "O'ng tomon venoz qonni o'pka aylanishiga yuboradi."
+        ],
+        [
+          "Yugurgandan keyin puls chastotasi qanday o'zgaradi va nima uchun?",
+          [
+            "Ortadi — mushaklarga kislorod va energiya kerak",
+            "Kamayadi — yurak zaryaddan keyin sekinlashadi",
+            "O'zgarmaydi — chastotani miya nazorat qiladi",
+            "Avval ortadi, keyin butunlay to'xtab qoladi"
+          ],
+          0,
+          "Zaryad ortganda energiya ehtiyoji oshadi — yurak tezroq ishlaydi."
+        ],
+        [
+          "Nega arteriya devori vena devoridan qalinroq bo'ladi?",
+          [
+            "Yurakdan chiqayotgan qon bosimi yuqori bo'ladi",
+            "Arteriyalar qonni tozalab, venalar uni ifloslaydi",
+            "Venalar qonni tezroq haydagani uchun devori yupqa",
+            "Arteriyalarda qon harakati ba'zan to'xtab turadi"
+          ],
+          0,
+          "Yuqori bosimga bardosh berish uchun arteriya devorida mushak va elastik tolalar ko'p."
+        ],
+        [
+          "Kapillyarlarning tuzilishi almashinuvga qanday moslashgan?",
+          [
+            "Devori juda yupqa, qon sekin harakatlanadi",
+            "Devori qalin va yuqori bosimga bardosh beradi",
+            "Ichida qonni bir tomonlama haydovchi klapanlar bor",
+            "Devorida puls to'lqinini hosil qiluvchi mushaklar bor"
+          ],
+          0,
+          "Yupqa devor va sekin oqim — moddalar almashinuvi uchun eng qulay sharoit."
+        ],
+        [
+          "Yurakning qaysi bo'limi venoz qonni o'pka aylanishiga haydaydi?",
+          [
+            "O'ng qorincha",
+            "Chap qorincha",
+            "Chap qovoqcha",
+            "O'ng qovoqcha"
+          ],
+          0,
+          "O'ng tomon — kislorodsiz qonni o'pkaga yuboradi; chap tomon esa boyitilgan qonni tanaga beradi."
+        ]
       ],
       "slideQuiz": [
-        ["Vena ichidagi qopqoqchalarning vazifasi nima?", ["Qonning orqaga qaytishining oldini oladi", "Qonni tozalaydi", "Bosimni oshiradi", "Kislorod qo'shadi"], 0, "Qopqoqchalar venoz qonni yurak tomon harakatlantirishga yordam beradi."],
-        ["To'rt bo'lmali yurak nima afzallik beradi?", ["Arteriya va venoz qon aralashmaydi", "Yurak kichik bo'ladi", "Qon sekinroq harakatlanadi", "Puls kamayadi"], 0, "Ikki qismning ajralishi issiqqonlilik va faol hayot tarzi uchun muhim."]
+        [
+          "Vena ichidagi qopqoqchalarning vazifasi nima?",
+          [
+            "Qonning orqaga qaytishining oldini oladi",
+            "Qonni plazmaga ajratib, tozalab turadi",
+            "Ichki bosimni oshirib, qonni tezlashtiradi",
+            "Devor orqali kislorod qo'shib turadigan bo'ladi"
+          ],
+          0,
+          "Qopqoqchalar venoz qonning yurak tomon harakatiga yordam beradi."
+        ],
+        [
+          "To'rt bo'lmali yurak nima afzallik beradi?",
+          [
+            "Arteriya va venoz qon aralashmaydi",
+            "Yurak kichik bo'ladi",
+            "Qon sekinroq harakatlanadi",
+            "Puls kamayadi"
+          ],
+          0,
+          "Ikki qismning ajralishi issiqqonlilik va faol hayot tarzi uchun muhim."
+        ]
       ],
       "game": [
-        ["Hayvonni yurak bo'lmalar soni bilan moslashting: baliq", ["2 bo'lmali", "3 bo'lmali", "4 bo'lmali", "Yurak yo'q"], 0, "Baliq yuragi — bitta qovoqcha va bitta qorincha."],
-        ["Umurtqali hayvonlar ichida yuragi uch bo'lmali bo'lgani kim?", ["Dovdayuq", "Baliq", "It", "Timsoh"], 0, "Dovdayuqda ikki qovoqcha va bitta qorincha — qon qisman aralashadi."],
-        ["Bir daqiqada eng ko'p qisqaradigan yurak kimga xos?", ["Sichqonga", "Itga", "Otga", "Timsohga"], 0, "Kichik hayvonlarda moddalar almashinuvi tez — yurak ham tez ishlaydi."]
+        [
+          "Hayvonni yurak bo'lmalar soni bilan moslashting: baliq",
+          [
+            "2 bo'lmali",
+            "3 bo'lmali",
+            "4 bo'lmali",
+            "Yurak yo'q"
+          ],
+          0,
+          "Baliq yuragi — bitta qovoqcha va bitta qorincha."
+        ],
+        [
+          "Umurtqali hayvonlar ichida yuragi uch bo'lmali bo'lgani kim?",
+          [
+            "Dovdayuq",
+            "Baliq",
+            "It",
+            "Timsoh"
+          ],
+          0,
+          "Dovdayuqda ikki qovoqcha va bitta qorincha — qon qisman aralashadi."
+        ],
+        [
+          "Bir daqiqada eng ko'p qisqaradigan yurak kimga xos?",
+          [
+            "Sichqonga",
+            "Itga",
+            "Otga",
+            "Timsohga"
+          ],
+          0,
+          "Kichik hayvonlarda moddalar almashinuvi tez — yurak ham tez ishlaydi."
+        ]
       ],
       "task": {
         "q": "Jismoniy mashqlar yurak qisqarishlari chastotasiga qanday ta'sir etadi? Uch holatda (tinch, 20 sekonda 20 marta o'tirib-turish, 1 daqiqa yugurish) pulsni o'lchang, jadval tuzing va xulosa qiling.",
@@ -102,8 +412,16 @@
           "Uch natijani jadvalga yozing; imkon bo'lsa 2 marta takrorlang va o'rtacha qiymatni hisoblang",
           "Ustunli diagramma chizing va xulosa: bog'lanish qanday?"
         ],
-        "jihoz": ["Sekundomer (telefon soati)", "Daftar jadval uchun", "Tinch xona"],
-        "xavfsizlik": ["Yurak kasalligi bo'lsa, yuklama qilmang — ustoz bilan suhbat qiling", "O'zingizni yomon his qilsangiz mashg'ulotni to'xtating", "Pulsni bo'yin tomirida emas, bilakda oling va bosib turmang"]
+        "jihoz": [
+          "Sekundomer (telefon soati)",
+          "Daftar jadval uchun",
+          "Tinch xona"
+        ],
+        "xavfsizlik": [
+          "Yurak kasalligi bo'lsa, yuklama qilmang — ustoz bilan suhbat qiling",
+          "O'zingizni yomon his qilsangiz mashg'ulotni to'xtating",
+          "Pulsni bo'yin tomirida emas, bilakda oling va bosib turmang"
+        ]
       }
     }
   ]

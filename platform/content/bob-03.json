@@ -16,28 +16,179 @@
         "Mikrob uchun qulay: namlik + iliq harorat + oziqa"
       ],
       "vocab": [
-        { "w": "Infeksiya", "m": "mikrobning organizmga kirib ko'payishi" },
-        { "w": "Qo'zg'atuvchi", "m": "kasallik keltirib chiqaradigan organizm" },
-        { "w": "Saug'uvchi", "m": "mikrobni o'zida saqlaydigan, ammo kasal bo'lmagan organizm" },
-        { "w": "Epidemiya", "m": "kasallikning keng tarqalishi" },
-        { "w": "Karantin", "m": "aloqani cheklash orqali tarqalishni to'xtatish" },
-        { "w": "Gigiyena", "m": "salomatlikni saqlash qoidalari" }
+        {
+          "w": "Infeksiya",
+          "m": "mikrobning organizmga kirib ko'payishi"
+        },
+        {
+          "w": "Qo'zg'atuvchi",
+          "m": "kasallik keltirib chiqaradigan organizm"
+        },
+        {
+          "w": "Saug'uvchi",
+          "m": "mikrobni o'zida saqlaydigan, ammo kasal bo'lmagan organizm"
+        },
+        {
+          "w": "Epidemiya",
+          "m": "kasallikning keng tarqalishi"
+        },
+        {
+          "w": "Karantin",
+          "m": "aloqani cheklash orqali tarqalishni to'xtatish"
+        },
+        {
+          "w": "Gigiyena",
+          "m": "salomatlikni saqlash qoidalari"
+        }
       ],
       "quiz": [
-        ["Viruslarning bakteriyadan asosiy farqi nimada?", ["Faqat tirik hujayra ichida ko'payadi", "Ancha katta bo'ladi", "Hujayra devoriga ega", "Antibiotikdan o'ladi"], 0, "Virus — hujayrasiz tuzilish; mustaqil ko'pala olmaydi."],
-        ["Yuqumli kasallik tarqalishining birinchi bo'g'ini qaysi?", ["Manba", "Kirish eshigi", "Immun javobi", "Davolash"], 0, "Manba → uzatish yo'li → kirish eshigi tartibida ko'rib chiqiladi."],
-        ["Sovuq urishida kasallik asosan qanday yo'l bilan yuqadi?", ["Havo-tomchi", "Qon orqali", "Teri orqali", "O'simlik orqali"], 0, "Asirish va yo'tal paytida tomchilar havoga tarqaladi."],
-        ["Qaysi chora kasallikning yuqishini to'xtatishga yordam bermaydi?", ["Mikrobni o'ldiruvchi vitamin ichish", "Qo'lni yuvish", "Ovqatni to'g'ri saqlash", "Xonani shamollatish"], 0, "Gigiyena choralari uzatish yo'lini uzadi; «mirakul vitamin» esa ishonchsiz ma'lumot."],
-        ["Mikroblar eng tez qanday sharoitda ko'payadi?", ["Iliq va nam joyda", "Quruq va sovuq joyda", "Yorug' joyda", "Muzlagan holda"], 0, "Namlik, iliq harorat va oziqa — ko'payish uchun uch sharoit."]
+        [
+          "Viruslarning bakteriyadan asosiy farqi nimada?",
+          [
+            "Faqat tirik hujayra ichida ko'payadi",
+            "Hujayra devori bor, shuning uchun mustaqil yashaydi",
+            "Antibiotiklar ta'sirida to'liq yo'q bo'ladi",
+            "Nam muhitda o'zi bo'linib ko'pala oladi"
+          ],
+          0,
+          "Virus — hujayrasiz tuzilish; u mustaqil ko'pala olmaydi, faqat hujayra ichida."
+        ],
+        [
+          "Yuqumli kasallik tarqalishining birinchi bo'g'ini qaysi?",
+          [
+            "Manba",
+            "Kirish eshigi",
+            "Immun javobi",
+            "Davolash"
+          ],
+          0,
+          "Manba → uzatish yo'li → kirish eshigi tartibida ko'rib chiqiladi."
+        ],
+        [
+          "Sovuq urishida kasallik asosan qanday yo'l bilan yuqadi?",
+          [
+            "Havo-tomchi",
+            "Qon orqali",
+            "Teri orqali",
+            "O'simlik orqali"
+          ],
+          0,
+          "Asirish va yo'tal paytida tomchilar havoga tarqaladi."
+        ],
+        [
+          "Qaysi chora kasallikning yuqishini to'xtatishga yordam bermaydi?",
+          [
+            "Mikrobni o'ldiruvchi vitamin ichish",
+            "Qo'lni sovunlab, tez-tez yuvish",
+            "Ovqatni to'g'ri saqlash va pishirish",
+            "Xonani muntazam shamollatib turish"
+          ],
+          0,
+          "Gigiyena choralari uzatish yo'lini uzadi; «mo'jizaviy vitamin» haqidagi da'vo esa ishonchsiz ma'lumot."
+        ],
+        [
+          "Mikroblar eng tez qanday sharoitda ko'payadi?",
+          [
+            "Iliq va nam joyda",
+            "Quruq va sovuq joyda",
+            "Yorug' joyda",
+            "Muzlagan holda"
+          ],
+          0,
+          "Namlik, iliq harorat va oziqa — ko'payish uchun uch sharoit."
+        ],
+        [
+          "Bakteriyalar asosan qanday ko'payadi?",
+          [
+            "Qulay sharoitda ikkiga bo'linish orqali",
+            "Tashqi muhitda spora hosil qilib tarqaladi",
+            "Barg chiqarib (bugunlab) ko'payadi",
+            "Faqat boshqa tirik hujayra ichida"
+          ],
+          0,
+          "Bo'linish — ko'payish; spora esa yashab qolish uchun hosil bo'ladi, ko'payish emas."
+        ],
+        [
+          "«Kirish eshigi» deganda nima tushuniladi?",
+          [
+            "Mikrob organizmga kiradigan organ yoki to'qima",
+            "Kasallikni birinchi yuqtirgan bemor",
+            "Mikrob tashqi muhitda saqlanadigan joy",
+            "Zanjirni uzadigan davolovchi chora"
+          ],
+          0,
+          "Kirish eshigi — teri, nafas yo'llari, ovqat hazm kanali, ko'z shilliq qavati."
+        ],
+        [
+          "Nega qo'l yuvish eng samarali choralardan hisoblanadi?",
+          [
+            "Ko'p kasallik qo'l va buyum orqali yuqadi",
+            "Qo'l yuvish mikroblarni butunlay yo'q qiladi",
+            "Gigiyena organizmga qarshilikni oshiradi",
+            "Qo'l yuvish kasallik manbaini yo'q qiladi"
+          ],
+          0,
+          "Aloqa yo'lini uzadi — manba yoki immunlikka ta'sir qilmaydi, shuning uchun oddiy lekin samarali."
+        ]
       ],
       "slideQuiz": [
-        ["Karantin qaysi bo'g'inni uzadi?", ["Uzatish yo'lini (aloqani)", "Manbani", "Kirish eshigini", "Immun tizimini"], 0, "Aloqa cheklansa, mikrob yangi organizmga o'ta olmaydi."],
-        ["Antibiotiklar qaysi qo'zg'atuvchiga ta'sir qiladi?", ["Bakteriyalarga", "Viruslarga", "Ikkalasiga ham", "Hech qaysisiga"], 0, "Antibiotik — bakteriyalarga; virusli kasallikda foydasiz."]
+        [
+          "Karantin qaysi bo'g'inni uzadi?",
+          [
+            "Uzatish yo'lini — aloqani uzadi",
+            "Manbani aniqlab, uni yo'q qiladi",
+            "Kirish eshigini mustahkamlab beradi",
+            "Immun tizimini qayta tiklaydi"
+          ],
+          0,
+          "Aloqa cheklansa, mikrob yangi organizmga o'ta olmaydi."
+        ],
+        [
+          "Antibiotiklar qaysi qo'zg'atuvchiga ta'sir qiladi?",
+          [
+            "Bakteriyalarga",
+            "Viruslarga",
+            "Ikkalasiga ham",
+            "Hech qaysisiga"
+          ],
+          0,
+          "Antibiotik — bakteriyalarga; virusli kasallikda foydasiz."
+        ]
       ],
       "game": [
-        ["Kasallikni qo'zg'atuvchi turi bilan moslashting: gripp", ["Virus", "Bakteriya", "Zamburug'", "Parazit qurt"], 0, "Gripp — virusli kasallik, havo-tomchi yo'li bilan yuqadi."],
-        ["Qaysi kasallik ovqat va suv orqali ko'proq yuqadi?", ["Ich yo'li infeksiyalari", "Gripp", "Zamburug' kasalligi", "Allergiya"], 0, "Noto'g'ri yuvilgan sabzavot va ochiq suv — asosiy yo'l."],
-        ["Yuqumsiz kasallikka misol — nima?", ["Anemiya (temir yetishmovchiligi)", "Vetlyanka", "O'pka yallig'lanishi", "Kraxmal kasalligi"], 0, "Ovqatlanish va moddalar almashinuvi buzilishi yuqumli emas."]
+        [
+          "Kasallikni qo'zg'atuvchi turi bilan moslashting: gripp",
+          [
+            "Virus",
+            "Bakteriya",
+            "Zamburug'",
+            "Parazit qurt"
+          ],
+          0,
+          "Gripp — virusli kasallik, havo-tomchi yo'li bilan yuqadi."
+        ],
+        [
+          "Qaysi kasallik ovqat va suv orqali ko'proq yuqadi?",
+          [
+            "Ich yo'li infeksiyalari",
+            "Gripp",
+            "Zamburug' kasalligi",
+            "Allergiya"
+          ],
+          0,
+          "Noto'g'ri yuvilgan sabzavot va ochiq suv — asosiy yo'l."
+        ],
+        [
+          "Yuqumsiz kasallikka misol — qaysi biri?",
+          [
+            "Anemiya — temir yetishmovchiligidan kelib chiqadi",
+            "Gripp — havo-tomchi yo'li bilan yuqadi",
+            "Qizamiq — juda yuqumli virusli kasallik",
+            "Ich yo'li infeksiyasi — iflos suvdan bo'ladi"
+          ],
+          0,
+          "Ovqatlanish va moddalar almashinuvi buzilishi yuqumli emas."
+        ]
       ],
       "task": {
         "q": "«Kasalliklarning kelib chiqish sababi nimada?» — 10 ta kasallik ro'yxatini ikki ustunga ajrating (yuqumli / yuqumsiz) va har biri uchun sababni bir jumlada asoslang.",
@@ -50,8 +201,15 @@
           "Mezonni yozing: nima uchun «yuqumli» deb qaradingiz?",
           "Xulosa: sinfdagi eng ko'p tarqalish yo'lini aniqlang"
         ],
-        "jihoz": ["Darslik, 32–46-bet (kasallik turlari)", "Jadval uchun daftar", "Ishonchli manba (o'quv qo'llanma, sayt ro'yxati)"],
-        "xavfsizlik": ["Internetdagi har bir ma'lumotni ishonchli deb hisoblamang — manbani ko'rsating", "O'zingizda kasallik belgisi bo'lsa shifokorga murojaat qiling"]
+        "jihoz": [
+          "Darslik, 32–46-bet (kasallik turlari)",
+          "Jadval uchun daftar",
+          "Ishonchli manba (o'quv qo'llanma, sayt ro'yxati)"
+        ],
+        "xavfsizlik": [
+          "Internetdagi har bir ma'lumotni ishonchli deb hisoblamang — manbani ko'rsating",
+          "O'zingizda kasallik belgisi bo'lsa shifokorga murojaat qiling"
+        ]
       }
     },
     {
@@ -68,28 +226,179 @@
         "Hasharotlar: suv to'planadigan joylarni yo'q qilish"
       ],
       "vocab": [
-        { "w": "Profilaktika", "m": "kasallikning oldini olish tadbirlari" },
-        { "w": "Vaktsina", "m": "organizmni mikroblarga qarshilikka tayyorlovchi preparat" },
-        { "w": "Antiseptik", "m": "mikroblarni o'ldiruvchi yoki ko'payishini to'xtatuvchi modda" },
-        { "w": "Dezinfeksiya", "m": "buyum va xonalardagi mikroblarni yo'q qilish" },
-        { "w": "Repellant", "m": "hasharotlarni qaytaruvchi vosita" },
-        { "w": "Dispersiya", "m": "tomchilarning havoga tarqalishi" }
+        {
+          "w": "Profilaktika",
+          "m": "kasallikning oldini olish tadbirlari"
+        },
+        {
+          "w": "Vaktsina",
+          "m": "organizmni mikroblarga qarshilikka tayyorlovchi preparat"
+        },
+        {
+          "w": "Antiseptik",
+          "m": "mikroblarni o'ldiruvchi yoki ko'payishini to'xtatuvchi modda"
+        },
+        {
+          "w": "Dezinfeksiya",
+          "m": "buyum va xonalardagi mikroblarni yo'q qilish"
+        },
+        {
+          "w": "Repellant",
+          "m": "hasharotlarni qaytaruvchi vosita"
+        },
+        {
+          "w": "Dispersiya",
+          "m": "tomchilarning havoga tarqalishi"
+        }
       ],
       "quiz": [
-        ["Qaysi chora «uzatish yo'lini uzish»ga kiradi?", ["Qo'l yuvish", "Vaktsina qilish", "Kasalni davolash", "Ko'z tomchisi"], 0, "Gigiyena mikrobning bir joydan ikkinchisiga o'tishini to'xtatadi."],
-        ["Emlash qaysi yo'nalishda ishlaydi?", ["Organizmning qarshiligini oshiradi", "Manbani yo'q qiladi", "Kirish eshigini yopadi", "Tomchilarni ushlaydi"], 0, "Vaktsina — qo'shimcha chidamlilik chorasi."],
-        ["Pufakchi tajribasi nimani isbotlaydi?", ["Asirilganda tomchilar ancha uzoqqa tarqaladi", "Havo harorati oshadi", "Mikroblar o'ladi", "Ovoz kuchayadi"], 0, "Ko'rinadigan tomchilar — havo-tomchi yo'lining isboti."],
-        ["Nima uchun xonani shamollatish tavsiya etiladi?", ["Havadagi mikrob va namlik konsentratsiyasi kamayadi", "Xona sovib qoladi", "Ovoz tarqaladi", "Chiroq yonadi"], 0, "Toza havo — uzatish yo'lini zaiflashtiruvchi oddiy chora."],
-        ["Hasharotlar chaqishi orqali tarqaladigan kasalliklarga qarshi nima qilish kerak?", ["Uy atrofida suv to'planadigan idishlarni yo'q qilish", "Ko'proq ovqat yeysiz", "Xonani qorong'i qilish", "Derazani yopib qo'yish"], 0, "Suvda ko'payadigan hasharotlarning manbai yo'q qilinadi."]
+        [
+          "Qaysi chora «uzatish yo'lini uzish»ga kiradi?",
+          [
+            "Qo'l yuvish",
+            "Vaktsina qilish",
+            "Kasalni davolash",
+            "Ko'z tomchisi"
+          ],
+          0,
+          "Gigiyena mikrobning bir joydan ikkinchisiga o'tishini to'xtatadi."
+        ],
+        [
+          "Emlash qaysi yo'nalishda ishlaydi?",
+          [
+            "Organizmning kasallikka qarshiligini oshiradi",
+            "Kasallik manbaini topib, uni yo'q qiladi",
+            "Kirish eshigini — terini yopib qo'yadi",
+            "Havodagi tomchilarni filtrlab tozalaydi"
+          ],
+          0,
+          "Vaktsina — organizmga qarshilikni tayyorlovchi qo'shimcha chora."
+        ],
+        [
+          "Pufakchi tajribasi nimani isbotlaydi?",
+          [
+            "Asirilganda tomchilar ancha uzoqqa tarqaladi",
+            "Asirilganda xonaning havo harorati oshadi",
+            "Asirilganda mikroblar darhol nobud bo'ladi",
+            "Asirish faqat ovozning kuchayishini beradi"
+          ],
+          0,
+          "Ko'rinadigan tomchilar — havo-tomchi yo'lining bevosita isboti."
+        ],
+        [
+          "Nima uchun xonani shamollatish tavsiya etiladi?",
+          [
+            "Havadagi mikrob va nam zichligi kamayadi",
+            "Xona tezroq sovib, qurib qoladi",
+            "Xonadagi chang bosqincha ko'payib boradi",
+            "Ovoz ancha yaxshi tarqala boshlaydi"
+          ],
+          0,
+          "Toza havo — uzatish yo'lini zaiflashtiradigan eng oddiy chora."
+        ],
+        [
+          "Hasharotlar chaqishi orqali tarqaladigan kasalliklarga qarshi nima qilish kerak?",
+          [
+            "Suv to'planadigan idishlarni yo'q qilish",
+            "Kechqurun ko'proq ovqat iste'mol qilish",
+            "Xonani butunlay qorong'i holda qoldirish",
+            "Deraza va eshiklarni doim yopiq saqlash"
+          ],
+          0,
+          "Ko'p hasharot suvda ko'payadi — ularning manbai yo'q qilinishi zanjirni uzadi."
+        ],
+        [
+          "Vaktsina organizmga qanday «o'rgatadi»?",
+          [
+            "Zararsizlantirilgan agent orqali antitela hosil qiladi",
+            "Mikroblarni mexanik yuvib tashlaydi",
+            "Tana haroratini doimiy pasaytirib qo'yadi",
+            "Kasallik manbaini butunlay yo'q qiladi"
+          ],
+          0,
+          "Vaktsina kasallikni qo'zg'atmasdan, immun tizimiga «dushman»ni tanitadi."
+        ],
+        [
+          "Karantin qaysi holatda qo'llaniladi?",
+          [
+            "Kasal yoki sauguvchilarni ajratish zarur bo'lganda",
+            "Xonani shamollatish uchun har kuni",
+            "Ovqatni pishirishdan oldin yuvishda",
+            "Yangi mavzuni boshlashdan oldin sinfda"
+          ],
+          0,
+          "Karantin — manba va aloqa bo'g'inini uzish chorasi, shuning uchun ajratish qo'llaniladi."
+        ],
+        [
+          "Kasal bo'lganda o'z vaqtida shifokorga murojaat qilish nima uchun muhim?",
+          [
+            "Erta aniqlash manba bo'g'ini uzishga yordam beradi",
+            "Dorilarni uy sharoitida tezyurar tayyorlaydi",
+            "Shifokor xonani shamollatib berishi uchun",
+            "Davolanish sinfdagi darslarni to'xtatishi uchun"
+          ],
+          0,
+          "Erta tashxis kasalni davolaydi va yuqish ehtimolini kamaytiradi."
+        ]
       ],
       "slideQuiz": [
-        ["Kasalni erta aniqlash va ajratish qaysi bo'g'inga ta'sir qiladi?", ["Manbaga", "Kirish eshigiga", "Immun tizimiga", "Ovqatlanishga"], 0, "Manba nazorati — kasal organizmning aloqasini cheklash."],
-        ["Qaysi ma'lumot ishonchsiz?", ["«Bu tabletka barcha viruslarni 1 kunda yo'q qiladi»", "«Vaktsina kasallikning og'ir oqibatlari kamaytiradi»", "«Qo'l yuvish infeksiyani kamaytiradi»", "«Kasalni davolash shifokor nazoratida»"], 0, "«Mirakul» va'dalar, tekshirilmagan ma'lumot — ishonch alomati."]
+        [
+          "Kasalni erta aniqlash va ajratish qaysi bo'g'inga ta'sir qiladi?",
+          [
+            "Manbaga",
+            "Kirish eshigiga",
+            "Immun tizimiga",
+            "Ovqatlanishga"
+          ],
+          0,
+          "Manba nazorati — kasal organizmning aloqasini cheklash."
+        ],
+        [
+          "Qaysi ma'lumot ishonchsiz?",
+          [
+            "«Bu tabletka barcha viruslarni 1 kunda yo'q qiladi»",
+            "«Vaktsina kasallikning og'ir oqibatlari kamaytiradi»",
+            "«Qo'l yuvish infeksiyani kamaytiradi»",
+            "«Kasalni davolash shifokor nazoratida»"
+          ],
+          0,
+          "«Mirakul» va'dalar, tekshirilmagan ma'lumot — ishonch alomati."
+        ]
       ],
       "game": [
-        ["Chorani zanjir bo'g'ini bilan moslashting: niqob taqish", ["Uzatish yo'li", "Manba", "Kirish eshigi", "Qarshilik"], 0, "Niqob tomchilarning havo orqali o'tishini kamaytiradi."],
-        ["Ovqatni yaxshilab pishirish qaysi choraga kiradi?", ["Uzatish yo'lini uzish", "Emlash", "Davolash", "Karantin"], 0, "Issiqlik mikroblarni yo'q qiladi va ovqat orqali yuqishning oldini oladi."],
-        ["Chakana suv idishini to'kish — nimaga qarshi chora?", ["Hasharotlar orqali yuqishga", "Havo-tomchiga", "Teri orqali yuqishga", "Irsiy kasallikka"], 0, "Lichinka suvda rivojlanadi — manbai yo'q qilinadi."]
+        [
+          "Chorani zanjir bo'g'ini bilan moslashting: niqob taqish",
+          [
+            "Uzatish yo'li",
+            "Manba",
+            "Kirish eshigi",
+            "Qarshilik"
+          ],
+          0,
+          "Niqob tomchilarning havo orqali o'tishini kamaytiradi."
+        ],
+        [
+          "Ovqatni yaxshilab pishirish qaysi choraga kiradi?",
+          [
+            "Uzatish yo'lini uzish chorasi",
+            "Manbaga ta'sir qilish chorasi",
+            "Kirish eshigini mustahkamlash",
+            "Emlash orqali qarshilik berish"
+          ],
+          0,
+          "Issiqlik mikroblarni yo'q qiladi va ovqat orqali yuqishning oldini oladi."
+        ],
+        [
+          "Chakana suv idishini to'kish — nimaga qarshi chora?",
+          [
+            "Hasharotlar orqali yuqishga",
+            "Havo-tomchiga",
+            "Teri orqali yuqishga",
+            "Irsiy kasallikka"
+          ],
+          0,
+          "Lichinka suvda rivojlanadi — manbai yo'q qilinadi."
+        ]
       ],
       "task": {
         "q": "«Kasallik tarqalishining oldini qanday olish mumkin?» — maktab uchun 1 haftalik profilaktika reja tuzing: 4 ta chora, har biriga qaysi zanjir bo'g'ini uzilishini yozing.",
@@ -102,8 +411,15 @@
           "Kerakli resurs va jihozlarni yozing",
           "Baholash mezonini qo'shing: haftadan keyin nima o'zgardi?"
         ],
-        "jihoz": ["Jadval varaqasi", "Sinfdagi kun tartibi", "Poster yoki slayd uchun qog'oz"],
-        "xavfsizlik": ["Antiseptik va dezinfeksiya vositalarini ustoz nazoratisiz ishlatmang", "Dori vositalarini tavsiya qilmang — bu shifokor ishi"]
+        "jihoz": [
+          "Jadval varaqasi",
+          "Sinfdagi kun tartibi",
+          "Poster yoki slayd uchun qog'oz"
+        ],
+        "xavfsizlik": [
+          "Antiseptik va dezinfeksiya vositalarini ustoz nazoratisiz ishlatmang",
+          "Dori vositalarini tavsiya qilmang — bu shifokor ishi"
+        ]
       }
     },
     {
@@ -120,28 +436,179 @@
         "Immunlik: tabiiy va sun'iy (vaktsina)"
       ],
       "vocab": [
-        { "w": "Immunitet", "m": "organizmning kasalliklarga qarshi turish qobiliyati" },
-        { "w": "Antigen", "m": "organizmda antitel ishlab chiqarishga sabab bo'ladigan modda" },
-        { "w": "Antitel", "m": "antigenga birikib, zararsizlantiruvchi maxsus oqsil" },
-        { "w": "Fagotsit", "m": "mikroblarni yutib hazm qiluvchi oq qon hujayrasi" },
-        { "w": "Yallig'lanish", "m": "shikast yoki infektsiyaga umumiy javob" },
-        { "w": "Xotira hujayrasi", "m": "mikrobni «eslab» keyingi javobni tezlashtiruvchi limfotsit" }
+        {
+          "w": "Immunitet",
+          "m": "organizmning kasalliklarga qarshi turish qobiliyati"
+        },
+        {
+          "w": "Antigen",
+          "m": "organizmda antitel ishlab chiqarishga sabab bo'ladigan modda"
+        },
+        {
+          "w": "Antitel",
+          "m": "antigenga birikib, zararsizlantiruvchi maxsus oqsil"
+        },
+        {
+          "w": "Fagotsit",
+          "m": "mikroblarni yutib hazm qiluvchi oq qon hujayrasi"
+        },
+        {
+          "w": "Yallig'lanish",
+          "m": "shikast yoki infektsiyaga umumiy javob"
+        },
+        {
+          "w": "Xotira hujayrasi",
+          "m": "mikrobni «eslab» keyingi javobni tezlashtiruvchi limfotsit"
+        }
       ],
       "quiz": [
-        ["Qaysi omma birinchi himoya chizig'iga kiradi?", ["Teri va shilliq qavatlar", "Antitelalar", "Fagotsitlar", "Xotira hujayralari"], 0, "Tashqi to'siqlar mikrobing kirishiga to'siq bo'ladi."],
-        ["Antitelaning vazifasi nima?", ["Antigenga birikib zararsizlantiradi", "Mikroblarni yutadi", "Haroratni ko'taradi", "Qonni ivitadi"], 0, "Moslik «kalit — kilti» tamoyili bilan antitel ishlaydi."],
-        ["Emlash qaysi chiziqni tayyorlaydi?", ["Uchinchi — maxsus javob", "Birinchi — teri", "Ikkinchi — yallig'lanish", "Hech birini"], 0, "Vaktsina xotira hujayralarini shakllantiradi."],
-        ["Yaraga qon ivib qobiq hosil qilishi — nima?", ["Ikkinchi himoya chizig'i javobi", "Birinchi chiziq", "Allergik javob", "Irsiy belgi"], 0, "Qobiq mikroblarning kirishini to'sadi — umumiy javob."],
-        ["Chaqaloq ona sutidan qanday himoya oladi?", ["Tayyor antitelalar bilan", "Vaktsina orqali", "Terisi qalinlashib", "Harorat orqali"], 0, "Sutdagi antitelalar — passiv immunlikning namunasi."]
+        [
+          "Qaysi omma birinchi himoya chizig'iga kiradi?",
+          [
+            "Teri va shilliq qavatlar",
+            "Antitelalar",
+            "Fagotsitlar",
+            "Xotira hujayralari"
+          ],
+          0,
+          "Tashqi to'siqlar mikrobing kirishiga to'siq bo'ladi."
+        ],
+        [
+          "Antitelaning vazifasi nima?",
+          [
+            "Antigenga birikib, uni zararsizlantiradi",
+            "Mikroblarni yutib, hazm qilib yuboradi",
+            "Tana haroratini ko'tarib javob beradi",
+            "Jarohatda qonni ivitib, qobiq hosil qiladi"
+          ],
+          0,
+          "Moslik «kalit — kilti» tamoyili bilan ishlaydi: antitela aniq antigenga birikadi."
+        ],
+        [
+          "Emlash qaysi chiziqni tayyorlaydi?",
+          [
+            "Uchinchi — maxsus javob",
+            "Birinchi — teri",
+            "Ikkinchi — yallig'lanish",
+            "Hech birini"
+          ],
+          0,
+          "Vaktsina xotira hujayralarini shakllantiradi."
+        ],
+        [
+          "Yaraga qon ivib qobiq hosil qilishi — nima?",
+          [
+            "Ikkinchi — umumjavob chiziqning ishi",
+            "Birinchi himoya chizig'idagi to'siq",
+            "Allergik javobning bir ko'rinishi",
+            "Irsiy belgi — avloddan o'tadigan xususiyat"
+          ],
+          0,
+          "Qobiq mikroblarning kirishini to'sadi — bu tug'ma, umumiy javob."
+        ],
+        [
+          "Chaqaloq ona sutidan qanday himoya oladi?",
+          [
+            "Tayyor antitelalar bilan",
+            "Vaktsina orqali",
+            "Terisi qalinlashib",
+            "Harorat orqali"
+          ],
+          0,
+          "Sutdagi antitelalar — passiv immunlikning namunasi."
+        ],
+        [
+          "Fagotsitlar bilan limfotsitlarning ishi nimada farq qiladi?",
+          [
+            "Fagotsitlar yutadi, limfotsitlar tanib olib xotira saqlaydi",
+            "Fagotsitlar xotira saqlaydi, limfotsitlar yutadi",
+            "Ikkalari faqat teri ostida ishlaydi",
+            "Limfotsit qonni ivitadi, fagotsit haroratni ko'taradi"
+          ],
+          0,
+          "Fagotsitoz — umumiy javob; tanib olish va xotira — maxsus (uchinchi) chiziq."
+        ],
+        [
+          "Chaqaloqning ona sutidan olgan himoyasi qaysi immunlikka kiradi?",
+          [
+            "Tabiiy passiv — tayyor antitelalar bilan",
+            "Sun'iy faol — vaktsina orqali",
+            "Tabiiy faol — o'tkazilgan kasallikdan",
+            "Umumjavob — faqat to'siqlar orqali"
+          ],
+          0,
+          "Ona sutidagi tayyor antitelalar bola himoyasini vaqtincha kuchaytiradi."
+        ],
+        [
+          "Emlashdan keyin organizmda nima paydo bo'ladi?",
+          [
+            "Antitelalar va xotira limfotsitlari hosil bo'ladi",
+            "O'sha mikrobdan yallig'lanish boshlanadi",
+            "Qon ivish mexanizmi butunlay o'zgaradi",
+            "Teri himoya funksiyasidan voz kechadi"
+          ],
+          0,
+          "Xotira hujayyalari tufayli takiy uchragan kasallik og'ir kechmaydi."
+        ]
       ],
       "slideQuiz": [
-        ["Ikkinchi himoya chizig'iga xos bo'lmagan belgi — qaysi?", ["Mikrobni tanib olish va xotira saqlash", "Harorat ko'tarilishi", "Yallig'lanish", "Fagotsitoz"], 0, "Xotira va «tanish» — uchinchi, maxsus chiziqning ishi."],
-        ["«Mikrobni yutib hazm qilish» — qaysi hujayra vazifasi?", ["Fagotsit", "Eritrotsit", "Trombotsit", "Neyron"], 0, "Oq qon hujayralarining bir turi fagotsitozni bajaradi."]
+        [
+          "Ikkinchi himoya chizig'iga xos bo'lmagan belgi — qaysi?",
+          [
+            "Mikrobni tanib olish va xotira saqlash",
+            "Harorat ko'tarilib, shish paydo bo'ladi",
+            "Yallig'lanish — qizish va og'riq belgisi",
+            "Fagotsitlar mikroblarni yutib yuboradi"
+          ],
+          0,
+          "Xotira va «tanish» — uchinchi, maxsus chiziqning ishi."
+        ],
+        [
+          "«Mikrobni yutib hazm qilish» — qaysi hujayra vazifasi?",
+          [
+            "Fagotsit",
+            "Eritrotsit",
+            "Trombotsit",
+            "Neyron"
+          ],
+          0,
+          "Oq qon hujayralarining bir turi fagotsitozni bajaradi."
+        ]
       ],
       "game": [
-        ["Vazifani organ/hujayra bilan moslashting: qonni ivitish", ["Trombotsitlar", "Fagotsitlar", "Eritrotsitlar", "Limfotsitlar"], 0, "Trombotsitlar jarohatni berkitadi."],
-        ["Qaysi modda oshqozonda mikrobni o'ldiradi?", ["Xlorid kislotasi", "O't", "Tupurik", "Insulin"], 0, "Kislota — kimyoviy to'siq; ovqatdagi ko'p mikroblar shu yerda nobud bo'ladi."],
-        ["Allergiya — immun javobning qanday ko'rinishi?", ["Ziyonli darajada kuchayishi", "Umumiy susayishi", "Yo'qligi", "Irsiy o'zgarishi"], 0, "Allergiya — zararsiz moddaga noto'g'ri kuchli javob."]
+        [
+          "Vazifani organ/hujayra bilan moslashting: qonni ivitish",
+          [
+            "Trombotsitlar",
+            "Fagotsitlar",
+            "Eritrotsitlar",
+            "Limfotsitlar"
+          ],
+          0,
+          "Trombotsitlar jarohatni berkitadi."
+        ],
+        [
+          "Qaysi modda oshqozonda mikrobni o'ldiradi?",
+          [
+            "Xlorid kislotasi (oshqozon shirasi)",
+            "O't — jigdan ajraladigan suyuqlik",
+            "Tupurik — og'iz bo'shlig'ini namlaydi",
+            "Insulin — qand miqdorini tartibga soladi"
+          ],
+          0,
+          "Kislota — kimyoviy to'siq; ovqatdagi ko'p mikrob shu yerda nobud bo'ladi."
+        ],
+        [
+          "Allergiya — immun javobning qanday ko'rinishi?",
+          [
+            "Zararsiz moddaga ziyonli darajada kuchayishi",
+            "Immun javobning umumiy susayib qolishi",
+            "Immun tizimining butunlay yo'qligi",
+            "Irsiy o'zgarish — avloddan o'tadigan belgi"
+          ],
+          0,
+          "Allergiya — zararsiz moddaga noto'g'ri, juda kuchli javob."
+        ]
       ],
       "task": {
         "q": "«Organizmni himoya qiluvchi to'siq» tajribasini tuzing: toza va sovunlangan qo'l bilan yupqa qatlamli jelidagi «mikrob» izlarini taqqoslang va natijani rasm/jadval bilan hujjatlang.",
@@ -154,8 +621,17 @@
           "Qolgan «iz» maydonini katakka bo'ling va sanang",
           "Jadval va diagramma tuzing, xulosa yozing: farq necha barobar?"
         ],
-        "jihoz": ["2 idishdagi shaffof jel yoki kraxmal suyuqligi", "Sovun, sochiq", "Bo'yoq/kukun (mikrob o'rniga)", "Katakli qog'oz, lupa"],
-        "xavfsizlik": ["Haqiqiy kasal material bilan ishlamang", "Tajribadan keyin qo'l sovun bilan yuviladi", "Bo'yoqni ko'zga va og'izga tegizmang"]
+        "jihoz": [
+          "2 idishdagi shaffof jel yoki kraxmal suyuqligi",
+          "Sovun, sochiq",
+          "Bo'yoq/kukun (mikrob o'rniga)",
+          "Katakli qog'oz, lupa"
+        ],
+        "xavfsizlik": [
+          "Haqiqiy kasal material bilan ishlamang",
+          "Tajribadan keyin qo'l sovun bilan yuviladi",
+          "Bo'yoqni ko'zga va og'izga tegizmang"
+        ]
       }
     }
   ]

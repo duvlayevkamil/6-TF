@@ -16,28 +16,179 @@
         "Oziq to'ri = bir-biriga kirishgan zanjirlar to'plami"
       ],
       "vocab": [
-        { "w": "Prodyuser", "m": "organik modda hosil qiluvchi yashil organizm" },
-        { "w": "Konsument", "m": "tayyor organik modda bilan oziqlanuvchi organizm" },
-        { "w": "Ajratgich (reducent)", "m": "qoldiqlarni mineral moddalarga aylantiruvchi organizm" },
-        { "w": "Trofik daraja", "m": "organizmning oziq zanjiridagi o'rni" },
-        { "w": "Oziq to'ri", "m": "o'zaro bog'langan oziq zanjirlar tizimi" },
-        { "w": "Bioenergetik piramida", "m": "energiyaning darajalar bo'yicha kamayishini ko'rsatuvhi sxema" }
+        {
+          "w": "Prodyuser",
+          "m": "organik modda hosil qiluvchi yashil organizm"
+        },
+        {
+          "w": "Konsument",
+          "m": "tayyor organik modda bilan oziqlanuvchi organizm"
+        },
+        {
+          "w": "Ajratgich (reducent)",
+          "m": "qoldiqlarni mineral moddalarga aylantiruvchi organizm"
+        },
+        {
+          "w": "Trofik daraja",
+          "m": "organizmning oziq zanjiridagi o'rni"
+        },
+        {
+          "w": "Oziq to'ri",
+          "m": "o'zaro bog'langan oziq zanjirlar tizimi"
+        },
+        {
+          "w": "Bioenergetik piramida",
+          "m": "energiyaning darajalar bo'yicha kamayishini ko'rsatuvhi sxema"
+        }
       ],
       "quiz": [
-        ["Oziq zanjiri doim kimdan boshlanadi?", ["Prodyuserdan", "Yirtqichdan", "Ajratgichdan", "O'simxo'rdan"], 0, "Zanjir boshi — energiyani Quyoshdan oluvchi organizm."],
-        ["Strelka nimani ko'rsatadi?", ["Energiya qayerga o'tishini", "Kim kimdan qochishini", "Qaysi biri kuchliroq ekanini", "Harakat tezligini"], 0, "Strelka energiya oqimi yo'nalishini beradi."],
-        ["Energiyaning necha foizi keyingi trofik darajaga o'tadi?", ["Taxminan 10%", "Taxminan 50%", "Taxminan 90%", "Barchasi"], 0, "Qolgani metabolizm va issiqlikka sarflanadi."],
-        ["Oziq to'ri oziq zanjiridan nimasi bilan farq qiladi?", ["Zanjirlar o'zaro kirishib yotadi", "U qisqaroq", "Unda prodyuser yo'q", "U faqat suvda bo'ladi"], 0, "To'ri — ko'p zanjirlar to'plami, barqarorlikni oshiradi."],
-        ["Zanjir odatda nega 4-5 bosqichdan oshmaydi?", ["Energiya har bosqichda kamayadi", "Organizm kam", "Yirtqichlar uchishi qiyin", "Bunday cheklov yo'q"], 0, "Yuqori darajaga yetarli energiya yetib bormaydi."]
+        [
+          "Oziq zanjiri doim kimdan boshlanadi?",
+          [
+            "Prodyuserdan",
+            "Yirtqichdan",
+            "Ajratgichdan",
+            "O'simxo'rdan"
+          ],
+          0,
+          "Zanjir boshi — energiyani Quyoshdan oluvchi organizm."
+        ],
+        [
+          "Strelka nimani ko'rsatadi?",
+          [
+            "Energiya qayerga o'tishini",
+            "Kim kimdan qochishini",
+            "Qaysi biri kuchliroq ekanini",
+            "Harakat tezligini"
+          ],
+          0,
+          "Strelka energiya oqimi yo'nalishini beradi."
+        ],
+        [
+          "Energiyaning necha foizi keyingi trofik darajaga o'tadi?",
+          [
+            "Taxminan 10%",
+            "Taxminan 50%",
+            "Taxminan 90%",
+            "Barchasi"
+          ],
+          0,
+          "Qolgani metabolizm va issiqlikka sarflanadi."
+        ],
+        [
+          "Oziq to'ri oziq zanjiridan nimasi bilan farq qiladi?",
+          [
+            "Bir nechta zanjir o'zaro kirishib yotadi",
+            "To'rida prodyuserlar umuman qatnashmaydi",
+            "To'ri faqat suv ekotizimlarida uchraydi",
+            "To'ri har doim bitta zanjirdan qisqa bo'ladi"
+          ],
+          0,
+          "To'ri — ko'p zanjirlar to'plami; u tizimni barqarorroq qiladi."
+        ],
+        [
+          "Zanjir odatda nega 4-5 bosqichdan oshmaydi?",
+          [
+            "Energiya har bosqichda kamayadi",
+            "Organizm kam",
+            "Yirtqichlar uchishi qiyin",
+            "Bunday cheklov yo'q"
+          ],
+          0,
+          "Yuqori darajaga yetarli energiya yetib bormaydi."
+        ],
+        [
+          "Oziq zanjirining birinchi bo'g'ini doim kim bo'ladi?",
+          [
+            "Quyosh energiyasidan foydalanuvchi yashil o'simlik",
+            "O'simlik bilan oziqlanuvchi sut emizuvchi hayvon",
+            "Murdor va qoldiqlarni parchalovchi zamburug'",
+            "Yirtqich hasharotlar bilan oziqlanuvchi qush"
+          ],
+          0,
+          "Prodyuserlar — energiyani organik moddaga aylantiruvchi bo'g'in; zanjir shundan boshlanadi."
+        ],
+        [
+          "Zanjirdagi strelka nimani ko'rsatadi?",
+          [
+            "Energiya qaysi organizmga o'tayotganini",
+            "Organizmlarning o'lcham farqini",
+            "Qaysi tur yo'qolib borayotganini",
+            "Har bir bo'g'indagi suv miqdorini"
+          ],
+          0,
+          "Strelka energiya oqimi yo'nalishi: o't → shivilin → bo'ri kabi."
+        ],
+        [
+          "Nima uchun qo'shni zanjirlar bo'lgan to'r tizim barqarorroq?",
+          [
+            "Bir bo'g'in uzilsa, boshqa yo'ldan oziq topish mumkin",
+            "To'rda energiyaning yo'qolishi butunlay to'xtaydi",
+            "To'rda prodyuserlar soni bir necha barobar ortadi",
+            "To'r tizimda ajratgichlar ishtirok etmaydi"
+          ],
+          0,
+          "Muqobil oziq manbalari bo'lsa, bitta turning kamayishi tizimni ag'darmaydi."
+        ]
       ],
       "slideQuiz": [
-        ["Hasharotxo'r qushlar soni keskin kamaysa, tizimda nima bo'lishi kutiladi?", ["Hasharotlar ko'payadi, o'simlik zararlanadi", "Hech narsa o'zgarmaydi", "O'simliklar yo'qoladi", "Yirtqichlar ko'payadi"], 0, "Bo'g'in uzilganda qo'shni zanjirlar qisman o'rnini bosadi, ammo muvozanat buziladi."],
-        ["Ajratgichlar bo'lmaganida nima sodir bo'lardi?", ["Qoldiqlar to'planib, mineral moddalar tugardi", "O'simlik tez o'sardi", "Zanjir uzaytardi", "Hech qanday farq bo'lmasdi"], 0, "Modda aylanishi to'xtaydi — hayot uchun muhim bosqich."]
+        [
+          "Hasharotxo'r qushlar soni keskin kamaysa, tizimda nima bo'lishi kutiladi?",
+          [
+            "Hasharotlar ko'payib, o'simliklar zararlanadi",
+            "O'simliklar soni o'zgarishsiz ko'payib ketadi",
+            "Yirtqichlarning soni ikki barobar ortadi",
+            "Tizimda umuman hech qanday o'zgarish bo'lmaydi"
+          ],
+          0,
+          "Bo'g'in uzilganda qo'shni zanjirlar qisman o'rnini bosadi, ammo muvozanat buziladi."
+        ],
+        [
+          "Ajratgichlar bo'lmaganida nima sodir bo'lardi?",
+          [
+            "Qoldiqlar to'planib, mineral moddalar tugardi",
+            "O'simliklar yanada tezroq o'sa boshlardi",
+            "Oziq zanjirlari uzayib, murakkablashardi",
+            "Modda aylanishi avvalidagidek davom etardi"
+          ],
+          0,
+          "Modda aylanishi to'xtaydi — hayot uchun muhim bosqich."
+        ]
       ],
       "game": [
-        ["Organizmni trofik darajasi bilan moslashting: qo'ng'iz lichinkasi (o'simlik bilan oziqlanadi)", ["Konsument I", "Konsument II", "Prodyuser", "Ajratgich"], 0, "O'simlik bilan oziqlangan — 1-tartibli konsument."],
-        ["Zanjirni to'g'ri tartibga tizing: energiya oqimi", ["o't → sichqon → ilon → bo'ri", "bo'ri → ilon → sichqon → o't", "sichqon → o't → bo'ri → ilon", "ilon → bo'ri → o't → sichqon"], 0, "Prodyuserdan yuqori konsumentgacha."],
-        ["Qo'shiqchi zamburug'larning vazifasi zanjirda qanday?", ["Ajratgich", "Prodyuser", "Konsument I", "Yirtqich"], 0, "Zamburug'lar o'lik moddalarni mineral moddaga aylantiradi."]
+        [
+          "Organizmni trofik darajasi bilan moslashting: qo'ng'iz lichinkasi (o'simlik bilan oziqlanadi)",
+          [
+            "Konsument I",
+            "Konsument II",
+            "Prodyuser",
+            "Ajratgich"
+          ],
+          0,
+          "O'simlik bilan oziqlangan — 1-tartibli konsument."
+        ],
+        [
+          "Zanjirni to'g'ri tartibga tizing: energiya oqimi",
+          [
+            "o't → sichqon → ilon → bo'ri",
+            "bo'ri → ilon → sichqon → o't",
+            "sichqon → o't → bo'ri → ilon",
+            "ilon → bo'ri → o't → sichqon"
+          ],
+          0,
+          "Prodyuserdan yuqori konsumentgacha."
+        ],
+        [
+          "Qo'shiqchi zamburug'larning vazifasi zanjirda qanday?",
+          [
+            "Ajratgich",
+            "Prodyuser",
+            "Konsument I",
+            "Yirtqich"
+          ],
+          0,
+          "Zamburug'lar o'lik moddalarni mineral moddaga aylantiradi."
+        ]
       ],
       "task": {
         "q": "O'z mintaqangizdan 6 ta organizm tanlab, oziq zanjiri tuzing va uni oziq to'riga aylantiring. So'ng bitta bog'ichni «o'chirib» tizimga ta'sirini tahlil qiling.",
@@ -50,8 +201,15 @@
           "Bir turi bo'lmagan organizmni o'chirib, 2 ta oqibatni yozing",
           "Xulosa: qaysi bo'g'in eng muhim edi va nima uchun?"
         ],
-        "jihoz": ["Qog'oz va rangli qalam", "Qishloq/maktab atrofi ro'yxati", "Bitta o'chirish uchun qaychi yoki o'chirg'ich"],
-        "xavfsizlik": ["Yovvoyi hayvonlarni ushlamang — faqat kuzatish va ma'lumot bilan ishlang", "Zaxarli o'simlik va hasharotlarga tegmang"]
+        "jihoz": [
+          "Qog'oz va rangli qalam",
+          "Qishloq/maktab atrofi ro'yxati",
+          "Bitta o'chirish uchun qaychi yoki o'chirg'ich"
+        ],
+        "xavfsizlik": [
+          "Yovvoyi hayvonlarni ushlamang — faqat kuzatish va ma'lumot bilan ishlang",
+          "Zaxarli o'simlik va hasharotlarga tegmang"
+        ]
       }
     },
     {
@@ -68,28 +226,179 @@
         "Xavf bahosi: miqdor + chastota + chiqib ketish tezligi"
       ],
       "vocab": [
-        { "w": "Bioakkumulyatsiya", "m": "moddaning organizm to'qimasida yig'ilishi" },
-        { "w": "Biologik kuchayish", "m": "modda konsentratsiyasining trofik daraja bo'yicha ortishi" },
-        { "w": "Pestitsid", "m": "zararkunanda kurashish uchun ishlatiluvchi kimyoviy modda" },
-        { "w": "Og'ir metall", "m": "organizmdan chiqib ketmaydigan zaharli element (simob, qo'rg'oshin)" },
-        { "w": "Mikroplastik", "m": "mayda plastik bo'laklari; suv organizmlariga kiradi" },
-        { "w": "Sanoat chiqindisi", "m": "ishlab chiqarishdan qoladigan ifloslantiruvchi oqim" }
+        {
+          "w": "Bioakkumulyatsiya",
+          "m": "moddaning organizm to'qimasida yig'ilishi"
+        },
+        {
+          "w": "Biologik kuchayish",
+          "m": "modda konsentratsiyasining trofik daraja bo'yicha ortishi"
+        },
+        {
+          "w": "Pestitsid",
+          "m": "zararkunanda kurashish uchun ishlatiluvchi kimyoviy modda"
+        },
+        {
+          "w": "Og'ir metall",
+          "m": "organizmdan chiqib ketmaydigan zaharli element (simob, qo'rg'oshin)"
+        },
+        {
+          "w": "Mikroplastik",
+          "m": "mayda plastik bo'laklari; suv organizmlariga kiradi"
+        },
+        {
+          "w": "Sanoat chiqindisi",
+          "m": "ishlab chiqarishdan qoladigan ifloslantiruvchi oqim"
+        }
       ],
       "quiz": [
-        ["Bioakkumulyatsiya nima?", ["Moddaning organizm to'qimasida yig'ilishi", "Energiyaning kamayishi", "Zanjirning uzilishi", "O'simlikning o'sishi"], 0, "Modda chiqib ketmaydi — organizmda qoladi va ko'payadi."],
-        ["Zanjirda eng yuqori konsentratsiya odatda kimda bo'ladi?", ["Tepa yirtqichda", "O'simlikda", "Suvda", "Ajratgichlarda"], 0, "Har bosqichda kuchayadi — tepadagi organizm eng ko'p oladi."],
-        ["Energiya va moddalar aylanishining asosiy farqi nimada?", ["Energiya issiqlik bo'lib chiqib ketadi, modda aylanadi", "Ikkalasi ham aylanada qoladi", "Hech qaysi aylanmaydi", "Modda yo'qoladi, energiya aylanadi"], 0, "Shu sabab doimiy Quyosh energiyasi kerak."],
-        ["Zanjir bo'ylab energiya kamayishining asosiy sababi nima?", ["Har bosqichda harakat va issiqlikka sarflanadi", "Yirtqichlar ovqatni sekin yeydi", "O'simlik energiyani yashiradi", "Strelkalar to'g'ri chizilmagan"], 0, "Sarflangan energiya qaytmaydi — shu tufayli darajalar soni cheklangan."],
-        ["Qaysi holatda xavf kattaroq?", ["Modda sekin chiqadi va tez-tez keladi", "Modda tez chiqadi, kam keladi", "Modda umuman kirib kelmaydi", "Faqat bitta ovqatda uchraydi"], 0, "Chiqib ketish sekin + chastota yuqori = to'planish."]
+        [
+          "Bioakkumulyatsiya nima?",
+          [
+            "Zararli moddaning organizm to'qimasida yig'ilishi",
+            "Energiyaning har bir bo'g'inda kamayib borishi",
+            "Oziq zanjirining bir bo'g'ini butunlay uzilishi",
+            "O'simliklarda oqsil sintezining to'xtab qolishi"
+          ],
+          0,
+          "Modda organizmdan chiqib ketmaydi — bo'g'in sayin to'planib boradi."
+        ],
+        [
+          "Zanjirda eng yuqori konsentratsiya odatda kimda bo'ladi?",
+          [
+            "Tepa yirtqichda",
+            "O'simlikda",
+            "Suvda",
+            "Ajratgichlarda"
+          ],
+          0,
+          "Har bosqichda kuchayadi — tepadagi organizm eng ko'p oladi."
+        ],
+        [
+          "Energiya va moddalar aylanishining asosiy farqi nimada?",
+          [
+            "Energiya issiqlik bo'lib chiqib ketadi, modda aylanadi",
+            "Ikkalasi ham aylanada qoladi, hech qaysi yo'qolmaydi",
+            "Modda yo'qoladi, energiya esa aylanib yuradi",
+            "Hech qaysi aylanmaydi — ikkalasi ham tugaydi"
+          ],
+          0,
+          "Modda takror ishlatiladi, energiya esa har bosqichda issiqlik sifatida tizimni tark etadi."
+        ],
+        [
+          "Zanjir bo'ylab energiya kamayishining asosiy sababi nima?",
+          [
+            "Har bosqichda harakat va issiqlikka sarflanadi",
+            "Yirtqichlar ovqatni sekin yeydi",
+            "O'simlik energiyani yashiradi",
+            "Strelkalar to'g'ri chizilmagan"
+          ],
+          0,
+          "Sarflangan energiya qaytmaydi — shu tufayli darajalar soni cheklangan."
+        ],
+        [
+          "Qaysi holatda xavf kattaroq?",
+          [
+            "Modda sekin chiqadi va tez-tez keladi",
+            "Modda tez chiqadi, kam keladi",
+            "Modda umuman kirib kelmaydi",
+            "Faqat bitta ovqatda uchraydi"
+          ],
+          0,
+          "Chiqib ketish sekin + chastota yuqori = to'planish."
+        ],
+        [
+          "Og'ir metallar va pestitsidlar zanjirda eng ko'payib qaysi organizmga yetadi?",
+          [
+            "Zanjirning eng yuqori bo'g'inidagi yirtqichga",
+            "Zanjirni boshlaydigan yashil o'simlikka",
+            "Qoldiqlarni parchalaydigan ajratgichlarga",
+            "Suvda erigan mineral moddalar manbasiga"
+          ],
+          0,
+          "Har bo'g'inda konsentratsiya ortadi — eng yuqori pog'onadagi yirtqichda maksimal bo'ladi."
+        ],
+        [
+          "Nima uchun energiya oqimi «aylanma» hisoblanadi?",
+          [
+            "Har bosqichda issiqlik sifatida tizimdan chiqib ketadi",
+            "Energiya organizmdan organizmga uzluksiz aylanadi",
+            "Quyosh energiyasi ajratgichlar orqali qaytadi",
+            "Energini o'simliklar tuproqdan qayta oladi"
+          ],
+          0,
+          "Shuning uchun ekotizimga energiya doim tashqaridan (Quyoshdan) kelib turishi shart."
+        ],
+        [
+          "Bir ko'l zanjirida (fitoplankton → baliq → baliqyo'v qush) DDT eng ko'p qayerda to'planadi?",
+          [
+            "Qushning yog' to'qimasida",
+            "Fitoplankton hujayralarida",
+            "Ko'l suvining erigan qismida",
+            "Tubanidagi chuqur loyqa qatlamida"
+          ],
+          0,
+          "Modda yog'da eriydi va bo'g'in sayin kuchayadi — eng yuqori turuvchida ko'p."
+        ]
       ],
       "slideQuiz": [
-        ["Simob bilan ifloslangan suv havzasida eng katta konsentratsiya kimda kutiladi?", ["Yirik yirtqich baliqda", "Suvda", "Suvo'tlarda", "Mayda baliqchada"], 0, "Tepa konsumentgacha kuchayadi."],
-        ["Pestitsid ishlatishning ekotizimga salbiy ta'siriga misol — nima?", ["Changlatuvchi hasharotlar ham nobud bo'ladi", "Zanjir uzayadi", "Energiya ortadi", "Tuproq unumdor bo'ladi"], 0, "Maqsadli bo'lmagan nobud bo'lish — oziq to'rini buzadi."]
+        [
+          "Simob bilan ifloslangan suv havzasida eng katta konsentratsiya kimda kutiladi?",
+          [
+            "Yirik yirtqich baliqda",
+            "Suvda",
+            "Suvo'tlarda",
+            "Mayda baliqchada"
+          ],
+          0,
+          "Tepa konsumentgacha kuchayadi."
+        ],
+        [
+          "Pestitsid ishlatishning ekotizimga salbiy ta'siriga misol — nima?",
+          [
+            "Changlatuvchi hasharotlar ham nobud bo'ladi",
+            "Zanjirning bo'g'inlari soni ortib boradi",
+            "Ekotizimdagi energiya miqdori ortadi",
+            "Tuproq unumdorligi keskin yaxshilanadi"
+          ],
+          0,
+          "Maqsadga nomuvofiq nobud bo'lish — oziq to'rini buzadi."
+        ]
       ],
       "game": [
-        ["Jarayonni atama bilan moslashting: konsentratsiyaning darajalar bo'yicha ortishi", ["Biologik kuchayish", "Diffuziya", "Emulsiyalash", "Kondensatsiya"], 0, "Bu atama zanjir bo'ylab ortishni bildiradi."],
-        ["Mikroplastik birinchi bo'lib kimga kiradi?", ["Suvo't va mayda organizmlarga", "Yirtqich qushlarga", "Inson terisiga", "Toshqotgan qoldiqlarga"], 0, "Zanjir pastidan boshlanadi."],
-        ["Qaysi chora bioakkumulyatsiyani kamaytiradi?", ["Sanoat oqovasini tozalash", "Zanjirni uzaytirish", "Ko'proq pestitsid", "Ovqatlanishni ko'paytirish"], 0, "Manbada tozalash — eng samarali chora."]
+        [
+          "Jarayonni atama bilan moslashting: konsentratsiyaning darajalar bo'yicha ortishi",
+          [
+            "Biologik kuchayish",
+            "Diffuziya",
+            "Emulsiyalash",
+            "Kondensatsiya"
+          ],
+          0,
+          "Bu atama zanjir bo'ylab ortishni bildiradi."
+        ],
+        [
+          "Mikroplastik birinchi bo'lib kimga kiradi?",
+          [
+            "Suvo't va mayda organizmlarga",
+            "Yirtqich qushlarga",
+            "Inson terisiga",
+            "Toshqotgan qoldiqlarga"
+          ],
+          0,
+          "Zanjir pastidan boshlanadi."
+        ],
+        [
+          "Qaysi chora bioakkumulyatsiyani kamaytiradi?",
+          [
+            "Sanoat oqovasini tozalash",
+            "Zanjirni uzaytirish",
+            "Ko'proq pestitsid",
+            "Ovqatlanishni ko'paytirish"
+          ],
+          0,
+          "Manbada tozalash — eng samarali chora."
+        ]
       ],
       "task": {
         "q": "Zaharli moddalar oziq zanjiri bo'ylab qanday uzatiladi? Modellash: 4 bosqichli zanjirga har darajada 10 birlik modda «kirib» kelsa, har konsumentda nechta to'planishini hisoblab, diagramma tuzing.",
@@ -102,8 +411,15 @@
           "Jadval va ustunli diagramma tuzing",
           "Xulosa: nima uchun tepadagi organizmlar xavf ostida? Modelning kamchiligi qaysi?"
         ],
-        "jihoz": ["Kalkulyator", "Katakli qog'oz", "Diagramma uchun shkala"],
-        "xavfsizlik": ["Haqiqiy zaharli moddalar bilan ishlanmaydi — faqat model va ma'lumot", "Hisobda birliklarni chalkashtirmang (mg, mg/kg)"]
+        "jihoz": [
+          "Kalkulyator",
+          "Katakli qog'oz",
+          "Diagramma uchun shkala"
+        ],
+        "xavfsizlik": [
+          "Haqiqiy zaharli moddalar bilan ishlanmaydi — faqat model va ma'lumot",
+          "Hisobda birliklarni chalkashtirmang (mg, mg/kg)"
+        ]
       }
     }
   ]

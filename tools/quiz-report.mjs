@@ -13,13 +13,33 @@ import { fileURLToPath } from "node:url";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const DIR = join(ROOT, "platform", "content");
-const only = process.argv[2] ? Number(process.argv[2]) : 0;
+const only = process.argv[2] && /^\d+$/.test(process.argv[2]) ? Number(process.argv[2]) : 0;
+const SHORT = process.argv.includes("--short");
 
 for (const f of readdirSync(DIR).filter((x) => /^bob-\d+\.json$/.test(x)).sort()) {
   const d = JSON.parse(readFileSync(join(DIR, f), "utf8"));
   if (only && d.bob !== only) continue;
   console.log(`\n########## BOB ${d.bob} — ${d.bobNomi || ""} ##########`);
   for (const t of d.topics) {
+    if (SHORT) {
+      console.log(`\n--- ${t.kod} (${t.lab}:${t.labMode}) ---`);
+      String(t.theory).split("\n\n").forEach((p, i) => console.log(`  P${i + 1}: ${p.replace(/\s+/g, " ").slice(0, 110)}`));
+      console.log("  savollar:", (t.urinish?.savollar || []).join(" / ") || "—");
+      console.log("  BOR:", (t.quiz || []).map((q, i) => `${i}:${q[0]}`).join(" ; "));
+      const bad = [];
+      for (const [nom, arr] of [["quiz", t.quiz], ["slideQuiz", t.slideQuiz], ["game", t.game]])
+        (arr || []).forEach((q, i) => {
+          const a = String(q[1][q[2]]).length;
+          const b = Math.max(...q[1].filter((_, k) => k !== q[2]).map((o) => String(o).length));
+          if (a / Math.max(1, b) > 1.35) bad.push([nom, i, q, (a / Math.max(1, b)).toFixed(2), a, b]);
+        });
+      if (bad.length) {
+        console.log("  ⚠ TUZATISH KERAK (" + bad.length + "):");
+        for (const [nom, i, q, r, a, b] of bad)
+          console.log(`    ${nom}[${i}] (x${r}: ${a} vs ${b}) ${q[0]}\n      TO'G'RI: ${q[1][q[2]]}\n      SHOVQIN: ${q[1].filter((_, k) => k !== q[2]).map((o) => `[${o}]`).join("")}\n     IZOH: ${q[3]}`);
+      } else console.log("  ⚠ uzunlik: yo'q");
+      continue;
+    }
     console.log(`\n=== ${t.kod} ${t.t} ===`);
     console.log("lab:", t.lab + ":" + t.labMode, "| labTitle:", t.labTitle || "(bo'sh)");
     const par = String(t.theory).split("\n\n");

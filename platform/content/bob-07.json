@@ -16,28 +16,179 @@
         "Dinamometr: F ~ Δl (prujina cho'zilishi)"
       ],
       "vocab": [
-        { "w": "Massa", "m": "jismdagi modda miqdori, kg da o'lchanadi" },
-        { "w": "Og'irlik kuchi", "m": "Yer tomonidan jismga tushiriladigan tortishish kuchi" },
-        { "w": "Gravitatsiya", "m": "jismalar o'rtasidagi o'zaro tortishish" },
-        { "w": "Erkin tushish tezlanishi (g)", "m": "bir kg ga tushadigan og'irlik kuchi, N/kg" },
-        { "w": "Dinamometr", "m": "kuchni o'lchaydigan prujinali asbob" },
-        { "w": "Og'irlik markazi", "m": "og'irlik kuchi qo'yiladigan shartli nuqta" }
+        {
+          "w": "Massa",
+          "m": "jismdagi modda miqdori, kg da o'lchanadi"
+        },
+        {
+          "w": "Og'irlik kuchi",
+          "m": "Yer tomonidan jismga tushiriladigan tortishish kuchi"
+        },
+        {
+          "w": "Gravitatsiya",
+          "m": "jismalar o'rtasidagi o'zaro tortishish"
+        },
+        {
+          "w": "Erkin tushish tezlanishi (g)",
+          "m": "bir kg ga tushadigan og'irlik kuchi, N/kg"
+        },
+        {
+          "w": "Dinamometr",
+          "m": "kuchni o'lchaydigan prujinali asbob"
+        },
+        {
+          "w": "Og'irlik markazi",
+          "m": "og'irlik kuchi qo'yiladigan shartli nuqta"
+        }
       ],
       "quiz": [
-        ["Massa va og'irlik kuchining asosiy farqi nimada?", ["Massa modda miqdori (kg), kuch esa tortishish ta'siri (N)", "Ikkalasi bir xil narsa", "Massa Nyuton bilan o'lchanadi", "Og'irlik massaga bog'liq emas"], 0, "Og'irlik kuchi = m·g; massa esa o'zgarmaydi."],
-        ["3 kg massali jismga Yerda taxminan qancha og'irlik kuchi ta'sir qiladi?", ["≈30 N", "≈3 N", "≈300 N", "≈10 N"], 0, "F = 3 · 10 = 30 N."],
-        ["Oyga borgan astronavtning massasi va og'irligi qanday o'zgaradi?", ["Massa o'zgarmaydi, og'irlik kamayadi", "Ikkalasi kamayadi", "Massa kamayadi, og'irlik o'zgarmaydi", "Ikkalari ortadi"], 0, "Modda miqdori bir xil; g esa ~6 marta kichik."],
-        ["Kuchning o'lchov birligi — nima?", ["Nyuton (N)", "Kilogramm (kg)", "Joul (J)", "Paskal (Pa)"], 0, "Kuch Nyuton bilan, massa kilogramm bilan o'lchanadi."],
-        ["Gravitatsiya kuchi qachon kuchayadi?", ["Massalar ortganda va masofa kamayganda", "Masofa ortganda", "Harorat oshganda", "Jism tezlashganda"], 0, "Kuch massalar ko'paytmasiga proportsional, masofa kvadratiga teskari."]
+        [
+          "Massa va og'irlik kuchining asosiy farqi nimada?",
+          [
+            "Massa — modda miqdori (kg), og'irlik kuchi — tortishish (N)",
+            "Ikkalari bir xil narsa, faqat nomi boshqacha",
+            "Massa Nyuton bilan, kuch kilogramm bilan o'lchanadi",
+            "Og'irlik kuchi massaga umuman bog'liq emas"
+          ],
+          0,
+          "Og'irlik kuchi = m·g; massa esa joyga qarab o'zgarmaydi."
+        ],
+        [
+          "3 kg massali jismga Yerda taxminan qancha og'irlik kuchi ta'sir qiladi?",
+          [
+            "≈30 N",
+            "≈3 N",
+            "≈300 N",
+            "≈10 N"
+          ],
+          0,
+          "F = 3 · 10 = 30 N."
+        ],
+        [
+          "Oyga borgan astronavtning massasi va og'irligi qanday o'zgaradi?",
+          [
+            "Massa o'zgarmaydi, og'irlik kamayadi",
+            "Ikkalasi kamayadi",
+            "Massa kamayadi, og'irlik o'zgarmaydi",
+            "Ikkalari ortadi"
+          ],
+          0,
+          "Modda miqdori bir xil; g esa ~6 marta kichik."
+        ],
+        [
+          "Kuchning o'lchov birligi — nima?",
+          [
+            "Nyuton (N)",
+            "Kilogramm (kg)",
+            "Joul (J)",
+            "Paskal (Pa)"
+          ],
+          0,
+          "Kuch Nyuton bilan, massa kilogramm bilan o'lchanadi."
+        ],
+        [
+          "Gravitatsiya kuchi qachon kuchayadi?",
+          [
+            "Massalar ortganda va oradagi masofa kamayganda",
+            "Jismlar orasidagi masofa ortganda",
+            "Harorat ko'tarilib, modda qiziganda",
+            "Jismning tezligi bir necha barobar oshganda"
+          ],
+          0,
+          "Kuch massalar ko'paytmasiga to'g'ri, masofa kvadratiga teskari proporsional."
+        ],
+        [
+          "1 kg massali jismga Yerda taxminan qancha og'irlik kuchi ta'sir qiladi?",
+          [
+            "≈10 N",
+            "≈1 N",
+            "≈100 N",
+            "≈0,1 N"
+          ],
+          0,
+          "F = m·g ≈ 1 × 9,8 ≈ 10 N."
+        ],
+        [
+          "Kuch — vektor miqdor ekanligi nimani anglatadi?",
+          [
+            "Uning son qiymati va yo'nalishi bor",
+            "U faqat son qiymatidan iborat",
+            "U har doim vertikal pastga yo'nalgan",
+            "Uni o'lchashning hojati yo'q"
+          ],
+          0,
+          "Shu sabab kuch strelka bilan tasvirlanadi: uzunlik — qiymat, strelka — yo'nalish."
+        ],
+        [
+          "Nega astronavt Oyda ham massasini «o'sha bir xil» deb aytadi?",
+          [
+            "Massa — modda miqdori, u joyga bog'liq emas",
+            "Oyda tortishish kuchi butunlay yo'q",
+            "Massani Oyda o'lchab bo'lmaydi",
+            "Oyda barcha jismlar yengillashib qoladi"
+          ],
+          0,
+          "Og'irlik kuchi kamayadi (g ≈ 1,6 N/kg), massa esa o'zgarmaydi."
+        ]
       ],
       "slideQuiz": [
-        ["Nega olma Yer tomon tushadi, Yer esa olma tomon harakatlanmaydi?", ["Ikkalasi o'zaro tortadi, ammo Yer massasi juda katta — uning harakati sezilmaydi", "Olma Yerni tortmaydi", "Havo to'siq bo'ladi", "Yer qimirlamaydi"], 0, "Tortishish o'zaro; tezlanish massaga teskari."],
-        ["Dinamometrda prujina ikki barobar ko'p cho'zilsa, kuch qanday o'zgaradi?", ["≈2 marta ortadi", "≈4 marta ortadi", "O'zgarmaydi", "2 marta kamayadi"], 0, "Cho'zilish kuchga proportsional (chegaralarigacha)."]
+        [
+          "Nega olma Yer tomon tushadi, Yer esa olma tomon harakatlanmaydi?",
+          [
+            "Ikkalasi o'zaro tortadi, lekin Yerning massasi juda katta",
+            "Olma Yerni tortmaydi — tortishish bir tomonlama",
+            "Havo olmaning harakatiga to'siq bo'ladi",
+            "Yer qimirlamaydigan, harakatsiz jismdir"
+          ],
+          0,
+          "Tortishish o'zaro; tezlanish esa massaga teskari — shuning uchun Yer harakati sezilmaydi."
+        ],
+        [
+          "Dinamometrda prujina ikki barobar ko'p cho'zilsa, kuch qanday o'zgaradi?",
+          [
+            "≈2 marta ortadi",
+            "≈4 marta ortadi",
+            "O'zgarmaydi",
+            "2 marta kamayadi"
+          ],
+          0,
+          "Cho'zilish kuchga proportsional (chegaralarigacha)."
+        ]
       ],
       "game": [
-        ["Kattalikni o'lchov birligi bilan moslashting: massa", ["kg", "N", "J", "m/s"], 0, "Massa kilogrammda, kuch Nyutonda."],
-        ["Qaysi sayyorada og'irlik kuchi eng kichik bo'ladi?", ["Oyda (1,6 N/kg)", "Yerda (9,8)", "Marsda (3,7)", "Yupiterda (24)"], 0, "Kichik g — kichik og'irlik."],
-        ["Massa 5 kg, g = 10 N/kg. Og'irlik kuchi qancha?", ["50 N", "5 N", "0,5 N", "500 N"], 0, "F = m·g = 5 · 10 = 50 N."]
+        [
+          "Kattalikni o'lchov birligi bilan moslashting: massa",
+          [
+            "kg",
+            "N",
+            "J",
+            "m/s"
+          ],
+          0,
+          "Massa kilogrammda, kuch Nyutonda."
+        ],
+        [
+          "Qaysi sayyorada og'irlik kuchi eng kichik bo'ladi?",
+          [
+            "Oyda (1,6 N/kg)",
+            "Yerda (9,8)",
+            "Marsda (3,7)",
+            "Yupiterda (24)"
+          ],
+          0,
+          "Kichik g — kichik og'irlik."
+        ],
+        [
+          "Massa 5 kg, g = 10 N/kg. Og'irlik kuchi qancha?",
+          [
+            "50 N",
+            "5 N",
+            "0,5 N",
+            "500 N"
+          ],
+          0,
+          "F = m·g = 5 · 10 = 50 N."
+        ]
       ],
       "task": {
         "q": "Uyingizdagi 5 ta buyumning massasini tarozi bilan aniqlang, har biri uchun og'irlik kuchini hisoblang va Oy/Mars shartida hisoblab, jadval va diagramma tuzing.",
@@ -50,8 +201,15 @@
           "Ustunli diagramma: massa va og'irlikni alohida o'q bilan",
           "Xulosa: diagrammada nima o'zgarmaydi, nima qisqaradi va nima uchun?"
         ],
-        "jihoz": ["Oshxona tarozisi yoki shkala", "Kalkulyator", "Diagramma uchun katakli qog'oz"],
-        "xavfsizlik": ["Og'ir buyumni ko'tarishda ustoz yordamini so'rang", "Tarozi chegarasidan oshirib bo'lmaydi"]
+        "jihoz": [
+          "Oshxona tarozisi yoki shkala",
+          "Kalkulyator",
+          "Diagramma uchun katakli qog'oz"
+        ],
+        "xavfsizlik": [
+          "Og'ir buyumni ko'tarishda ustoz yordamini so'rang",
+          "Tarozi chegarasidan oshirib bo'lmaydi"
+        ]
       }
     },
     {
@@ -68,28 +226,179 @@
         "Ishqilanishni kamaytirish: moylash, silliq sirt, rulman"
       ],
       "vocab": [
-        { "w": "Teng ta'sir etuvchi kuch", "m": "bir nechta kuch o'rnini bosuvchi bitta kuch" },
-        { "w": "Muvozanat", "m": "kuchlar o'zaro yo'qqa chiqqan holat" },
-        { "w": "Ishqilanish kuchi", "m": "harakatga to'sqinlik qiluvchi kuch" },
-        { "w": "Arximed kuchi", "m": "suyuqlik (gaz) jismiga itarib chiqaradigan kuch" },
-        { "w": "Zichlik", "m": "birlik hajmdagi massa, ρ = m/V" },
-        { "w": "Suyuqlik qarshiligi", "m": "harakat tezligiga bog'liq to'sqinlik kuchi" }
+        {
+          "w": "Teng ta'sir etuvchi kuch",
+          "m": "bir nechta kuch o'rnini bosuvchi bitta kuch"
+        },
+        {
+          "w": "Muvozanat",
+          "m": "kuchlar o'zaro yo'qqa chiqqan holat"
+        },
+        {
+          "w": "Ishqilanish kuchi",
+          "m": "harakatga to'sqinlik qiluvchi kuch"
+        },
+        {
+          "w": "Arximed kuchi",
+          "m": "suyuqlik (gaz) jismiga itarib chiqaradigan kuch"
+        },
+        {
+          "w": "Zichlik",
+          "m": "birlik hajmdagi massa, ρ = m/V"
+        },
+        {
+          "w": "Suyuqlik qarshiligi",
+          "m": "harakat tezligiga bog'liq to'sqinlik kuchi"
+        }
       ],
       "quiz": [
-        ["Jismga ta'sir qiluvchi kuchlar o'zaro yo'qqa chiqsa nima bo'ladi?", ["Tezlik o'zgarmaydi — tinchlik yoki tekis harakat", "Jism to'xtaydi", "Jism tezlanadi", "Jism yuqoriga ko'tariladi"], 0, "Nol teng ta'sir etuvchi — tezlanish bo'lmaydi."],
-        ["Yog'och bo'lagi suvda suzadi, temir cho'kadi. Nega?", ["Yog'ochning o'rtacha zichligi suvniki kichik", "Yog'och yengilroq massaga ega", "Temir suvni o'tkazmaydi", "Suv temirni tortadi"], 0, "Zichlik solishtirish orqali qaraladi, faqat og'irlik emas."],
-        ["Ishqilanishni kamaytirish usuli — qaysi?", ["Moylash yoki rulman ishlatish", "Sirtni qo'pol qilish", "Kuchni oshirish", "Tezlikni oshirish"], 0, "Moylash qatlam va rulman sirtlarni ajratadi."],
-        ["Plastilin suvda cho'kadi; uni kicha qilsangiz suzadi. Sabab nima?", ["Suv bilan aloqa hajmi ortib, itarib chiqarish kuchi oshadi", "Massasi kamayadi", "Zichligi o'zgaradi", "Harorati oshadi"], 0, "Shakl o'zgarsa — V ortadi, Arximed kuchi (ρ·g·V) ham ortadi."],
-        ["Harakat yo'nalishini o'zgartirish uchun nima kerak?", ["Yo'nalish o'zgargan kuch", "Massani oshirish", "Tezlikni oshirish", "Ishqilanishni yo'q qilish"], 0, "Kuch — tezlanish sababi, u shuningdek burilishni ham beradi."]
+        [
+          "Jismga ta'sir qiluvchi kuchlar o'zaro yo'qqa chiqsa nima bo'ladi?",
+          [
+            "Tezlik o'zgarmaydi — tinchlik yoki tekis harakat",
+            "Jism darhol to'xtab qoladi",
+            "Jism kuchayib tezlanadi",
+            "Jism yuqoriga ko'tarila boshlaydi"
+          ],
+          0,
+          "Nol teng ta'sir etuvchi — tezlanish bo'lmaydi."
+        ],
+        [
+          "Yog'och bo'lagi suvda suzadi, temir cho'kadi. Nega?",
+          [
+            "Yog'ochning o'rtacha zichligi suvnikidan kichik",
+            "Yog'och doim temirga qaraganda yengil bo'ladi",
+            "Temir suvni ichiga o'tkazmagani uchun cho'kadi",
+            "Suv temirni pastga qo'shimcha tortadi"
+          ],
+          0,
+          "Zichlik solishtiriladi, faqat og'irlik emas."
+        ],
+        [
+          "Ishqilanishni kamaytirish usuli — qaysi biri?",
+          [
+            "Sirtni moylab yoki rulman ishlatish",
+            "Aralashadigan sirtni qo'polroq qilish",
+            "Jismga ta'sir etuvchi kuchni oshirish",
+            "Harakat tezligini bir necha barobar oshirish"
+          ],
+          0,
+          "Moylash qatlami va rulman sirtlarni ajratadi."
+        ],
+        [
+          "Plastilin suvda cho'kadi; uni kicha (lodka) qilsangiz suzadi. Sabab nima?",
+          [
+            "Suv siqib chiqaradigan hajm ortadi",
+            "Plastilinning massasi bir necha barobar kamayadi",
+            "Plastilinning zichligi suvnikiga aylanadi",
+            "Suvning harorati ko'tarilib, eritadi"
+          ],
+          0,
+          "Shakl o'zgarsa — V ortadi, Arximed kuchi (ρ·g·V) ham ortadi."
+        ],
+        [
+          "Harakat yo'nalishini o'zgartirish uchun nima kerak?",
+          [
+            "Yo'nalish o'zgargan kuch",
+            "Massani oshirish",
+            "Tezlikni oshirish",
+            "Ishqilanishni yo'q qilish"
+          ],
+          0,
+          "Kuch — tezlanish sababi, u shuningdek burilishni ham beradi."
+        ],
+        [
+          "Tekis yo'lda o'zgarmas tezlikda ketayotgan avtomobilda dvigatel kuchi nimaga teng?",
+          [
+            "Ishqilanish va havo qarshiligi yig'indisiga",
+            "Og'irlik kuchining yarim qismiga teng",
+            "Tayanch reaksiya kuchining uchdan biriga",
+            "Harakat tezligining o'zgarishiga teng"
+          ],
+          0,
+          "Teng ta'sir etuvchi nol bo'lsa — tezlik o'zgarmaydi: itarish kuchi qarshilikka teng."
+        ],
+        [
+          "Dinamometrning ishlashi nimaga asoslangan?",
+          [
+            "Prujina cho'zilishi kuchga proporsional",
+            "Batareya zaryadi kuchga bog'liq",
+            "Suv ustuni balandligi kuchga teng",
+            "Magnit kuchi haroratga bog'liq"
+          ],
+          0,
+          "Qanchalik kuchli tartsangiz, prujina shunchalik cho'ziladi — shu bo'yicha Nyuton o'lchanadi."
+        ],
+        [
+          "Yurishda oyoq bilan yer orasidagi ishqilanish bo'lmasa nima bo'ladi?",
+          [
+            "Oyoq sirg'alib, oldinga harakatlana bo'lmaydi",
+            "Yurish ancha tez va oson bo'lib qoladi",
+            "Og'irlik kuchi yo'qolib, odam ko'tariladi",
+            "Ishqilanish harakatga umuman ta'sir qilmaydi"
+          ],
+          0,
+          "Ishqilanish — yurish va tormoz berishning zaruriy sharti (uning foydali tomoni)."
+        ]
       ],
       "slideQuiz": [
-        ["Kema po'latdan yasalgan bo'lsa ham suvda suzadi — qanday?", ["Ichida havo bo'lgani uchun umumiy o'rtacha zichlik suvniki kichik", "Po'lat suvda suzadi", "Kuch kichrayadi", "Arximed kuchi yo'q"], 0, "O'rtacha zichlik muhim: ρ_umumiy < ρ_suv."],
-        ["Parashyutchi ochilgan parashyut bilan sekin tushadi, chunki...", ["Havo qarshiligi kuchayadi", "Og'irlik kuchi kamayadi", "Massa ortadi", "Ishqilanish yo'qoladi"], 0, "Yuza ortishi bilan qarshilik kuchi oshadi."]
+        [
+          "Kema po'latdan yasalgan bo'lsa ham suvda suzadi — qanday?",
+          [
+            "Kemaning o'rtacha zichligi suvnikidan kichik bo'ladi",
+            "Po'lat suvda suzadigan maxsus metalldir",
+            "Kemaning og'irlik kuchi keskin kichrayadi",
+            "Suv po'latga Arximed kuchini bermaydi"
+          ],
+          0,
+          "O'rtacha zichlik muhim: ichida havo bo'lgani uchun ρ_umumiy < ρ_suv."
+        ],
+        [
+          "Parashyutchi ochilgan parashyut bilan sekin tushadi, chunki...",
+          [
+            "Havo qarshiligi kuchayadi",
+            "Og'irlik kuchi kamayadi",
+            "Massa ortadi",
+            "Ishqilanish yo'qoladi"
+          ],
+          0,
+          "Yuza ortishi bilan qarshilik kuchi oshadi."
+        ]
       ],
       "game": [
-        ["Kuchni vazifasi bilan moslashting: ishqilanish", ["Harakatga to'sqinlik qiladi", "Jismni yuqoriga itaradi", "Massani oshiradi", "Tezlikni doim oshiradi"], 0, "Ishqilanish harakatga qarshi yo'nalgan."],
-        ["Qaysida suzish uchun itarib chiqarish kuchi eng katta (bir xil hajmdagi jism)?", ["Tuzli suvda", "Sovuq suvda", "Oddiy suvda", "Havoda"], 0, "Tuzli suvning zichligi katta → F_A = ρ·g·V ortadi."],
-        ["Bir xil shakldagi shar va kubni turing: 5 N og'irlikka 8 N itarib chiqarish kuchi bor. Nima bo'ladi?", ["Yuqoriga ko'tariladi (suzadi)", "Cho'kadi", "Tinch turadi", "Tezlanib pastga ketadi"], 0, "Arximed kuchi > og'irlik kuchi → natija yuqoriga."]
+        [
+          "Kuchni vazifasi bilan moslashting: ishqilanish",
+          [
+            "Harakatga to'sqinlik qiladi",
+            "Jismni yuqoriga itaradi",
+            "Massani oshiradi",
+            "Tezlikni doim oshiradi"
+          ],
+          0,
+          "Ishqilanish harakatga qarshi yo'nalgan."
+        ],
+        [
+          "Qaysida suzish uchun itarib chiqarish kuchi eng katta (bir xil hajmdagi jism)?",
+          [
+            "Tuzli suvda",
+            "Sovuq suvda",
+            "Oddiy suvda",
+            "Havoda"
+          ],
+          0,
+          "Tuzli suvning zichligi katta → F_A = ρ·g·V ortadi."
+        ],
+        [
+          "Bir xil shakldagi shar va kubni turing: 5 N og'irlikka 8 N itarib chiqarish kuchi bor. Nima bo'ladi?",
+          [
+            "Yuqoriga ko'tariladi (suzadi)",
+            "Cho'kadi",
+            "Tinch turadi",
+            "Tezlanib pastga ketadi"
+          ],
+          0,
+          "Arximed kuchi > og'irlik kuchi → natija yuqoriga."
+        ]
       ],
       "task": {
         "q": "Turli shaklga ega bo'lgan suzuvchi jismlar modeli: bir xil massali plastilinni (a) shar, (b) kichka, (c) katta idish shakliga soling. Har birini suvga qo'ying va natijani yozing; so'ng suzish uchun maksimal hajmni toping.",
@@ -102,8 +411,17 @@
           "Hajm va yuk o'rtasidagi bog'lanishni diagrammaga chizing",
           "Xulosa: suzuvchi idishni nima belgilaydi?"
         ],
-        "jihoz": ["Plastilin (bir xil massa uchun 3 bo'lak)", "Katta suvli idish (yuvilgan idish)", "Tangalik yoki mayda shaylar", "Katta idish va qog'oz sochiq", "Tarozi"],
-        "xavfsizlik": ["Suvi to'kilgan joyda sirpanish xavfi bor — qog'oz sochiq tayyor tuting", "Plastilinni og'izga olmang"]
+        "jihoz": [
+          "Plastilin (bir xil massa uchun 3 bo'lak)",
+          "Katta suvli idish (yuvilgan idish)",
+          "Tangalik yoki mayda shaylar",
+          "Katta idish va qog'oz sochiq",
+          "Tarozi"
+        ],
+        "xavfsizlik": [
+          "Suvi to'kilgan joyda sirpanish xavfi bor — qog'oz sochiq tayyor tuting",
+          "Plastilinni og'izga olmang"
+        ]
       }
     }
   ]
