@@ -13,7 +13,7 @@
     "topics": "node tools/build-topics.mjs",
     "content:check": "node tools/check-content.mjs",
     "build": "node tools/build-platform.mjs",
-    "serve": "python3 -m http.server 8080",
+    "serve": "node tools/serve.mjs",
     "smoke": "node tools/build-platform.mjs && node tools/smoke-platform.mjs",
     "dom:check": "node tools/build-platform.mjs && node tools/dom-smoke.mjs"
   },
