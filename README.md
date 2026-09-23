@@ -79,6 +79,8 @@ npm run smoke        # JSON orol, id/bog'lanishlar, 25 simulyator holatlari, sla
 npm run dom:check    # jsdom'da brauzer sinovi: 26 mavzu × 5 tab, test, slayd, chop
 ```
 
+O'qituvchi uchun qisqa yo'riqnoma: **`OCHILISH.md`**.
+
 `6-sinf.html` — yig'ilgan mahsulot. uni tahrirlash emas, `platform/` dagi
 manbalar tahrirlanadi va `npm run build` qayta yig'adi (fayl Git'da ham
 turadi — shuni maktabga berish mumkin).
